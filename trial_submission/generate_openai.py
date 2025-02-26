@@ -4,13 +4,23 @@ import logging
 import tqdm
 import re
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-# Set OpenAI API key (Ensure you set this in your environment variables)
-openai.api_key = os.getenv("OPENAI_API_KEY")  # Or replace with your actual key
+# Ensure OpenAI API key is set
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    logger.error("OpenAI API key is missing! Set OPENAI_API_KEY in the .env file.")
+    exit(1)
+
+# Initialize OpenAI client with the correct method
+client = openai.OpenAI(api_key=api_key)
 
 def output_cqs_openai(model_name, text, prefix):
     """
@@ -19,7 +29,7 @@ def output_cqs_openai(model_name, text, prefix):
     instruction = prefix.format(**{'intervention': text})
 
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=model_name,
             messages=[
                 {"role": "system", "content": "You are an AI assistant that generates critical questions."},
@@ -30,7 +40,7 @@ def output_cqs_openai(model_name, text, prefix):
         )
 
         # Extract generated text
-        output = response["choices"][0]["message"]["content"].strip()
+        output = response.choices[0].message.content.strip()
         return output
     except Exception as e:
         logger.error(f"OpenAI API Error: {e}")
@@ -47,7 +57,7 @@ def structure_output(whole_text):
 
     # Validate questions based on regex pattern
     for cq in cqs_list:
-        if re.match(r'.*\?(\")?( )?(\([a-zA-Z0-9\.\'\-,\? ]*\))?([a-zA-Z \.,\"\']*)?(\")?$', cq):
+        if re.match(r'.*\?(")?( )?(\([a-zA-Z0-9\.\'\-,\? ]*\))?([a-zA-Z \.,\"\']*)?(\")?$', cq):
             valid.append(cq)
         else:
             not_valid.append(cq)
@@ -57,7 +67,7 @@ def structure_output(whole_text):
         new_cqs = re.split("\?\"", text + 'end')
         if len(new_cqs) > 1:
             for cq in new_cqs[:-1]:
-                valid.append(cq + '?\"')
+                valid.append(cq + '?"')
         else:
             still_not_valid.append(text)
 
@@ -92,8 +102,8 @@ def main():
     with open('data_splits/sample.json') as f:
         data = json.load(f)
 
-    # Use OpenAI GPT models instead of Llama
-    model_name = "gpt-4"  # You can use "gpt-3.5-turbo" if needed
+    # Use OpenAI GPT-4o model instead of Llama
+    model_name = "gpt-4o-mini"
 
     out = {}
     logger.info(f"Using model: {model_name}")
