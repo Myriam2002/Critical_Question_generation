@@ -1,9 +1,9 @@
 #!/bin/bash
 
-python trial_submission/generate_openai.py
+# python generate.py
 
-python eval_scripts/evaluation.py \
+python ../eval_scripts/evaluation.py \
     --metric similarity \
-    --input_path data_splits/sample.json \
-    --submission_path trial_submission/output_gpt_4omini.json \
+    --input_path ../data_splits/validation.json \
+    --submission_path validation_output_comprehensive_few_shot_Qwen_Qwen2.5-72B-Instruct_t0.1.json \
     --threshold 0.6 

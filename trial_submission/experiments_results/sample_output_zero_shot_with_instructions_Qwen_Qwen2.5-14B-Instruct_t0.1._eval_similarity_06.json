@@ -1,0 +1,245 @@
+{
+    "CLINTON_1_1": {
+        "intervention_id": "CLINTON_1_1",
+        "intervention": "CLINTON: \"The central question in this election is really what kind of country we want to be and what kind of future we 'll build together\nToday is my granddaughter 's second birthday\nI think about this a lot\nwe have to build an economy that works for everyone , not just those at the top\nwe need new jobs , good jobs , with rising incomes\nI want us to invest in you\nI want us to invest in your future\njobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business\nmost of the new jobs will come from small business\nWe also have to make the economy fairer\nThat starts with raising the national minimum wage and also guarantee , finally , equal pay for women 's work\nI also want to see more companies do profit-sharing\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PopularPractice",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does raising the national minimum wage address the issue of income inequality for all workers, particularly those in higher-paying sectors?",
+                "matched_reference": {
+                    "index": 23,
+                    "cq": "Could raising the national minimum wage and guaranteeing equal pay for women's work have consequences that we should take into account? Is it practically possible?",
+                    "label": "Useful",
+                    "similarity": 0.7001714706420898
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that most new jobs will come specifically from small businesses rather than other types of enterprises?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "How would you ensure that small businesses, which you claim will create most new jobs, have access to the necessary resources and support to thrive?",
+                    "label": "Invalid",
+                    "similarity": 0.757790207862854
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 2,
+                "cq": "How can profit-sharing in companies effectively ensure that the economy works for everyone, including those outside of direct employment?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "What is the evidence that profit-sharing would lead to a more equitable economy, and how would it benefit workers?",
+                    "label": "Useful",
+                    "similarity": 0.7493980526924133
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does raising the national minimum wage address the issue of income inequality for all workers, particularly those in higher-paying sectors?\nWhat evidence supports the claim that most new jobs will come specifically from small businesses rather than other types of enterprises?\nHow can profit-sharing in companies effectively ensure that the economy works for everyone, including those outside of direct employment?"
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the proposed notification system disproportionately affect travelers with less flexibility in their schedules?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "How would requiring airlines to provide notification of delays impact their operations and customer service, and would it lead to any unintended consequences?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6586174964904785
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What measures are in place to ensure that airlines provide accurate and reliable information about delays without facing undue criticism?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "How would requiring airlines to provide notification of delays impact their operations and customer service, and would it lead to any unintended consequences?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7813684344291687
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "How can the airline industry balance the need for transparency in communication with the unpredictability of operational issues?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "How would requiring airlines to provide notification of delays impact their operations and customer service, and would it lead to any unintended consequences?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5543334484100342
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the proposed notification system disproportionately affect travelers with less flexibility in their schedules?\nWhat measures are in place to ensure that airlines provide accurate and reliable information about delays without facing undue criticism?\nHow can the airline industry balance the need for transparency in communication with the unpredictability of operational issues?"
+    },
+    "TRUMP_125_1": {
+        "intervention_id": "TRUMP_125_1",
+        "intervention": "TRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order\nIf we don't have it, we're not going to have a country\nwhen I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long\nI just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in\nWe have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States\nWe have a situation where we have our inner cities, African- Americans, Hispanics are living in hell\nit's so dangerous\nYou walk down the street, you get shot\nIn Chicago, they've had thousands of shootings, thousands since January 1st\nI'm saying, where is this\nIs this a war-torn country\nWhat are we doing\nwe have to stop the violence\nIn a place like Chicago, where thousands of people have been killed, thousands over the last number of years\nalmost 4,000 have been killed since Barack Obama became president\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Example",
+            "Example",
+            "Sign",
+            "Sign",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the claim that African-Americans and Hispanics are living in \"hell\" due to high levels of violence account for the complex socio-economic factors contributing to crime rates in inner cities?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is there a proven relation between 'African-Americans and Hispanics are living in hell' and 'inner cities are so dangerous'?",
+                    "label": "Useful",
+                    "similarity": 0.8219626545906067
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Given Trump's assertion that the lack of law and order is leading to a dire situation, how does his proposed solution address the systemic issues such as poverty, education, and unemployment that are often linked to higher crime rates?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What alternative solutions or approaches does Trump propose to address the root causes of violence and poverty in inner cities, beyond simply advocating for \"law and order\"?",
+                    "label": "Useful",
+                    "similarity": 0.6779109239578247
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Considering the statistic about thousands of shootings in Chicago since January 1st, how does this data reflect the overall trend in crime rates compared to previous years, and what evidence supports the notion that these conditions are unique to the Obama presidency?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "Are the crime statistics Trump cites (e.g., \"thousands of shootings\" in Chicago) accurate, and what is the context for these statistics (e.g., are they increasing or decreasing over time)?",
+                    "label": "Useful",
+                    "similarity": 0.7389689683914185
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the claim that African-Americans and Hispanics are living in \"hell\" due to high levels of violence account for the complex socio-economic factors contributing to crime rates in inner cities?\n\nGiven Trump's assertion that the lack of law and order is leading to a dire situation, how does his proposed solution address the systemic issues such as poverty, education, and unemployment that are often linked to higher crime rates?\n\nConsidering the statistic about thousands of shootings in Chicago since January 1st, how does this data reflect the overall trend in crime rates compared to previous years, and what evidence supports the notion that these conditions are unique to the Obama presidency?"
+    },
+    "travellots_133_1": {
+        "intervention_id": "travellots_133_1",
+        "intervention": "travellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles.\nAirline tickets are not lottery tickets.\nOne does not purchase a ticket hoping to reach a certain destination.\nSame as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it.\nThe price does not dictate that \"maybe\" you will get the product or service.\nAlso, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B.\nIf they can not afford to give  a ticket for that price, they should not sell it.\nWhen you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline.\nA passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the argument account for the economic realities airlines face, such as fluctuating fuel costs and varying demand, which might necessitate different pricing strategies for tickets?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is the argument assuming that the only factor that determines the price of an airline ticket is the airline's costs, or are there other factors at play?",
+                    "label": "Useful",
+                    "similarity": 0.77850741147995
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How does the analogy between purchasing an airline ticket and buying a cup of coffee hold up when considering the significant differences in the complexity and variability of providing air travel services compared to serving a consistent product like coffee?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "Is the analogy between airline tickets and coffee cups a good one, or are there important differences between the two?",
+                    "label": "Useful",
+                    "similarity": 0.8478230237960815
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Is there empirical evidence to support the claim that passengers who pay less for their tickets or use frequent flyer miles do not expect the same level of assurance in reaching their destination as those who pay more?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Are there any differences between purchasing a ticket with cash versus frequent flyer miles that might affect the passenger's rights or expectations?",
+                    "label": "Useful",
+                    "similarity": 0.6604536175727844
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "Does the argument account for the economic realities airlines face, such as fluctuating fuel costs and varying demand, which might necessitate different pricing strategies for tickets?\n\nHow does the analogy between purchasing an airline ticket and buying a cup of coffee hold up when considering the significant differences in the complexity and variability of providing air travel services compared to serving a consistent product like coffee?\n\nIs there empirical evidence to support the claim that passengers who pay less for their tickets or use frequent flyer miles do not expect the same level of assurance in reaching their destination as those who pay more?"
+    },
+    "Zewstain__641": {
+        "intervention_id": "Zewstain__641",
+        "intervention": "Zewstain: \"It seemed like that was most of her argument. Being a woman\nHow will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does being a woman inherently lead to specific policy differences, and what evidence supports this claim?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does being a woman necessarily translate to differences in policy or approach?",
+                    "label": "Unhelpful",
+                    "similarity": 0.8501255512237549
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "If being a woman is the primary distinguishing factor for policy-making, how do we account for the diverse range of policies proposed by different female leaders globally?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does being a woman necessarily translate to differences in policy or approach?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7551805973052979
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What mechanisms ensure that gender alone, rather than experience or ideology, drives the development of effective and just policies?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does being a woman necessarily translate to differences in policy or approach?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6091095209121704
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "How does being a woman inherently lead to specific policy differences, and what evidence supports this claim?\nIf being a woman is the primary distinguishing factor for policy-making, how do we account for the diverse range of policies proposed by different female leaders globally?\nWhat mechanisms ensure that gender alone, rather than experience or ideology, drives the development of effective and just policies?"
+    },
+    "Overall_stats": {
+        "Distribution of the labels": {
+            "Useful": 8,
+            "Invalid": 1,
+            "Unhelpful": 5,
+            "not_able_to_evaluate": 1
+        },
+        "Distribution of the intervention punctuation": {
+            "0.6666666666666666": 1,
+            "0": 2,
+            "1.0": 2
+        },
+        "Overall punctuation": 0.5333333333333333
+    }
+}

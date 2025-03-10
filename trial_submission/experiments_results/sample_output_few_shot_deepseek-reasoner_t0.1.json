@@ -1,0 +1,131 @@
+{
+    "CLINTON_1_1": {
+        "intervention_id": "CLINTON_1_1",
+        "intervention": "CLINTON: \"The central question in this election is really what kind of country we want to be and what kind of future we 'll build together\nToday is my granddaughter 's second birthday\nI think about this a lot\nwe have to build an economy that works for everyone , not just those at the top\nwe need new jobs , good jobs , with rising incomes\nI want us to invest in you\nI want us to invest in your future\njobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business\nmost of the new jobs will come from small business\nWe also have to make the economy fairer\nThat starts with raising the national minimum wage and also guarantee , finally , equal pay for women 's work\nI also want to see more companies do profit-sharing\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PopularPractice",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence supports the assertion that \"most of the new jobs will come from small business,\" and does this account for potential economic shifts or sector-specific challenges?  "
+            },
+            {
+                "id": 1,
+                "cq": "How would investments in infrastructure, manufacturing, and renewable energy directly ensure \"good jobs with rising incomes\" without addressing systemic issues like wage stagnation or automation?  "
+            },
+            {
+                "id": 2,
+                "cq": "If raising the minimum wage and guaranteeing equal pay are central to making the economy \"fairer,\" what mechanisms prevent other forms of inequality from undermining this fairness?  "
+            }
+        ],
+        "full_response": "USEFUL Questions:  \n- What evidence supports the assertion that \"most of the new jobs will come from small business,\" and does this account for potential economic shifts or sector-specific challenges?  \n- How would investments in infrastructure, manufacturing, and renewable energy directly ensure \"good jobs with rising incomes\" without addressing systemic issues like wage stagnation or automation?  \n- If raising the minimum wage and guaranteeing equal pay are central to making the economy \"fairer,\" what mechanisms prevent other forms of inequality from undermining this fairness?  \n\n(Each question targets a specific claim, challenges underlying assumptions, and relies on details within the text without introducing external concepts.)",
+        "reasoning": "Okay, I need to generate three useful critical questions for the given text from Clinton. Let me start by understanding the text. The main points are about building an economy that works for everyone, creating new jobs in various sectors, raising the minimum wage, equal pay for women, and profit-sharing.\n\nFirst, the guidelines say the questions should challenge the argument's validity without introducing new concepts. Let me look at the key claims here. Clinton mentions that most new jobs will come from small businesses. That's a specific claim. So, a useful question could challenge the basis of that claim. For example, asking what evidence supports that most jobs will come from small businesses. That's present in the text and challenges the validity.\n\nNext, she talks about investing in sectors like infrastructure, manufacturing, etc., to create jobs. But how do these investments directly lead to good jobs with rising incomes? The connection might be assumed, so questioning that link would be useful. It asks for the reasoning behind the claim without adding external ideas.\n\nThen, she mentions raising the minimum wage and equal pay to make the economy fairer. But making the economy fairer involves more than just these two policies. So, a question could ask if these measures alone are sufficient, addressing potential gaps in the argument. That stays within the text's content and challenges the sufficiency of the proposed solutions.\n\nI need to make sure these aren't unhelpful or invalid. The questions shouldn't be too broad or just ask for evidence without context. They should target specific parts of the argument. Let me check each one again. The first about small businesses is specific. The second about investments leading to jobs questions causality. The third about sufficiency of policies addresses the fairness claim. These all seem to fit the useful criteria without being too general or introducing new concepts."
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Javier's assumption that passengers will irresponsibly delay their airport arrival after a delay notification sufficiently justify withholding timely updates, or does it conflate reasonable transparency with passenger accountability?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does Javier account for scenarios where delayed notification itself\u2014rather than passengers\u2019 reactions\u2014might contribute to avoidable inconveniences, undermining his argument that blame lies solely with flyers?  "
+            },
+            {
+                "id": 2,
+                "cq": "If airlines cannot reliably predict resolution times for issues like weather holds, does this uncertainty actually support stricter notification policies to manage expectations, rather than absolving airlines of responsibility?"
+            }
+        ],
+        "full_response": "- Does Javier's assumption that passengers will irresponsibly delay their airport arrival after a delay notification sufficiently justify withholding timely updates, or does it conflate reasonable transparency with passenger accountability?  \n- How does Javier account for scenarios where delayed notification itself\u2014rather than passengers\u2019 reactions\u2014might contribute to avoidable inconveniences, undermining his argument that blame lies solely with flyers?  \n- If airlines cannot reliably predict resolution times for issues like weather holds, does this uncertainty actually support stricter notification policies to manage expectations, rather than absolving airlines of responsibility?",
+        "reasoning": "Okay, I need to generate three useful critical questions for Javier's argument about airline delay notifications. Let me start by understanding his main points. He says airlines should notify passengers of known delays within 30 minutes, but he's concerned that unavoidable problems might lead to blame even if the situation resolves quickly. He argues that flyers should take responsibility instead of blaming airlines.\n\nFirst, I need to challenge his arguments without introducing new concepts. Let me look for assumptions he's making. He compares passengers wanting timely info with blaming airlines for quick resolutions. Is that a valid comparison? Maybe a question about that comparison would work. Also, he assumes that notifications lead to passengers delaying their trips and then missing flights. Does he provide evidence for that cause and effect? Another angle is his dismissal of passenger complaints as \"pouting.\" Does he consider that airlines might share responsibility?\n\nSo possible questions: 1. Challenge the validity of comparing passengers wanting info with their inability to adapt. 2. Ask about evidence linking notifications to increased blame when issues resolve quickly. 3. Question the assumption that passengers are solely responsible without considering airline accountability.\n\nCheck if these are specific, don't introduce new ideas, and target the argument's validity. Avoid generic or comprehension questions. These seem to fit the guidelines."
+    },
+    "TRUMP_125_1": {
+        "intervention_id": "TRUMP_125_1",
+        "intervention": "TRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order\nIf we don't have it, we're not going to have a country\nwhen I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long\nI just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in\nWe have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States\nWe have a situation where we have our inner cities, African- Americans, Hispanics are living in hell\nit's so dangerous\nYou walk down the street, you get shot\nIn Chicago, they've had thousands of shootings, thousands since January 1st\nI'm saying, where is this\nIs this a war-torn country\nWhat are we doing\nwe have to stop the violence\nIn a place like Chicago, where thousands of people have been killed, thousands over the last number of years\nalmost 4,000 have been killed since Barack Obama became president\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Example",
+            "Example",
+            "Sign",
+            "Sign",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the endorsement from police groups substantiate the claim that law and order policies will effectively address urban violence, given the text\u2019s focus on anecdotal examples?  "
+            },
+            {
+                "id": 1,
+                "cq": "Does the comparison of Chicago\u2019s violence to a \u201cwar-torn country\u201d account for broader crime trends or contextual factors, or does it rely on hyperbole to amplify fear?  "
+            },
+            {
+                "id": 2,
+                "cq": "If 4,000 shootings in Chicago since Obama\u2019s presidency are cited, does this statistic correlate with causation, and what evidence links the president\u2019s policies directly to these incidents?  "
+            }
+        ],
+        "full_response": "Useful Questions:  \n- How does the endorsement from police groups substantiate the claim that law and order policies will effectively address urban violence, given the text\u2019s focus on anecdotal examples?  \n- Does the comparison of Chicago\u2019s violence to a \u201cwar-torn country\u201d account for broader crime trends or contextual factors, or does it rely on hyperbole to amplify fear?  \n- If 4,000 shootings in Chicago since Obama\u2019s presidency are cited, does this statistic correlate with causation, and what evidence links the president\u2019s policies directly to these incidents?  \n\nUnhelpful Question:  \n- Why does Trump emphasize law and order? (Already addressed in the text\u2019s framing.)  \n\nInvalid Question:  \n- What historical policies contributed to urban crime rates? (Introduces external concepts.)",
+        "reasoning": "Okay, I need to generate three useful critical questions for the given text by Trump. Let me start by understanding the text thoroughly.\n\nThe main arguments here are about law and order, the danger in inner cities, endorsements from police groups, and the situation in Chicago. Trump claims that without law and order, the country will fail, cites police endorsements as support, and uses Chicago's violence statistics to argue the problem's severity.\n\nFirst, I should look for logical connections or assumptions in these arguments. For example, he mentions endorsements from police groups. A useful question might challenge the link between these endorsements and effective law and order policies. Does having police support necessarily mean his policies are correct? That's a good angle.\n\nNext, he compares inner cities to \"hell\" and uses Chicago's shootings as evidence. I can question the validity of comparing a city to a war-torn country. Are the statistics presented accurately, and does the comparison hold up under scrutiny? Also, he mentions 4,000 killed since Obama became president. Is there causation implied here? That's an assumption worth challenging.\n\nAnother point is the use of emotional language like \"you walk down the street, you get shot.\" This might be an overgeneralization. A question could ask if the violent crime rates in all inner cities are as severe as depicted, or if this is a selective use of data.\n\nI need to ensure the questions don't introduce new concepts and stay focused on the text. Let me check the examples again. The useful questions in the examples target specific comparisons, evidence for claims, and validity of presented data.\n\nSo, possible questions:\n\n1. Challenging the police endorsements as proof of effective policies.\n2. Questioning the comparison of Chicago to a war-torn country and the accuracy of the 4,000 figure.\n3. Examining whether the portrayal of inner cities as universally dangerous is supported by evidence.\n\nMake sure each question is specific, challenges the argument's validity, and doesn't bring in external ideas."
+    },
+    "travellots_133_1": {
+        "intervention_id": "travellots_133_1",
+        "intervention": "travellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles.\nAirline tickets are not lottery tickets.\nOne does not purchase a ticket hoping to reach a certain destination.\nSame as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it.\nThe price does not dictate that \"maybe\" you will get the product or service.\nAlso, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B.\nIf they can not afford to give  a ticket for that price, they should not sell it.\nWhen you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline.\nA passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the analogy between airline tickets and coffee purchases hold when considering the logistical complexities and overbooking practices inherent to the airline industry?  "
+            },
+            {
+                "id": 1,
+                "cq": "If airlines set ticket prices and miles requirements, does this imply they inherently accept the risk of fulfilling all sales, regardless of revenue or operational constraints?  "
+            },
+            {
+                "id": 2,
+                "cq": "Does the argument assume all ticket types (e.g., refundable vs. non-refundable) carry identical expectations of service, potentially ignoring contractual differences tied to price or miles?"
+            }
+        ],
+        "full_response": "Useful Questions:  \n- Does the analogy between airline tickets and coffee purchases hold when considering the logistical complexities and overbooking practices inherent to the airline industry?  \n- If airlines set ticket prices and miles requirements, does this imply they inherently accept the risk of fulfilling all sales, regardless of revenue or operational constraints?  \n- Does the argument assume all ticket types (e.g., refundable vs. non-refundable) carry identical expectations of service, potentially ignoring contractual differences tied to price or miles?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text about airline ticket discrimination.\n\nFirst, I need to understand the text thoroughly. The main argument is that passengers shouldn't be discriminated against when bumped or compensated based on ticket price or using miles. The analogy is made to coffee prices, where regardless of cost, you get coffee. The author argues airlines shouldn't sell tickets if they can't fulfill them and that a ticket is a promise, not a lottery.\n\nNow, applying the guidelines. Each question must challenge the argument's validity by focusing on existing details without introducing new concepts. They should prompt reflection that could weaken the argument.\n\nLooking at the coffee analogy: The text says whether you pay $4 or $1, you get coffee. But airline tickets have variable factors like overbooking, which coffee shops don't. So a question could challenge if this analogy holds, pointing out differences in industry practices.\n\nNext, the claim that airlines shouldn't sell tickets if they can't afford to fulfill them. But airlines operate on overbooking models. A question here could ask if the assumption ignores standard practices that balance profitability and service, which might be necessary for their business model.\n\nThird, the text says passengers don't buy tickets to \"see if maybe\" they can get somewhere. But maybe some passengers do, like standby travelers. However, the text doesn't mention this. Wait, but the user said not to introduce new concepts. So instead, focus on the assumption that all passengers have the same expectations. Maybe not all tickets are equal in terms of flexibility. So a question could challenge if the assumption that every ticket purchase is a firm commitment overlooks different ticket types with varying conditions.\n\nCheck if these questions are specific, challenge the argument, and don't introduce external ideas. Avoid common sense or too broad questions. The coffee analogy question is good because it targets a core analogy. The second about business practices addresses a key point in the argument. The third about ticket types uses existing info about price/miles affecting service but questions the assumption of uniform expectations.\n\nAvoid unhelpful ones like \"Why is discrimination bad?\" which is too general. Also, not invalid questions that bring in new concepts like legal regulations unless mentioned. The text mentions price and miles, so focusing on that is safe.\n\nI think these three cover the necessary angles without stepping outside the text. Each makes the reader think about the validity of the author's comparisons and assumptions."
+    },
+    "Zewstain__641": {
+        "intervention_id": "Zewstain__641",
+        "intervention": "Zewstain: \"It seemed like that was most of her argument. Being a woman\nHow will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the reliance on gender as the primary distinction from Obama assume inherent policy differences between genders without providing evidence?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does equating gender with policy differentiation address the necessity of substantive leadership qualifications beyond identity?  "
+            },
+            {
+                "id": 2,
+                "cq": "If gender alone is presented as a clear differentiator, does this reasoning conflate identity with competency or policy substance?"
+            }
+        ],
+        "full_response": "Useful Questions:  \n- Does the reliance on gender as the primary distinction from Obama assume inherent policy differences between genders without providing evidence?  \n- How does equating gender with policy differentiation address the necessity of substantive leadership qualifications beyond identity?  \n- If gender alone is presented as a clear differentiator, does this reasoning conflate identity with competency or policy substance?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is a dialogue between Zewstain, Hillary, and Cooper. The main point seems to be Hillary's emphasis on her gender as a differentiating factor from Obama.\n\nFirst, I need to make sure the questions challenge the argument's validity. The key here is that Hillary is using her gender as the main differentiator. So, I need to question the validity of that comparison.\n\nUseful questions should focus on details in the text without introducing new concepts. Let's look at the text again. Hillary responds to how she differs from Obama by stating \"As a woman it's clear\" and when pressed on policy differences, she again says, \"Hello, I'm a woman.\" The core argument is that gender alone is sufficient to differentiate her from Obama, without mentioning specific policies.\n\nSo, possible questions could challenge the assumption that gender alone is enough, ask about the relevance of gender without policy substance, or compare the emphasis on gender to other potential factors.\n\nAvoid questions that are too general or just ask for evidence. Also, no reading comprehension ones. For example, asking \"Why does Hillary mention being a woman?\" would be too obvious. Instead, dig deeper into the reasoning.\n\nFirst question: Maybe something about whether gender alone suffices as a differentiation without policy. Like, does the argument assume that gender inherently leads to different policies?\n\nSecond question: Maybe questioning if gender as a primary differentiator overshadows other aspects, like experience or policy.\n\nThird question: Could ask about the implications of equating gender with policy differences, does that bypass the need for substantive discussion.\n\nWait, need to check if those fit the guidelines. They should challenge the argument's validity by focusing on existing elements. Let me phrase them more precisely.\n\n1. Does the emphasis on gender as the primary differentiator from Obama sufficiently address substantive policy distinctions, or does it rely on an unproven assumption that gender inherently leads to differing approaches?\n\n2. How does the argument justify the prioritization of gender identity over specific policy positions when differentiating leadership roles, and what evidence supports this prioritization?\n\n3. If gender alone is presented as a clear differentiator, does this reasoning risk conflating identity with competency or policy substance, thereby weakening the argument's validity?\n\nHmm, maybe too wordy. Let's simplify while keeping the critical edge.\n\nAlternatively:\n\n1. Does equating gender with policy differences adequately address the necessity for substantive distinctions in leadership, or does it assume inherent differences without evidence?\n\n2. How does the argument substantiate that gender alone is a sufficient differentiator without supporting policy-based examples?\n\n3. By focusing solely on gender, does the argument overlook the need to articulate concrete policy differences, thereby undermining its validity?\n\nYes, these questions challenge the validity by pointing out the reliance on gender without policy substance, which is present in the text. They don't introduce new concepts but focus on the existing argument's weaknesses."
+    }
+}

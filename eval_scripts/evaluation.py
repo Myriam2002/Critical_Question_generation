@@ -56,6 +56,13 @@ def main():
                     sims = results['scores']
 
                 winner = np.argmax(sims)
+                    # Save the matched reference information
+                new[instance]['cqs'][i]['matched_reference'] = {
+                    'index': int(winner),
+                    'cq': reference[instance]['cqs'][winner]['cq'],
+                    'label': reference[instance]['cqs'][winner]['label'],
+                    'similarity': float(sims[winner])
+                }
                 # make sure the similarity of the winning reference sentence is at least 0.6
                 if sims[winner] > args.threshold:
                     label = reference[instance]['cqs'][winner]['label']
@@ -66,7 +73,7 @@ def main():
                 predicted_labels.append(label)
                 new[instance]['cqs'][i]['label'] = label
         else:
-            predicted_labels.extend(['not_able_to_evaluate', 'not_able_to_evaluate', 'not_able_to_evaluate']) # this should disapear with a proper prompt that makes sure there are always 3 questions
+            predicted_labels.extend(['Missing CQ', 'Missing CQ', 'Missing CQ']) # this should disapear with a proper prompt that makes sure there are always 3 questions
 
         punctuations.append(punctuation)
 
@@ -74,6 +81,12 @@ def main():
     print('Distribution of the labels:', Counter(predicted_labels))
     print('Distribution of the intervention punctuation:', Counter(punctuations))
     print('Overall punctuation', sum(punctuations)/len(punctuations))
+    new["Overall_stats"] = {
+        "Distribution of the labels": Counter(predicted_labels),
+        "Distribution of the intervention punctuation": Counter(punctuations),
+        "Overall punctuation": sum(punctuations)/len(punctuations)
+
+    }
 
     # save the output
     with open(args.submission_path[:-4]+'_eval_'+args.metric+'_'+str(args.threshold).replace('.', '')+'.json', 'w') as o:
