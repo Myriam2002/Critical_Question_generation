@@ -104,9 +104,43 @@
             "Sign",
             "VerbalClassification"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the endorsement from police organizations specifically address the systemic issues contributing to urban violence, such as socioeconomic disparities or historical underinvestment, rather than primarily emphasizing punitive measures?**  \n2. **Given that correlation does not imply causation, what evidence directly links the timeline of Obama's presidency to the cited 4,000 Chicago deaths, excluding confounding variables like local policy changes or economic trends during the same period?**  \n3. **Do crime statistics in cities like Charlotte and Chicago support the claim that violence is uniformly pervasive across entire \"inner cities,\" or do they reveal concentrated hotspots that contradict the portrayal of widespread, indiscriminate danger?**",
-        "reasoning": "Okay, I need to generate three critical questions that challenge the credibility or validity of Trump's arguments in the given text. Let's break down the text first. Trump is talking about law and order, endorsements from police groups, the dangerous conditions in inner cities, and specifically mentions Chicago's shootings.\n\nFirst, I should identify the main claims he's making. He claims that without law and order, the country won't survive. He cites endorsements from police groups to support his credibility. He uses Chicago's shootings as an example of inner-city violence, implying it's a widespread problem. He also mentions 4,000 killed since Obama became president.\n\nNow, to create questions that challenge these points without being obvious. The criteria say each question must challenge the text meaningfully, focus on aspects not addressed, be specific, and not introduce entirely new concepts.\n\nFor the first question: He mentions police endorsements. Maybe question the representativeness of those groups. Do they account for all law enforcement opinions? Are there other groups with different views? That's not addressed in the text.\n\nSecond, he connects Chicago's violence to Obama's presidency. But correlation isn't causation. Are there other factors during that time that contributed? The text doesn't explore that, so a question about external factors could challenge the implied causation.\n\nThird, he generalizes inner cities as dangerous. But maybe crime rates vary within those areas. Does the data support a uniform \"hell\" description, or are there nuances? The text doesn't address localized variations, so a question on that could challenge the generalization.\n\nI need to ensure each question is specific and directly tied to his arguments. Avoid vagueness. Let me phrase them clearly."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the endorsement by police groups specifically correlate with the effectiveness of proposed policies in reducing urban violence beyond political alignment?  ",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What specific actions does Trump propose to \"stop the violence\" in cities like Chicago, and how do these actions address the root causes of violence and crime?",
+                    "label": "Useful",
+                    "similarity": 0.5052551627159119
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence supports the assertion that inner cities have become disproportionately more dangerous under current policies rather than reflecting long-term systemic issues?  ",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is there a proven relation between 'African-Americans and Hispanics are living in hell' and 'inner cities are so dangerous'?",
+                    "label": "Useful",
+                    "similarity": 0.6222943067550659
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Does the cited statistic of shootings in Chicago account for variables such as gang activity or socioeconomic factors that independently influence crime rates apart from federal leadership?",
+                "matched_reference": {
+                    "index": 45,
+                    "cq": "Are there special circumstances pertaining to in Chicago that undermine its generalisability to other cities where there have been thousands of shootings?",
+                    "label": "Useful",
+                    "similarity": 0.7345733046531677
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the endorsement by police groups specifically correlate with the effectiveness of proposed policies in reducing urban violence beyond political alignment?  \n\nWhat empirical evidence supports the assertion that inner cities have become disproportionately more dangerous under current policies rather than reflecting long-term systemic issues?  \n\nDoes the cited statistic of shootings in Chicago account for variables such as gang activity or socioeconomic factors that independently influence crime rates apart from federal leadership?",
+        "reasoning": "Okay, I need to generate three critical questions that challenge the arguments in Trump's text without being obvious or too general. Let me start by understanding the text.\n\nTrump is talking about law and order, endorsements from police groups, and the violence in cities like Charlotte and Chicago. He mentions high crime rates, especially in inner cities with African-Americans and Hispanics, and cites the number of shootings in Chicago since Obama became president.\n\nFirst, the criteria: each question must challenge the text meaningfully, not address something already covered, be specific, and avoid introducing new concepts. Let me break down his arguments.\n\n1. He claims endorsements from police groups like FOP. Maybe question the representativeness of these endorsements. Do they reflect all police or just certain segments? Also, does endorsement equate to effective policy?\n\n2. He says inner cities are like \"hell\" with high violence. What data supports this? Are crime rates uniformly high, or are there specific areas? Maybe question the statistical validity and sources.\n\n3. He links Chicago's violence to Obama's presidency (4,000 killed since Obama). Is there a causal relationship, or is that correlation without considering other factors? Also, the time frame: since 2009, but Chicago's issues might have deeper roots.\n\nNow, form each question to hit these points without being vague.\n\nFirst question: He mentions endorsements from police groups. But do these groups represent the broader law enforcement community's views on effective crime reduction, or just a political stance? That challenges the assumption that endorsements equal valid support for his policies.\n\nSecond question: He generalizes inner cities as dangerous. Are there specific socioeconomic factors or policy failures contributing to the violence that aren't addressed? This questions the oversimplification.\n\nThird question: The 4,000 deaths in Chicago since Obama. Does the timeline correlation imply causation, and have other factors been ruled out? This challenges the causal link he's implying.\n\nCheck the criteria: each is specific, not addressed in the text, challenges validity without being common sense, and directly related. Avoids new concepts. Yes, these should work."
     },
     "travellots_133_1": {
         "intervention_id": "travellots_133_1",
@@ -161,22 +195,56 @@
         "schemes": [
             "Example"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the assumption that gender inherently leads to distinct policy decisions address potential critiques that such a claim risks reducing competency to identity, rather than substantively differentiating governance frameworks?**  \n2. **In what ways does framing gender as a primary policy distinction avoid scrutiny of overlapping systemic challenges (e.g., economic inequality, foreign policy) that may require solutions transcending identity-based categorization?**  \n3. **What evidence exists to demonstrate that gender alone, without explicit articulation of complementary priorities, reliably produces divergent outcomes in leadership contexts historically dominated by similar ideological frameworks (e.g., Obama\u2019s administration)?**",
-        "reasoning": "Okay, so the user wants me to generate three critical questions that challenge the credibility or validity of the arguments presented in the given text. The text is a conversation where Hillary Clinton differentiates herself from Obama by emphasizing her identity as a woman. The task is to create questions that meet specific criteria: they need to challenge the text meaningfully, not be common sense, not address things already covered, be specific, and avoid introducing new concepts or just opposing without critical examination.\n\nFirst, I need to understand the text thoroughly. The key point here is that Hillary's main argument for differentiation is her gender. The questions should target potential weaknesses in this argument.\n\nCriterion 1: The questions must challenge in a meaningful way. So, I can't just ask something obvious like \"Is being a woman enough?\" but need to dig deeper. Maybe question the assumption that gender alone leads to different policies.\n\nCriterion 2: The text doesn't address how gender translates to policy differences. So a question could focus on the lack of specific examples linking gender to policy changes.\n\nCriterion 3: The questions need to be specific. Instead of a vague \"How does gender affect leadership?\" ask about particular policy areas or leadership styles influenced by gender that aren't mentioned.\n\nCriterion 4: Avoid new concepts. The questions should stay within the context of the text, not bring in unrelated issues.\n\nFirst question: Maybe challenge the assumption that gender inherently brings different policies. Ask for specific instances where gender identity leads to different decisions than Obama's, beyond just symbolic representation.\n\nSecond question: The text doesn't address intersectionality. So, how does being a woman interact with other factors like race or class, which might influence policy differently? This challenges the oversimplification of gender as the sole factor.\n\nThird question: Address potential unintended consequences. Could emphasizing gender lead to overlooking other important issues or reinforce stereotypes? This examines the implications of relying solely on gender identity.\n\nLet me check if these meet all criteria. Each question targets an unaddressed aspect, is specific, doesn't introduce new concepts, and critically examines the claims without mere opposition. Yes, I think these work."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does gender alone establish substantive policy distinctions without evidence of specific initiatives diverging from male counterparts?  ",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does being a woman necessarily translate to differences in policy or approach?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6046063899993896
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the assumption that gender identity inherently translates to unique governance approaches beyond symbolic representation?  ",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does being a woman necessarily translate to differences in policy or approach?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5718828439712524
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "How does relying on gender as a primary differentiator address potential overlaps in policy with male predecessors who shared similar platforms?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Is gender being presented as the sole distinguishing factor between the two candidates, or was Hillary Clinton making a broader point about the importance of diversity and representation in politics?",
+                    "label": "Useful",
+                    "similarity": 0.6255890727043152
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does gender alone establish substantive policy distinctions without evidence of specific initiatives diverging from male counterparts?  \nWhat evidence supports the assumption that gender identity inherently translates to unique governance approaches beyond symbolic representation?  \nHow does relying on gender as a primary differentiator address potential overlaps in policy with male predecessors who shared similar platforms?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility or validity of the arguments in the given text. The text is a conversation where Hillary Clinton differentiates herself from Obama by emphasizing her identity as a woman.\n\nFirst, I need to understand the core argument here. The main point seems to be that being a woman inherently makes her different from Obama, but she doesn't mention specific policies. So the questions need to target the assumptions or gaps in this argument without being obvious or general.\n\nCriteria 1: The questions should challenge the text meaningfully, not just common sense. So I can't ask something like \"Does being a woman automatically make a better leader?\" That's too broad and a common critique. Instead, maybe focus on how gender alone translates to policy differences.\n\nCriteria 2: The questions should address aspects not already covered. The text doesn't discuss policies, so questions about policy specifics would be good here. But how to frame it to challenge the validity?\n\nCriteria 3: Specific and directly related. Avoid vague questions. For example, asking how gender identity leads to governance outcomes is too vague. Need to tie it to the lack of policy examples in the text.\n\nCriteria 4: Don't introduce new concepts. Stick to the arguments presented. So the questions should be based on what's there, not on external factors.\n\nLet me start brainstorming. The main issue is equating gender with policy differences without evidence. So possible angles: the assumption that gender alone dictates policy, the absence of concrete examples, and the potential oversight of other factors that differentiate leaders.\n\nFirst question: How does gender alone establish substantive policy distinctions without evidence of specific initiatives? This challenges the assumption that gender is sufficient for differentiation.\n\nSecond question: What evidence supports the assumption that gender identity inherently translates to unique governance approaches beyond symbolic representation? This questions the link between identity and actual governance.\n\nThird question: How does relying on gender as a primary differentiator address potential overlaps in policy with male predecessors who shared similar platforms? This points out that gender might not be the only factor and previous male leaders could have similar policies.\n\nWait, the third one mentions predecessors, but the text compares to Obama. Maybe rephrase to focus on Obama specifically. But the user's text says \"predecessors\" so maybe it's okay.\n\nCheck if these meet all criteria. They target gaps in the argument, are specific, don't introduce new concepts, and aren't common sense. Yes, I think these work."
     },
     "Overall_stats": {
         "Distribution of the labels": {
             "Invalid": 2,
-            "not_able_to_evaluate": 8,
-            "Useful": 3,
-            "Unhelpful": 2
+            "not_able_to_evaluate": 4,
+            "Useful": 6,
+            "Unhelpful": 3
         },
         "Distribution of the intervention punctuation": {
-            "0": 3,
-            "0.3333333333333333": 1,
-            "0.6666666666666666": 1
+            "0": 1,
+            "0.3333333333333333": 2,
+            "0.6666666666666666": 2
         },
-        "Overall punctuation": 0.2
+        "Overall punctuation": 0.39999999999999997
     }
 }

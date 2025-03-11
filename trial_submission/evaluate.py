@@ -5,9 +5,9 @@ import subprocess
 data_files = ["sample", "validation"]
 prompt_names = ["zero_shot_with_instructions", "zero_shot", "few_shot", "comprehensive_few_shot"]
 models = [
-    "deepseek-reasoner", 
-    "Qwen/Qwen2.5-14B-Instruct", 
-    "Qwen/Qwen2.5-72B-Instruct", 
+    # "deepseek-reasoner", 
+    # "Qwen/Qwen2.5-14B-Instruct", 
+    # "Qwen/Qwen2.5-72B-Instruct", 
     "Qwen/Qwen2.5-7B-Instruct"
 ]
 temperature = 0.1

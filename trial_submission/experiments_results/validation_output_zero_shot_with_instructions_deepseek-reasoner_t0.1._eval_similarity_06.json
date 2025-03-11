@@ -103,9 +103,43 @@
         "schemes": [
             "Analogy"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does Clinton substantiate the claim that her proposed policies are fundamentally distinct from the pre-recession policies she critiques, given that both frameworks operate within the same capitalist system and may share regulatory or fiscal overlaps?**  \n*(Challenges the assumed uniqueness of her policies and asks for evidence of structural differentiation beyond rhetoric.)*  \n\n2. **What specific metrics or benchmarks do \"independent experts\" use to evaluate the feasibility of transitioning to a clean-energy superpower, and how do these account for global competitors' existing technological or infrastructural advantages?**  \n*(Targets the vagueness of \"independent experts\" and demands concrete analysis of competitiveness against unmentioned international rivals.)*  \n\n3. **If climate change skepticism alone is cited as a barrier to clean-energy leadership, how does Clinton reconcile this with historical examples where nations achieved technological dominance in sectors despite political denial of underlying scientific issues (e.g., industrial innovation amid environmental disregard)?**  \n*(Questions the direct causality between climate denial and energy policy failure, probing unstated assumptions in her argument.)*",
-        "reasoning": "Okay, let's see. I need to generate three critical questions based on Hillary Clinton's statements that challenge the credibility or validity of her arguments. The questions need to meet specific criteria, so I have to be careful to follow each point.\n\nFirst, the text mentions job losses, home losses, and family wealth wiped out. She contrasts her policies with Donald's, saying going back to failed policies is bad. She also talks about clean energy and climate change.\n\nFor the first question, maybe focus on the connection between her proposed policies and the recovery she mentions. The text says independent experts looked at both proposals. But does she explain how her policies specifically differ from the previous ones that failed? The question could ask about the causal mechanisms that make her policies better, which isn't addressed in the text.\n\nSecond, she claims some country will be the clean-energy superpower. She implies her plan will make the US that superpower. But what evidence is there that her approach will outcompete other countries? The text doesn't mention specifics of her plan or competitors' strategies. So the question could challenge the assumption that her policies will lead to that status without considering other nations' efforts.\n\nThird, she says Trump thinks climate change is a hoax. She contrasts that with her belief. But how does Trump's stance directly undermine clean energy growth? Maybe his policies could still allow growth through other means. The text doesn't address this link. The question should ask about the connection between his skepticism and the actual impact on energy competitiveness.\n\nI need to make sure each question isn't just common sense, isn't addressed in the text, is specific, and doesn't bring in new concepts. Let me check each one again.\n\nFirst question: Challenges the differentiation between her policies and past failed ones, focusing on causal mechanisms. Not addressed in text.\n\nSecond: Asks about evidence her plan will outcompete others. Text mentions the goal but not the specifics or competition.\n\nThird: Connects Trump's climate denial to undermining energy growth. The text doesn't explain how his view affects this, so the question targets that missing link.\n\nThese seem to meet the criteria. Alright, time to write them formally."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the argument account for potential biases or methodological limitations in the analyses conducted by the cited independent experts when comparing the two policy proposals?  ",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Who are the \"independent experts\" that have looked at Clinton's and Trump's proposals, and what are their qualifications and biases?",
+                    "label": "Useful",
+                    "similarity": 0.6889275908470154
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the assertion that returning to prior policies would directly replicate past economic failures rather than produce different outcomes under current global or domestic conditions?  ",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What are the \"policies that failed us in the first place\" that Clinton is referring to, and how does she propose to avoid repeating them?",
+                    "label": "Useful",
+                    "similarity": 0.39726078510284424
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "How does the focus on becoming a clean-energy superpower address existing dependencies on non-renewable industries that could hinder a rapid transition without destabilizing the economy?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What evidence is there to support the claim that some country will be the \"clean-energy superpower of the 21st century\", and how does Clinton's proposal address this opportunity?",
+                    "label": "Useful",
+                    "similarity": 0.44961482286453247
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the argument account for potential biases or methodological limitations in the analyses conducted by the cited independent experts when comparing the two policy proposals?  \nWhat evidence supports the assertion that returning to prior policies would directly replicate past economic failures rather than produce different outcomes under current global or domestic conditions?  \nHow does the focus on becoming a clean-energy superpower address existing dependencies on non-renewable industries that could hinder a rapid transition without destabilizing the economy?",
+        "reasoning": "Okay, I need to generate three critical questions that challenge the credibility or validity of the arguments in the given text. The text is from Clinton, talking about the economic recovery, the danger of returning to past policies, and clean energy versus Trump's stance on climate change.\n\nFirst, let me parse the text. Clinton lists job losses, home losses, and wealth wiped out, then claims recovery and warns against old policies. She mentions independent experts analyzing both her and Donald's proposals. Then she shifts to clean energy, saying some country will lead, contrasting her view with Donald's climate change denial.\n\nCriteria for the questions: they must challenge the text meaningfully, not just common sense, focus on aspects not addressed, be specific, and not introduce new concepts or just oppose without critical examination.\n\nSo, looking for gaps or assumptions in her arguments. Let's see:\n\n1. She cites independent experts. But what's the criteria these experts used? Maybe their methodology or potential biases aren't addressed. So a question could ask about the criteria or neutrality of the experts.\n\n2. She links past policies to the economic collapse. But correlation isn't causation. Did those policies directly cause the crisis, or were there other factors? The text doesn't prove causation, so a question could challenge the direct causation claim.\n\n3. She contrasts her clean energy stance with Donald's climate denial. But becoming a superpower requires more than just acknowledging climate change. Are there structural factors or existing dependencies (like fossil fuels) that could hinder the transition, even if her policies are in place? So a question about structural barriers not mentioned.\n\nNeed to phrase each question to meet the criteria. Let me check each:\n\nFirst question about independent experts: \"What specific criteria did the independent experts use to evaluate the proposals, and how were potential conflicts of interest or biases mitigated in their analysis?\" Hmm, but maybe too long. Maybe simplify to focus on criteria and neutrality.\n\nSecond question: causation between past policies and economic collapse. The text implies returning to those policies would be bad, but doesn't establish causation. So question: How does the argument establish a direct causal link between the previously implemented policies and the economic collapse, rather than correlation influenced by external factors?\n\nThird question: structural barriers to clean energy leadership despite acknowledging climate change. So something like: What structural economic or political barriers exist domestically that could prevent the realization of becoming a clean-energy superpower despite recognizing climate change as real?\n\nCheck if each question is specific, not addressed in the text, and challenges validity. Yes. They don't introduce new concepts but probe existing claims' foundations."
     },
     "CLINTON_223_1": {
         "intervention_id": "CLINTON_223_1",
@@ -116,9 +150,43 @@
             "Sign",
             "PracticalReasoning"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **Given that NATO's invocation of Article 5 after 9/11 led to varied levels of military and financial commitment among member states, how does the selective or inconsistent participation of certain NATO allies during the Afghanistan campaign undermine the argument that collective action under Article 5 inherently strengthens U.S. security interests?**  \n\n2. **The claim that Iran was \"weeks away\" from having enough nuclear material for a bomb during Clinton's tenure relies on intelligence assessments; what specific evidence or methodological criteria were used to determine this timeline, and how might uncertainties or disagreements within the intelligence community at the time affect the validity of this assertion?**  \n\n3. **While sanctions against Iran are framed as a successful strategy, to what extent did concurrent geopolitical factors (e.g., backchannel negotiations, third-party actors, or Iran\u2019s internal political shifts) contribute more significantly to slowing nuclear progress than sanctions alone, thereby complicating the causal link between sanctions and outcomes?**",
-        "reasoning": "Okay, let's tackle this query. The user wants three critical questions about Hillary Clinton's statement that challenge the credibility or validity of her arguments. Each question needs to meet specific criteria.\n\nFirst, I need to understand the original text. Clinton mentions NATO's Article 5 being invoked after 9/11 and her efforts with Iran's nuclear program. She highlights her role in sanctioning Iran and their covert facilities under Bush.\n\nFor the questions, they must challenge the text meaningfully, not just common sense. Let me start with NATO. She says the 28 nations went to Afghanistan. I recall that NATO's involvement had varying levels of commitment. Maybe a question about how the differing contributions from member states affect the effectiveness of Article 5. That's not mentioned in the text and challenges the unity aspect.\n\nNext, Iran's nuclear program. She claims they were weeks away from a bomb when she became Secretary. However, intelligence estimates can be uncertain. A question about the basis of that assessment and if it considers possible intelligence discrepancies could challenge the validity without opposing outright.\n\nThird, she mentions sanctions under her tenure. But sanctions' success depends on international cooperation. Did other factors, like internal Iranian politics or external actors, influence Iran's nuclear activities more than sanctions? This focuses on an unaddressed aspect of her argument.\n\nI need to ensure each question is specific, not vague. Avoid introducing new concepts but examine existing claims critically. Let me check each against the criteria. Yes, each question targets a part of her argument not fully explored, challenges validity through specific angles, and stays related to the text. That should work."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How did Clinton's administration verify the specific timeframe of Iran being \"weeks away\" from a nuclear bomb given the inherent uncertainties in intelligence assessments of nuclear material enrichment?  ",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What is the evidence that Iran was \"weeks away\" from having enough nuclear material to form a bomb when Clinton became Secretary of State, and is this claim verifiable?",
+                    "label": "Useful",
+                    "similarity": 0.7782666087150574
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What measurable impact did the participation of all 28 NATO members in Afghanistan have on counterterrorism outcomes compared to unilateral U S military efforts alone?  ",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "How does the fact that NATO nations are still fighting terrorism in Afghanistan alongside the US support Clinton's argument, and what is her point in mentioning this?",
+                    "label": "Useful",
+                    "similarity": 0.4771305322647095
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "Given Iran's covert nuclear facilities were constructed under the Bush administration what evidence confirms that sanctions imposed during Clinton's tenure directly disrupted progress rather than delayed already-stalled or non-weaponized research?",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What were the effects of the sanctions imposed on Iran during Clinton's tenure as Secretary of State, and did they have the desired outcome of preventing Iran from developing nuclear weapons?",
+                    "label": "Useful",
+                    "similarity": 0.6303507685661316
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How did Clinton's administration verify the specific timeframe of Iran being \"weeks away\" from a nuclear bomb given the inherent uncertainties in intelligence assessments of nuclear material enrichment?  \n\nWhat measurable impact did the participation of all 28 NATO members in Afghanistan have on counterterrorism outcomes compared to unilateral U S military efforts alone?  \n\nGiven Iran's covert nuclear facilities were constructed under the Bush administration what evidence confirms that sanctions imposed during Clinton's tenure directly disrupted progress rather than delayed already-stalled or non-weaponized research?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility of the arguments in the provided text. The text is part of a statement by Clinton discussing NATO's Article 5 and Iran's nuclear program during her tenure as Secretary of State.\n\nFirst, I need to understand the key points in the text. Clinton mentions that NATO invoked Article 5 after 9/11, leading to collective action in Afghanistan. She also claims that when she became Secretary of State, Iran was weeks away from a nuclear bomb, had mastered the fuel cycle under Bush, built covert facilities, and had centrifuges, which led to sanctions.\n\nNow, the questions must challenge these arguments meaningfully. They can't be common sense or already addressed. Let's break down each part.\n\nFor the NATO part: She highlights Article 5's use after 9/11. But maybe there's a question about the actual impact of NATO's involvement. Did all 28 members contribute equally? How effective was their role compared to the U.S. efforts? That's a potential angle.\n\nRegarding Iran's nuclear timeline: She states they were weeks away. How was that timeframe determined? Intelligence assessments can be uncertain. If the basis isn't solid, that weakens her claim. Also, she mentions covert facilities built under Bush. But how did those facilities contribute to the timeline? Were they operational or just under construction?\n\nAnother point is about sanctions. She says they sanctioned Iran, but what's the evidence that sanctions directly delayed the nuclear program? Sanctions can be evaded, or maybe other factors were more influential.\n\nSo possible questions:\n\n1. How did Clinton's administration verify the specific timeframe of Iran being \"weeks away\" from a nuclear bomb, and what intelligence methods were used to assess the readiness of their nuclear material?\n2. What measurable impact did the participation of all 28 NATO members in Afghanistan have on counterterrorism outcomes compared to unilateral U.S. action, and how does this affect the perceived strength of Article 5's invocation?\n3. Given the covert nature of Iran's nuclear facilities under the Bush administration, what evidence supports the claim that these facilities were fully operational and contributing to immediate weapons development rather than long-term research?\n\nWait, the third question might be a bit complex. Maybe simplify to focus on the operational status versus research. Also, ensure each question is specific and directly tied to the arguments without introducing new concepts.\n\nAnother angle for the sanctions: Did the sanctions address the covert facilities specifically, or were they general? If the facilities were already hidden, how effective could sanctions be?\n\nMaybe rephrase the third question to focus on the efficacy of sanctions given covert facilities.\n\nFinalizing the questions:\n\n1. How did Clinton's administration verify the specific timeframe of Iran being \"weeks away\" from a nuclear bomb, and what intelligence methods were used to assess the readiness of their nuclear material?\n2. What measurable impact did the participation of all 28 NATO members in Afghanistan have on counterterrorism outcomes compared to unilateral U.S. action, and how does this affect the perceived strength of Article 5's invocation?\n3. Given Iran's covert nuclear facilities built under the Bush administration, what evidence confirms that these sites were actively contributing to weapons-grade material production rather than civilian nuclear research at the time sanctions were imposed?\n\nThese questions target gaps in the arguments, challenge evidence, and don't introduce new concepts. They\u2019re specific and directly related to the claims made."
     },
     "CLINTON_223_2": {
         "intervention_id": "CLINTON_223_2",
@@ -264,9 +332,43 @@
         "schemes": [
             "VerbalClassification"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the assertion that the description \"well describes the problem\" account for potential oversimplification of systemic or contextual factors that might influence the problem's complexity?**  \n   *(Challenges the completeness of the problem's framing by questioning whether critical variables or interdependencies are overlooked.)*  \n\n2. **What empirical or methodological criteria were used to evaluate the description's accuracy, and could reliance on subjective validation undermine its objectivity?**  \n   *(Targets the basis for claiming the description is \"good,\" probing whether the evaluation process lacks rigor or introduces bias.)*  \n\n3. **If the description focuses on symptoms rather than root causes, how does this prioritization affect the validity of proposed solutions derived from it?**  \n   *(Questions whether the description\u2019s focus inherently limits actionable or sustainable resolutions, even if the problem is articulated clearly.)*",
-        "reasoning": "Okay, let me try to work through this. The user wants three critical questions about the Clinton quote. The quote is just two lines: \"It's a good one, though. It well describes the problem.\" So first, I need to understand the context here. It seems like Clinton is responding to something, maybe a statement or argument someone else made. But the text provided is very brief, so there's not much to go on.\n\nThe task is to generate questions that challenge the credibility or validity of the arguments Clinton is making. But wait, the original text doesn't give the actual arguments, just Clinton's endorsement. So maybe the arguments are in whatever Clinton is referring to as \"it.\" The user wants questions that aren't common sense, aren't addressed in the text, specific, and don't introduce new concepts or just oppose without critical examination.\n\nFirst, since the text is Clinton saying that \"it\" describes the problem well, the questions need to dig into why that might not be valid. The first question could challenge the sufficiency of describing the problem. Like, does describing the problem well mean that the solutions are also adequate? Because maybe the original argument Clinton is praising only describes the problem but doesn't address solutions.\n\nSecond, maybe the problem's description relies on certain assumptions. So asking about unexamined assumptions in how the problem is framed. For example, maybe the way the problem is presented ignores certain perspectives or data.\n\nThird, Clinton says \"it's a good one,\" which implies effectiveness. So a question could ask how the effectiveness of the description is measured. What criteria are used to determine that it's good, and are those criteria biased or incomplete.\n\nI need to make sure each question is specific to the text and not general. Since the text is short, the questions have to infer the underlying argument that Clinton is endorsing. Each question should target a potential weakness in that implied argument. Let me check the criteria again:\n\n1. Not common sense: The questions shouldn't be obvious. They should require deeper analysis.\n2. Focus on aspects not addressed: The text doesn't talk about solutions, assumptions, or effectiveness metrics, so those are areas to target.\n3. Specific and directly related: Each question should tie back to Clinton's statement about the problem's description.\n4. Avoid new concepts or simple opposition: The questions should critique the existing argument's depth, assumptions, and evaluation without bringing in unrelated ideas.\n\nThat seems to fit. Let me draft each question accordingly."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the description account for potential confounding variables that might undermine its portrayal of the problem\u2019s primary causes?  ",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What are the criteria for evaluating whether a description of a problem is \"good\"? Is it based on accuracy, completeness, or some other factor?",
+                    "label": "Useful",
+                    "similarity": 0.48270317912101746
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence exists to demonstrate that the description\u2019s framing of the problem isn\u2019t influenced by selective emphasis on favorable data points?  ",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What are the criteria for evaluating whether a description of a problem is \"good\"? Is it based on accuracy, completeness, or some other factor?",
+                    "label": "Useful",
+                    "similarity": 0.5610300302505493
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "To what extent does the description\u2019s methodology for defining the problem incorporate dissenting viewpoints to avoid confirmation bias?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "Is there any potential bias or conflict of interest that might affect Clinton's judgment or response?",
+                    "label": "Unhelpful",
+                    "similarity": 0.44860580563545227
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the description account for potential confounding variables that might undermine its portrayal of the problem\u2019s primary causes?  \nWhat evidence exists to demonstrate that the description\u2019s framing of the problem isn\u2019t influenced by selective emphasis on favorable data points?  \nTo what extent does the description\u2019s methodology for defining the problem incorporate dissenting viewpoints to avoid confirmation bias?",
+        "reasoning": "Okay, so I need to generate three critical questions based on the given text. Let me start by understanding the text first. The text is a quote from Clinton saying, \"It's a good one, though. It well describes the problem.\" The task is to create questions that challenge the credibility or validity of the arguments presented here. But wait, the text is very short. The quote from Clinton is brief and doesn't provide much context. Hmm.\n\nThe user wants questions that aren't common sense, not addressing something already in the text, specific, and don't introduce new concepts. Since the text is just Clinton's statement, maybe the arguments he's referring to are in the \"it\" he mentions. But since the original text doesn't include the actual argument or problem he's describing, how can I create questions about the validity of the arguments that \"it\" refers to? Wait, maybe the user provided the text as is, so the actual problem or argument Clinton is talking about isn't here. So the challenge is that the quote is Clinton endorsing some argument as a good one that describes the problem well. The task is to question the credibility of that endorsement.\n\nSo the questions need to target the underlying argument that Clinton is praising. But since the text doesn't include the argument itself, maybe I have to infer based on the structure. For example, Clinton is saying \"it's a good one\" and \"it well describes the problem.\" So the questions should challenge aspects of that description, the problem's framing, etc.\n\nLet me think. The first question should challenge whether the description accurately captures the problem's complexity. Like, does the argument oversimplify? Second, maybe about the evidence or data used to support the problem's description. Third, perhaps the assumptions underlying the problem's framing.\n\nWait, but the user's instructions say the questions must be directly related to the arguments in the text. Since the text is Clinton's statement about \"it\" describing the problem well, the questions should focus on the validity of \"it\" as a good description. So possible angles: alternative perspectives omitted, biases in the description, whether the description addresses root causes or symptoms, potential counterarguments not considered, etc.\n\nLet me check the criteria again. Each question must challenge the text meaningfully, not common sense. So not like \"Is this true?\" but something more incisive. Also, not addressed in the text (which is just Clinton's endorsement), so the questions need to dig into the underlying argument he's praising. Since the original argument isn't provided, the questions have to be about the endorsement's basis. For example, how does Clinton's endorsement account for alternative explanations? Or does the description account for all variables?\n\nWait, maybe the key is that Clinton is saying the description is good. So to challenge that, the questions would ask about the criteria used to judge it as good, whether alternative descriptions exist, if there's evidence the description leads to effective solutions, etc.\n\nSo possible questions:\n\n1. What criteria were used to determine that the description adequately captures the problem, and how might those criteria exclude alternative perspectives?\n\n2. How does the description account for potential biases in its framing of the problem that could influence the perceived validity of the arguments presented?\n\n3. Has the description been tested against counterfactual scenarios to ensure it accurately identifies causation rather than correlation in the problem it outlines?\n\nWait, but need to make sure they meet the criteria. Let's check:\n\n1. Challenges by asking about criteria and exclusion of alternatives. Not common sense. Not addressed in the text. Specific.\n\n2. Asks about biases in framing. Directly related to the description's validity. Not mentioned in the text.\n\n3. Asks about testing against counterfactuals for causation. Specific and challenges the validity.\n\nAlternatively, maybe another angle: Does the description consider all relevant variables or might it overlook key factors contributing to the problem?\n\nBut need to phrase as a question. Maybe: To what extent does the description's focus on specific elements of the problem risk overlooking interrelated factors that could alter its interpretation?\n\nHmm. But maybe the first three are better. Let me see if there's another angle. Maybe about the objectivity of the description. For example: How does the description address the possibility that its characterization of the problem serves particular interests rather than providing an objective analysis?\n\nOr, What evidence exists that the problem, as described, directly correlates with the underlying causes rather than being symptomatic of a larger issue?\n\nAlternatively, How has the description accounted for historical precedents where similar framings of the problem led to ineffective or counterproductive solutions?\n\nI think these could work. Now, I need to pick three that are distinct and meet all criteria. Let me try to finalize.\n\nFirst question: What evidence supports the assertion that the description accurately identifies the root causes of the problem rather than its symptoms?\n\nSecond: How does the description address potential confirmation biases in its selection of data or examples used to outline the problem?\n\nThird: In what ways might the description's framing of the problem inadvertently exclude stakeholder perspectives critical to a comprehensive understanding?\n\nThese seem to meet the criteria. Each challenges the validity by probing into aspects not mentioned in the original quote, are specific, and avoid being vague. They don't introduce new concepts but focus on the validity of the description Clinton is endorsing."
     },
     "CLINTON_244_2": {
         "intervention_id": "CLINTON_244_2",
@@ -370,9 +472,43 @@
             "Example",
             "Example"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the specific criteria used to evaluate CAFTA apply uniformly to other trade deals, given that variations in agreements (e.g., labor standards, tariffs, geopolitical context) might require distinct standards of assessment?**  \n2. **What evidence directly links the 30% increase in global exports during your tenure as Secretary of State to sustainable job creation, and how were confounding factors (e.g., post-2008 global recovery, currency fluctuations) accounted for in this analysis?**  \n3. **How would the proposed special prosecutor reconcile potential conflicts between enforcing existing trade deals and addressing criticisms that such deals inherently prioritize corporate interests over labor or environmental protections?**",
-        "reasoning": "Okay, let's see. I need to generate three critical questions that challenge the credibility of the arguments in the provided text. The text is a quote from Clinton talking about trade deals, her vote against CAFTA, her record as Secretary of State in increasing exports, and her plan for a special prosecutor.\n\nFirst, the criteria are pretty strict. Each question needs to be meaningful, not common sense, not addressed in the text, specific, and not introduce new concepts. Let me break down the text to identify possible gaps or assumptions.\n\nShe mentions voting against CAFTA but holding the same standards for all trade deals. Maybe there's an assumption here that her criteria for opposing CAFTA apply universally. But what if CAFTA had unique aspects that aren't present in other deals? So a question could ask how her criteria for opposing CAFTA apply to other deals with different provisions.\n\nNext, she talks about increasing exports by 30% globally and 50% to China as evidence of job creation. But correlation doesn't equal causation. There might be other factors during her tenure as Secretary of State that contributed to export growth, like global economic trends or domestic policies. So a question could challenge the direct link between export increases and job creation, asking about other contributing factors.\n\nThird, she proposes a special prosecutor to enforce trade deals. But how would that interact with existing enforcement mechanisms? Maybe there's redundancy or potential conflicts. A question could ask about the necessity of a special prosecutor given existing structures and how it would complement or conflict with them.\n\nWait, let me check if these points are addressed in the original text. She doesn't explain her criteria for evaluating trade deals beyond \"same standards,\" so the first question is valid. She doesn't mention other factors affecting exports, so the second is good. The special prosecutor is mentioned, but existing enforcement isn't discussed, so the third question works. Each targets an unaddressed assumption or gap. Yeah, these should meet the criteria."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the claimed increase in American exports during your tenure account for concurrent global economic trends that independently boosted international trade?  ",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is it actually the case that American exports under Clinton's leadership increased a lot? Is there evidence for this claim?",
+                    "label": "Useful",
+                    "similarity": 0.6564569473266602
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific mechanisms would the special prosecutor use to differentiate between legitimate business practices and violations of trade deals without stifling economic innovation?  ",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the role of the special prosecutor in enforcing trade deals, and how will they be empowered to take action?",
+                    "label": "Useful",
+                    "similarity": 0.6074687838554382
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "If increased exports to China correlated with domestic job creation, what evidence exists to isolate the impact of trade policies from other factors like automation or domestic investment?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Is it actually the case that Clinton has been working on China's exports, and consequently exports have increased 50 percent and helped create new jobs? Is there evidence for this claim?",
+                    "label": "Useful",
+                    "similarity": 0.5204198956489563
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the claimed increase in American exports during your tenure account for concurrent global economic trends that independently boosted international trade?  \n\nWhat specific mechanisms would the special prosecutor use to differentiate between legitimate business practices and violations of trade deals without stifling economic innovation?  \n\nIf increased exports to China correlated with domestic job creation, what evidence exists to isolate the impact of trade policies from other factors like automation or domestic investment?",
+        "reasoning": "Okay, let's tackle this. The user wants three critical questions that challenge the text's credibility, each meeting specific criteria. First, I need to understand the original text thoroughly. Clinton talks about voting against CAFTA, enforcing trade deals, increasing exports as Secretary of State, and connecting exports to job creation.\n\nFor the first question, I should target something not addressed in the text. The text mentions increased exports but doesn't link them directly to job creation. So, asking about the causation between exports and jobs would challenge the assumption without being common sense.\n\nNext, the special prosecutor and accountability. The text doesn't explain how a prosecutor would address systemic issues in trade enforcement. That's a gap. A question about the effectiveness of a prosecutor versus systemic reforms could work here.\n\nThird, the 30% export increase. The text states the numbers but doesn't account for external factors. A question about other contributing factors, like global economic trends, would question the validity of taking full credit for the increase.\n\nEach question needs to be specific, not vague. Avoid introducing new concepts. Ensure they directly relate to the arguments made. Let me check the criteria again: each question must challenge meaningfully, focus on unaddressed aspects, be specific, and avoid new concepts or mere opposition.\n\nYes, these questions target gaps in causation, effectiveness of proposed solutions, and external factors influencing claimed successes. They don't introduce new ideas but probe existing arguments deeply. That should meet all the user's requirements."
     },
     "CLINTON_39": {
         "intervention_id": "CLINTON_39",
@@ -382,9 +518,43 @@
             "Example",
             "Example"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the correlation between tenure in specific governmental roles and measurable policy outcomes demonstrate that holding such positions inherently equates to effective leadership or tangible results?**  \n*(Challenges the assumption that occupying roles like senator or secretary of state directly translates to meaningful accomplishments without evidence of specific outcomes tied to those roles.)*  \n\n2. **To what extent does conflating the responsibilities of a senator and secretary of state overlook the differing scopes of influence and limitations inherent to each role, potentially inflating the perceived impact of one\u2019s experience?**  \n*(Questions whether combining distinct roles into a unified measure of credibility ignores contextual factors that might limit effectiveness in one or both positions.)*  \n\n3. **What criteria or metrics are used to define having \"done a lot\" in these roles, and how do they account for qualitative versus quantitative contributions, or unintended consequences of actions taken while in office?**  \n*(Demands clarity on how success is measured and whether subjective claims of productivity align with verifiable, objective standards.)*",
-        "reasoning": "Okay, let's tackle this. The user wants three critical questions based on the provided text from Clinton, challenging its credibility without being obvious or generic. First, I need to understand the text. Clinton is emphasizing her experience as a senator and secretary of state, contrasting with Trump's lack of similar experience. She's claiming effectiveness from her roles.\n\nThe criteria are strict: each question must challenge the text meaningfully, not address something already covered, be specific, avoid new concepts, and not just oppose without critical examination. So, I can't ask something like \"Is experience important?\" That's too general. Also, the text doesn't go into how her actions led to outcomes, so maybe a question about causality between her roles and specific results.\n\nAnother angle: measuring effectiveness. She says she's done a lot, but how is that measured? The text doesn't specify metrics. That's a potential question. Also, the roles of senator and secretary of state are different; maybe there's an assumption that both roles equally contribute to effectiveness. That's another point. Maybe question the transferability of skills between those roles.\n\nWait, the third point in the criteria says to focus on aspects not addressed. The text doesn't talk about how the responsibilities differ. So, a question about conflating the roles and whether the skills from one role apply to the other. That could challenge the validity of her argument if the roles require different skills.\n\nAnother angle: opportunity vs. achievement. She had the positions, but does holding the positions automatically mean effective action? Maybe there's an assumption that tenure equals accomplishment. A question could challenge whether just being in the role translates to effective results without specific examples.\n\nSo possible questions: \n\n1. How does the correlation between tenure in specific roles and measurable outcomes demonstrate effectiveness, given that holding a position doesn't equate to successful results? (This challenges the assumption that position equals achievement.)\n\n2. Considering the different responsibilities of senator vs. secretary of state, does conflating them overlook the unique challenges each role presents? (Challenges the equivalence of the roles.)\n\n3. Without specific metrics, how can we assess the claim of having \"done a lot\"? (Asks for evidence beyond just stating experience.)\n\nI need to check if these meet all criteria. They don't introduce new concepts, are specific, and challenge the underlying assumptions not addressed in the text. Each focuses on gaps in the argument: causality between role and results, equivalence of roles, and measurement of achievements."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does holding the positions of senator and secretary of state inherently demonstrate effective action rather than mere participation in government roles?  ",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What specific aspects of being a senator and secretary of state are most relevant to being a successful president, and how does Clinton's experience in these areas translate to the presidency?",
+                    "label": "Useful",
+                    "similarity": 0.5789132118225098
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What specific outcomes from your tenure as senator or secretary of state directly counter the policy criticisms you attribute to Donald Trump\u2019s lack of experience?  ",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What specific aspects of being a senator and secretary of state are most relevant to being a successful president, and how does Clinton's experience in these areas translate to the presidency?",
+                    "label": "Useful",
+                    "similarity": 0.6300064921379089
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Can you provide evidence that the responsibilities of a senator or secretary of state uniquely correlate to superior decision-making in contexts where those roles\u2019 jurisdictions were not directly applicable?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What specific aspects of being a senator and secretary of state are most relevant to being a successful president, and how does Clinton's experience in these areas translate to the presidency?",
+                    "label": "Useful",
+                    "similarity": 0.6058626770973206
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does holding the positions of senator and secretary of state inherently demonstrate effective action rather than mere participation in government roles?  \nWhat specific outcomes from your tenure as senator or secretary of state directly counter the policy criticisms you attribute to Donald Trump\u2019s lack of experience?  \nCan you provide evidence that the responsibilities of a senator or secretary of state uniquely correlate to superior decision-making in contexts where those roles\u2019 jurisdictions were not directly applicable?",
+        "reasoning": "Okay, so the user wants me to generate three critical questions based on Hillary Clinton's statement where she mentions her experience as a senator and secretary of state to counter Trump. Let me start by understanding the text. She's emphasizing her experience in government roles as a qualification, implying that holding these positions equates to effective action or results.\n\nThe task is to create questions that challenge the credibility or validity of her argument. Each question needs to meet four criteria. Let me go through them one by one. First, the questions must challenge the text meaningfully, not just common sense. So, I need to dig deeper than surface-level objections. Second, they should focus on aspects not already addressed. Since Clinton's statement is brief, she doesn't mention specific achievements or failures, so maybe that's a gap. Third, each question must be specific and directly related, avoiding vagueness. Fourth, no new concepts or mere opposition without critical examination.\n\nStarting with the first question. She equates holding positions with having done a lot. Maybe challenge the assumption that tenure equals effectiveness. So, how does she connect the roles to tangible outcomes? That could question whether the roles themselves guarantee results.\n\nSecond, she mentions being a senator and secretary of state. But different roles have different scopes. Maybe the question could ask how her achievements in those roles specifically counter Trump's policies, pointing out that the roles have different responsibilities, so experience in one might not translate to the other's domain.\n\nThird, she contrasts her experience with Trump's lack of it. But does having government roles automatically mean better decision-making? Maybe ask for evidence that her specific actions in those roles led to better outcomes than someone without that experience. That targets the assumption that experience in office inherently leads to superior results.\n\nWait, let me check the criteria again. Each question must not introduce new concepts. The first question about connecting roles to outcomes is directly challenging her argument. The second about different roles' scopes and applicability to Trump's policies is specific. The third about evidence of better outcomes due to her roles is also specific and challenges the validity.\n\nI need to make sure they're not vague. Let me rephrase them more concisely. For example: How does holding specific government roles directly correlate to achieving tangible results beyond mere tenure? Then, considering the distinct responsibilities of senator vs. secretary of state, how does experience in both roles uniquely qualify her to address challenges posed by Trump's policies? Lastly, what evidence demonstrates that her actions in those roles led to superior outcomes compared to someone without that experience?\n\nYes, those meet the criteria. Each question targets a different aspect of her argument, challenges the underlying assumptions without being obvious, stays specific, and doesn't bring in new concepts."
     },
     "CLINTON_55": {
         "intervention_id": "CLINTON_55",
@@ -629,9 +799,43 @@
         "schemes": [
             "Alternatives"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the assertion that corporate tax rate changes are the sole driver of repatriation account for historical instances where companies chose to repatriate funds despite unchanged rates, potentially influenced by other policy mechanisms or market conditions?**  \n2. **What empirical evidence supports the assumption that \"stranded overseas\" capital is primarily a function of corporate tax rates, rather than strategic financial decisions by multinational corporations to optimize global operations or shareholder returns?**  \n3. **If repatriation incentives depend on more than tax rate adjustments, how does the argument address or dismiss potential non-tax factors in the proposals (e.g., regulatory reforms, penalties, or investment requirements) that could influence corporate repatriation behavior?**",
-        "reasoning": "Okay, let's tackle this task. The user wants three critical questions based on Hillary Clinton's statement about tax proposals and repatriation. Each question needs to challenge the text's credibility or validity without being obvious or general. They must focus on unaddressed aspects, be specific, and not introduce new concepts.\n\nFirst, I need to understand the original text. Clinton is saying that she doesn't see changes in corporate tax rates or proposals in Trump's plan that would cause repatriation of overseas money, but she supports repatriation. She's implying that Trump's proposals don't include measures that would lead to repatriation, even though she's in favor of such measures.\n\nNow, to generate questions that challenge her argument. Let's break down possible angles.\n\n1. **Assumptions about Corporate Behavior**: Clinton assumes that the existing proposals (Trump's) won't lead to repatriation. But maybe there's an unstated assumption that lower tax rates are the only way to incentivize repatriation. Are there other factors in the proposals that could influence repatriation even without changing rates? For example, regulatory changes, one-time tax holidays, or incentives.\n\nQuestion 1 could challenge the assumption that only corporate tax rate changes drive repatriation. So, asking if there are other elements in Trump's plan besides rate changes that might affect repatriation.\n\n2. **Empirical Evidence**: Clinton's statement might lack evidence on how past rate changes affected repatriation. Maybe historical data shows that other factors play a role. If previous repatriation didn't correlate well with rate changes, her argument's validity could be weakened.\n\nQuestion 2 could ask about historical instances where repatriation happened without rate changes, challenging the direct causality she implies.\n\n3. **Definition of 'Stranded Money'**: The term \"stranded overseas\" might be vague. What makes money stranded? If Trump's proposals address the reasons why money is stranded (like deferral mechanisms), even without rate changes, that could affect repatriation. Clinton might not have considered how other policy aspects influence the stranded nature.\n\nQuestion 3 could challenge her by asking how the proposals define or address the structural reasons for money being stranded, beyond just tax rates.\n\nEach question needs to target these unaddressed points, ensuring they're specific and not general. Let me check the criteria again to make sure each question meets them. No overlap with the text's content, no new concepts, and they critically examine the claims. Yep, these angles seem solid. Time to frame them into clear questions."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the absence of corporate tax rate changes in the proposals definitively preclude repatriation mechanisms that rely on other fiscal incentives or regulatory adjustments?  ",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Are there any potential drawbacks or unintended consequences to changing corporate tax rates or implementing policies to encourage repatriation?",
+                    "label": "Useful",
+                    "similarity": 0.6600526571273804
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence exists to demonstrate that repatriation policies historically correlate more strongly with corporate tax rate adjustments than with broader economic conditions or sector-specific incentives?  ",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Are there any potential drawbacks or unintended consequences to changing corporate tax rates or implementing policies to encourage repatriation?",
+                    "label": "Useful",
+                    "similarity": 0.6755642294883728
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "If repatriation is supported independently of tax rate changes, how does the argument address potential risks of capital flight or tax avoidance strategies that might offset the benefits of repatriated funds?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What evidence is there to support the claim that changing corporate tax rates or implementing certain proposals would lead to the repatriation of money stranded overseas?",
+                    "label": "Useful",
+                    "similarity": 0.682923436164856
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the absence of corporate tax rate changes in the proposals definitively preclude repatriation mechanisms that rely on other fiscal incentives or regulatory adjustments?  \n\nWhat evidence exists to demonstrate that repatriation policies historically correlate more strongly with corporate tax rate adjustments than with broader economic conditions or sector-specific incentives?  \n\nIf repatriation is supported independently of tax rate changes, how does the argument address potential risks of capital flight or tax avoidance strategies that might offset the benefits of repatriated funds?",
+        "reasoning": "Okay, let's tackle this. The user wants three critical questions that challenge the credibility of Clinton's statement. The questions need to be specific, not address things already in the text, not common sense, and avoid new concepts. \n\nFirst, looking at the text: Clinton says she doesn't see changes in corporate tax rates in Trump's proposals that would cause repatriation. She supports repatriation.\n\nSo, the original argument is that Trump's proposals lack certain tax changes needed for repatriation. But maybe there's an assumption here. She assumes that corporate tax rates are the main driver for repatriation. But what if there are other factors in Trump's plan that affect repatriation besides rates? That's a possible angle for a question.\n\nAnother point: She supports repatriation, implying it's a positive. But does that support consider potential downsides? Like, maybe economic impacts that aren't addressed? So, the question could challenge whether her support overlooks negative consequences.\n\nThird, she links tax rate changes to repatriation. But is there evidence that previous repatriation efforts were actually caused by tax rate changes? Maybe historical data could contradict that causation. So a question about historical precedents challenging the cause-effect.\n\nNeed to make sure each question is specific, not vague. Avoid general stuff like \"Is she right?\" Instead, focus on underlying assumptions, missing factors, or evidence gaps."
     },
     "CLINTON_87": {
         "intervention_id": "CLINTON_87",
@@ -640,9 +844,43 @@
         "schemes": [
             "Bias"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the structure of the proposed \"Trump loophole\" explicitly prioritize personal financial gain over broader economic or regulatory objectives, and what evidence exists to isolate its benefits to Trump's businesses from potential wider market effects?**  \n\n2. **What specific safeguards or accountability mechanisms in Clinton's proposed alternative would prevent similar exploitation by other entities, given that existing policies often fail to anticipate novel loopholes?**  \n\n3. **Has there been an independent analysis comparing the projected economic impact of the \"Trump loophole\" on Trump's businesses versus its hypothetical benefits to the economy at large, and if so, does it corroborate the claim that the advantage is disproportionate?**",
-        "reasoning": "Okay, let's tackle this. The user wants three critical questions that challenge the credibility of Clinton's argument about the \"Trump loophole.\" First, I need to understand the text. Clinton is saying that Trump's proposed policy (the loophole) would unfairly benefit Trump and his businesses. The key points here are the existence of this loophole, its benefits to Trump, and Clinton's assertion that her approach is better.\n\nThe first question needs to challenge the text meaningfully. Maybe question how the loophole specifically advantages Trump. The text mentions it does, but doesn't explain the mechanism. So a question about the specific mechanisms would be good. But need to make sure it's not obvious or common knowledge.\n\nSecond question should focus on an aspect not addressed. The text doesn't compare Clinton's plan to existing policies. So asking how her solution addresses existing loopholes that already benefit people like Trump could work. It targets whether her approach is truly novel or just adding to current systems.\n\nThird question needs to be specific. The text claims the loophole would \"so advantage\" Trump. But how does that compare quantitatively? Maybe asking for evidence on the magnitude of benefit compared to others. This challenges the validity by asking for data behind the claim.\n\nCheck the criteria again: each question must challenge the text, be specific, not introduce new concepts, and not be vague. Let me make sure each question meets these. First question asks about mechanisms not explained. Second compares to existing policies. Third asks for evidence on the scale of advantage. All are specific and related directly to the arguments without being vague. They don't introduce new concepts but probe deeper into the existing claims. That should work."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the specific mechanism of the \"Trump loophole\" directly translate to disproportionate financial advantages for Trump\u2019s businesses compared to existing regulatory frameworks?  ",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the \"Trump loophole\" that Clinton is referring to? How does it specifically advantage Trump and his business, and what are the implications of this loophole?",
+                    "label": "Useful",
+                    "similarity": 0.8211621642112732
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence exists to demonstrate that the structural design of the proposed loophole uniquely prioritizes personal gain over broader economic or policy outcomes?  ",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the \"Trump loophole\" that Clinton is referring to? How does it specifically advantage Trump and his business, and what are the implications of this loophole?",
+                    "label": "Useful",
+                    "similarity": 0.47465014457702637
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways does the assertion that the loophole \"will actually work to our benefit\" account for potential externalities or unintended consequences that could negate its purported advantages?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Is Clinton's characterization of the proposal as a \"loophole\" accurate, or is it a biased interpretation?",
+                    "label": "Useful",
+                    "similarity": 0.5243750810623169
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the specific mechanism of the \"Trump loophole\" directly translate to disproportionate financial advantages for Trump\u2019s businesses compared to existing regulatory frameworks?  \n\nWhat empirical evidence exists to demonstrate that the structural design of the proposed loophole uniquely prioritizes personal gain over broader economic or policy outcomes?  \n\nIn what ways does the assertion that the loophole \"will actually work to our benefit\" account for potential externalities or unintended consequences that could negate its purported advantages?",
+        "reasoning": "Okay, let's tackle this. The user wants three critical questions that challenge the credibility of Clinton's statement about the \"Trump loophole.\" First, I need to understand the original text. Clinton is saying that Trump's proposal (the loophole) would benefit Trump and his businesses.\n\nCriteria for the questions: they need to be non-obvious, not addressed in the text, specific, and avoid new concepts. So, I can't just ask something like \"Is the loophole real?\" because that's too straightforward. I need to dig deeper into the structure of the argument.\n\nLooking at the text, Clinton mentions the loophole would advantage Trump's businesses. The first question could challenge the causal link between the loophole and the benefit. How does the loophole directly lead to that advantage? The text doesn't explain the mechanism, so that's a gap.\n\nSecond, the term \"Trump loophole\" is used. Maybe question the assumption that the loophole is uniquely applicable to Trump. Could others benefit similarly? Clinton implies it's specific to Trump, but maybe it's not, which would weaken the argument.\n\nThird, Clinton says the loophole would \"so advantage\" Trump. Is there a comparison here? The text doesn't provide evidence of how the advantage compares to existing policies. So a question about relative advantage compared to current loopholes could challenge the validity.\n\nI need to make sure each question is specific and directly related. Avoid vagueness. Also, ensure they don't introduce new concepts, just probe into the existing argument's weaknesses. Let me check each against the criteria."
     },
     "CLINTON_92": {
         "intervention_id": "CLINTON_92",
@@ -654,9 +892,43 @@
             "PracticalReasoning",
             "Example"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the assertion that \"a lot of really smart, wealthy people\" support higher taxes address potential selection bias or ideological alignment among those cited, and what evidence exists to confirm their views reflect a representative sample of economic experts or wealthy individuals?**  \n2. **Given the multifaceted causes of the 2008\u20132009 financial crisis (e.g., housing market collapse, deregulation), what specific empirical data isolates \"trickle-down\" tax policies as the primary contributor to the crisis, rather than other systemic factors?**  \n3. **What historical or comparative evidence demonstrates that debt-free college and middle-class refinancing policies directly lead to sustained \"broad-based growth,\" rather than short-term relief without addressing structural issues like wage stagnation or automation?**",
-        "reasoning": "Okay, I need to generate three critical questions that challenge the credibility or validity of Clinton's arguments in the provided text. Let me break down the requirements again. Each question must meaningfully challenge the text without being common sense. They should focus on aspects not already addressed, be specific, and not introduce new concepts or just oppose without critical examination.\n\nFirst, let me analyze the text. Clinton is criticizing trickle-down economics, specifically tax cuts for the wealthy, linking them to the 2008-2009 crisis. She argues that investing in the middle class, education, and debt relief will boost the economy through inclusive growth.\n\nLooking for gaps. She mentions \"smart, wealthy people\" agree, but how were they identified? Maybe selection bias. Also, she connects trickle-down to the 2008 crisis. Is that causation established? Other factors were involved. Then, she lists policies (college debt, refinancing) but doesn't explain how they directly lead to broad growth. Maybe long-term vs short-term effects.\n\nSo possible questions:\n\n1. How was the group of wealthy people determined? Could their opinions be non-representative, affecting the argument's validity?\n2. What evidence directly links trickle-down policies to the 2008 crisis, excluding other factors like deregulation?\n3. What mechanisms ensure that middle-class investments translate to sustained growth, considering potential short-term costs?\n\nCheck if these meet the criteria. Each challenges a specific point not addressed, isn't common knowledge, and stays focused. Avoids vagueness. Okay, these should work."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the assertion that trickle-down economics caused the 2008 financial crisis account for other contributing factors like deregulation or housing market practices not directly tied to tax policy?  ",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "Are current trickle-down economics actually a typical case of other trickle-down policies that got us into the mess we were in 2008 and 2009? How widely applicable is the generalization?",
+                    "label": "Useful",
+                    "similarity": 0.7406585812568665
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence exists that wealthy individuals advocating for higher contributions would voluntarily redirect resources in ways that effectively address middle-class stagnation without systemic policy enforcement?  ",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What is the mechanism by which Clinton believes that increasing taxes on the wealthy will lead to more contributions to rebuild the middle class, and is there any evidence to support this claim?",
+                    "label": "Useful",
+                    "similarity": 0.47149765491485596
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "If college debt relief and middle-class investment historically correlate with economic growth, what safeguards would prevent inflationary pressures or market distortions that could undermine those benefits?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "How would making college debt-free and refinancing college debt at a lower rate boost the economy, and what are the potential costs and trade-offs of such policies?",
+                    "label": "Useful",
+                    "similarity": 0.6211970448493958
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the assertion that trickle-down economics caused the 2008 financial crisis account for other contributing factors like deregulation or housing market practices not directly tied to tax policy?  \nWhat evidence exists that wealthy individuals advocating for higher contributions would voluntarily redirect resources in ways that effectively address middle-class stagnation without systemic policy enforcement?  \nIf college debt relief and middle-class investment historically correlate with economic growth, what safeguards would prevent inflationary pressures or market distortions that could undermine those benefits?",
+        "reasoning": "Okay, let's tackle this. The user wants three critical questions that challenge the credibility of Clinton's arguments in the given text. The questions need to meet specific criteria: they should be non-obvious, focus on unaddressed aspects, be specific, and not introduce new concepts or just oppose without critical examination.\n\nFirst, I need to understand Clinton's main points. She argues against trickle-down economics, citing the 2008 crisis as evidence. She claims that tax cuts for the wealthy don't work and that smart wealthy people agree. She proposes investing in the middle class through education and debt relief for inclusive growth.\n\nNow, to form critical questions. The first criteria is challenging meaningfully. Let's see. She links trickle-down to the 2008 crisis. But does she provide evidence for causation here? The text doesn't mention how exactly trickle-down caused the crisis. So a question could ask about the specific mechanisms connecting the two. That's not common sense and isn't addressed in the text.\n\nNext, she mentions \"smart, wealthy people\" supporting her view. But how does their acknowledgment translate to effective policy? Just because they agree doesn't mean their contributions would be sufficient or effective. So a question could challenge the assumption that their willingness leads to actual positive outcomes, which isn't discussed in the text.\n\nThird, she proposes middle-class investments like debt-free college. But how does she address potential unintended consequences, like inflation in education costs if college becomes debt-free? The text doesn't cover this, so a question here would challenge the viability without being vague.\n\nI need to make sure each question is specific, not vague. Avoid general stuff like \"Is trickle-down bad?\" Instead, focus on the unaddressed links, assumptions, and consequences. Also, avoid new concepts; stick to what's in the text but probe deeper into the gaps. Each question should directly relate to her arguments but hit points she didn't cover. That should meet all the criteria."
     },
     "CL_57": {
         "intervention_id": "CL_57",
@@ -666,9 +938,43 @@
             "CauseToEffect",
             "CauseToEffect"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the argument reconcile the claim that moral hazard is \"natural\" in lending with historical examples of stable financial systems that actively minimized moral hazard through stringent oversight, thereby challenging the inevitability of its role in wealth generation?**  \n\n2. **If suppressing moral hazard creates \"fool\u2019s gold\" wealth, what specific mechanisms differentiate this artificial wealth from real wealth in practice, and how does this distinction account for systemic factors like market confidence or liquidity that independently influence perceived value?**  \n\n3. **Given that asymmetric power dynamics often exist between lenders and borrowers, how does the argument substantiate the assertion that *both* parties equally suffer from suppressed moral hazard, rather than one exploiting the lack of accountability to shift risk disproportionately?**",
-        "reasoning": "Okay, so I need to generate three critical questions based on the given text. The text is a quote from someone labeled CL, talking about moral hazard in lending and borrowing. The main points seem to be that both sides suffer when moral hazard is ignored, and suppressing it leads to creating \"fool's gold\" wealth instead of real wealth.\n\nFirst, I need to understand what exactly the original argument is. CL is saying that moral hazard is inherent in lending and borrowing, and if you try to suppress it, the wealth generated isn't real. So, the argument assumes that suppressing moral hazard is bad because it leads to fake wealth. But maybe there's more to it.\n\nNow, the task is to create three questions that challenge the credibility or validity of this argument. Each question must meet four criteria: meaningful challenge, not addressed in the text, specific, and avoid new concepts or mere opposition.\n\nLet me break down the original argument. The key elements are: moral hazard is natural, both sides suffer if ignored, suppressing it causes fake wealth. So, possible angles to challenge could be: questioning the assumption that moral hazard is natural and unavoidable, whether suppressing it necessarily leads to fake wealth, or if there's evidence that both sides actually suffer equally.\n\nFor the first question, maybe challenge the assumption that moral hazard is a natural part of the process. The text says \"moral hazard is a natural part,\" but is that universally accepted? Are there instances where moral hazard isn't inherent? That could be a good angle. So a question like: \"How does the argument account for historical instances where regulatory frameworks successfully mitigated moral hazard without generating 'fool's gold' wealth, challenging the assertion that suppression inherently leads to artificial prosperity?\" But maybe that's too wordy. Simplify it.\n\nSecond, the text claims both sides suffer. But does that hold in all cases? Maybe in some scenarios, one side benefits more, or the suffering isn't equal. So a question like: \"What empirical evidence supports the claim that both lenders and borrowers equally suffer from the suppression of moral hazard, given that asymmetric information typically advantages one party over the other in financial transactions?\" That addresses the equality aspect and brings in asymmetric information, which isn't mentioned in the text.\n\nThird, the connection between suppressing moral hazard and fake wealth. The text implies a direct causation. But maybe other factors contribute to fake wealth. So a question like: \"Could the phenomenon of 'fool\u2019s gold' wealth be attributed to factors other than the suppression of moral hazard, such as speculative market behavior or misaligned incentives, thereby weakening the causal link proposed in the argument?\" That introduces other possible causes without opposing the text directly.\n\nI need to check each question against the criteria. They must not be common sense, focus on unaddressed aspects, be specific, and not introduce entirely new concepts. The first question challenges the naturalness of moral hazard and brings up regulatory success. The second questions the equal suffering and brings up asymmetric information. The third questions the causality by suggesting other factors. All are specific, not addressed in the original text, and don't just oppose but critically examine. Seems good."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the suppression of moral hazard specifically lead to the creation of wealth that is fundamentally illusory rather than a redistribution of existing value?  ",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What evidence is there to support the claim that suppressing moral hazard leads to the creation of \"fool's gold\" rather than real wealth?",
+                    "label": "Useful",
+                    "similarity": 0.7253811955451965
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence exists to demonstrate that both parties in a transaction suffer equally when moral hazard is ignored rather than one party disproportionately benefiting?  ",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What evidence or data supports the claim that ignoring moral hazard leads to suffering for both sides of the transaction?",
+                    "label": "Useful",
+                    "similarity": 0.812621533870697
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "If moral hazard is inherent in lending and borrowing processes how do systems that actively mitigate it without suppression avoid generating fool\u2019s gold while still fostering trust and accountability?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "Is moral hazard always a natural part of the process of lending and borrowing, or are there circumstances under which it can be mitigated or avoided?",
+                    "label": "Useful",
+                    "similarity": 0.7387115955352783
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the suppression of moral hazard specifically lead to the creation of wealth that is fundamentally illusory rather than a redistribution of existing value?  \n\nWhat empirical evidence exists to demonstrate that both parties in a transaction suffer equally when moral hazard is ignored rather than one party disproportionately benefiting?  \n\nIf moral hazard is inherent in lending and borrowing processes how do systems that actively mitigate it without suppression avoid generating fool\u2019s gold while still fostering trust and accountability?",
+        "reasoning": "Okay, let me try to tackle this. The user wants three critical questions about the given text that challenge its credibility or validity. The text is about moral hazard in lending and borrowing, where suppressing it leads to \"fool's gold\" wealth.\n\nFirst, the criteria are strict: each question must be meaningful, not common sense, focus on unaddressed aspects, be specific, and not introduce new concepts. So I need to dig into the text and find underlying assumptions or gaps.\n\nThe text says both sides suffer if moral hazard is ignored. But why? How exactly does suppressing moral hazard create fake wealth? Maybe there's an assumption that moral hazard's presence is necessary for real wealth. So a question could challenge that assumption, asking for evidence that real wealth requires moral hazard.\n\nNext, the text claims suppression leads to fool's gold. But how is \"real wealth\" defined here? The text doesn't specify, so a question about the definition's criteria could reveal a weakness.\n\nThird, the argument assumes that both parties equally recognize and respond to moral hazard. But maybe they don't. If one side is more aware, does that affect the outcome? A question on asymmetrical awareness could undermine the argument's validity.\n\nI need to make sure each question is directly tied to the text's points without being vague. Let me check each against the criteria. The first question challenges the necessity of moral hazard. The second questions the definition of wealth. The third examines the assumption of equal recognition. That should work."
     },
     "Doctor-Mom_205": {
         "intervention_id": "Doctor-Mom_205",
@@ -1598,9 +1904,43 @@
         "schemes": [
             "CauseToEffect"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the argument establish a direct causal link between the political strategy of promoting sub-prime mortgages and the policymakers' *intent* to obscure systemic economic risks, rather than attributing it to negligence or flawed forecasting?**  \n*(Challenges the assumption that sub-prime mortgages were a deliberate cover-up strategy by probing the evidence for intentionality versus incompetence or oversight.)*  \n\n2. **What historical or comparative evidence supports the claim that a credit-based consumer economy is inherently unsustainable, given examples of economies that have managed such models without catastrophic collapse through regulatory or structural safeguards?**  \n*(Targets the unexamined premise that credit-driven systems inevitably fail, inviting scrutiny of overlooked cases where similar models functioned stably.)*  \n\n3. **If austerity (\"cuts\") is framed as an unavoidable reality due to finite resources, how does the argument account for alternative fiscal policies\u2014like progressive taxation or monetary redistribution\u2014that could address economic imbalances without relying on austerity measures?**  \n*(Questions the binary framing of austerity as a necessity by pushing for analysis of unmentioned policy alternatives that challenge the \"money doesn\u2019t grow on trees\" analogy.)*",
-        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the text's credibility or validity. The text is a quote from someone (CF) discussing sub-prime mortgages, economic policies, and the necessity of austerity measures.\n\nFirst, I need to understand the main arguments in the text. CF seems to argue that sub-prime mortgages were a political strategy to cover up issues, the beneficiaries (and now sufferers) of these policies, and frustration with people not understanding the economy's real state, thinking consumer credit can solve everything, and questioning austerity. CF's main points are about policy responsibility, economic misunderstanding, and the inevitability of cuts.\n\nNow, I need to generate questions that meet the criteria: meaningful challenge, not addressed in the text, specific, and avoid new concepts or mere opposition.\n\n1. The first argument is about sub-prime mortgages as a political strategy. The text doesn't address how policymakers ensured that these mortgages were a cover-up rather than an unintended consequence. So a question could ask about the evidence linking the strategy to intentional cover-up, challenging the causality.\n\n2. The second point is about people assuming a credit-based consumer economy can continue. The text doesn't explore historical examples where such models were sustainable. A question here could challenge the assumption by asking for historical comparisons, pointing out possible counterexamples.\n\n3. The third part is the \"money doesn't grow on trees\" statement, implying austerity is unavoidable. The text doesn't consider alternative fiscal policies. A question here could ask about alternatives like progressive taxation or quantitative easing, which could avoid cuts, thus challenging the necessity presented.\n\nNeed to make sure each question is specific, not vague, and directly targets the arguments without introducing new concepts. Let me check each against the criteria.\n\nFirst question: Asks about evidence of intentional strategy vs. unintended. Not addressed in text, specific, challenges causality.\n\nSecond: Historical cases where credit-based models worked without collapse. Targets the assumption, not discussed, specific.\n\nThird: Alternatives to austerity. The text presents cuts as necessary, so questioning alternatives challenges that without opposing outright.\n\nYes, these meet all criteria. Avoid common sense, focus on unaddressed aspects, specific, and directly related."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How did the beneficiaries of sub-prime mortgages evaluate the long-term risks versus immediate benefits when engaging with the policy?  ",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "How do you define \"beneficiaries\" and \"sufferers\" in the context of sub-prime mortgages, and what are the implications of this definition?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6510433554649353
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence exists to demonstrate that alternative fiscal policies could address structural economic issues without requiring austerity measures?  ",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What alternative policies or solutions do you propose to address the economic issues you are highlighting, and how do you support their effectiveness?",
+                    "label": "Invalid",
+                    "similarity": 0.6314775347709656
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 2,
+                "cq": "If credit-based consumerism is unsustainable, what specific mechanisms prevent the economy from transitioning to a model that prioritizes production or savings over consumption?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What is the basis for your claim that people assume that \"everything can just carry on\" and that a \"credit-based consumer thing\" is all that is needed?",
+                    "label": "Useful",
+                    "similarity": 0.5155540704727173
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How did the beneficiaries of sub-prime mortgages evaluate the long-term risks versus immediate benefits when engaging with the policy?  \n\nWhat empirical evidence exists to demonstrate that alternative fiscal policies could address structural economic issues without requiring austerity measures?  \n\nIf credit-based consumerism is unsustainable, what specific mechanisms prevent the economy from transitioning to a model that prioritizes production or savings over consumption?",
+        "reasoning": "Okay, let me try to tackle this. The user wants three critical questions that challenge the text's credibility or validity. Each question has to meet specific criteria. The text is about CF discussing sub-prime mortgages as a political strategy, people being beneficiaries and then sufferers, and frustration with the assumption that a credit-based consumer economy can just continue.\n\nFirst, I need to understand the arguments in the text. CF is saying that sub-prime mortgages were part of a policy that initially benefited people but later caused suffering. Also, there's a critique of the belief that the economy can keep going with credit-based consumerism without addressing underlying issues like cuts.\n\nNow, the questions need to challenge these arguments in a meaningful way, not just surface-level or common sense. They should focus on aspects not already addressed. The text doesn't mention how the policy was communicated or alternatives, so maybe that's a direction.\n\nFirst question: Maybe ask about how the policy was presented to the beneficiaries. The text says people were beneficiaries, but did they know the risks? If they weren't informed, that challenges the validity of the argument that it was a political strategy.\n\nSecond question: The text mentions cuts as necessary but doesn't explore alternatives. So asking about alternative fiscal policies that avoid cuts and address structural issues could challenge the assumption that cuts are inevitable.\n\nThird question: The critique of credit-based consumerism is there, but the text doesn't address how other economic models could sustain growth. So asking about viable models that don't rely on credit but still allow growth might challenge the argument's validity.\n\nNeed to make sure each question is specific, directly related, and doesn't introduce new concepts. Avoid being vague. Let me check the criteria again. Each question must not be addressed in the text, challenge meaningfully, be specific, and not just oppose without critical examination.\n\nYes, these questions seem to fit. They target gaps in the original arguments, prompting deeper reflection without being obvious or general."
     },
     "CLINTON_103": {
         "intervention_id": "CLINTON_103",
@@ -1708,9 +2048,43 @@
             "PositionToKnow",
             "PracticalReasoning"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the claim that \"the gun epidemic is the leading cause of death of young African-American men, more than the next nine causes put together\" account for potential discrepancies in data categorization (e.g., CDC mortality statistics) or contextual factors (e.g., regional variations, underlying socioeconomic drivers) that might complicate this comparison?**  \n2. **What institutional mechanisms does the platform propose to ensure \"mutual respect\" between police and communities beyond collaboration, particularly addressing systemic power imbalances or accountability structures that may perpetuate distrust despite shared goals?**  \n3. **If restoring trust and reducing gun violence are interdependent goals, how does the argument address the risk that focusing on gun control alone might overlook root causes of violence (e.g., economic disinvestment, lack of mental health resources) that persist even if firearms are restricted?**",
-        "reasoning": "Okay, let's see. I need to generate three critical questions based on Hillary Clinton's statement about criminal justice reform, policing, and gun violence. The questions have to challenge the text in a meaningful way, not just surface-level stuff. They should focus on parts of the argument she didn't already address. And they need to be specific, not vague.\n\nFirst, let me break down her arguments. She mentions a platform to remedy problems in the criminal justice system. She acknowledges good police officers and the need for mutual respect between communities and police. She wants to get guns out of the wrong hands, stating that gun violence is the leading cause of death for young African-American men, more than the next nine causes combined. She emphasizes restoring trust and working together.\n\nNow, for the questions. The first one needs to challenge the statistics she used. She says gun epidemic is the leading cause. But maybe there's a nuance there. The CDC data might show something else. So a question could ask about the CDC data's context, like time frame or demographic factors that might affect the statistic's validity. That challenges her claim without being obvious.\n\nSecond, she talks about mutual respect between police and communities. But how does that address systemic issues? She doesn't mention specific structures or policies. So a question could ask what institutional mechanisms she proposes to ensure mutual respect beyond just collaboration, targeting systemic power imbalances.\n\nThird, she links gun violence to the problems we see today. But is it a cause or a symptom? She doesn't explore underlying issues like poverty or systemic racism. A question could challenge the assumption by asking if gun violence is a symptom rather than a cause, thus requiring different solutions.\n\nLet me check the criteria again. Each question must not be common sense, not addressed in the text, specific, and not introduce new concepts. The first question about CDC data challenges her statistic's basis. The second about institutional mechanisms goes beyond her mention of working together. The third questions the causal relationship she implies. These all seem to fit."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the assertion that the gun epidemic is the leading cause of death for young African-American men account for recent data on health disparities or socioeconomic factors contributing to mortality rates?  ",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What is the evidence for the claim that the \"gun epidemic is the leading cause of death of young African-American men\", and how does this statistic compare to other demographic groups?",
+                    "label": "Useful",
+                    "similarity": 0.9275471568107605
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific mechanisms would address systemic power imbalances between police institutions and communities to ensure collaboration does not perpetuate existing inequities?  ",
+                "matched_reference": {
+                    "index": 23,
+                    "cq": "How would Clinton's proposal to \"restore trust\" between law enforcement and communities be achieved, and what specific actions would be taken to address systemic issues?",
+                    "label": "Useful",
+                    "similarity": 0.5555391907691956
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "If reducing gun violence is prioritized as a solution to criminal justice challenges, how does this approach account for historical and ongoing systemic racism that operates independently of firearm accessibility?",
+                "matched_reference": {
+                    "index": 27,
+                    "cq": "What is the relationship between gun violence and the \"plague of problems that we're seeing today\", and how would addressing gun violence solve these broader issues?",
+                    "label": "Useful",
+                    "similarity": 0.6093665957450867
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the assertion that the gun epidemic is the leading cause of death for young African-American men account for recent data on health disparities or socioeconomic factors contributing to mortality rates?  \n\nWhat specific mechanisms would address systemic power imbalances between police institutions and communities to ensure collaboration does not perpetuate existing inequities?  \n\nIf reducing gun violence is prioritized as a solution to criminal justice challenges, how does this approach account for historical and ongoing systemic racism that operates independently of firearm accessibility?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility of the arguments in the provided text. The text is a statement by Clinton discussing criminal justice reform, the role of police, and gun violence.\n\nFirst, I need to understand the main points Clinton is making. She talks about a platform to remedy problems in the criminal justice system, acknowledges good police officers wanting reform, bringing communities together, getting guns from those who shouldn't have them, gun violence as a leading cause of death for young African-American men, restoring trust, working with police, mutual respect, and tackling gun violence.\n\nNow, to generate questions that meet the criteria: they should challenge the text meaningfully, not be common sense, focus on unaddressed aspects, be specific, and not introduce new concepts.\n\nStarting with the first point. She mentions \"the leading cause of death\" being gun violence. But I recall that recent data might show other causes. For example, CDC data shows that in some years, accidents or health issues might be leading causes. So a question could ask about the data's validity and if other factors are considered. That challenges the claim's foundation without being obvious.\n\nNext, she emphasizes collaboration between communities and police but doesn't address potential conflicts of interest. Maybe systemic issues within police structures could hinder reform. So a question about how existing power dynamics or structures would be managed to prevent conflicts during collaboration.\n\nThird, she links gun violence reduction to resolving broader criminal justice issues. But there might be underlying factors like poverty or systemic racism contributing independently. A question asking if addressing guns alone ignores other systemic issues could challenge the argument's completeness.\n\nEach question needs to be specific and directly tied to her arguments, not vague. Let me check if each question meets the criteria:\n\n1. Challenges the data's validity and other factors\u2014yes, not common knowledge.\n2. Focuses on unaddressed systemic power dynamics in police collaboration.\n3. Asks if gun focus overlooks other systemic issues like poverty or racism.\n\nThey all target specific parts of her arguments, don't introduce new concepts, and critically examine the claims. Alright, those should work."
     },
     "CLINTON_130_1": {
         "intervention_id": "CLINTON_130_1",
@@ -1884,9 +2258,43 @@
             "Example",
             "Consequences"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the assertion that tax policies were a \"large part\" of the financial crisis align with economic analyses that emphasize deregulation of financial instruments (e.g., derivatives, subprime mortgages) as the primary catalyst, and what evidence directly ties tax cuts to systemic risk accumulation?**  \n2. **Given that middle-class disinvestment is cited as a factor, what specific mechanisms link this disinvestment to the collapse of financial institutions, rather than broader economic stagnation, and how does this distinguish from cyclical economic downturns unrelated to policy?**  \n3. **If Donald \"rooted for the housing crisis,\" to what extent did his influence or actions materially contribute to the crisis\u2019s structural causes (e.g., predatory lending, securitization practices), rather than reflecting mere opportunism or rhetoric?**",
-        "reasoning": "Okay, let's tackle this query. The user wants three critical questions based on Hillary Clinton's statement, each meeting specific criteria. First, I need to understand the text thoroughly. Clinton is blaming past policies (tax cuts for the wealthy, lack of investment in the middle class, deregulation of Wall Street) for causing the Great Recession. She also accuses Donald of rooting for the housing crisis.\n\nNow, the questions must challenge the arguments in a meaningful way. They can't be common sense or about well-known facts. They need to focus on aspects not already addressed. So, looking at her arguments, she links tax policies, lack of investment, and Wall Street oversight to the crisis. But maybe there's more nuance. \n\nFirst, she claims tax policies were a major cause. But the 2008 crisis is usually attributed to subprime mortgages and financial derivatives. So a question could challenge the direct link between tax policies and the crisis. That's not commonly discussed. \n\nSecond, she says failed to invest in the middle class. But how does that directly lead to the financial collapse? Investment in the middle class affects consumer spending, but the immediate triggers were mortgage defaults and banking failures. A question here could ask about the causal mechanism between middle-class disinvestment and the crisis's specific events.\n\nThird, she accuses Donald of rooting for the collapse. But does personal rooting have a tangible impact on economic policies or the crisis itself? The question could challenge the relevance of his stance to the actual causes.\n\nEach question should be specific, not vague. Need to ensure they don't introduce new concepts but critically examine existing claims. Let me check the criteria again: each question must challenge validity, not be obvious, not addressed in the text, specific, and avoid new concepts.\n\nSo, first question: Linking tax cuts for the wealthy as a primary cause. The text says \"in large part because of tax policies,\" but economic consensus might point elsewhere. So question about alternative factors and evidence for tax policies' role.\n\nSecond: Middle-class investment and its direct causation to the crisis. The text doesn't explain how underinvestment caused the collapse. So question about mechanisms linking them.\n\nThird: The impact of Donald's support for the crisis. Even if he did, how does that influence the economic factors? So question about how his rooting affected systemic issues.\n\nI need to phrase these as questions, each on its own line, meeting all criteria. Let me draft them."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How did the specific tax policies favoring the wealthy directly contribute to the systemic failures in Wall Street oversight that precipitated the 2008 crisis?  ",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "What are the specific tax policies that contributed to the financial crisis, and how did they do so?",
+                    "label": "Useful",
+                    "similarity": 0.668610155582428
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence exists to demonstrate that rooting for the housing crisis translated into actionable influence or policy decisions that exacerbated the economic collapse?  ",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What evidence is there that Donald Trump \"rooted for the housing crisis\", and what does this claim even mean?",
+                    "label": "Useful",
+                    "similarity": 0.6517982482910156
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways did the failure to invest in the middle class create quantifiable vulnerabilities in the broader economy that were distinct from other contributing factors to the Great Recession?",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "How did the lack of investment in the middle class contribute to the financial crisis, and what specific policies or actions would have prevented or mitigated the crisis?",
+                    "label": "Useful",
+                    "similarity": 0.7536974549293518
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How did the specific tax policies favoring the wealthy directly contribute to the systemic failures in Wall Street oversight that precipitated the 2008 crisis?  \n\nWhat evidence exists to demonstrate that rooting for the housing crisis translated into actionable influence or policy decisions that exacerbated the economic collapse?  \n\nIn what ways did the failure to invest in the middle class create quantifiable vulnerabilities in the broader economy that were distinct from other contributing factors to the Great Recession?",
+        "reasoning": "Okay, let's tackle this. The user wants three critical questions that challenge the credibility of Clinton's argument in the provided text. The text mentions the financial crisis, tax policies favoring the wealthy, lack of investment in the middle class, and Donald's role in the housing crisis.\n\nFirst, I need to ensure each question meets the criteria. Each must challenge the text meaningfully, not just common sense. They shouldn't address points already covered, so I need to find gaps. The questions must be specific and directly related, avoiding vagueness. Also, no new concepts\u2014just critical examination.\n\nLooking at Clinton's points: she links tax policies, Wall Street oversight, and Donald's actions to the crisis. The text doesn't elaborate on how tax policies directly caused the recession beyond stating it. So, maybe ask for specific mechanisms connecting tax cuts to the crisis. That's a gap.\n\nThen, she accuses Donald of rooting for the crisis. The text doesn't provide evidence or explain how his support contributed. So, a question about evidence linking his stance to the collapse would work.\n\nThird, the text says \"failed to invest in the middle class.\" But how does that failure specifically lead to the crisis? The user might need to connect middle-class disinvestment to the financial collapse. That's another gap.\n\nCheck if these are addressed in the text. The text mentions the factors but doesn't explain the causal links. So the questions target those unexplained links. Avoid being too general. Each question should push for specifics not provided. Make sure each is a separate issue. Alright, that should satisfy the criteria."
     },
     "CLINTON_176_1": {
         "intervention_id": "CLINTON_176_1",
@@ -2630,9 +3038,43 @@
         "schemes": [
             "GenericAdHominem"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **What specific evidence or data directly links President Obama's policies or actions to the current issue, beyond temporal association, to establish causation rather than mere correlation?**  \n2. **How does the argument account for potential intervening variables or decisions made after Obama's tenure that could have exacerbated or altered the trajectory of the issue in question?**  \n3. **If Obama's influence is framed as \"pushing it,\" what measurable thresholds or criteria define when a past administration's actions become the primary driver of a present outcome, rather than subsequent governance?**",
-        "reasoning": "Okay, let's tackle this. The user wants three critical questions about the Trump quote blaming Obama. Each question needs to challenge the text's credibility without being obvious, and they can't be addressed in the text already.\n\nFirst, I need to understand the context. The text is Trump attributing something to Obama's fault, but the exact issue isn't specified. The user probably expects questions that dig into the reasoning behind the blame.\n\nFirst question: Maybe ask about the causal link. The text doesn't explain how Obama's actions directly caused the issue. So a question could challenge the evidence for causation versus correlation.\n\nSecond question: The text mentions Obama is \"pushing it.\" What does \"it\" refer to? The question could ask for specifics on the mechanisms or policies Obama used that directly led to the problem. This targets the lack of details in the argument.\n\nThird question: Maybe address the timeframe. If Obama's policies take time to have effects, has enough time passed for them to be the cause? This questions the validity of the timeline assumed in the blame.\n\nI need to make sure each question is specific, not vague, and doesn't introduce new concepts. Let me check the criteria again. Each question must directly relate to the arguments in the text but not be something already addressed. The original text is pretty brief, so the questions need to target the underlying assumptions not elaborated on."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the assertion establish a direct causal mechanism between Obama's policies and the current issue without addressing intervening variables?  ",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What is the evidence that Obama is responsible for the issue?",
+                    "label": "Unhelpful",
+                    "similarity": 0.665524959564209
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence substantiates the claim that Obama's influence persists actively in current decision-making beyond typical policy legacy effects?  ",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What is the evidence that Obama is responsible for the issue?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6389663815498352
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "If Obama's tenure concluded years prior, how does the argument account for the absence of corrective measures by subsequent administrations to mitigate the alleged ongoing impact?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Is President Obama still in office?** If President Obama is no longer in office, it's unclear how he could be responsible for a current issue. If he's not in office, who is currently responsible?",
+                    "label": "Useful",
+                    "similarity": 0.5766437649726868
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the assertion establish a direct causal mechanism between Obama's policies and the current issue without addressing intervening variables?  \nWhat evidence substantiates the claim that Obama's influence persists actively in current decision-making beyond typical policy legacy effects?  \nIf Obama's tenure concluded years prior, how does the argument account for the absence of corrective measures by subsequent administrations to mitigate the alleged ongoing impact?",
+        "reasoning": "Okay, I need to generate three critical questions that challenge the credibility or validity of the arguments in the given text. Let me start by understanding the text. It's Trump blaming Obama for something, but the exact context is a bit unclear because the text is fragmented. However, the main point seems to be that Trump is attributing a current issue to Obama's past actions.\n\nFirst, the criteria: each question must challenge the text meaningfully, not be common sense, focus on aspects not addressed, be specific, and avoid introducing new concepts or just opposing without critical examination.\n\nSo, the original argument is Trump claiming Obama's fault. The text doesn't provide evidence or reasoning, just the accusation. To challenge this, the questions need to dig into the underlying assumptions or missing elements.\n\nFirst question: Maybe ask about the causal link between Obama's policies and the current issue. The text doesn't explain how Obama's actions caused the problem. So a question could be about the specific mechanisms or evidence linking the two. That meets all criteria\u2014challenging the causality, not addressed in the text, specific, and doesn't introduce new concepts.\n\nSecond question: The timeframe. If Obama's term ended years ago, how can his policies still be the primary cause now? That's about intervening factors or time decay. The text doesn't address this, so the question would challenge the assumption that past actions are the main driver without considering other variables.\n\nThird question: Maybe about the evidence for intent. Trump says Obama is \"pushing\" it. But how do we know Obama's intent or active involvement? The text doesn't provide evidence of Obama's current role, so the question challenges the basis for claiming ongoing influence.\n\nLet me check each against the criteria. Each is specific, targets gaps in the argument, doesn't bring in new concepts, and isn't just a general challenge. They all focus on aspects not addressed in the text, like causality mechanisms, intervening events, and evidence of intent. Yeah, these should work."
     },
     "TRUMP_58": {
         "intervention_id": "TRUMP_58",
@@ -4513,9 +4955,43 @@
         "schemes": [
             "NegativeConsequences"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does Melanie substantiate the causal link between the State's \"non-judgmentalism\" and the creation of victims, given that systemic factors like economic inequality or institutional neglect might independently contribute to cycles of crime and victimization?**  \n2. **What specific mechanisms would ensure that \"carefully calibrated\" help avoids replicating paternalistic frameworks, potentially undermining the very independence and personal responsibility it aims to restore?**  \n3. **If the State's moral position is inherently non-judgmental, how does Melanie reconcile the ethical contradiction of imposing a judgment-based framework (e.g., conditioning aid on adherence to \"responsibility\") without perpetuating the same harm she critiques?**",
-        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility or validity of Melanie's arguments in the provided text. Each question needs to meet specific criteria, so I need to make sure I address each point carefully.\n\nFirst, I need to understand Melanie's argument. She says the State's non-judgmental moral position caused harm, creating victims who might turn to crime and thus create more victims. She argues that help should be calibrated to restore independence and responsibility.\n\nNow, the first criterion is that the questions must challenge the text in a meaningful way, not just common sense. So I need to find aspects that aren't obvious. Maybe question the assumption that non-judgmentalism leads to harm. Is there evidence for that causation?\n\nSecond, the questions should focus on aspects not already addressed. Melanie doesn't mention how non-judgmental policies directly cause victimization. So a question about the causal link would work here.\n\nThird, specificity is key. Avoid vague questions. Instead of asking generally about effectiveness, target the calibration of help. How can it balance support with fostering responsibility without being paternalistic?\n\nFourth, no new concepts. Stick to the arguments presented. Don't bring in external factors unless they're directly related.\n\nFirst question: Challenge the causation between non-judgmentalism and harm. Ask for evidence that non-judgmental policies are the primary cause, not other factors.\n\nSecond question: Address the calibration of help. How can the state ensure that calibrated help doesn't undermine the independence it aims to restore?\n\nThird question: Explore the assumption that personal responsibility can be restored through state help. Does state intervention conflict with fostering responsibility?\n\nCheck each question against the criteria. Each should be specific, challenge the argument's foundations, and not introduce new concepts. Make sure they're directly related to the text's points."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the evidence establish a direct causal link between the State's policy of non-judgmentalism and the emergence of victims needing help rather than attributing this outcome to other societal or systemic factors?  ",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What is the evidence for the claim that the State's non-judgmentalism has caused harm and created victims? Are there any studies or data to support this assertion?",
+                    "label": "Useful",
+                    "similarity": 0.7614802718162537
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific mechanisms within \"carefully calibrated\" help ensure the restoration of independence without inadvertently replicating the dependency the original policy allegedly created?  ",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "How does Melanie propose to \"carefully calibrate\" help to restore independence and personal responsibility? What specific policies or programs would she recommend, and what is the evidence for their effectiveness?",
+                    "label": "Useful",
+                    "similarity": 0.5343151688575745
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "What empirical data supports the claim that individuals receiving state assistance under non-judgmental policies are statistically more likely to create subsequent victims through crime compared to other populations or systemic contexts?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What is the definition of \"victims\" in this context? Are they solely individuals who have been harmed by others, or does it also include individuals who have committed crimes themselves?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5550585985183716
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the evidence establish a direct causal link between the State's policy of non-judgmentalism and the emergence of victims needing help rather than attributing this outcome to other societal or systemic factors?  \n\nWhat specific mechanisms within \"carefully calibrated\" help ensure the restoration of independence without inadvertently replicating the dependency the original policy allegedly created?  \n\nWhat empirical data supports the claim that individuals receiving state assistance under non-judgmental policies are statistically more likely to create subsequent victims through crime compared to other populations or systemic contexts?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the given text's credibility or validity. The text is a quote from Melanie discussing the State's non-judgmental moral position leading to harm and victims.\n\nFirst, I need to understand Melanie's arguments. She claims the State's non-judgmentalism caused harm, creating victims who might become perpetrators. She says help should be carefully calibrated to restore independence and responsibility.\n\nNow, the questions must meet the four criteria. Each question should challenge the text in a meaningful way, not just surface-level or common sense. They should focus on aspects not addressed, be specific, and not introduce new concepts or just oppose without critical examination.\n\nStarting with the first question. Melanie assumes non-judgmentalism leads to harm. Maybe challenge the causality here. The text doesn't provide evidence that non-judgmentalism directly causes the issues. So a question could ask about evidence linking the policy to the outcomes, especially alternative factors.\n\nSecond, she talks about restoring independence and responsibility. But how does calibrated help achieve that? The text doesn't explain the mechanisms. A question could ask for specific mechanisms and how they differ from current approaches to avoid undermining responsibility.\n\nThird, she mentions victims creating other victims through crime. But is there a correlation between being a victim and later offending? The text doesn't address this. A question could challenge the assumption that victimhood leads to crime without evidence of causation.\n\nNeed to ensure each question is specific, not vague. Avoid questions like \"Is this true?\" which are too general. Make each question directly target an unaddressed part of the argument. Also, avoid introducing new concepts; stick to what's implied but not explored in the text.\n\nCheck if the questions meet all criteria. Let me rephrase them:\n\n1. How does the evidence establish a direct causal link between the State's non-judgmentalism and the emergence of victims needing help, excluding other societal factors?\n2. What specific mechanisms in calibrated help ensure the restoration of independence without perpetuating dependency, and how do they differ from existing approaches?\n3. What empirical data supports the claim that individuals receiving state assistance are more likely to create crime victims, and how does this account for alternative causes of criminal behavior?\n\nYes, these questions challenge the assumptions, ask for evidence and mechanisms not discussed, and are specific. They don't bring in new concepts but examine the existing claims critically. Each addresses a different part of the argument without overlap. Looks good."
     },
     "Mpogoda_184": {
         "intervention_id": "Mpogoda_184",
@@ -5349,9 +5825,43 @@
         "schemes": [
             "Alternatives"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the specific number of deleted emails (33,000) directly correlate to culpability, and what empirical framework establishes that quantity as inherently suspicious rather than routine data management?**  \n2. **What evidence exists to confirm that the act of deleting emails was intentional obstruction rather than a procedural or technical response to legal, security, or archival requirements?**  \n3. **If the emails were released, how would their content demonstrably contradict prior public statements or policies, rather than simply exposing mundane or non-consequential communications?**",
-        "reasoning": "Okay, let me try to figure out how to approach this. The user wants three critical questions based on Trump's statement about the emails. The questions need to challenge the text in a meaningful way, not just common sense. They should focus on aspects not already addressed, be specific, and avoid introducing new concepts or just opposing without critical examination.\n\nFirst, Trump claims the emails are \"not negotiable\" and demands their release. He mentions deleting 33,000 emails. The text is short, so I need to dig into underlying assumptions. \n\nFor the first question: Maybe challenge the assumption that the mere existence of the emails implies wrongdoing. The user mentioned not addressing aspects already in the text, so since Trump doesn't explain why the number 33k matters, a question about how the quantity relates to culpability could work.\n\nSecond, the demand to release the emails. The text doesn't address if releasing them would actually clarify anything. So a question about whether the content's context affects their interpretation. That challenges the argument's validity by pointing out missing analysis.\n\nThird, Trump's focus on deletion. The user might not have addressed intent. So asking about evidence of intentional destruction to conceal wrongdoing. Since the text just states deletion without proof of intent, this question targets an unaddressed assumption.\n\nNeed to make sure each question is specific and directly related. Avoid being vague. For example, not just \"Is Trump right?\" but targeting specific gaps like intent, context, and relevance of quantity. Also, ensure they don't introduce new concepts outside the text. Each should force a deeper look into the argument's foundations that Trump didn't cover."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the assertion that releasing the emails is \"non-negotiable\" address potential legal or procedural justifications for withholding or redacting sensitive communications?  ",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What is the legal or ethical basis for Trump's claim that Clinton's emails are \"not negotiable\"? Is he implying that she has a legal obligation to release them, or is this a political or moral obligation?",
+                    "label": "Useful",
+                    "similarity": 0.7122682929039001
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the implicit assumption that the 33,000 deleted emails contained substantive information rather than redundant or inconsequential correspondence?  ",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is it true that Hillary Clinton deleted 33,000 emails? Is this number accurate, and what is the source of this information?",
+                    "label": "Useful",
+                    "similarity": 0.7459940314292908
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the demand for disclosure account for existing protocols or third-party reviews that might have already determined the appropriateness of the emails' deletion?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What is the relevance of Hillary Clinton releasing her emails? Would releasing them provide any new information or insight, or would it be a redundant exercise?",
+                    "label": "Useful",
+                    "similarity": 0.5958385467529297
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the assertion that releasing the emails is \"non-negotiable\" address potential legal or procedural justifications for withholding or redacting sensitive communications?  \n\nWhat evidence supports the implicit assumption that the 33,000 deleted emails contained substantive information rather than redundant or inconsequential correspondence?  \n\nHow does the demand for disclosure account for existing protocols or third-party reviews that might have already determined the appropriateness of the emails' deletion?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility of the text provided. The text is Trump's statement about Hillary Clinton's emails, specifically mentioning that it's \"not negotiable,\" asking her to release the emails, and questioning why she deleted 33,000.\n\nFirst, I need to understand the context. This is likely referencing the 2016 controversy where Hillary Clinton used a private email server while Secretary of State, leading to accusations of mishandling classified information. Trump's argument here seems to be that Clinton should release the emails and that deleting 33,000 of them is suspicious.\n\nThe user wants questions that meet specific criteria. Let me go through each criterion again:\n\n1. Challenge the text in a meaningful way, not common sense. So the questions shouldn't be something obvious like \"Is deleting emails illegal?\" because that's a well-known aspect.\n\n2. Focus on aspects not addressed in the text. The text is short, so Trump doesn't explain why releasing emails is non-negotiable or provide evidence for his claim. The questions need to target these gaps.\n\n3. Be specific and directly related. Avoid vague questions like \"Is Trump right?\" Instead, target specific parts of his statements.\n\n4. Avoid new concepts or mere opposition. The questions should critically examine existing claims without introducing new topics.\n\nLet me start by breaking down Trump's statements. He says it's \"not negotiable,\" which implies it's a non-negotiable demand. Why is it non-negotiable? What makes releasing the emails a non-negotiable issue? There might be an assumption here that the emails contain critical information, but he doesn't provide evidence.\n\nNext, he asks why she deleted 33,000 emails. The assumption is that the deletion was malicious or intended to hide something. But maybe there's a standard procedure for email retention, or maybe some emails were personal. The question could challenge the basis for assuming wrongdoing without evidence.\n\nAnother angle: What's the relevance of the number 33,000? Is there a context where that number is standard, or is it being used for rhetorical effect? The question could ask about the significance of that specific number in proving misconduct.\n\nPossible questions:\n\n1. What specific evidence exists to demonstrate that the deleted 33,000 emails contained information relevant to public accountability rather than personal or routine correspondence?\n\nThis question challenges the assumption that the deleted emails were important and not just personal. The text doesn't address what the emails contained.\n\n2. How does the assertion that releasing the emails is \"non-negotiable\" align with established legal or procedural standards for handling government communications?\n\nThis questions the basis for the non-negotiable claim, asking if there's a legal standard being referenced that isn't mentioned.\n\n3. What independent verification exists to confirm that the 33,000 deleted emails were not already reviewed and appropriately categorized by the relevant authorities prior to deletion?\n\nThis challenges the implication that the deletion was improper by asking if there was oversight, which the text doesn't mention.\n\nI need to check if these meet all criteria. They don't introduce new concepts, they target unaddressed parts of the argument, and they're specific. Each question is directly tied to Trump's statements but probes deeper into the assumptions and evidence behind them."
     },
     "dberger_74_1": {
         "intervention_id": "dberger_74_1",
@@ -6841,9 +7351,43 @@
             "Example",
             "PracticalReasoning"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the strategic use of existing laws to avoid financial obligations to stakeholders, as described, align with the ethical responsibilities of a corporate leader beyond mere legal compliance, and what systemic consequences might this approach have on broader economic trust?**  \n2. **Given the emphasis on personal and familial obligation to \"do well,\" what specific mechanisms or accountability structures ensure that the prioritization of company success does not undermine equitable treatment of employees or contractors in scenarios where legal ambiguities exist?**  \n3. **The claim of \"tens of thousands of people that are unbelievably happy\" relies on subjective sentiment; what verifiable metrics or independent audits exist to substantiate this assertion, and how does it address potential survivorship bias (e.g., excluding dissatisfied former employees or contractors)?**",
-        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility or validity of Trump's arguments in the given text. Each question has to meet specific criteria. Let me start by understanding the text first.\n\nThe text is Trump's statement where he defends his business practices. He mentions using existing laws four times, suggests that Clinton didn't change the laws despite being in government, and claims that his employees are happy. \n\nNow, I need to generate questions that aren't common sense, aren't addressed in the text, are specific, and don't introduce new concepts. Let's break down each part of his argument.\n\nFirst, he says he used laws four times. The text doesn't clarify how using these laws affects others. So maybe a question about the broader impact of exploiting those laws beyond his own benefit. That's not addressed in the text.\n\nSecond, he shifts the responsibility to Clinton for not changing the laws. But does his role as a business leader absolve him of ethical considerations? The text doesn't talk about ethical responsibility versus legal compliance. That could be another question.\n\nThird, he mentions tens of thousands of happy employees. But how representative is that number? Are there systematic surveys or data? The text doesn't provide evidence, so a question about methodology here would challenge the validity.\n\nLet me check each criterion for each question:\n\n1. **Question 1:** Challenges the assumption that legal use has no negative consequences. Not common sense, specific to the argument, doesn't introduce new concepts. Good.\n\n2. **Question 2:** Questions ethical responsibility vs. legal compliance. Not addressed in the text, specific to his role. Meets the criteria.\n\n3. **Question 3:** Asks about evidence for employee satisfaction. The text claims happiness but doesn't back it up. Focuses on methodology, which isn't discussed. Also meets the criteria.\n\nI should ensure each question is directly related and doesn't veer into vagueness. Also, avoid just opposing but critically examine. Think I covered that. These should work."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the conflation of personal business success with legal compliance address potential ethical responsibilities beyond statutory obligations?  ",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "How does Trump's obligation to \"do well for myself, my family, my employees, for my companies\" relate to his role as a presidential candidate, and should his priorities be different in this context?",
+                    "label": "Useful",
+                    "similarity": 0.47837895154953003
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What methodological evidence supports the assertion that employee or contractor satisfaction is representative of systemic fairness rather than selective or survivorship bias?  ",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Is Trump's argument that he is simply \"taking advantage of the laws of the nation\" a sufficient defense for his actions, or is there a moral obligation to treat workers fairly and with respect?",
+                    "label": "Useful",
+                    "similarity": 0.43203508853912354
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways do external factors such as market conditions or regulatory environments complicate the direct attribution of company success to individual business acumen alone?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "Is it acceptable for a business leader to prioritize their own interests and those of their family and employees over the well-being of others, as Trump suggests?",
+                    "label": "Useful",
+                    "similarity": 0.4226294457912445
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the conflation of personal business success with legal compliance address potential ethical responsibilities beyond statutory obligations?  \n\nWhat methodological evidence supports the assertion that employee or contractor satisfaction is representative of systemic fairness rather than selective or survivorship bias?  \n\nIn what ways do external factors such as market conditions or regulatory environments complicate the direct attribution of company success to individual business acumen alone?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility of Trump's arguments in the given text. The criteria are pretty specific, so I need to make sure each question meets all four points.\n\nFirst, I need to understand the text thoroughly. Trump is defending his business practices, saying he used existing laws, and that people who didn't get paid actually did, and many are happy with him. The arguments here are about legal compliance, employee satisfaction, and his business success.\n\nFor the first question, I need to challenge something not addressed. He mentions using laws four times. Maybe question the ethical implications despite legality. The text doesn't talk about ethics vs. legality, so that's a good angle. So something like: How does the justification of using existing laws address potential ethical concerns despite legal compliance?\n\nSecond, he says tens of thousands love him. But how does he measure that? The text doesn't provide evidence, so a question about the methodology of measuring satisfaction could work. Maybe: What evidence exists to substantiate the claim of widespread employee satisfaction beyond anecdotal assertions?\n\nThird, he compares his company to global assets. The text doesn't mention external factors affecting his success. So, questioning external factors like market conditions that might have contributed. Like: To what extent do external economic factors challenge the attribution of company success solely to personal business acumen?\n\nI need to ensure each question is specific, doesn't introduce new concepts, and directly relates to his arguments. Also, avoid vague questions. Let me check each against the criteria again.\n\nFirst question: Challenges legality vs. ethics, not addressed in text, specific. Good.\n\nSecond: Asks for evidence beyond anecdotes, which he doesn't provide. Checks out.\n\nThird: Brings up external factors he didn't mention, which could undercut his personal success claim. Yes.\n\nThey all meet the criteria. No special characters, one per line. Looks good."
     },
     "TRUMP_121_2": {
         "intervention_id": "TRUMP_121_2",
@@ -6996,9 +7540,43 @@
         "intervention": "TRUMP: \"you're wrong\nIt went before a judge, who was a very against-police judge\nIt was taken away from her\nour mayor, our new mayor, refused to go forward with the case\nThey would have won an appeal\nIf you look at it, throughout the country, there are many places where it's allowed\"",
         "dataset": "US2016",
         "schemes": [],
-        "cqs": "Missing CQs",
-        "full_response": "1. **What specific judicial rulings or documented behaviors demonstrate the judge's alleged bias against police, and how did these directly compromise the legal integrity of the case beyond the subjective characterization provided?**  \n2. **How does the mayor's refusal to pursue the case substantiate the claim that an appeal would have succeeded, given that legal viability often depends on procedural or evidentiary standards rather than political will alone?**  \n3. **In jurisdictions where similar policies \"are allowed,\" what distinct statutory or constitutional frameworks exist that might render comparisons irrelevant to this specific case's context or legal merits?**",
-        "reasoning": "Okay, so I need to come up with three critical questions that challenge the credibility or validity of the arguments in Trump's statement. Let me read through the text again to understand the points he's making.\n\nHe mentions that the case went before a judge who was \"very against-police,\" implying bias. Then he says the case was taken away from her, and the new mayor refused to proceed. He also claims they would have won an appeal and that similar cases are allowed elsewhere.\n\nFirst, I need to think about each part of his argument and identify areas not addressed. Let's break it down:\n\n1. **Judge's bias**: He claims the judge was \"very against-police.\" But does he provide evidence of this bias affecting the case? The text doesn't mention any specific rulings or actions by the judge that demonstrate bias. So a question could ask for evidence of the judge's rulings affecting the case's outcome.\n\n2. **Mayor's refusal to proceed**: He says the new mayor refused to go forward. But why did the mayor make that decision? The text doesn't explore the mayor's rationale. A question could challenge whether there were other factors influencing the mayor's decision besides the case's merits.\n\n3. **Appeal success and other jurisdictions**: He states they would have won an appeal and that other places allow it. But is there evidence that an appeal was certain to win? Also, just because other places allow something doesn't mean it's valid here. A question might ask about precedents in similar jurisdictions affecting the case's specifics.\n\nLet me check the criteria again. Each question must challenge the text meaningfully, not be common sense, focus on unaddressed aspects, be specific, and not introduce new concepts.\n\nFirst question: Maybe about the judge's actual impact on the case beyond just being labeled \"against-police.\" The text doesn't show how the judge's bias influenced the decision. So question could be about evidence of the judge's rulings affecting the outcome.\n\nSecond question: The mayor's refusal. The text doesn't say why the mayor stopped the case. Were there other reasons like legal advice, public opinion, costs? So a question about alternative reasons for the mayor's decision.\n\nThird question: The appeal success and comparison to other places. The text doesn't provide legal analysis or jurisdiction-specific factors. So a question could ask about how differences in laws between jurisdictions affect the case's validity here.\n\nWait, but the third point in the text is about \"many places where it's allowed.\" So maybe challenging the assumption that prevalence elsewhere implies validity here. Also, the appeal success\u2014was there a basis for that claim?\n\nSo possible questions:\n\n1. What specific evidence exists that the judge's alleged bias against police directly influenced the legal reasoning or outcome of the case, beyond the characterization of the judge as \"very against-police\"?\n\n2. What factors beyond the mayor's refusal to proceed, such as legal precedents or strategic considerations, might have influenced the decision not to pursue an appeal, and how do these factors undermine the assertion that the case would have been won on appeal?\n\n3. How do the legal or contextual differences between the jurisdictions where similar cases are \"allowed\" and the jurisdiction in question challenge the assumption that the outcome of this case was unjust or incorrect?\n\nI need to make sure each question meets all the criteria. Let me check:\n\n1. Challenges the claim about the judge's bias by asking for evidence of its impact. The text doesn't address this, so it's valid.\n\n2. Asks about other factors influencing the mayor's decision, which the text doesn't explore. It's specific and related to the appeal's success claim.\n\n3. Focuses on differences between jurisdictions, which the text doesn't consider when mentioning other places allow it. This challenges the validity of that argument.\n\nYes, these seem to fit the criteria. They don't introduce new concepts but probe into unaddressed aspects of the arguments presented."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the characterization of the judge as \"very against-police\" align with documented rulings or biases that directly influenced this specific case?  ",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "Who is the \"very against-police judge\" mentioned, and what is the basis for this characterization?",
+                    "label": "Useful",
+                    "similarity": 0.868754506111145
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence exists to confirm the mayor\u2019s refusal to proceed was motivated by political or procedural factors rather than substantive legal deficiencies in the case?  ",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What is the basis for the claim that the mayor refused to go forward with the case, and what are the implications of this decision?",
+                    "label": "Useful",
+                    "similarity": 0.7048770785331726
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Can specific legal precedents or appellate outcomes be cited to substantiate the claim that an appeal would have succeeded had the case advanced?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What is the evidence that the appeal would have been won, and what were the grounds for the appeal?",
+                    "label": "Useful",
+                    "similarity": 0.847040593624115
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does the characterization of the judge as \"very against-police\" align with documented rulings or biases that directly influenced this specific case?  \n\nWhat evidence exists to confirm the mayor\u2019s refusal to proceed was motivated by political or procedural factors rather than substantive legal deficiencies in the case?  \n\nCan specific legal precedents or appellate outcomes be cited to substantiate the claim that an appeal would have succeeded had the case advanced?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility of Trump's arguments in the given text. Each question has to meet specific criteria.\n\nFirst, I need to understand the text. Trump is saying that a case went before an \"against-police judge,\" the case was taken away from her, the new mayor stopped it, they would have won on appeal, and many places allow whatever the case is about.\n\nNow, generate questions that aren't obvious. The first point is the \"against-police judge\" label. Maybe question the basis of that characterization. How does he know the judge's bias? What evidence is there beyond the label? That challenges the assumption without being common knowledge.\n\nSecond, the mayor refusing to proceed. The text doesn't explain why the mayor stopped the case. So, asking about specific evidence that the mayor's decision was political rather than legal or procedural. This digs into motives not addressed.\n\nThird, the appeal claim. The argument assumes they would win the appeal. But what legal precedents support that? Without specifics, it's a weak point. The question would ask for examples of similar cases where appeals succeeded, targeting the lack of evidence in the original statement.\n\nNeed to ensure each question is specific, not vague. Avoid introducing new concepts. Just focus on gaps in the existing arguments. Check that each meets all four criteria. That should do it."
     },
     "TRUMP_129": {
         "intervention_id": "TRUMP_129",
@@ -7069,9 +7647,43 @@
         "schemes": [
             "Sign"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the assertion that \"we've created a movement\" specifically address or rectify the systemic failures attributed to prior political inaction, given that movements often lack concrete policy mechanisms to directly resolve economic issues like national debt?**  \n2. **What empirical evidence links the $20 trillion debt figure cited as a primary justification for urgency, and how does this debt level uniquely preclude economic recovery compared to historical instances where high debt coexisted with growth?**  \n3. **If critics argue that structural factors (e.g., globalization, automation) influenced job loss and economic decline more than political inaction, how does the argument dismiss those variables to attribute blame solely to policymakers' timing?**",
-        "reasoning": "Okay, let's tackle this query. The user wants three critical questions based on Trump's statement. The questions need to challenge the text's credibility or validity in specific ways. Let me break down the requirements again to make sure I don't miss anything.\n\nFirst, each question must challenge the text meaningfully, not just common sense. So, I need to dig into the arguments and find underlying assumptions or gaps. The text mentions creating a movement, blaming others for not acting earlier, and the $20 trillion debt as a reason for current actions.\n\nNext, the questions should focus on aspects not already addressed. The text doesn't explain how the movement addresses past failures, why $20 trillion specifically prevents current actions, or if past inaction is the main issue. Those are potential areas to target.\n\nEach question needs to be specific and directly related. Avoid vague stuff. Also, no introducing new concepts; just examine the existing claims critically.\n\nLet me start with the first part where Trump says others should have acted earlier. The implication is that their inaction caused problems. But does that mean the current movement's approach is different? So a question could be about how the movement's strategies address the root causes that others failed to tackle. That challenges whether the movement is actually solving the problem or just a reaction.\n\nThen, the $20 trillion debt is cited as a reason for current actions. But why is that specific figure the breaking point? The text doesn't explain the economic reasoning. So a question about the threshold and evidence supporting that the debt level is the main issue now. That targets the assumption that the debt amount itself is the critical factor.\n\nLastly, Trump blames past politicians for not acting. But maybe there were structural barriers they faced. A question about whether the problems stem from inaction or other factors like systemic issues. That challenges the premise that simply acting earlier would have prevented the issues.\n\nLet me check if these meet all criteria. They don't ask for common knowledge, address unmentioned points, are specific, and stay within the text's arguments. Yeah, I think these three questions fit the requirements."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the assertion that previous politicians should have acted earlier account for the specific economic or political constraints they faced during their respective administrations?  ",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How does Trump's statement that \"they should have been doing this for years\" address the fact that he, as a politician, has only recently started talking about these issues? Is he taking responsibility for his own role in not addressing these issues earlier?",
+                    "label": "Useful",
+                    "similarity": 0.5246045589447021
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What measurable outcomes distinguish the \"movement\" from prior political efforts in terms of directly addressing the $20 trillion debt cited as a critical failing?  ",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "How does Trump's statement that \"we owe $20 trillion\" support his argument that politicians should have been doing something differently \"for years\"? Is he implying that the national debt is the root cause of the problems he's identified, and if so, what's his plan to address it?",
+                    "label": "Useful",
+                    "similarity": 0.5641668438911438
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "If the current economic challenges are attributed to prolonged inaction by past leaders, what evidence demonstrates that the proposed solutions uniquely address systemic flaws rather than perpetuating existing policies?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What specific actions should Secretary Clinton and other politicians have taken \"for years\" to address the issues Trump is concerned about?",
+                    "label": "Invalid",
+                    "similarity": 0.46416133642196655
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the assertion that previous politicians should have acted earlier account for the specific economic or political constraints they faced during their respective administrations?  \n\nWhat measurable outcomes distinguish the \"movement\" from prior political efforts in terms of directly addressing the $20 trillion debt cited as a critical failing?  \n\nIf the current economic challenges are attributed to prolonged inaction by past leaders, what evidence demonstrates that the proposed solutions uniquely address systemic flaws rather than perpetuating existing policies?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions that challenge the credibility or validity of Trump's arguments in the given text. Each question needs to meet specific criteria. Let me break down the requirements again to make sure I understand them correctly.\n\nFirst, each question must challenge the text in a meaningful way, not just surface-level or common-sense stuff. So I need to dig deeper into the arguments presented and find aspects that aren't obvious. Second, the questions should focus on parts the text doesn't already address. The original text mentions that Clinton and others should have acted earlier, the $20 trillion debt, and the movement created. So I need to find gaps there. Third, the questions must be specific and directly related to the arguments. No vague or general questions. Lastly, avoid introducing new concepts or just opposing without critical examination.\n\nLet me start by analyzing the text. Trump is saying that Clinton and other politicians should have been doing \"this\" for years, not just now. He claims they created a movement and mentions the $20 trillion debt as a problem. The key points here are the blame on others for not acting sooner, the creation of a movement, and the national debt issue.\n\nFirst, what is \"this\" that he's referring to? The text doesn't specify what actions exactly Clinton should have taken. That's a potential gap. If \"this\" isn't defined, the argument lacks clarity. So a question could challenge the lack of specificity in the actions expected from others.\n\nNext, the movement created. Trump claims they've created a movement, but how does that movement directly address the economic issues mentioned? There's an assumption that the movement is effective, but the connection isn't made. So a question could ask how the movement's strategies tackle the root causes of the debt and job issues.\n\nThird, the $20 trillion debt is presented as a critical problem. But the argument doesn't explain how past administrations' inaction directly caused the debt. Maybe other factors contributed. A question could challenge the causal link between the politicians' inaction and the debt, asking for evidence of that direct impact.\n\nWait, let me check each criterion again. Each question needs to not be addressed in the text. The text doesn't define \"this,\" doesn't link the movement to solving the debt, and doesn't establish causation between others' inaction and the debt. So these areas are fair game. Also, the questions need to be specific and avoid new concepts. For example, not introducing new economic theories but focusing on the existing points.\n\nSo possible questions:\n\n1. What specific actions or policies that the movement has implemented differentiate it from previous administrations' approaches to reducing the $20 trillion debt?\n2. How does the creation of a movement directly address the systemic causes of the economic issues cited, such as the $20 trillion debt, beyond merely attributing blame to past political figures?\n3. What evidence exists to establish a direct causal relationship between the inaction of previous politicians and the current $20 trillion debt, excluding external factors such as global economic trends or bipartisan legislative decisions?\n\nWait, but the third question mentions evidence, which might be a new concept. However, the original argument assumes causation without evidence, so asking for evidence is challenging the validity. It's within the scope because the text doesn't provide evidence for the causation. So that's okay.\n\nAlternatively, rephrase the third question to focus on the exclusion of other factors. Maybe: How does the argument account for external factors like global economic trends when attributing the $20 trillion debt solely to the inaction of previous politicians?\n\nBut the original text doesn't mention external factors, so the question is pointing out a gap in the argument. That works. Let me check each question again against the criteria.\n\nFirst question: Asks for specific actions differentiating the movement from past approaches. The text doesn't specify what \"this\" refers to, so the question challenges the lack of detail and effectiveness.\n\nSecond question: Asks how the movement addresses systemic causes beyond blame. The text mentions creating a movement but doesn't link it to solutions, so this challenges the movement's relevance.\n\nThird question: Asks for evidence of causation between inaction and debt, excluding other factors. The text blames others but doesn't justify the link, so this challenges the validity of the blame.\n\nThese seem to meet all the criteria. They're specific, target unaddressed aspects, don't introduce new concepts, and critically examine the claims."
     },
     "TRUMP_140_1": {
         "intervention_id": "TRUMP_140_1",
@@ -7218,9 +7830,43 @@
             "CauseToEffect",
             "Consequences"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does Trump substantiate the claim that his pressure was the decisive factor in the release of the birth certificate, rather than other external pressures or preexisting timelines for disclosure?**  \n   *This challenges the assumed causality and exclusivity of Trump's role, probing whether his narrative overlooks alternative explanations or evidence.*  \n\n2. **What specific metrics or qualitative indicators does Trump use to conclude that the African-American community \"really wanted\" him to pursue the birth certificate issue, given that support for such a divisive claim isn't self-evident?**  \n   *This questions the basis for linking a specific policy stance to broad community approval, demanding evidence beyond anecdotal assertions.*  \n\n3. **In what concrete ways did the release of the birth certificate serve as a \"great service\" to the country, given that its prolonged controversy arguably deepened political polarization rather than resolving it?**  \n   *This interrogates the unexamined premise that the action was beneficial, pushing for evidence of tangible societal or governance improvements.*",
-        "reasoning": "Okay, I need to generate three critical questions that challenge the credibility or validity of Trump's arguments here. Let me break down the text first.\n\nTrump claims he got Obama to produce his birth certificate, which he should have done earlier. He also says he's built good relationships with the African-American community and they wanted him to come to that conclusion. Plus, he says he did a great service for the country and the president by getting the certificate.\n\nFirst, the birth certificate part. The text doesn't address why Trump taking credit for Obama releasing it is a service. Maybe the question could challenge the causality\u2014did Trump's actions actually lead to the release, or was it going to happen anyway? Also, what evidence shows that his pressure was the key factor?\n\nSecond, the African-American community part. Trump says they wanted him to come to the conclusion. The text doesn't provide evidence of their support. The question could ask about specific indicators of their approval of his role in the birth certificate issue. How do we know their support relates to that specific action?\n\nThird, the service to the country and president. The text doesn't explain how releasing the certificate was a service. The question could challenge the assumption that this action had tangible benefits. What negative consequences were avoided, and is there evidence that not releasing it would have harmed the country?\n\nI need to ensure each question meets the criteria: not common sense, not addressed in the text, specific, and avoids new concepts or simple opposition. Let me check each one.\n\n1. Causality between Trump's actions and the release. The text doesn't discuss alternative reasons, so this challenges the validity by questioning the direct impact.\n\n2. Specific support from the African-American community regarding the birth certificate. The text mentions relationships but links it to the conclusion. The question targets that link.\n\n3. Evidence of tangible benefits. The text claims a service but doesn't back it up. The question asks for proof of positive outcomes.\n\nI think these fit the criteria. Each question targets an unaddressed aspect, is specific, and challenges the argument's foundation without introducing new concepts."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does pressuring the release of a personal document directly correlate to establishing trust and improved relationships with the African-American community?  ",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What specific actions or events demonstrate Trump's \"very, very good relationships\" with the African-American community, and how do these relationships relate to the issue of the President's birth certificate?",
+                    "label": "Useful",
+                    "similarity": 0.6290820837020874
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific evidence exists to demonstrate that the African-American community collectively desired or endorsed the conclusion related to the production of the birth certificate?  ",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What evidence does Trump have to support his claim that the African-American community \"really wanted\" him to get Obama to produce his birth certificate? Is this a widely held opinion, or is it a subjective interpretation?",
+                    "label": "Useful",
+                    "similarity": 0.7000859379768372
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "In what tangible ways did obtaining the birth certificate serve the country or the president, given that its release addressed a controversy rooted in unsubstantiated claims?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "How does Trump's action of \"getting\" Obama to produce his birth certificate constitute a \"great job\" and \"great service\" to the country and the president? What specific benefits or outcomes resulted from this action?",
+                    "label": "Useful",
+                    "similarity": 0.6372457146644592
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How does pressuring the release of a personal document directly correlate to establishing trust and improved relationships with the African-American community?  \n\nWhat specific evidence exists to demonstrate that the African-American community collectively desired or endorsed the conclusion related to the production of the birth certificate?  \n\nIn what tangible ways did obtaining the birth certificate serve the country or the president, given that its release addressed a controversy rooted in unsubstantiated claims?",
+        "reasoning": "Okay, I need to generate three critical questions that challenge the credibility or validity of the arguments in the given text. The text is Trump's statement about getting someone (probably Obama) to produce his birth certificate and claiming improved relationships with the African-American community. Let me break this down.\n\nFirst, the criteria: each question must meaningfully challenge the text, not just common sense. They should target aspects not already addressed. Be specific, no new concepts, just critical examination of existing claims.\n\nLooking at the text, Trump claims he made Obama produce the birth certificate, which he takes credit for. He also says he's built good relationships with the African-American community recently and that they wanted him to reach that conclusion. He also mentions doing a service for the country and the president.\n\nSo possible angles: The connection between producing the birth certificate and the relationships with the African-American community. How does forcing someone to prove their citizenship build trust? Maybe that's a point not addressed. Also, Trump assumes the community wanted him to push for the birth certificate. What evidence supports that? The text doesn't provide any. Third, he claims a service to the country and president by getting the certificate. How does that service benefit, especially if the request was based on a false premise (birtherism)?\n\nLet me check if these angles meet the criteria. First question: How does pressuring someone to release personal documents improve trust with a community? That challenges the implied connection Trump makes. Second: Evidence that the community supported his push for the birth certificate? The text doesn't address that. Third: How does obtaining the certificate serve the country, considering the controversy was unfounded? That questions the claimed benefit without new concepts.\n\nI need to phrase them as questions without numbering. Let me make sure each is specific and directly related. Avoid vagueness. Each should target a different part of the argument. Yep, that seems to fit. Alright, let's draft the three questions."
     },
     "TRUMP_174_2": {
         "intervention_id": "TRUMP_174_2",
@@ -7615,9 +8261,43 @@
         "schemes": [
             "DirectAdHominem"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **How does the argument account for scenarios where individuals with limited choice might still possess sufficient understanding and agency to evaluate the long-term consequences of accepting the terms, thereby undermining the assumption that their position inherently negates meaningful consent?**  \n\n2. **What empirical evidence supports the claim that the absence of negotiation alternatives directly correlates with exploitation, rather than reflecting market dynamics or situational constraints that could exist independently of malicious intent?**  \n\n3. **If the terms offered are standardized across a broad population (e.g., in regulated industries), how does the argument distinguish between systemic inequities and individualized exploitation, given that uniformity might not inherently imply unfairness?**",
-        "reasoning": "Okay, so I need to generate three critical questions that challenge the credibility or validity of the argument presented in the given text. The text is a concern about taking advantage of people who can't negotiate and have little choice but to accept the terms offered.\n\nFirst, let me understand the argument. The speaker CL is suggesting that the other party is exploiting people because they're in a vulnerable position with no real negotiating power. The core issues here are power imbalance, exploitation, lack of alternatives, and maybe the ethics of such transactions.\n\nNow, the questions must meet the criteria: challenge meaningfully, not common sense, not addressed in the text, specific, and avoid new concepts or mere opposition.\n\nStarting with the first question. The text doesn't address how vulnerability is defined. So maybe asking about the criteria used to determine when someone's position is too vulnerable for fair negotiation. That's specific and challenges the assumption that all such situations are inherently exploitative.\n\nSecond question. The text assumes that lack of choice leads to exploitation. But maybe there are instances where even with little choice, terms are fair. So asking how the argument accounts for such cases could challenge its validity by pointing out exceptions not considered.\n\nThird question. The text doesn't discuss the role of informed consent. If the terms are clear and agreed upon, does that mitigate exploitation? So asking how informed consent affects the perception of taking advantage could target an unaddressed aspect.\n\nWait, I need to ensure each question is directly related and doesn't introduce new concepts. Let me check each one again. The first question about defining vulnerability is good because the text doesn't specify how vulnerability is measured. The second about fair terms despite limited choice is valid. The third about informed consent is part of the negotiation process but not mentioned in the text. Yes, those seem to meet the criteria. Let me phrase them properly."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the absence of negotiation options definitively equate to exploitation rather than a standardized approach to terms in similar situations?  ",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "How do we define \"no position to negotiate\"? Is it based on some objective criteria, or is it a subjective judgment?",
+                    "label": "Invalid",
+                    "similarity": 0.5793776512145996
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence exists that the offered terms are disproportionately unfavorable compared to the individuals\u2019 available alternatives beyond the immediate situation?  ",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What are the \"terms that are being offered to them\" and are they truly unfair or unreasonable?",
+                    "label": "Invalid",
+                    "similarity": 0.6341056823730469
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 2,
+                "cq": "How has the determination been made that the power imbalance is a result of deliberate manipulation rather than circumstantial necessity?",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "What evidence is there that the people in question are being taken advantage of, and that they are not simply making a rational decision based on their circumstances?",
+                    "label": "Invalid",
+                    "similarity": 0.4282633662223816
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "How does the absence of negotiation options definitively equate to exploitation rather than a standardized approach to terms in similar situations?  \n\nWhat evidence exists that the offered terms are disproportionately unfavorable compared to the individuals\u2019 available alternatives beyond the immediate situation?  \n\nHow has the determination been made that the power imbalance is a result of deliberate manipulation rather than circumstantial necessity?",
+        "reasoning": "Okay, so the user wants three critical questions based on the given text. Let me first understand the text properly. The conversation here is about someone (CL) questioning another person about exploiting people who can't negotiate. The main argument seems to be that the other party is taking advantage of people in vulnerable positions with no real choice but to accept unfavorable terms.\n\nNow, the task is to generate questions that challenge the credibility or validity of this argument. Each question needs to meet four criteria: meaningful challenge, focus on unaddressed aspects, specificity, and avoid introducing new concepts or just opposing without critical examination.\n\nFirst, I need to identify the core assumptions in CL's argument. The key points are: 1) the people have very little choice, 2) the terms are being forced upon them, 3) the situation is inherently exploitative because of the power imbalance.\n\nTo challenge credibility, the questions should probe these assumptions. Let's see. The text doesn't address why the people can't negotiate. Maybe there are alternative options they have, or perhaps the terms are standard in the industry. Another angle: how the power imbalance is measured or proven. Also, maybe the benefits the people receive despite the lack of choice.\n\nFirst question idea: How does the absence of negotiation options definitively equate to exploitation rather than a standardized approach to terms in similar situations? This challenges the assumption that no negotiation automatically means exploitation.\n\nSecond, the text assumes the terms are unfair. What if the terms are actually reasonable given the context? So, what evidence exists that the offered terms are disproportionately unfavorable compared to the individuals\u2019 available alternatives beyond the immediate situation? This asks for proof of the terms' unfairness beyond just the lack of choice.\n\nThird, the argument doesn't consider if the power imbalance is inherent or circumstantial. So, how has the determination been made that the power imbalance is a result of deliberate manipulation rather than circumstantial necessity? This questions the cause of the imbalance, suggesting it might not be intentional exploitation.\n\nNeed to check if these meet all criteria. They each target unaddressed aspects, are specific, don't introduce new concepts, and critically examine the claims. Seems good."
     },
     "MT_14": {
         "intervention_id": "MT_14",
@@ -7674,9 +8354,43 @@
             "CauseToEffect",
             "CauseToEffect"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "1. **What specific structural mechanisms within the cited form of capitalism inherently limited surplus generation, and how do these differ from other capitalist models that have successfully sustained industrial investment?**  \n   *(Challenges the unexamined assumption that surplus generation failure is intrinsic to this form of capitalism without comparing its unique structural flaws to functional alternatives.)*  \n\n2. **Can empirical evidence substantiate the claim that capital reallocation away from industrial activities was driven solely by profitability, rather than regulatory, technological, or geopolitical factors not mentioned in the argument?**  \n   *(Targets the oversimplification of causality by questioning whether non-economic variables were excluded from the analysis.)*  \n\n3. **How is \"enough money\" quantitatively or qualitatively defined in the context of industrial activities, and what benchmarks establish this threshold as universally relevant across developed economies?**  \n   *(Exposes the vagueness of the profitability standard used to justify the claim, demanding rigor in its framing.)*",
-        "reasoning": "Okay, let's see. The user wants me to generate three critical questions based on the provided text. The text is a statement about capitalism not generating enough surpluses, leading money to flow elsewhere instead of industrial activities in the developed world.\n\nFirst, I need to understand the main arguments here. The speaker agrees with Claire that a form of capitalism wasn't generating sufficient surpluses. As a result, money didn't flow into industrial activities in the developed world because they weren't profitable enough.\n\nNow, the task is to create three questions that challenge the credibility or validity of these arguments. Each question needs to meet the four criteria: not common sense, address aspects not covered in the text, be specific, and not introduce entirely new concepts.\n\nLet me break down the text's key points. The argument assumes that the form of capitalism in question was insufficient in generating surpluses. Then, the money flow is redirected away from industrial activities in the developed world because they weren't making enough money. But the text doesn't explain why that form of capitalism couldn't generate surpluses, or what alternative sectors the money flowed into, or how profitability was measured.\n\nSo, potential gaps could be: the specific mechanisms of surplus generation in that capitalism form, evidence for the claim that money flowed elsewhere, and the criteria for \"enough money\" in industrial activities.\n\nFirst question: Maybe challenge the assumption that the form of capitalism inherently can't generate surpluses. Ask about structural factors or external influences not considered.\n\nSecond question: The text mentions money didn't flow into industrial activities. But where did it go? The question could ask for evidence of capital reallocation to other sectors and if those sectors were more profitable, challenging the causality.\n\nThird question: The claim that industrial activities weren't making \"enough money.\" But how is \"enough\" defined? Without metrics, the claim is vague. A question about the benchmarks used could reveal unexamined assumptions.\n\nI need to make sure each question is specific and directly relates to the arguments without being vague. Let me check each against the criteria.\n\n1. Structural factors question: Does the text address why the form of capitalism failed? No. So it's a valid gap. Not common sense, specific.\n\n2. Evidence of capital reallocation: The text doesn't provide evidence or mention alternative sectors. So asking for that challenges validity.\n\n3. Definition of \"enough money\": The text doesn't specify metrics. So this question targets an unaddressed assumption.\n\nYes, these seem to fit. Now, phrasing them clearly and concisely."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific metrics or benchmarks establish that the surpluses generated by that form of capitalism were insufficient compared to alternative economic models?  ",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What evidence is there to support the claim that the form of capitalism in question wasn't generating sufficient surpluses?",
+                    "label": "Useful",
+                    "similarity": 0.6986305713653564
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How does the argument account for investor behavior prioritizing short-term gains over industrial growth even in scenarios where surplus generation was theoretically adequate?  ",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Is it assumed that the primary goal of capitalism is to generate surpluses, or are there other considerations at play?",
+                    "label": "Unhelpful",
+                    "similarity": 0.4645242989063263
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "What evidence demonstrates that capital allocation decisions were solely driven by surplus limitations rather than systemic factors like market saturation or technological stagnation in developed economies?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What evidence is there to support the claim that this form of capitalism wasn't generating sufficient surpluses?",
+                    "label": "Useful",
+                    "similarity": 0.5322984457015991
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "What specific metrics or benchmarks establish that the surpluses generated by that form of capitalism were insufficient compared to alternative economic models?  \n\nHow does the argument account for investor behavior prioritizing short-term gains over industrial growth even in scenarios where surplus generation was theoretically adequate?  \n\nWhat evidence demonstrates that capital allocation decisions were solely driven by surplus limitations rather than systemic factors like market saturation or technological stagnation in developed economies?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three critical questions based on the given text. The text is a quote from someone (MT) agreeing with Claire that a form of capitalism wasn't generating enough surpluses, so money didn't flow into industrial activities in the developed world.\n\nFirst, I need to understand the main arguments here. The key points are: 1) A specific form of capitalism wasn't creating sufficient surpluses. 2) Therefore, money didn't go into industrial activities in developed countries. 3) The implication is that the lack of surplus caused the redirection of capital.\n\nNow, the questions need to challenge the text's credibility or validity without being obvious or addressing already covered points. Each question must be specific and focus on unaddressed aspects. Let's brainstorm possible angles.\n\n1. The text assumes that insufficient surpluses are the reason money didn't flow into industrial activities. But maybe there were other factors. So, a question could ask about alternative factors that might have influenced capital flow, which the text doesn't mention. For example, regulatory changes, technological shifts, or global economic trends.\n\n2. The argument links surplus generation directly to investment decisions. But perhaps the relationship isn't that straightforward. A question could challenge the assumed causality between surplus levels and investment choices. Maybe other incentives or market conditions played a role.\n\n3. The text refers to \"that form of capitalism\" but doesn't specify which form. A question could ask for criteria used to define that specific form, as different forms might have varying impacts on surplus generation. Without defining it, the argument's basis might be shaky.\n\nWait, but the third point is about defining the form of capitalism. The text mentions \"that form\" but doesn't elaborate. So, a question could challenge the lack of specificity in defining which aspects of capitalism led to insufficient surpluses. This would make the argument's foundation questionable.\n\nAnother angle: The developed world's industrial activities not making enough money. The text implies that profitability was the sole determinant. But maybe there were structural issues or long-term strategies that redirected investments regardless of immediate surpluses. A question could ask if profitability was the only factor considered by investors.\n\nAlternatively, the text doesn't address whether the measurement of \"sufficient surpluses\" is standardized or subjective. If the threshold for sufficient surplus isn't defined, the argument's validity could be questioned.\n\nBut sticking to the criteria, each question must be specific and not introduce new concepts. Let me check the four criteria again. \n\nFirst question: Maybe asking about alternative factors influencing capital flow besides surplus generation. Second: Causality between surplus and investment. Third: Definition of the form of capitalism. Let's formulate them properly.\n\n1. What specific metrics or benchmarks establish that the surpluses generated by that form of capitalism were insufficient compared to alternative economic models? (Challenges the basis for deeming surpluses insufficient.)\n\n2. How does the argument account for the possibility that investor priorities or risk assessments unrelated to surplus generation influenced the diversion of capital away from industrial activities? (Questions other factors affecting investment decisions.)\n\n3. What empirical evidence links the specific characteristics of \"that form of capitalism\" directly to the underfunding of industrial sectors rather than broader global economic trends? (Challenges the direct link and brings up global trends not mentioned.)\n\nHmm, these need to be more concise. Let me refine them.\n\nFinal questions:\n\nHow does the argument differentiate between insufficient surplus generation and alternative factors such as regulatory constraints or shifts in consumer demand when explaining the lack of capital flow into industrial activities?\n\nWhat evidence supports the assumption that surplus generation is the primary determinant of capital allocation decisions rather than speculative opportunities or long-term strategic investments?\n\nBy attributing the capital flow issue to surplus levels, how does the argument address historical instances where low-surplus sectors continued to attract investment due to non-economic incentives or government interventions?\n\nWait, the last one might introduce government interventions, which the text didn't mention. Maybe better to focus on the form of capitalism.\n\nAlternatively: What criteria define \"that form of capitalism\" as distinct from other forms, and how do those specific criteria inherently lead to lower surplus generation in industrial sectors?\n\nYes, that's better. Each question targets an unaddressed aspect, challenges assumptions, and is specific."
     },
     "ND_23": {
         "intervention_id": "ND_23",
@@ -8059,17 +8773,17 @@
     },
     "Overall_stats": {
         "Distribution of the labels": {
-            "Useful": 293,
-            "not_able_to_evaluate": 190,
-            "Unhelpful": 60,
-            "Invalid": 15
+            "Useful": 324,
+            "not_able_to_evaluate": 154,
+            "Unhelpful": 63,
+            "Invalid": 17
         },
         "Distribution of the intervention punctuation": {
-            "0.3333333333333333": 38,
-            "0": 39,
-            "1.0": 37,
-            "0.6666666666666666": 72
+            "0.3333333333333333": 42,
+            "0": 24,
+            "0.6666666666666666": 78,
+            "1.0": 42
         },
-        "Overall punctuation": 0.5250896057347669
+        "Overall punctuation": 0.5806451612903226
     }
 }

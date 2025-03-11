@@ -80,7 +80,7 @@ prompt_classes = {
 
 def main():
     temperature = 0.1
-    selected_prompt_names = ["zero_shot_with_instructions",  "zero_shot",  "few_shot", "comprehensive_few_shot"]
+    selected_prompt_names = ["zero_shot_with_instructions2"]
 
     models = ['deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct'] 
     data_files = ["sample", "validation"]

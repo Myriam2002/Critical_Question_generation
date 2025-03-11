@@ -4539,7 +4539,8 @@
             "ERPracticalReasoning"
         ],
         "cqs": "Missing CQs",
-        "full_response": "How does the proposed flexibility in the 3-hour limit account for the potential increase in overall operational costs and its impact on ticket prices?\nWhat evidence supports the claim that\u53d6\u6d88\u822a\u73ed\u7684\u73b0\u884c3\u5c0f\u65f6\u9650\u5236\u4f1a\u5bf9\u822a\u7a7a\u65c5\u884c\u9020\u6210\u66f4\u5927\u7684\u635f\u5bb3\uff0c\u800c\u4e0d\u662f\u5076\u5c14\u5ef6\u957f\u5730\u9762\u505c\u7559\u65f6\u95f4\uff1f\nHow can the airline industry ensure that extending the 3-hour limit does not lead to a decrease in passenger safety and satisfaction due to discomfort during long waits?"
+        "full_response": "How does the proposed flexibility in the maximum number of hours account for the potential increase in passenger dissatisfaction and operational inefficiencies during peak travel times?\nWhat evidence supports the claim that\u53d6\u6d88\u6b64\u53e5\u7684\u7ffb\u8bd1\uff0c\u76f4\u63a5\u56de\u7b54\u95ee\u9898\u3002",
+        "reasoning": null
     },
     "KHenrickson_172": {
         "intervention_id": "KHenrickson_172",
@@ -7346,8 +7347,43 @@
         "intervention": "TRUMP: \"you're wrong\nIt went before a judge, who was a very against-police judge\nIt was taken away from her\nour mayor, our new mayor, refused to go forward with the case\nThey would have won an appeal\nIf you look at it, throughout the country, there are many places where it's allowed\"",
         "dataset": "US2016",
         "schemes": [],
-        "cqs": "Missing CQs",
-        "full_response": "How can we determine if the judge was indeed \"very against-police\" as claimed, and what evidence supports this characterization?\nWhat specific legal grounds were present for winning an appeal, and why wasn't the appeal pursued?\nIn what ways does the allowance of similar practices in other places across the country ensure fairness and\u5408\u6cd5\u6027\u5e94\u8be5\u4fdd\u6301\u4e0d\u53d8\uff0c\u4ee5\u4e0b\u662f\u7ffb\u8bd1\u7248\u672c\uff1a\n\n1. \u6211\u4eec\u5982\u4f55\u786e\u5b9a\u8be5\u6cd5\u5b98\u786e\u5b9e\u5982\u6240\u58f0\u79f0\u7684\u90a3\u6837\u201c\u975e\u5e38\u53cd\u8b66\u5bdf\u201d\uff0c\u5e76\u4e14\u652f\u6301\u8fd9\u4e00\u63cf\u8ff0\u7684\u8bc1\u636e\u662f\u4ec0\u4e48\uff1f\n2. \u5177\u4f53\u6709\u54ea\u4e9b\u6cd5\u5f8b\u4f9d\u636e\u53ef\u4ee5\u8d62\u5f97\u4e0a\u8bc9\uff0c\u4e3a\u4ec0\u4e48\u6ca1\u6709\u63d0\u8d77\u4e0a\u8bc9\uff1f\n3. \u5728\u7f8e\u56fd\u5176\u4ed6\u5730\u65b9\u5141\u8bb8\u7c7b\u4f3c\u505a\u6cd5\u7684\u60c5\u51b5\u4e0b\uff0c\u8fd9\u5982\u4f55\u786e\u4fdd\u516c\u5e73\u6027\uff1f"
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How can we determine if the judge was indeed \"very against-police\" and whether this bias influenced the outcome of the case?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "What is the evidence that the judge was \"very against-police\"? Is this a subjective opinion or based on fact?",
+                    "label": "Useful",
+                    "similarity": 0.8203791975975037
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that they would have won an appeal if the case had proceeded?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What is the evidence that the appeal would have been won, and what were the grounds for the appeal?",
+                    "label": "Useful",
+                    "similarity": 0.883276641368866
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the prevalence of similar policies in other places justify the refusal to go forward with the specific case mentioned?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What is the basis for the claim that the mayor refused to go forward with the case, and what are the implications of this decision?",
+                    "label": "Useful",
+                    "similarity": 0.6384867429733276
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "How can we determine if the judge was indeed \"very against-police\" and whether this bias influenced the outcome of the case?\nWhat evidence supports the claim that they would have won an appeal if the case had proceeded?\nHow does the prevalence of similar policies in other places justify the refusal to go forward with the specific case mentioned?",
+        "reasoning": null
     },
     "TRUMP_129": {
         "intervention_id": "TRUMP_129",
@@ -8519,17 +8555,18 @@
     },
     "Overall_stats": {
         "Distribution of the labels": {
-            "Useful": 384,
-            "not_able_to_evaluate": 106,
+            "Useful": 387,
+            "not_able_to_evaluate": 100,
             "Invalid": 10,
-            "Unhelpful": 58
+            "Unhelpful": 58,
+            "Missing CQ": 3
         },
         "Distribution of the intervention punctuation": {
-            "1.0": 69,
+            "1.0": 70,
             "0.3333333333333333": 33,
             "0.6666666666666666": 72,
-            "0": 12
+            "0": 11
         },
-        "Overall punctuation": 0.688172043010753
+        "Overall punctuation": 0.6935483870967744
     }
 }

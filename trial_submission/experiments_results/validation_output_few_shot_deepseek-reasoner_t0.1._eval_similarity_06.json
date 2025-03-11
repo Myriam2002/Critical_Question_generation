@@ -518,9 +518,43 @@
             "Example",
             "Example"
         ],
-        "cqs": "Missing CQs",
-        "full_response": "Here are three USEFUL critical questions for the text:  \n\n1. **Does holding positions like senator or secretary of state inherently demonstrate effective leadership, or could these roles involve administrative duties without measurable outcomes?**  \n*(Challenges the assumption that titles equate to competence or achievement.)*  \n\n2. **What specific criteria define having \"done a lot,\" and how does the text substantiate this claim beyond mere tenure in roles?**  \n*(Targets the vagueness of the accomplishment claim and demands evidence.)*  \n\n3. **If experience in government roles is central to the argument, does the text address how this experience directly translates to solving the issues criticized in the opponent\u2019s lack of experience?**  \n*(Questions the relevance of the experience to the broader argument\u2019s stakes.)*  \n\nEach question focuses on gaps in reasoning within the text, such as conflating titles with effectiveness, vague claims of accomplishment, and unexamined assumptions about experiential relevance.",
-        "reasoning": "Okay, let's tackle this. The user wants three useful critical questions for the given text from Clinton. First, I need to understand the text. Clinton is arguing that her experience as a senator and secretary of state qualifies her, contrasting with Trump's lack of similar experience. She mentions having \"done a lot.\"\n\nNow, I need to generate questions that challenge the argument's validity without introducing new concepts.\n\nFirst question: Maybe ask about the assumption that holding positions equals effective experience. Like, does being a senator automatically mean effective leadership? That challenges the core of her argument.\n\nSecond question: She says \"I have done a lot.\" But what specific achievements? The question could ask if the quantity of actions implies quality or success. That's challenging the vagueness of her claim.\n\nThird question: She compares her experience to Trump's lack thereof. But does holding those roles necessarily mean better capability? Maybe the roles don't directly translate to the presidency's requirements. That questions the relevance of her experience.\n\nI need to check if these are useful. They should focus on the text's details, not external ideas. Avoid common sense or being too broad. The first question targets the assumption linking position to qualification. The second addresses the ambiguity of \"done a lot.\" The third questions the comparison's validity. All are specific and challenge the argument's validity without introducing new concepts. The unhelpful ones would be like \"What positions has Clinton held?\" which is just comprehension. Invalid might be about policies not mentioned. These questions seem to fit the guidelines."
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does holding the positions of senator and secretary of state automatically equate to effective governance or tangible results?  ",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What specific aspects of being a senator and secretary of state are most relevant to being a successful president, and how does Clinton's experience in these areas translate to the presidency?",
+                    "label": "Useful",
+                    "similarity": 0.542704164981842
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What specific criteria or evidence supports the assertion that \"I have done a lot\" compared to not having done it?  ",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "Is it actually the case that Clinton has been a senator and has done a lot? Is there evidence for this claim?",
+                    "label": "Useful",
+                    "similarity": 0.3717683255672455
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 2,
+                "cq": "Is there a possibility that relevant experience or achievements could exist outside of the roles of senator or secretary of state?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What specific aspects of being a senator and secretary of state are most relevant to being a successful president, and how does Clinton's experience in these areas translate to the presidency?",
+                    "label": "Useful",
+                    "similarity": 0.5548632144927979
+                },
+                "label": "not_able_to_evaluate"
+            }
+        ],
+        "full_response": "Does holding the positions of senator and secretary of state automatically equate to effective governance or tangible results?  \nWhat specific criteria or evidence supports the assertion that \"I have done a lot\" compared to not having done it?  \nIs there a possibility that relevant experience or achievements could exist outside of the roles of senator or secretary of state?",
+        "reasoning": "Okay, let's tackle this. The user wants three useful critical questions for the given text from Clinton. First, I need to understand the text. Clinton is arguing that her experience as a senator and secretary of state means she's done a lot, implying she's more qualified than Donald, who hasn't done it.\n\nUseful questions need to challenge the argument's validity by focusing on existing details. Let me brainstorm.\n\nFirst, Clinton equates holding positions with actual achievements. So maybe question if the roles necessarily mean effective action. For example, \"Does holding the positions of senator and secretary of state automatically equate to effective governance or tangible results?\" That challenges the assumption that position equals accomplishment.\n\nSecond, she claims she's done a lot. But what's \"a lot\"? The question could ask how \"a lot\" is measured. Like, \"What specific criteria or evidence supports the assertion that 'I have done a lot' compared to not having done it?\" This makes the reader evaluate the evidence behind her claim.\n\nThird, she contrasts her experience with Donald's lack of it. The argument assumes that not holding those positions means no relevant experience. So a question like, \"Is there a possibility that relevant experience or achievements could exist outside of the roles of senator or secretary of state?\" This challenges the dichotomy she's presenting.\n\nI need to check if these questions introduce new concepts. They all stay within the text's content. The first questions the link between position and effectiveness, which is central. The second asks for evidence of \"a lot,\" which is in the text. The third questions the exclusivity of experience from those roles. All valid. Avoid being too general or common sense. These are specific to her argument. Yeah, these should work."
     },
     "CLINTON_55": {
         "intervention_id": "CLINTON_55",
