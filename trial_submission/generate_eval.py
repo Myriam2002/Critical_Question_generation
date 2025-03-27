@@ -1,5 +1,6 @@
 import json
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import transformers
 import torch
 import logging
 import tqdm
@@ -31,7 +32,7 @@ def extract_label(response):
         match = re.search(r'\s*(USEFUL|UNHELPFUL|INVALID)', response, re.IGNORECASE)
     return match.group(1).upper() if match else "UNKNOWN"
 
-def output_label(model_name, text, cq, prompt_obj: BasePrompt, model, tokenizer, temperature):
+def output_label(model_name, text, cq, prompt_obj: BasePrompt, model, tokenizer, pipeline, temperature):
     """
     Generates an answer from the model and extracts the classification label.
 
@@ -44,7 +45,7 @@ def output_label(model_name, text, cq, prompt_obj: BasePrompt, model, tokenizer,
 
     messages = [{"role": "system", "content": ""}, {"role": "user", "content": instruction}]
     full_output, reasoning, _, _ = query_model(
-        messages, tokenizer=tokenizer, model=model, model_name=model_name, temperature=temperature
+        messages, tokenizer=tokenizer, model=model, model_name=model_name, pipeline = pipeline, temperature=temperature
     )
 
     label = extract_label(full_output)
@@ -97,8 +98,11 @@ def compute_metrics(confusion_matrix):
 def main():
     temperature = 0.7
     selected_prompt_names = ["comprehensive_few_shot"]
-    models = ['Qwen/Qwen2.5-72B-Instruct']
-    data_files = ["sample", "validation"]
+    # models = ['meta-llama/Llama-3.1-8B-Instruct']
+    models = ["deepseek-ai/DeepSeek-V3-0324"]
+    # data_files = ["sample", "validation"]
+    data_files = ["validation"]
+
 
     for data_file in data_files:
         with open(f'../data_splits/{data_file}.json') as f:
@@ -115,13 +119,22 @@ def main():
 
 
         for model_name in models:
-            if model_name not in deepinfra_models and model_name not in openrouter_models and model_name not in deepseek_models:     
-                tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-                model = AutoModelForCausalLM.from_pretrained(
-                    model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True
+            model = ""
+            tokenizer = ""
+            pipeline = ""
+            if "meta-llama" in model_name:
+                pipeline = transformers.pipeline(
+                    "text-generation",
+                    model=model_name,
+                    model_kwargs={"torch_dtype": torch.bfloat16},
+                    device_map="auto",
+                    # use_auth_token=hf_token
                 )
-            else:
-                model, tokenizer = "", ""
+
+            elif model_name not in deepinfra_models and model_name not in openrouter_models and model_name not in deepseek_models:     
+                tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+                model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
+
 
             for selected_prompt_name in selected_prompt_names:
                 out = {}
@@ -190,7 +203,7 @@ def main():
                         question_id = question_dict['id']
 
                         label, model_output, reasoning = output_label(
-                            model_name, text, cq, prompt_obj, model, tokenizer, temperature
+                            model_name, text, cq, prompt_obj, model, tokenizer, pipeline, temperature
                         )
 
                         # Update label-specific tracking

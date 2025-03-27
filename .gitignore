@@ -1,1 +1,7 @@
 **/*API_KEY*
+**/*hf_token*
+**/unsloth_compiled_cache*
+**/grpo_trainer_lora_model*
+**/wandb*
+**/*pycache*/**
+**__pycache__**

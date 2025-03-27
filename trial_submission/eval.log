@@ -574,3 +574,35 @@ INFO:__main__:THRESHOLD: 0.6
 METRIC: similarity
 INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
 INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2

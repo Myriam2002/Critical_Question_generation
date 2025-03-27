@@ -2,13 +2,16 @@ import os
 import subprocess
 
 # Define the arrays for data files, prompt names, and model names.
-data_files = ["sample", "validation"]
+# data_files = ["sample", "validation"]
+data_files = ["validation"]
+
 prompt_names = ["zero_shot_with_instructions", "zero_shot", "few_shot", "comprehensive_few_shot"]
 models = [
     # "deepseek-reasoner", 
     # "Qwen/Qwen2.5-14B-Instruct", 
     # "Qwen/Qwen2.5-72B-Instruct", 
-    "Qwen/Qwen2.5-7B-Instruct"
+    # "Qwen/Qwen2.5-7B-Instruct"
+    "meta-llama/Llama-3.2-3B-Instruct"
 ]
 temperature = 0.1
 threshold = 0.6

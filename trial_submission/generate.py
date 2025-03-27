@@ -1,6 +1,7 @@
 import json
 from transformers import AutoTokenizer, LlamaForCausalLM, GenerationConfig
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import transformers
 import torch
 import logging
 import tqdm
@@ -8,10 +9,14 @@ import re
 import os
 from query_model import query_model, deepinfra_models, openrouter_models,deepseek_models
 from prompts import *
+
 logging.basicConfig()
 logger = logging.getLogger()
 
-def output_cqs(model_name, text, prompt_obj: BasePrompt, model, tokenizer, temperature, new_params, remove_instruction=False):
+with open("hf_token.txt", "r") as token_file:
+    hf_token = token_file.read().strip()
+
+def output_cqs(model_name, text, prompt_obj: BasePrompt, model, tokenizer, pipeline,  temperature, new_params, remove_instruction=False):
 
     instruction = prompt_obj.format(intervention=text)
 
@@ -24,7 +29,7 @@ def output_cqs(model_name, text, prompt_obj: BasePrompt, model, tokenizer, tempe
     #     outputs = model.generate(**inputs)
     messages = [{"role": "system", "content": ""},
             {"role": "user", "content": instruction}]
-    out, reasoning , input_token_count, output_token_count = query_model(messages, tokenizer = tokenizer, model = model,  model_name = model_name, temperature =temperature)
+    out, reasoning , input_token_count, output_token_count = query_model(messages, tokenizer = tokenizer, model = model,  pipeline = pipeline, model_name = model_name, temperature =temperature)
 
     if remove_instruction:
         try:
@@ -80,10 +85,13 @@ prompt_classes = {
 
 def main():
     temperature = 0.1
-    selected_prompt_names = ["zero_shot_with_instructions2"]
+    selected_prompt_names = ["zero_shot", "zero_shot_with_instructions", "few_shot", "comprehensive_few_shot"]
 
-    models = ['deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct'] 
-    data_files = ["sample", "validation"]
+    # models = ['deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct'] 
+    models= ["meta-llama/Llama-3.2-3B-Instruct"]
+    # data_files = ["sample", "validation"]
+    data_files = ["validation"]
+
 
 
     for data_file in data_files:
@@ -92,12 +100,21 @@ def main():
         out = {}
         for model_name in models:
             remove_instruction = False
-            if model_name not in deepinfra_models and model_name not in openrouter_models and model_name not in deepseek_models:     
+            model = ""
+            tokenizer = ""
+            pipeline = ""
+            if "meta-llama" in model_name:
+                pipeline = transformers.pipeline(
+                    "text-generation",
+                    model=model_name,
+                    model_kwargs={"torch_dtype": torch.bfloat16},
+                    device_map="auto",
+                    # use_auth_token=hf_token
+                )
+
+            elif model_name not in deepinfra_models and model_name not in openrouter_models and model_name not in deepseek_models:     
                 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
                 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
-            else:
-                model = ""
-                tokenizer = ""
 
             for selected_prompt_name in selected_prompt_names:
                 if selected_prompt_name in prompt_classes:
@@ -129,7 +146,7 @@ def main():
                     if intervention_id in out and "full_response" in out[intervention_id] and out[intervention_id]['cqs'] != "Missing CQs":
                         print(f"Skipping {intervention_id} as it already exists in the output file.")
                         continue
-                    cqs, reasoning= output_cqs(model_name, text, prompt_obj, model, tokenizer, temperature, new_params, remove_instruction)
+                    cqs, reasoning= output_cqs(model_name, text, prompt_obj, model, tokenizer, pipeline, temperature, new_params, remove_instruction)
                     line['cqs'] = structure_output(cqs)
                     line['full_response'] = cqs
                     line['reasoning'] = reasoning
