@@ -1,3 +1,4 @@
+import json
 class BasePrompt:
     """
     Base class for prompt templates.
@@ -238,4 +239,52 @@ class ComprehensiveFewShotPrompt(BasePrompt):
             "TEXT:\n\"{intervention}\"\n\n"
             "Provide one question per line. Do not include any special characters or numbering except for the question mark."
         )
+        super().__init__(template)
+
+
+
+def format_schemes_nicely(schemes_json: dict) -> str:
+    """
+    Formats argumentation schemes into a readable, markdown-style string for inclusion in prompts.
+    """
+    formatted = []
+    for scheme in schemes_json["schemes"]:
+        scheme_title = scheme["scheme"]
+        formatted.append(f"### {scheme_title}")
+        for q in scheme["questions"]:
+            formatted.append(f"- {q}")
+        formatted.append("")  # Add a blank line between schemes
+    return "\n".join(formatted)
+
+class SchemePrompt(BasePrompt):
+    def __init__(self):
+        schemes_json_file = "templates.json"
+        with open(schemes_json_file) as f:
+            schemes_json=json.load(f)
+        formatted_schemes = format_schemes_nicely(schemes_json)
+        template = (
+            "You are a teacher in a critical thinking class. Your job is to generate critical questions that challenge "
+            "the validity of arguments presented in a given text. These questions must be USEFUL, meaning they prompt the reader "
+            "to reflect deeply and potentially reduce the credibility of the claims.\n\n"
+
+            "You must use one or more of the following ARGUMENTATION SCHEMES. Select the most relevant one(s) based on the text, "
+            "and choose 3 critical questions from those schemes that best apply.\n\n"
+
+            "**Critical Question Guidelines:**\n"
+            "- USEFUL: Challenges the argument meaningfully, targets specific claims, and uses only info in the text.\n"
+            "- UNHELPFUL: Common sense, reading comprehension, too broad, too complex, or just restates what’s in the text.\n"
+            "- INVALID: Introduces new concepts or vague/irrelevant topics.\n\n"
+
+            "**Instructions:**\n"
+            "1. Identify the best matching argumentation scheme(s).\n"
+            "2. Choose 3 of the most USEFUL questions from those scheme(s).\n"
+            "3. Fill in the variables (e.g., <eventA>, <subjecta>) using content from the text.\n"
+            "4. Return only the final 3 questions. Do not include any special characters or numbering except for the question mark.\n\n"
+
+            "ARGUMENTATION SCHEMES:\n\n{schemes}\n\n"
+            "Generate three USEFUL critical questions for the following text:\n\n"
+            "TEXT:\n\"{intervention}\"\n\n"
+            "Provide one question per line. Do not include any special characters or numbering except for the question mark."
+        )
+        template = template.replace("{schemes}", formatted_schemes)
         super().__init__(template)

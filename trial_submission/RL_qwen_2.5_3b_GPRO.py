@@ -2,7 +2,9 @@ from unsloth import FastLanguageModel, is_bfloat16_supported
 import torch
 import wandb
 from RL_data_prep import get_critical_questions_dataset, correctness_reward_func, structure_reward_func, strict_format_reward_func, soft_format_reward_func, xmlcount_reward_func
-max_seq_length = 1024 # Can increase for longer reasoning traces
+import os
+from transformers.trainer_utils import get_last_checkpoint
+max_seq_length = 8084 # Can increase for longer reasoning traces
 lora_rank = 64 # Larger rank = smarter, but slower
 
 print("Load up Qwen 2.5 3B Instruct, and set parameters")
@@ -48,14 +50,14 @@ training_args = GRPOConfig(
     per_device_train_batch_size = 1,
     gradient_accumulation_steps = 1, # Increase to 4 for smoother training
     num_generations = 8, # Decrease if out of memory
-    max_prompt_length = 256,
-    max_completion_length = 200,
-    # num_train_epochs = 1, # Set to 1 for a full training run
-    max_steps = 250,
-    save_steps = 250,
+    max_prompt_length = 3000,
+    max_completion_length = 2000,
+    num_train_epochs = 3, # Set to 1 for a full training run
+    # max_steps = 250,
+    save_steps = 25,
     max_grad_norm = 0.1,
     report_to = "wandb", # Can use Weights & Biases
-    output_dir = "outputs",
+    output_dir = "outputs_trial_3",
 )
 
 print("Start training!")
@@ -74,8 +76,17 @@ trainer = GRPOTrainer(
     args = training_args,
     train_dataset = dataset,
 )
-trainer.train()
+# trainer.train()
+# Check if there's a checkpoint in the output directory
+checkpoint = None
+if os.path.exists(training_args.output_dir):
+    checkpoint = get_last_checkpoint(training_args.output_dir)
+    if checkpoint:
+        print(f"Resuming training from checkpoint: {checkpoint}")
 
-model.save_lora("grpo_saved_lora")
+# Start or resume training accordingly
+trainer.train(resume_from_checkpoint=checkpoint)
+
+model.save_lora("grpo_saved_lora_trial_3")
 
 wandb.finish()

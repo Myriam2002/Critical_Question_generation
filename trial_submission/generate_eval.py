@@ -96,10 +96,11 @@ def compute_metrics(confusion_matrix):
     return metrics
 
 def main():
-    temperature = 0.7
+    temperature = 0.0
     selected_prompt_names = ["comprehensive_few_shot"]
-    # models = ['meta-llama/Llama-3.1-8B-Instruct']
-    models = ["deepseek-ai/DeepSeek-V3-0324"]
+    models = ['meta-llama/Llama-3.1-8B-Instruct']
+    # models = ["Qwen/Qwen2.5-72B-Instruct"]
+    # models = ["deepseek-ai/DeepSeek-V3-0324"]
     # data_files = ["sample", "validation"]
     data_files = ["validation"]
 
@@ -122,7 +123,7 @@ def main():
             model = ""
             tokenizer = ""
             pipeline = ""
-            if "meta-llama" in model_name:
+            if model_name not in deepinfra_models and "meta-llama" in model_name:
                 pipeline = transformers.pipeline(
                     "text-generation",
                     model=model_name,

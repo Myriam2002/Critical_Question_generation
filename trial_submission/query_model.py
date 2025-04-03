@@ -12,7 +12,7 @@ with open("hf_token.txt", "r") as token_file:
     hf_token = token_file.read().strip()
 
 # Load Qwen2.5-3B-Instruct model and tokenizer
-deepinfra_models = ["deepseek-ai/DeepSeek-V3", "deepseek-ai/DeepSeek-R1", "Qwen/Qwen2.5-72B-Instruct", "deepseek-ai/DeepSeek-V3-0324"]
+deepinfra_models = ["deepseek-ai/DeepSeek-V3", "deepseek-ai/DeepSeek-R1", "Qwen/Qwen2.5-72B-Instruct", "deepseek-ai/DeepSeek-V3-0324", "meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Meta-Llama-3.1-405B-Instruct"]
 openrouter_models = ["qwen/qwq-32b:free", "deepseek/deepseek-r1:free"]
 deepseek_models = ["deepseek-reasoner"]
 
@@ -101,7 +101,8 @@ def query_model(messages, tokenizer , model,  model_name, pipeline, temperature=
         outputs = pipeline(
             messages,
             max_new_tokens=max_new_tokens,
-            temperature=temperature
+            temperature=temperature,
+            # do_sample=False
             # use_auth_token=hf_token
         )
         response = outputs[0]["generated_text"][-1]['content']

@@ -72,25 +72,35 @@ def structure_output(whole_text):
             output.append({'id':i, 'cq':final[i]})
         return output
     else:
+        i = -1
+        for i, cq in enumerate(final):
+            output.append({'id':i, 'cq':final[i]})
+        for x in range(i+1, 3):
+            output.append({'id':i, 'cq':'Missing CQs'} )
+  
         logger.warning('Missing CQs')
-        return 'Missing CQs'
+        return output
 
 prompt_classes = {
     "zero_shot_with_instructions": ZeroShotWithInstructionsPrompt,
     "zero_shot_with_instructions2":ZeroShotWithInstructionsPrompt2,
     "zero_shot": ZeroShotPrompt,
     "few_shot":FewShotPrompt,
-    "comprehensive_few_shot":ComprehensiveFewShotPrompt
+    "comprehensive_few_shot":ComprehensiveFewShotPrompt,
+    "schema_prompt": SchemePrompt
 }
 
 def main():
     temperature = 0.1
-    selected_prompt_names = ["zero_shot", "zero_shot_with_instructions", "few_shot", "comprehensive_few_shot"]
+    selected_prompt_names = [
+        "schema_prompt"
+        # "zero_shot", "zero_shot_with_instructions2", "few_shot", "comprehensive_few_shot"
+        ]
 
     # models = ['deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct'] 
-    models= ["meta-llama/Llama-3.2-3B-Instruct"]
+    models= ["Qwen/Qwen2.5-72B-Instruct"]
     # data_files = ["sample", "validation"]
-    data_files = ["validation"]
+    data_files = ["testing_dataset"]
 
 
 
@@ -103,7 +113,7 @@ def main():
             model = ""
             tokenizer = ""
             pipeline = ""
-            if "meta-llama" in model_name:
+            if model_name not in deepinfra_models and "meta-llama" in model_name:
                 pipeline = transformers.pipeline(
                     "text-generation",
                     model=model_name,
