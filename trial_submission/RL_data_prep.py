@@ -224,11 +224,12 @@ def evaluate_answer_corr(golden_answers, answer):
             if label == 'useful':
                 punctuation += 1/3
         else:
-            logging.debug("Similarity below threshold for '%s'. Using LLM fallback evaluation.", line['cq'])
-            label = evluate_answer_corr_with_llm(line['cq'], golden_answers[0][0]['intervention'])
-            logging.debug("LLM fallback label: %s", label)
-            if label == 'useful':
-                punctuation += 1/3
+            pass
+            # logging.debug("Similarity below threshold for '%s'. Using LLM fallback evaluation.", line['cq'])
+            # label = evluate_answer_corr_with_llm(line['cq'], golden_answers[0][0]['intervention'])
+            # logging.debug("LLM fallback label: %s", label)
+            # if label == 'useful':
+            #     punctuation += 1/3
     return punctuation
 
 def correctness_reward_func(prompts, completions, answer, **kwargs) -> list[float]:

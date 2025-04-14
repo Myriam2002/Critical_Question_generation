@@ -39,7 +39,13 @@ def output_cqs(model_name, text, prompt_obj: BasePrompt, model, tokenizer, pipel
 
     return out, reasoning
 
+def extract_xml_answer(text: str) -> str:
+    answer = text.split("<answer>")[-1]
+    answer = answer.split("</answer>")[0]
+    return answer.strip()
+
 def structure_output(whole_text):
+    whole_text = extract_xml_answer(whole_text)
     cqs_list = whole_text.split('\n')
     final = []
     valid = []
@@ -87,20 +93,25 @@ prompt_classes = {
     "zero_shot": ZeroShotPrompt,
     "few_shot":FewShotPrompt,
     "comprehensive_few_shot":ComprehensiveFewShotPrompt,
-    "schema_prompt": SchemePrompt
+    "schema_prompt": SchemePrompt,
+    "rl_prompt": RlPrompt,
 }
 
 def main():
     temperature = 0.1
     selected_prompt_names = [
-        "schema_prompt"
-        # "zero_shot", "zero_shot_with_instructions2", "few_shot", "comprehensive_few_shot"
+        # "rl_prompt",    
+        # "schema_prompt"
+        # "zero_shot", "zero_shot_with_instructions2", "few_shot", 
+        "comprehensive_few_shot"
         ]
 
     # models = ['deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct'] 
-    models= ["Qwen/Qwen2.5-72B-Instruct"]
+    # models= ["deepseek-ai/DeepSeek-V3-0324"]
+    models = ["meta-llama/Meta-Llama-3.1-8B-Instruct"]
+
     # data_files = ["sample", "validation"]
-    data_files = ["testing_dataset"]
+    data_files = ["test"]
 
 
 

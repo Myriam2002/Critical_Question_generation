@@ -9,6 +9,7 @@ import os
 from query_model import query_model, deepinfra_models, openrouter_models, deepseek_models
 from prompts_eval import *
 from collections import OrderedDict
+import pprint
 logging.basicConfig()
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -98,7 +99,8 @@ def compute_metrics(confusion_matrix):
 def main():
     temperature = 0.0
     selected_prompt_names = ["comprehensive_few_shot"]
-    models = ['meta-llama/Llama-3.1-8B-Instruct']
+    # models = ['meta-llama/Llama-3.1-8B-Instruct']
+    models = ['deepseek-ai/DeepSeek-V3-0324']
     # models = ["Qwen/Qwen2.5-72B-Instruct"]
     # models = ["deepseek-ai/DeepSeek-V3-0324"]
     # data_files = ["sample", "validation"]
@@ -287,6 +289,49 @@ def main():
         print("\nConfusion Matrix:")
         for true_label, preds in confusion_matrix.items():
             print(f"{true_label}: {preds}")
+
+        useful_row = confusion_matrix["USEFUL"]
+        TP = useful_row["USEFUL"]
+        FN = sum(value for label, value in useful_row.items() if label != "USEFUL")
+
+        # For actual OTHER (merging UNHELPFUL, INVALID, and UNKNOWN rows):
+        #   - False Positives (FP) = predictions of USEFUL in these rows.
+        #   - True Negatives (TN) = predictions of OTHER (non-USEFUL) in these rows.
+        other_rows = ["UNHELPFUL", "INVALID", "UNKNOWN"]
+        FP = sum(confusion_matrix[label]["USEFUL"] for label in other_rows)
+        TN = sum(sum(value for cat, value in confusion_matrix[label].items() if cat != "USEFUL")
+                for label in other_rows)
+
+        # Create the aggregated confusion matrix
+        aggregated_cm = {
+            "USEFUL": {"USEFUL": TP, "OTHER": FN},
+            "OTHER": {"USEFUL": FP, "OTHER": TN}
+        }
+
+        print("Aggregated Confusion Matrix:")
+        pprint.pprint(aggregated_cm)
+
+        # --- Step 2: Calculate Metrics ---
+        # Total number of samples
+        total = TP + FN + FP + TN
+
+        # Overall accuracy: correctly predicted instances / total samples
+        accuracy = (TP + TN) / total
+
+        # Precision for USEFUL: TP / (TP + FP)
+        precision = TP / (TP + FP) if (TP + FP) > 0 else 0
+
+        # Recall for USEFUL: TP / (TP + FN)
+        recall = TP / (TP + FN) if (TP + FN) > 0 else 0
+
+        # F1 Score for USEFUL: harmonic mean of precision and recall
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+
+        print("\nMetrics (Binary aggregation - USEFUL vs OTHER):")
+        print(f"Overall Accuracy: {accuracy:.2%}")
+        print(f"Precision for USEFUL: {precision:.2%}")
+        print(f"Recall for USEFUL: {recall:.2%}")
+        print(f"F1 Score for USEFUL: {f1:.2%}")
 
 if __name__ == "__main__":
     main()

@@ -210,14 +210,15 @@ def eval_func(threshold, golden_path, submission_path):
 
 
 
-temperature = 0.1
+temperature = 0.8
 selected_prompt_names = [
-    "schema_prompt"
+    "rl_prompt"
+    # "schema_prompt"
     # "zero_shot", "zero_shot_with_instructions2", "few_shot", "comprehensive_few_shot"
     ]
 
-# models = ['deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Llama-3.2-3B-Instruct', 'meta-llama/Llama-3.1-8B-Instruct'] 
-models= ['Qwen/Qwen2.5-72B-Instruct']
+# models = ['deepseek-ai/DeepSeek-V3-0324', 'deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Llama-3.2-3B-Instruct', 'meta-llama/Llama-3.1-8B-Instruct'] 
+models= ['RL']
 # models = ["meta-llama/Llama-3.1-8B-Instruct"]
 # data_files = ["sample", "validation"]
 golden_path = "/home/sama.hadhoud/Documents/Critical_Question_generation/data_splits/testing_dataset.json"
@@ -225,9 +226,9 @@ golden_path = "/home/sama.hadhoud/Documents/Critical_Question_generation/data_sp
 for model_name in models:
     model_name_in_file = model_name.replace("/", "_") 
     for selected_prompt_name in selected_prompt_names:
-        target_file = f'testing_dataset_output_{selected_prompt_name}_{model_name_in_file}_t{temperature}.json'
+        target_file = f'testing_output_{selected_prompt_name}_{model_name_in_file}_trial_4_5_t{temperature}.json'
         print("Starting", target_file)
-        result_file_name = f'testing_output_{selected_prompt_name}_{model_name_in_file}_t{temperature}_eval_similarity_0.6.json'
+        result_file_name = f'testing_output_{selected_prompt_name}_{model_name_in_file}_trial_4_5_t{temperature}_eval_similarity_0.6.json'
         if os.path.exists(result_file_name):
             continue
         result  = eval_func(threshold = 0.6, golden_path=  golden_path, submission_path = target_file)

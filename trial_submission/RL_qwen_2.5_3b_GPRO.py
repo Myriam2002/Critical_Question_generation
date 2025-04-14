@@ -52,12 +52,12 @@ training_args = GRPOConfig(
     num_generations = 8, # Decrease if out of memory
     max_prompt_length = 3000,
     max_completion_length = 2000,
-    num_train_epochs = 3, # Set to 1 for a full training run
+    num_train_epochs = 15, # Set to 1 for a full training run
     # max_steps = 250,
     save_steps = 25,
     max_grad_norm = 0.1,
     report_to = "wandb", # Can use Weights & Biases
-    output_dir = "outputs_trial_3",
+    output_dir = "outputs_trial_4",
 )
 
 print("Start training!")
@@ -87,6 +87,6 @@ if os.path.exists(training_args.output_dir):
 # Start or resume training accordingly
 trainer.train(resume_from_checkpoint=checkpoint)
 
-model.save_lora("grpo_saved_lora_trial_3")
+model.save_lora("grpo_saved_lora_trial_4")
 
 wandb.finish()

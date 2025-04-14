@@ -241,7 +241,34 @@ class ComprehensiveFewShotPrompt(BasePrompt):
         )
         super().__init__(template)
 
+class RlPrompt(BasePrompt):
+    """
+    Prompt for generating critical questions that challenge the text's credibility.
+    """
+    def __init__(self):
+        template = (
+            "You are a teacher in a critical thinking class. Your goal is to help students learn to critically evaluate argumentative texts. "
+            "To do this, you need to generate critical questions that challenge the validity of the arguments presented. "
+            "A question is considered USEFUL if it makes the reader reflect on the text in a way that could potentially diminish its perceived validity. "
+            "Avoid questions that are common sense, reading-comprehension, too general, or that introduce new concepts not present in the text.\n\n"
+            "Guidelines:\n"
+            "1. USEFUL QUESTION:\n"
+            "   - Should be raised before accepting the arguments in this text.\n"
+            "   - Challenges the text’s argument in a meaningful way.\n"
+            "   - Prompts critical reflection that can weaken the argument’s validity if answered.\n"
+            "   - Focuses on details already present in the text without introducing external ideas.\n\n"
+            "2. UNHELPFUL QUESTION:\n"
+            "   - Although related to the text, it asks about aspects that are either common sense, well-known facts, or too complicated.\n\n"
+            "3. INVALID QUESTION:\n"
+            "   - Unrelated to the text or introduces new concepts.\n"
+            "   - Uses vague language or fails to challenge the argument’s core reasoning.\n\n"
+            "Now, using the guidelines above, generate three USEFUL critical questions for the following text:\n\n"
+            "TEXT:\n\"{intervention}\"\n\n"
+            "Respond in the following format:\n"
+            "<reasoning>\nYour reasoning here.\n</reasoning>\n<answer>\nProvide three questions one question per line. Do not include any special characters or numbering except for the question mark.\n</answer>"
+        )
 
+        super().__init__(template)
 
 def format_schemes_nicely(schemes_json: dict) -> str:
     """

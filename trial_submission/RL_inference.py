@@ -20,7 +20,7 @@ logger = logging.getLogger()
 with open("hf_token.txt", "r") as token_file:
     hf_token = token_file.read().strip()
 
-max_seq_length = 4084 # Can increase for longer reasoning traces
+max_seq_length = 8084 # Can increase for longer reasoning traces
 lora_rank = 64 # Larger rank = smarter, but slower
 
 model, tokenizer = FastLanguageModel.from_pretrained(
@@ -54,7 +54,7 @@ Respond in the following format:
 </answer>
 """
 
-def call_gpro_trained_model(messages, temperature=0.1):
+def call_gpro_trained_model(messages, temperature=0.8):
 
     text = tokenizer.apply_chat_template(messages, tokenize = False, add_generation_prompt = True)
 
@@ -62,12 +62,12 @@ def call_gpro_trained_model(messages, temperature=0.1):
     sampling_params = SamplingParams(
         temperature = temperature,
         top_p = 0.95,
-        max_tokens = 1024,
+        max_tokens = 2000,
     )
     output = model.fast_generate(
         text,
         sampling_params = sampling_params,
-        lora_request = model.load_lora("grpo_saved_lora_trial_2"),
+        lora_request = model.load_lora("grpo_saved_lora_trial_4_4"),
     )[0].outputs[0].text
 
     return output
@@ -89,33 +89,41 @@ def output_cqs(text, prompt_obj: BasePrompt, temperature):
             ]
     out = call_gpro_trained_model(messages, temperature)
 
-
-    return out
+    cqs = extract_xml_answer(out) 
+    return out, cqs
 
 prompt_classes = {
     "zero_shot_with_instructions": ZeroShotWithInstructionsPrompt,
     "zero_shot_with_instructions2":ZeroShotWithInstructionsPrompt2,
     "zero_shot": ZeroShotPrompt,
     "few_shot":FewShotPrompt,
-    "comprehensive_few_shot":ComprehensiveFewShotPrompt
+    "comprehensive_few_shot":ComprehensiveFewShotPrompt,
+    "rl_prompt": RlPrompt,
 }
+
+def extract_xml_answer(text: str) -> str:
+    answer = text.split("<answer>")[-1]
+    answer = answer.split("</answer>")[0]
+    return answer.strip()
 
 def run_all_testing():
     model_name_in_file = "RL"
     temperature = 0.8
-    with open(f'../data_splits/testing_dataset.json') as f:
+    # with open(f'../data_splits/testing_dataset.json') as f:
+    with open(f'../data_splits/test.json') as f:
         data=json.load(f)
     selected_prompt_names = [
-        "zero_shot",
-     "zero_shot_with_instructions2", "few_shot", 
-    "comprehensive_few_shot"
+    #     "zero_shot",
+    #  "zero_shot_with_instructions2", "few_shot", 
+    # "comprehensive_few_shot",
+    "rl_prompt",
     ]
     for selected_prompt_name in selected_prompt_names:
         if selected_prompt_name in prompt_classes:
             prompt_obj = prompt_classes[selected_prompt_name]()
         else:
             raise ValueError(f"Invalid prompt type: {selected_prompt_name}")
-        target_file_name = f'experiments_results/testing_output_{selected_prompt_name}_{model_name_in_file}_t{temperature}.json'
+        target_file_name = f'experiments_results/test_output_{selected_prompt_name}_{model_name_in_file}_trial_4_4_t{temperature}.json'
         print("Starting", target_file_name)
         # If the file exists, load it to check for missing entries.
         if os.path.exists(target_file_name):
@@ -136,9 +144,18 @@ def run_all_testing():
             if intervention_id in out and "full_response" in out[intervention_id] and out[intervention_id]['cqs'] != "Missing CQs":
                 print(f"Skipping {intervention_id} as it already exists in the output file.")
                 continue
-            cqs= output_cqs( text, prompt_obj, temperature)
-            line['cqs'] = structure_output(cqs)
-            line['full_response'] = cqs
+            while True:
+                model_out, cqs= output_cqs( text, prompt_obj, temperature)
+                cqs_struct = structure_output(cqs)
+                one_missing = False
+                for cq in cqs_struct:
+                    if cq["cq"] == "Missing CQs":
+                        one_missing = True
+                        break
+                if not one_missing:
+                    break
+            line['cqs'] = cqs_struct
+            line['full_response'] = model_out
             out[line['intervention_id']]=line
 
 
@@ -147,19 +164,43 @@ def run_all_testing():
 
 if __name__ == "__main__":
     template = (
-        "Suggest 3 critical questions that should be raised before accepting the arguments in this text:\n\n"
-        "\"{intervention}\"\n\n"
-        "Give one question per line. Make the questions simple, and do not provide any explanation regarding why the question is relevant. "
-        "Do not include any special characters or numbering except for the question mark."
+    "You are a teacher in a critical thinking class. Your goal is to help students learn to critically evaluate argumentative texts. "
+    "To do this, you need to generate critical questions that challenge the validity of the arguments presented. "
+    "A question is considered USEFUL if it makes the reader reflect on the text in a way that could potentially diminish its perceived validity. "
+    "Avoid questions that are common sense, reading-comprehension, too general, or that introduce new concepts not present in the text.\n\n"
+    "Guidelines:\n"
+    "1. USEFUL QUESTION:\n"
+    "   - Should be raised before accepting the arguments in this text.\n"
+    "   - Challenges the text’s argument in a meaningful way.\n"
+    "   - Prompts critical reflection that can weaken the argument’s validity if answered.\n"
+    "   - Focuses on details already present in the text without introducing external ideas.\n\n"
+    "2. UNHELPFUL QUESTION:\n"
+    "   - Although related to the text, it asks about aspects that are either common sense, well-known facts, or too complicated.\n\n"
+    "3. INVALID QUESTION:\n"
+    "   - Unrelated to the text or introduces new concepts.\n"
+    "   - Uses vague language or fails to challenge the argument’s core reasoning.\n\n"
+    "Now, using the guidelines above, generate three USEFUL critical questions for the following text:\n\n"
+    "TEXT:\n\"{intervention}\"\n\n"
+    "Respond in the following format:\n"
+    "<reasoning>\nYour reasoning here.\n</reasoning>\n<answer>\nProvide three questions one question per line. Do not include any special characters or numbering except for the question mark.\n</answer>"
     )
+    # template = (
+    #     "Suggest 3 critical questions that should be raised before accepting the arguments in this text:\n\n"
+    #     "\"{intervention}\"\n\n"
+    #     "Give one question per line. Make the questions simple, and do not provide any explanation regarding why the question is relevant. "
+    #     "Do not include any special characters or numbering except for the question mark."
+    # )
 
-    intervention = "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\"",
+    # intervention = "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\"",
+    # intervention = "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\""
+    # messages = [
+    #             {'role': 'system', 'content': SYSTEM_PROMPT},
+    #             {'role': 'user', 'content': template.format(intervention=intervention)}
+    #         ]
 
-    messages = [
-                {'role': 'system', 'content': SYSTEM_PROMPT},
-                {'role': 'user', 'content': template.format(intervention=intervention)}
-            ]
+    # print(call_gpro_trained_model(messages))
 
-    print(call_gpro_trained_model(messages))
+    # print("********")
+    # print(call_gpro_trained_model(messages))
 
-    # run_all_testing()
+    run_all_testing()
