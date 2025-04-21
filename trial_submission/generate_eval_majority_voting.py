@@ -77,9 +77,11 @@ def main():
     merged_out = {}
     temperature = 0.0
     selected_prompt_names = ["comprehensive_few_shot"]
-    models = ['meta-llama/Llama-3.1-8B-Instruct', 
+    models = [
+        # 'meta-llama/Llama-3.1-8B-Instruct', 
     "Qwen/Qwen2.5-72B-Instruct", 
-    "meta-llama/Llama-3.3-70B-Instruct"]
+    "meta-llama/Llama-3.3-70B-Instruct",
+    "deepseek-ai/DeepSeek-V3-0324"]
     # models = ["Qwen/Qwen2.5-72B-Instruct"]
     # models = ["deepseek-ai/DeepSeek-V3-0324"]
     # data_files = ["sample", "validation"]
@@ -155,9 +157,9 @@ def main():
                         print("in trial: ", trial)
                         exit(1)
 
-                # predicted_label = most_repeated_word(predicted_labels)
-                if predicted_labels != ["USEFUL", "USEFUL", "USEFUL"]:
-                    predicted_label = "UNKNOWN"
+                predicted_label = most_repeated_word(predicted_labels)
+                # if predicted_labels != ["USEFUL", "USEFUL", "USEFUL"]:
+                #     predicted_label = "UNKNOWN"
                 if predicted_label is None:
                     predicted_label = "UNKNOWN"
                 # Update label-specific tracking

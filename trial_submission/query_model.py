@@ -12,7 +12,16 @@ with open("hf_token.txt", "r") as token_file:
     hf_token = token_file.read().strip()
 
 # Load Qwen2.5-3B-Instruct model and tokenizer
-deepinfra_models = ["meta-llama/Meta-Llama-3.1-8B-Instruct", "deepseek-ai/DeepSeek-V3-0324", "deepseek-ai/DeepSeek-V3", "deepseek-ai/DeepSeek-R1", "Qwen/Qwen2.5-72B-Instruct", "deepseek-ai/DeepSeek-V3-0324", "meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Meta-Llama-3.1-405B-Instruct"]
+deepinfra_models = ["meta-llama/Meta-Llama-3.1-8B-Instruct", 
+                    "deepseek-ai/DeepSeek-V3-0324", 
+                    "deepseek-ai/DeepSeek-V3", 
+                    "deepseek-ai/DeepSeek-R1", 
+                    "Qwen/Qwen2.5-72B-Instruct", 
+                     "meta-llama/Llama-3.3-70B-Instruct", 
+                     "meta-llama/Llama-3.2-3B-Instruct",
+                    #  "Qwen/Qwen2.5-7B-Instruct",
+                     "meta-llama/Meta-Llama-3.1-405B-Instruct"]
+
 openrouter_models = ["qwen/qwq-32b:free", "deepseek/deepseek-r1:free"]
 deepseek_models = ["deepseek-reasoner"]
 

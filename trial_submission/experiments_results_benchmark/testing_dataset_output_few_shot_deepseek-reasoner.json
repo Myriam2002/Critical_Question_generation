@@ -1,0 +1,999 @@
+{
+    "MT_45": {
+        "intervention_id": "MT_45",
+        "intervention": "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "CauseToEffect",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence directly connects the lack of surpluses to the diversion of money from industrial activities?  "
+            },
+            {
+                "id": 1,
+                "cq": "How is \"sufficient surpluses\" objectively measured to justify the claim that capitalism failed to generate them?  "
+            },
+            {
+                "id": 2,
+                "cq": "Does the text address alternative explanations for why capital might avoid industrial sectors beyond insufficient profitability?"
+            }
+        ],
+        "full_response": "What evidence directly connects the lack of surpluses to the diversion of money from industrial activities?  \nHow is \"sufficient surpluses\" objectively measured to justify the claim that capitalism failed to generate them?  \nDoes the text address alternative explanations for why capital might avoid industrial sectors beyond insufficient profitability?",
+        "reasoning": "Okay, let me try to work through this. The user wants me to generate three useful critical questions for the given text. The text is a quote from someone named MT who is responding to Claire. The main points MT is making are that a form of capitalism wasn't generating enough surpluses, so money didn't flow into industrial activities in the developed world because they weren't profitable enough.\n\nFirst, I need to focus on challenging the argument's validity based on the text's existing details. Let me break down the argument step by step. MT claims that insufficient surpluses led money to not flow into industrial activities. The key elements here are the causality between surpluses and money flow, the assumption that industrial activities weren't making enough money, and perhaps the comparison or basis for what's considered \"sufficient.\"\n\nSo, useful questions should target these areas. Maybe question the link between surpluses and capital flow. The text says \"therefore where did the money flow,\" implying causation. But is that causation proven? Another point is the assumption that industrial activities weren't generating enough money. What's the evidence for that? Also, MT mentions \"that form of capitalism\" \u2013 what defines that form? Without clarity, the argument might be vague.\n\nI should avoid questions that are too general or introduce new concepts. For example, asking about alternative economic systems would be invalid because it's not mentioned. Also, avoid asking for definitions if the text doesn't provide them.\n\nPossible useful questions:\n1. What evidence supports the claim that insufficient surpluses directly caused money to avoid industrial activities? (Challenges the causation)\n2. How is \"sufficient surpluses\" defined, and who determines this threshold? (Questions the basis of the claim)\n3. Are there alternative factors besides profitability that could explain the lack of investment in industrial activities? (Challenges the assumption by considering other variables)\n\nWait, the third question might introduce alternative factors not mentioned. The text only mentions profitability as the reason. So maybe that's introducing new concepts. Let me adjust. Instead, maybe focus on the assumption that profitability is the sole driver. So rephrase: Does the text provide evidence that profitability was the sole reason for the lack of investment, excluding other possible factors? That stays within the text's assertion and challenges the completeness of the reasoning.\n\nAlternatively, another angle: How does the text justify equating the absence of money flow to industrial activities with their insufficient profitability? That questions the link between the two.\n\nHmm, need to ensure each question is tightly focused on the text. Let me check the examples again. The user's examples asked about comparisons, evidence, and hidden aspects. So here, challenging the causation, the definitions, and the underlying assumptions.\n\nI think the first two are solid. The third one needs to avoid introducing new ideas. Let me try again.\n\nThird question: Is the assertion that industrial activities weren't making enough money supported by specific data or just assumed? That challenges the evidence without adding external factors.\n\nYes, that works. So the three questions would be:\n\n1. What evidence supports the direct link between insufficient surpluses and the diversion of money away from industrial activities?\n2. How is the term \"sufficient surpluses\" quantified or defined within the context of the argument presented?\n3. Does the text provide empirical data to substantiate the claim that industrial activities in the developed world were not generating enough profit?\n\nWait, the third one is about empirical data. The original text says \"because in the developed world that wasn't making enough money.\" The question would challenge whether that's supported by data or just stated. That's valid.\n\nAlternatively, another angle: Is there consideration of other economic factors besides surplus generation that influence investment in industrial sectors? But that might be introducing new concepts. The text only mentions surplus as the reason. So maybe not. So sticking to the evidence question is better.\n\nYes, those three should fit the guidelines."
+    },
+    "cd38_220_2": {
+        "intervention_id": "cd38_220_2",
+        "intervention": "cd38: \"The return flight is 6 \u00bd hours (plus commute time to the airport);\nwhen time allows, I make something to bring on the flight,\nbut if my mother is having a bad day, that's not always possible.\nOn a recent trip, I didn't have time to eat anything at all the day I flew home; got stuck in traffic and barely made my flight (I was the last one on) so didn't have time to eat or buy anything at the airport; and as we started to taxi, the flight crew announced that we had a nut allergy on board, and that they (JB) would not be serving cashews and requested that we not eat any nuts we may have brought on board.\n6 \u00bd hours feels pretty long at that point!\nNo, it didn't kill me,\nbut it does seem that if JB hadn't served cashews, the risks involved in one or two people eating nuts they may have brought with them would have been extremely, extremely small....\nand, NOTHING in life is riskfree.\nI understand that people want to minimize the risks for their loved ones,\nbut you cannot eliminate the risk completely, regardless of what legislation you put in place.\nIf I ate peanuts at the airport, didn't wash my hands, and then opened the rest room door on the plane immediately before a peanut allergy sufferer, that person could suffer a reaction.\nI can support airlines not serving peanuts/peanut products,\nthereby eliminating the most likely possible cause of a peanutrelated incident on a flight;\nbut not restrictions on what people may choose to eat.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the author\u2019s personal inconvenience justify dismissing passenger food restrictions when balancing collective safety against individual preferences?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the argument account for the difference in scale between airline-served nuts and passenger-brought snacks in contributing to allergen exposure risks?  "
+            },
+            {
+                "id": 2,
+                "cq": "By emphasizing that \"nothing in life is risk-free,\" does the argument undermine the value of incremental risk reduction measures like restricting passenger snacks?"
+            }
+        ],
+        "full_response": "Does the author\u2019s personal inconvenience justify dismissing passenger food restrictions when balancing collective safety against individual preferences?  \nHow does the argument account for the difference in scale between airline-served nuts and passenger-brought snacks in contributing to allergen exposure risks?  \nBy emphasizing that \"nothing in life is risk-free,\" does the argument undermine the value of incremental risk reduction measures like restricting passenger snacks?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is about someone's experience on a flight where they couldn't eat due to a nut allergy announcement. The argument is against airlines restricting passengers' food, instead of just not serving nuts.\n\nFirst, I need to understand the main points. The author argues that banning served nuts is okay, but restricting passengers' own food is not. They say you can't eliminate all risks. Also, they mention their own experience of going hungry as a reason why the policy is too strict.\n\nGuidelines say questions should challenge the argument's validity by focusing on existing details. So, I need to find parts of the argument that might have weaknesses. Let me break it down.\n\nThe author compares the risk of passengers eating their own nuts to the airline serving cashews. But maybe the airline's policy is about minimizing risk, not eliminating it. So a question could challenge the comparison's validity.\n\nAnother point is the personal anecdote. They had a bad experience, but does that mean the policy is unnecessary? Maybe the question could ask if the personal experience is a strong enough reason against the policy.\n\nAlso, the author says \"NOTHING in life is risk-free,\" but does that argument hold? Just because you can't eliminate all risks, does that mean you shouldn't mitigate some? That's a common reasoning flaw, so a question there.\n\nAlso, the author supports not serving peanuts but opposes restrictions on passengers. Is there a difference in risk between served peanuts and passengers' snacks? Maybe the airline's serving is a bigger risk because it's widespread, but the author's example of someone eating at the airport and not washing hands is a different scenario. So a question about whether the two scenarios are equivalent in risk.\n\nLet me check the examples given. The first example's useful questions challenge comparisons and evidence. So here, maybe challenging the comparison between airline-served nuts and passenger-brought nuts. Also, the use of personal experience as evidence.\n\nPossible questions:\n\n1. Does the personal experience of going without food justify opposing restrictions on passenger snacks, or does it overlook the severity of allergic reactions? (Challenges the anecdote's relevance.)\n\n2. Is the comparison between the risk of in-flight nut service and passenger-brought snacks valid, given differing exposure levels? (Questions the equivalence in risk.)\n\n3. By stating that eliminating all risk is impossible, does the argument dismiss the effectiveness of incremental risk reduction measures like passenger restrictions? (Challenges the all-or-nothing reasoning.)\n\nI need to make sure the questions don't introduce new concepts. They should focus on existing points: the personal story, the risk comparison, and the impossibility of eliminating all risk.\n\nAvoid unhelpful questions like \"Why did the crew announce the nut allergy?\" which is comprehension. Invalid would be something unrelated, like asking about other allergies not mentioned.\n\nSo final questions:\n\n- Does the author's personal experience of inconvenience sufficiently address the necessity of in-flight nut restrictions for allergy safety?\n\n- How does the argument justify the distinction between airline-served nuts and passenger-consumed nuts in terms of risk magnitude and manageability?\n\n- If eliminating all risk is impossible, does the argument overlook the potential benefits of reducing risk through passenger restrictions despite residual dangers?"
+    },
+    "TRUMP_183": {
+        "intervention_id": "TRUMP_183",
+        "intervention": "TRUMP: \"I do want to say that I was just endorsed\nand more are coming next week\nit will be over 200 admirals\nmany of them here\u2014admirals and generals endorsed me to lead this country\nThat just happened\nmany more are coming\nI was just endorsed by ICE\nThey 've never endorsed anybody before on immigration\nI was just recently endorsed\u201416,500 Border Patrol agents\nwhen Secretary Clinton talks about this , I mean , I 'll take the admirals and I 'll take the generals any day over the political hacks that I see that have led our country so brilliantly over the last 10 years with their knowledge\nlook at the mess that we 're in\nAs far as the cyber , I agree to parts of what Secretary Clinton said\nWe should be better than anybody else\nperhaps we 're not\nI do n't think anybody knows it was Russia that broke into the DNC\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PositionToKnow",
+            "PositionToKnow",
+            "Values",
+            "PositionToKnow",
+            "PositionToKnow",
+            "Values"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the claim that ICE \"never endorsed anybody before on immigration\" hold true when considering past endorsements or official positions taken by the organization?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does comparing endorsements from military officials to \"political hacks\" substantiate the claim of superior leadership without conflating military and political expertise?  "
+            },
+            {
+                "id": 2,
+                "cq": "If \"nobody knows\" if Russia breached the DNC, how does this uncertainty challenge Trump's assertion that the U.S. should be \"better than anybody else\" in cybersecurity?"
+            }
+        ],
+        "full_response": "Does the claim that ICE \"never endorsed anybody before on immigration\" hold true when considering past endorsements or official positions taken by the organization?  \nHow does comparing endorsements from military officials to \"political hacks\" substantiate the claim of superior leadership without conflating military and political expertise?  \nIf \"nobody knows\" if Russia breached the DNC, how does this uncertainty challenge Trump's assertion that the U.S. should be \"better than anybody else\" in cybersecurity?",
+        "reasoning": "Okay, let's see. I need to generate three useful critical questions for this Trump text. First, I'll read the text carefully.\n\nHe mentions being endorsed by over 200 admirals and generals, ICE, and 16,500 Border Patrol agents. He contrasts these endorsements with \"political hacks\" and criticizes the current leadership. Also, he doubts Russia's involvement in the DNC breach.\n\nUseful questions should challenge the argument's validity by focusing on existing details. Let me start with the endorsements. Are the numbers and sources of endorsements reliable? The text states ICE never endorsed anyone before. Maybe question the validity of that claim. For example, does ICE's past behavior support the claim that they've never endorsed anyone on immigration? That's in the text, so it's a good point.\n\nNext, he compares military endorsements to political hacks. Are these groups comparable? The question could ask if the comparison is valid, maybe pointing out differences in expertise between military leaders and political figures. That challenges the argument's logic.\n\nThen, there's the part about Russia. He says he doesn't think anyone knows it was Russia. The text mentions Clinton's agreement on cyber but his doubt. So, a question could ask if his uncertainty about Russia undermines his assertion about cybersecurity leadership. That ties his doubt to his capability claim.\n\nAvoiding unhelpful questions: Don't ask why endorsements matter because that's too general. Also, invalid questions would be about unrelated topics. Need to stay within the text's scope.\n\nSo, three questions could be:\n\n1. Does the claim that ICE has never endorsed anyone before on immigration hold true under scrutiny, and what evidence supports this assertion?\n2. How does the comparison between military endorsements and \"political hacks\" address the effectiveness of leadership without conflating military and political expertise?\n3. If Trump doubts the knowledge about Russia's involvement in the DNC breach, how does this uncertainty impact his credibility on cybersecurity leadership as he claims the need to be \"better than anybody else\"?\n\nWait, need to check if these questions are based on the text and not introducing new concepts. Let me adjust the third one to focus more on the contradiction between wanting to be better and doubting the knowledge. Maybe rephrase it to link his doubt to the assertion about being better.\n\nFinalizing the questions:\n\n- Does the assertion that ICE \"never endorsed anybody before on immigration\" hold true when considering past endorsements or official positions taken by the organization?  \n- How does comparing endorsements from military officials to \"political hacks\" substantiate the claim of superior leadership without conflating military and political expertise?  \n- If \"nobody knows\" if Russia breached the DNC, how does this uncertainty challenge Trump's assertion that the U.S. should be \"better than anybody else\" in cybersecurity?  \n\nThese questions target specific parts of the argument, challenge the validity by pointing out potential inconsistencies or unsubstantiated claims, and stay within the text's content."
+    },
+    "AngelComa__638": {
+        "intervention_id": "AngelComa__638",
+        "intervention": "AngelComa: \"Funny, I thought he did good\nThey get timed responses\nhis plan is all there\nHe can't talk about everything in the plan\nMust be how used you are to politicians saying things and not having a plan\"\n < this message is answering to > \nPunchee: \"That was a weird moment in American debate history. \"Yo check my website. Shit's on there.\"\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the timed response format sufficiently justify the inability to articulate key elements of the plan during the debate?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does directing audiences to a website address the expectation for direct, substantive engagement with critical issues in real-time discussion?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is the comparison between the candidate\u2019s approach and politicians who lack plans a valid defense, or does it conflate having a plan with effectively communicating it?"
+            }
+        ],
+        "full_response": "Does the timed response format sufficiently justify the inability to articulate key elements of the plan during the debate?  \nHow does directing audiences to a website address the expectation for direct, substantive engagement with critical issues in real-time discussion?  \nIs the comparison between the candidate\u2019s approach and politicians who lack plans a valid defense, or does it conflate having a plan with effectively communicating it?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is a conversation between two users, AngelComa and Punchee, discussing a debate moment where a candidate refers to their website for their plan.\n\nFirst, I need to understand the argument here. AngelComa is defending the candidate by saying that the candidate has a plan on the website, can't talk about everything due to timed responses, and implies that people are used to politicians not having plans. The original comment by Punchee mocks the candidate's reference to the website as a weird moment.\n\nSo, the core arguments to challenge would be AngelComa's defense: the constraints of timed responses justifying referring to the website, the assumption that having a plan on the website is sufficient, and the comparison to other politicians not having plans.\n\nUseful questions should challenge these points. Let me think:\n\n1. Does the timed response format truly prevent discussing key aspects of the plan, or could the candidate prioritize critical points? This targets the assumption that time constraints fully justify not discussing the plan.\n\n2. How does referring to a website ensure the audience understands the plan, considering possible lack of access or engagement? Challenges the sufficiency of directing to a website.\n\n3. Is the comparison to other politicians a valid justification, or does it deflect from the candidate's own accountability? Questions the validity of the comparison as a defense.\n\nI need to make sure these questions don't introduce new concepts and stay within the text. Avoid common sense or too general questions. Let's check each:\n\nFirst question: Focuses on the time constraint and whether it's a valid excuse. Present in the text.\n\nSecond question: Addresses the website reference's effectiveness, which is part of AngelComa's argument.\n\nThird question: Challenges the comparison to other politicians, which AngelComa uses as a defense.\n\nThese should be valid, useful questions. Let me make sure they're not unhelpful or invalid. They all target existing arguments and don't bring in external ideas. Okay, that should work."
+    },
+    "TRUMP_114_2": {
+        "intervention_id": "TRUMP_114_2",
+        "intervention": "TRUMP: \"our country 's a mess\nit 's one thing to have $ 20 trillion in debt\nOur airports are like from a third world country\nYou land at LaGuardia , you land at Kennedy , you land at LAX , you land at Newark , and you come in from Dubai and Qatar and you see these incredible\u2014you come in from China , you see these incredible airports\nwe 've become a third world country\nour bridges are good\neverything 's in great shape\nour airports\nthe worst of all things has happened\nWe owe $ 20 trillion\nwe 're a mess\nWe have n't even started\nwe 've spent $ 6 trillion in the Middle East\naccording to a report that I just saw\nWhether it 's 6 or 5\n it looks like it 's 6\nwe could have rebuilt our country twice\nit 's really a shame\nit 's politicians like Secretary Clinton that have caused this problem\nOur country has tremendous problems\nWe 're a debtor nation\nWe 're a serious debtor nation\nwe have a country that needs new roads , new tunnels , new bridges , new airports , new schools , new hospitals\nwe don't have the money\nit 's been squandered on so many of your ideas\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Example",
+            "Example",
+            "Example",
+            "GenericAdHominem",
+            "CircumstantialAdHominem",
+            "VerbalClassification",
+            "PracticalReasoning",
+            "Example",
+            "ExpertOpinion",
+            "Example",
+            "VerbalClassification",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the comparison of U.S. airports to those in Dubai and China consider differences in national infrastructure priorities or funding mechanisms that might justify disparities?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the claim that $6 trillion spent in the Middle East equates to rebuilding the U.S. \"twice\" account for actual domestic infrastructure cost estimates or economic feasibility?  "
+            },
+            {
+                "id": 2,
+                "cq": "What evidence directly connects Secretary Clinton\u2019s policies to the alleged squandering of funds instead of addressing domestic infrastructure needs?"
+            }
+        ],
+        "full_response": "Does the comparison of U.S. airports to those in Dubai and China consider differences in national infrastructure priorities or funding mechanisms that might justify disparities?  \nHow does the claim that $6 trillion spent in the Middle East equates to rebuilding the U.S. \"twice\" account for actual domestic infrastructure cost estimates or economic feasibility?  \nWhat evidence directly connects Secretary Clinton\u2019s policies to the alleged squandering of funds instead of addressing domestic infrastructure needs?",
+        "reasoning": "Okay, let me tackle this. The user wants me to generate three useful critical questions for the given text, which is Trump's argument about the country being a mess with debt and poor infrastructure.\n\nFirst, I need to understand the argument. Trump is saying the U.S. has huge debt, bad infrastructure like airports, and blames politicians like Clinton for squandering money on Middle East spending instead of domestic projects. He uses comparisons to countries like Dubai, China, etc., to highlight the poor state of U.S. airports.\n\nNow, to create useful questions that challenge the validity. The guidelines say to focus on existing details, not introduce new concepts. So, I should look for logical gaps, assumptions, or comparisons in the text.\n\nOne point he makes is comparing U.S. airports to those in Dubai, Qatar, China. But is that a fair comparison? Those countries might have newer infrastructure, but maybe their contexts are different. So a question could ask about the validity of that comparison.\n\nAnother point: he mentions spending $6 trillion in the Middle East and says that money could've rebuilt the country twice. But does that $6 trillion equate to twice the cost of rebuilding? Where's the evidence for that? The report he mentions\u2014does it actually support that claim?\n\nHe also blames politicians like Clinton for causing the problem. But is there a direct link between their policies and the debt/infrastructure issues? Correlation vs causation here. Maybe the question could challenge the evidence connecting Clinton's actions to the current state.\n\nAlso, he says \"we don't have the money\" but the country's debt is $20 trillion. However, national debt and budget allocations are complex. The question could challenge the assumption that debt directly means no money for infrastructure.\n\nLet me draft these:\n\n1. Does the comparison between U.S. airports and those in Dubai, Qatar, and China account for differences in governance or economic priorities that might affect infrastructure development?\n\n2. Is there evidence that the $6 trillion spent in the Middle East could realistically have funded the rebuilding of U.S. infrastructure twice, as claimed?\n\n3. What specific policies by Secretary Clinton directly link her to the squandering of funds that could have been used for domestic infrastructure projects?\n\nThese questions target the validity of comparisons, the factual basis of claims, and the direct causation in blaming Clinton. They don't introduce new concepts but use what's in the text. They aren't common sense but require critical analysis of the arguments presented."
+    },
+    "citizen-s_134": {
+        "intervention_id": "citizen-s_134",
+        "intervention": "citizen-s: \"DOT's objective in setting this rule should be to ELIMINATE all bumping, not merely achieve some (unspecified) reduction.\nRegardless of how many caveats an airline might state in its contract terms, passengers neither want nor deserve a ticket for an oversold seat.\nBumping is a purely economic device that treats passengers as economic units devoid of humanity, like so many other aspects of airline behavior.\nFrom that objective, it follows that there should be NO cap on compensation\nand that the financial penalty to the airline should be strong enough to prevent bumping, not just keep it at some arbitrarily \"acceptable\" level.\nThe 100% of the total ticket price for expected arrival within 2 hours later is reasonable.\nCompensation for a longer delay should be the GREATER of 200% of the total ticket cost or the passenger's demonstrable outofpocket costs resulting from the delay\n(a) including any higher priced air ticket from the same or another carrier at the same class, and lodging, meals and incidentals at average prevailing prices in that metro area,\nand (b) with the obligation on the passenger to minimize those costs by arranging, with good faith help from the airline, an alternate flight or other means to get him or her to the destination as soon as reasonably practical.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the argument address how airlines could practically eliminate all bumping without unintended consequences such as increased ticket prices or reduced flight availability?  "
+            },
+            {
+                "id": 1,
+                "cq": "Is there evidence provided that treating passengers as \"economic units\" inherently leads to dehumanization, or is this assumption taken for granted?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the proposed compensation structure ensure airlines will prioritize eliminating bumping entirely rather than absorbing the penalties as a cost of business?"
+            }
+        ],
+        "full_response": "Does the argument address how airlines could practically eliminate all bumping without unintended consequences such as increased ticket prices or reduced flight availability?  \nIs there evidence provided that treating passengers as \"economic units\" inherently leads to dehumanization, or is this assumption taken for granted?  \nHow does the proposed compensation structure ensure airlines will prioritize eliminating bumping entirely rather than absorbing the penalties as a cost of business?",
+        "reasoning": "Okay, let me try to figure out how to approach this. The user wants me to generate three useful critical questions for the given text about the DOT's rule on bumping passengers. The goal is to challenge the argument's validity by focusing on details in the text without introducing new concepts.\n\nFirst, I need to understand the main arguments in the text. The citizen-s is arguing that the DOT should aim to eliminate all bumping, not just reduce it. They say bumping treats passengers as economic units and that compensation should have no cap, with penalties strong enough to prevent bumping entirely. They also propose specific compensation structures.\n\nNow, I need to identify potential weaknesses or assumptions in these arguments. Let's break it down:\n\n1. The assertion that eliminating bumping is the objective. Is that feasible? What if elimination isn't possible? The text doesn't address that. So a question could ask about the feasibility of total elimination versus reduction.\n\n2. The comparison of passengers to economic units. The text claims that bumping dehumanizes passengers. But is there evidence that treating them as economic units inherently leads to dehumanization? Maybe the link isn't established. A question could challenge that connection.\n\n3. The proposed compensation structure: 100% ticket price for delays under 2 hours, 200% or more otherwise. The text suggests this would eliminate bumping. But is there evidence that such penalties would actually deter airlines? Also, the text assumes higher compensation will prevent bumping, but maybe airlines would still find it cost-effective. A question could question the assumption that these penalties are sufficient.\n\nAlso, the text mentions that passengers should minimize costs with the airline's help. But how would the airline's \"good faith help\" be enforced? The text doesn't address potential conflicts of interest here. Maybe a question about the enforceability of that obligation.\n\nWait, but I need to make sure the questions don't introduce external concepts. Let's check the guidelines again. The questions must focus on existing details. So, for example, the first point about feasibility: the text states the objective is elimination. A question could ask whether the argument addresses the feasibility of eliminating all bumping, which is present in the text's goal.\n\nAnother angle: the text says there should be no cap on compensation. But if there's no cap, could that lead to unintended consequences like higher ticket prices? The text doesn't consider that. But the question can't introduce new concepts like ticket prices unless the text mentions them. The text doesn't, so maybe that's introducing a new concept. So avoid that.\n\nAlternatively, the text compares bumping to other aspects of airline behavior treating passengers as economic units. Is that comparison valid? The question could challenge the basis of that comparison.\n\nWait, in the example provided, one useful question was about comparing credit card ads to food products. So similarly, here, maybe the comparison of bumping to other airline behaviors as treating passengers as economic units. But the text doesn't elaborate on what those other aspects are. So a question could ask if the assumption that all such treatments are dehumanizing is valid, or if the analogy holds.\n\nAnother point: the text claims that bumping is purely economic. Is that accurate? Are there other factors, like operational issues, that lead to bumping? The text dismisses it as purely economic. A question could challenge that assumption by asking if the argument considers non-economic reasons for bumping.\n\nBut does the text mention non-economic reasons? No. So maybe that's introducing a new concept. Hmm. The question has to use details present. The text says \"purely economic device,\" so the question could challenge that characterization. For example, does the argument address possible non-economic factors that contribute to bumping, thereby weakening the claim that it's purely economic?\n\nWait, but if the text says it's purely economic, then questioning that would require evidence or reasoning within the text. But the text doesn't provide evidence for that claim. So a question could ask whether the argument provides evidence that bumping is solely an economic decision, which is present in the text's assertion.\n\nAlso, the proposed compensation includes the greater of 200% or out-of-pocket costs. The text assumes this will eliminate bumping, but maybe airlines could still find it cheaper to pay the compensation than avoid bumping. The question could ask if the argument demonstrates that these penalties are sufficient to eliminate bumping, rather than just assuming it.\n\nPutting this all together, here are possible useful questions:\n\n1. Does the argument provide evidence that eliminating bumping entirely is feasible, or does it assume feasibility without justification? (Challenges the core objective's feasibility.)\n\n2. Is the characterization of bumping as a \"purely economic device\" supported by evidence in the argument, or is it an unsupported assertion? (Targets the premise that it's purely economic.)\n\n3. How does the argument justify that the proposed compensation structure would eliminate bumping rather than merely reduce it, given that airlines might still find it economically viable? (Questions the link between penalties and elimination.)\n\nAlternatively, another angle: the text says passengers \"neither want nor deserve a ticket for an oversold seat.\" But overselling is a common practice; does the argument address why passengers don't deserve it beyond their preferences? Maybe the question could challenge the moral claim here.\n\nBut the guidelines say to avoid common sense. So maybe not. The text's main points are about the compensation structure and the objective to eliminate. So focusing on those aspects is better.\n\nI think the three questions I listed above fit the criteria. They each target specific parts of the argument, challenge the validity by questioning assumptions or evidence, and don't introduce new concepts outside the text."
+    },
+    "MT_14": {
+        "intervention_id": "MT_14",
+        "intervention": "MT: \"We have indeed required those products to have very large warnings on them, telling people about their salt and fat content\nAnd we don\u2019t allow them to say things which are misleading\nWe don\u2019t allow fatty products to say they're healthy\nI've got in front of me a letter from a credit card company\nThere are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers\nNow, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges\nAnd then very, very quickly you\u2019ll be lured into paying a very large charge\nDo you think it\u2019s responsible to encourage people to mis-read something like that?\nI\u2019ve got all the information there in front of me\nWhy is that irresponsible?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "Example",
+            "ExpertOpinion",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does equating food product regulations with credit card advertising account for differences in consumer behavior or urgency between health choices and financial decisions?  "
+            },
+            {
+                "id": 1,
+                "cq": "Does the reliance on small print disclosures sufficiently address the risk of consumer harm when the most prominent figures emphasize 0% charges?  "
+            },
+            {
+                "id": 2,
+                "cq": "If the credit card company provides all required information, does the text\u2019s criticism conflate legal compliance with ethical responsibility in advertising practices?"
+            }
+        ],
+        "full_response": "How does equating food product regulations with credit card advertising account for differences in consumer behavior or urgency between health choices and financial decisions?  \nDoes the reliance on small print disclosures sufficiently address the risk of consumer harm when the most prominent figures emphasize 0% charges?  \nIf the credit card company provides all required information, does the text\u2019s criticism conflate legal compliance with ethical responsibility in advertising practices?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The example they provided had questions that challenge the comparison between food warnings and credit card ads, check evidence for claims, and question hidden fees.\n\nFirst, I need to analyze the text. The speaker is comparing regulations on food products (large warnings, no misleading claims) to a credit card offer that highlights 0% rates but has hidden charges in small print. They argue that this is irresponsible.\n\nSo, the core arguments here are the analogy between food regulations and financial ads, the effectiveness of the current regulations in preventing deception, and whether the credit card's presentation is misleading despite the small print.\n\nUseful questions should target these points. Let me brainstorm:\n\n1. The analogy: Is comparing food product regulations to financial ads valid? The speaker assumes that both situations are similar, but maybe there are differences in consumer behavior or regulation enforcement. So a question challenging the validity of this comparison.\n\n2. The small print: The text mentions that the charges are in small print but claims it's clear. However, the speaker says people are lured. Is there an assumption that small print is sufficient? Maybe a question about whether small print effectively communicates the true costs.\n\n3. The responsibility angle: The speaker implies that including information in small print isn't responsible. But they have all the info there. So a question could ask if the presence of small print absolves the company of responsibility, challenging the assumption that disclosure equals responsibility.\n\nAvoiding unhelpful ones like \"Why is it irresponsible?\" since that's already addressed. Also, no new concepts. Let me phrase these into questions following the examples.\n\nFirst question: How does the analogy between food product regulations and credit card advertisements hold up when considering differences in consumer awareness or regulatory standards? (This challenges the comparison's validity.)\n\nSecond: Does the use of small print for disclosing charges adequately prevent consumer deception, or does it rely on an assumption that consumers will read and understand the fine print? (Targets the effectiveness of small print.)\n\nThird: If all necessary information is technically provided, does the credit card company's presentation still shift responsibility onto the consumer for potential misunderstandings? (Challenges responsibility despite disclosure.)\n\nCheck guidelines: These are specific, target existing elements, don't introduce new concepts. They challenge the argument's validity by probing assumptions in the analogy, effectiveness of small print, and responsibility. Looks good."
+    },
+    "Antanagoge_104": {
+        "intervention_id": "Antanagoge_104",
+        "intervention": "Antanagoge: \"The airline industry can not be left to selfmonitor this.\nStudies have shown that the quality of information from airline customer service department is highly variable and, in some cases, incomplete or inaccurate.\nThe psychological effects of this, combined with the risk of death, are significant.\nStories told by families of vacations never taken, of midair retraction of the promise by the airline that peanuts would not be served, of public humiliation of peanutallergic individuals and their family by airline staff, and of serious reactions in flight, abound.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the variability in customer service information directly correlate with the inability of the airline industry to self-monitor, or are these separate issues?  "
+            },
+            {
+                "id": 1,
+                "cq": "Is the emphasis on anecdotal stories sufficient to substantiate the claim about widespread psychological effects and risks, or could this exaggerate isolated incidents?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does combining the risk of death with psychological effects strengthen the argument, and does the text provide evidence that these factors are inherently linked?"
+            }
+        ],
+        "full_response": "Does the variability in customer service information directly correlate with the inability of the airline industry to self-monitor, or are these separate issues?  \nIs the emphasis on anecdotal stories sufficient to substantiate the claim about widespread psychological effects and risks, or could this exaggerate isolated incidents?  \nHow does combining the risk of death with psychological effects strengthen the argument, and does the text provide evidence that these factors are inherently linked?",
+        "reasoning": "Okay, let's tackle this. I need to generate three useful critical questions for the given text about the airline industry and their self-monitoring.\n\nFirst, the text uses the term \"Antanagoge,\" which is a rhetorical device where a negative point is countered with a positive one. But here, the argument is presenting a negative situation (airline self-monitoring issues) and supporting it with examples. Wait, maybe the use of Antanagoge here is to present a problem and then justify the need for regulation. But the text doesn't present a positive counter; it just lists negatives. Maybe that's a point to question. So, is the use of Antanagoge here valid?\n\nThe text mentions studies showing variable, incomplete, or inaccurate information from customer service. The critical question could challenge the evidence: are these studies reliable? Are they cited properly? The argument relies on these studies, so questioning their validity would weaken the argument.\n\nThen, the psychological effects combined with risk of death. The combination might be conflating two different issues. Does the text provide evidence that these psychological effects are directly linked to the risk of death, or are they separate? If they're separate, combining them might be an emotional appeal without logical connection.\n\nThe anecdotes: stories about vacations never taken, midair retractions, public humiliation, and serious reactions. Anecdotes can be persuasive but are they representative? The question could ask if these stories are sufficient evidence or just isolated incidents. Also, do these anecdotes directly relate to the need for external monitoring, or are they emotional appeals?\n\nAnother angle: The argument says the industry can't self-monitor, but does the text provide a causal link between the poor information quality and the need for external regulation? Or is it assuming that because there are problems, self-monitoring is insufficient without considering existing measures.\n\nPossible questions:\n\n1. Does the use of anecdotal stories about families provide sufficient evidence to conclude that self-monitoring by airlines is ineffective, or could these examples be isolated incidents?\n\n2. Is the combination of psychological effects and risk of death supported by evidence in the text, or does it conflate separate issues to strengthen the argument emotionally?\n\n3. How do the cited studies specifically demonstrate that variability in customer service information justifies the need for external monitoring rather than improved internal practices?\n\nWait, need to check if the questions challenge the argument's validity based on the text without introducing new concepts. Let me adjust the first one to focus on the validity of the anecdotes as evidence against self-monitoring. The second question addresses the combination of factors. The third questions the link between the studies and the conclusion. Maybe rephrase for clarity. Also, make sure they don't ask for external info but use the text's own points."
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Javier provide evidence that passengers frequently delay their airport arrival based on delay notifications and subsequently miss flights?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the argument account for scenarios where airlines might underestimate their ability to predict resolution times for delays caused by maintenance or weather?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is the assumption that passengers can easily adjust their travel plans after receiving delay notifications supported by practical considerations of real-world logistics?"
+            }
+        ],
+        "full_response": "Does Javier provide evidence that passengers frequently delay their airport arrival based on delay notifications and subsequently miss flights?  \nHow does the argument account for scenarios where airlines might underestimate their ability to predict resolution times for delays caused by maintenance or weather?  \nIs the assumption that passengers can easily adjust their travel plans after receiving delay notifications supported by practical considerations of real-world logistics?",
+        "reasoning": "Okay, let's tackle this. I need to generate three useful critical questions for Javier's argument about airline delay notifications. First, I'll read through the text carefully to understand his points.\n\nJavier says he doesn't mind requiring airlines to notify passengers of known delays within 30 minutes. But he's concerned that some problems are unavoidable, and airlines will get blamed even when they inform passengers. He mentions issues like weather holds or maintenance that airlines can't predict exactly. Sometimes these get resolved faster, so passengers who delay going to the airport might miss their flight. He thinks flyers should take responsibility instead of blaming airlines.\n\nNow, I need to create questions that challenge his argument's validity based on the text without introducing new concepts. Let's break down his main points:\n\n1. Airlines can't know exact resolution times for delays.\n2. Passengers might delay going to the airport based on notifications, then miss flights if issues resolve quickly.\n3. Flyers should stop blaming airlines and take responsibility.\n\nPossible angles to challenge:\n- Assumption that passenger behavior (delaying) is a major issue. Is there evidence for that?\n- The comparison between unavoidable problems and the effectiveness of notifications. Are all unavoidable problems equally unpredictable?\n- The responsibility shift to passengers: does the argument consider airlines' role in providing accurate info?\n\nUseful questions need to target these points. Let me try drafting:\n\n1. Does Javier provide evidence that passengers frequently delay their trips based on notifications, leading to missed flights? (Challenges the assumption about passenger behavior without evidence.)\n\n2. How does the argument address the possibility that timely notifications could still benefit passengers despite occasional faster resolutions? (Questions if the downside outweighs the benefits.)\n\n3. Is the expectation for passengers to \"grow up\" ignoring potential systemic issues in how airlines communicate delays? (Challenges the responsibility shift by pointing out possible airline communication flaws.)\n\nCheck against guidelines: They focus on existing text points, challenge validity, don't introduce new concepts. Avoid common sense or generic questions."
+    },
+    "TRUMP_70": {
+        "intervention_id": "TRUMP_70",
+        "intervention": "TRUMP: \"you go to her website\nyou take a look at her website\nShe 's going to raise taxes $ 1.3 trillion\nlook at her website\nYou know what ?\nIt 's no difference than this\nShe 's telling us how to fight ISIS\nJust go to her website\nShe tells you how to fight ISIS on her website\nI do n't think General Douglas MacArthur would like that too much\n...\nNo , no\nyou 're telling the enemy everything you want to do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PositionToKnow"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does comparing the disclosure of strategy on a website to MacArthur\u2019s methods overlook differences in modern military transparency?  "
+            },
+            {
+                "id": 1,
+                "cq": "What assumptions does the argument make about adversaries\u2019 inability to anticipate strategies without public disclosure?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is the claim that outlining a plan inherently aids the enemy supported by evidence, or does it ignore potential strategic benefits of transparency?"
+            }
+        ],
+        "full_response": "Does comparing the disclosure of strategy on a website to MacArthur\u2019s methods overlook differences in modern military transparency?  \nWhat assumptions does the argument make about adversaries\u2019 inability to anticipate strategies without public disclosure?  \nIs the claim that outlining a plan inherently aids the enemy supported by evidence, or does it ignore potential strategic benefits of transparency?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text where Trump is criticizing someone (probably Hillary Clinton) for detailing her plans to fight ISIS on her website, implying that it's akin to telling the enemy their strategy.\n\nFirst, I need to understand the core arguments here. Trump is arguing that by outlining her strategy on her website, she's revealing too much to the enemy, which MacArthur wouldn't approve of. The main points are: disclosing strategies publicly is bad, comparison to MacArthur, and the effectiveness of such disclosure.\n\nFor a useful question, I need to challenge the validity. Maybe the assumption that enemies don't already know standard strategies. So a question like, \"Does publicly outlining a strategy necessarily provide new information to the enemy, or could it be based on common knowledge tactics?\" That targets the assumption that the website info is giving away secrets.\n\nAnother angle is the MacArthur comparison. The text uses him as an authority. So a question questioning the relevance of his opinion to modern warfare. Like, \"Is MacArthur's hypothetical disapproval relevant given changes in military strategy since his time?\" That challenges the analogy's validity.\n\nThird, the argument that stating the plan undermines effectiveness. Maybe asking if there's evidence that transparency in strategy leads to failure. For example, \"Is there evidence that transparent strategies are less effective, or could they demonstrate preparedness?\" That makes the reader question the premise.\n\nNeed to avoid unhelpful questions that are too obvious or not challenging. For example, \"Why does Trump mention MacArthur?\" would be too basic. Also, avoiding introducing new concepts not in the text. Each question must focus on existing elements but challenge their validity."
+    },
+    "secretcurse__139": {
+        "intervention_id": "secretcurse__139",
+        "intervention": "secretcurse: \"The first debate was already limited to five people\nAccording to the FEC\n171 people have officially declared their candidacy for the Democratic Party nomination with the FEC (sort by party to see the 171 people a bit easier)\nDo you think every single one of the 171 people that have filed the paperwork with the FEC declaring their candidacy deserves their fair shot at expressing themselves at the first debate\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "ArgumentFromAuthority",
+            "ArgumentFromAuthority"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the requirement to file FEC paperwork alone justify debate inclusion without considering practical candidacy viability?  "
+            },
+            {
+                "id": 1,
+                "cq": "What criteria determine whether a candidate \"deserves\" a debate platform beyond formal FEC registration?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the argument reconcile the logistical impracticality of hosting 171 debaters with its implied standard of fairness?"
+            }
+        ],
+        "full_response": "Does the requirement to file FEC paperwork alone justify debate inclusion without considering practical candidacy viability?  \nWhat criteria determine whether a candidate \"deserves\" a debate platform beyond formal FEC registration?  \nHow does the argument reconcile the logistical impracticality of hosting 171 debaters with its implied standard of fairness?",
+        "reasoning": "Okay, I need to generate three useful critical questions for the given text. Let me start by understanding the text.\n\nThe text mentions that the first debate was limited to five people, but 171 candidates have filed with the FEC. The user is asking if all 171 deserve a fair shot at the first debate. \n\nFirst, I should identify the core arguments here. The main point seems to be that limiting the debate to five candidates might be unfair when there are 171 declared. The author is questioning whether all deserve a chance. \n\nFor useful questions, they need to challenge the argument's validity by focusing on existing details. Let me think about possible angles. \n\nThe comparison between 171 candidates and the five-debate limit is a key point. Maybe asking about the criteria used to limit the debate. The text mentions filing with FEC as the basis for candidacy, so perhaps questioning the assumption that FEC filing alone merits debate inclusion. \n\nAnother angle is whether the FEC declaration is sufficient for deserving a spot. The text implies that filing paperwork should grant a chance, but maybe there's more to being a viable candidate. \n\nAlso, the term \"fair shot\" is subjective. What defines fairness here? The question might challenge the definition of fairness used in the argument. \n\nI need to avoid questions that are too general or introduce new concepts. For example, asking about the FEC's role would be external. Instead, focus on the link between FEC filing and debate eligibility as presented. \n\nPossible questions: \n\n1. Does the act of filing with the FEC inherently qualify a candidate for debate participation, or are there other necessary criteria not mentioned? \n2. What justifies equating the submission of FEC paperwork with deserving a \"fair shot\" in the debate, and is this equivalence valid? \n3. How does limiting the debate to five participants align with the notion of fairness when the number of candidates is significantly higher? \n\nThese questions challenge the assumptions in the text without introducing new ideas. Each targets the core reasoning: the link between FEC filing and debate eligibility, the definition of fairness, and the criteria for selection. They make the reader reflect on whether the argument holds up by examining its premises."
+    },
+    "ND_28": {
+        "intervention_id": "ND_28",
+        "intervention": "ND: \"In some ways I agree with you\nIf you want the economy to run smoothly, you have to incentivise certain types of behaviour.\nSo, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies\nOn the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt\nBut it certainly isn\u2019t the debts of the people who most need it in society\nFor productive investments. I agree with you.\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the comparison between incentivizing saving in South Korea and writing off debt effectively address the societal impact of debt relief policies?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the assertion that written-off debts primarily exclude those who most need relief, and how does this affect the argument's credibility?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the acknowledgment of productive investments align with the criticism of debt write-offs, and does this create a contradiction in the argument's stance?"
+            }
+        ],
+        "full_response": "Does the comparison between incentivizing saving in South Korea and writing off debt effectively address the societal impact of debt relief policies?  \nWhat evidence supports the assertion that written-off debts primarily exclude those who most need relief, and how does this affect the argument's credibility?  \nHow does the acknowledgment of productive investments align with the criticism of debt write-offs, and does this create a contradiction in the argument's stance?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. First, I need to understand the text thoroughly.\n\nThe text is a statement by someone (ND) who partially agrees with an argument about incentivizing behavior for a smooth economy. They mention South Korea's growth through policies that encouraged saving. However, ND points out that massive debts have been written off, but not for those who need it most in society, even though they agree that productive investments are important.\n\nNow, following the guidelines, the questions must challenge the argument's validity by focusing on existing details without introducing new concepts. They shouldn't be too general or common sense.\n\nFirst, ND compares South Korea's policies to debt write-offs. Is that comparison valid? Maybe they assume that incentivizing saving is similar to debt relief, but are the contexts comparable? So a question could ask about the validity of that comparison.\n\nNext, ND claims that written-off debts aren't helping those most in need. But what evidence supports that claim? The text doesn't provide data, so questioning the basis of this assertion would be useful.\n\nLastly, ND agrees that incentivizing certain behaviors is good for the economy but criticizes debt write-offs. There's a potential contradiction here. A question could ask how these two positions can coexist without undermining each other.\n\nI need to check if these questions are based on the text and not introducing new ideas. They seem to target the core arguments and assumptions made, so they should be valid and useful."
+    },
+    "CLINTON_186": {
+        "intervention_id": "CLINTON_186",
+        "intervention": "CLINTON: \"there are a number of issues that we should be addressing\nI have put forth a plan to defeat ISIS\nIt does involve going after them online\nwe need to do much more with our tech companies to prevent ISIS and their operatives from being able to use the Internet to radicalize , even direct people in our country and Europe and elsewhere\neventually support our Arab and Kurdish partners to be able to actually take out ISIS in Raqqa\nend their claim of being a Caliphate\nWe 're making progress\nOur military is assisting in Iraq\nwe 're hoping that within the year we 'll be able to push ISIS out of Iraq\nreally squeeze them in Syria\nwe have to be cognizant of the fact that they 've had foreign fighters coming to volunteer for them\nforeign money\nforeign weapons\nwe have to make this the top priority\nI would also do everything possible to take out their leadership\nI was involved in a number of efforts to take out Al Qaida leadership when I was secretary of state\nincluding , of course , taking out bin Laden\nwe need to go after Baghdadi , as well\nmake that one of our organizing principles\nwe 've got to defeat ISIS\nwe 've got to do everything we can to disrupt their propaganda efforts online\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Example",
+            "Example",
+            "VerbalClassification",
+            "Example",
+            "PracticalReasoning",
+            "Values",
+            "Values",
+            "PracticalReasoning",
+            "Values"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the comparison between targeting Al Qaida leadership and ISIS leadership account for fundamental differences in their organizational structures that might affect the strategy's success?  "
+            },
+            {
+                "id": 1,
+                "cq": "What specific mechanisms would ensure collaboration with tech companies effectively disrupts ISIS propaganda without infringing on broader freedoms or privacy rights?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the plan address the potential for ISIS to resurge or adapt if pushed out of territorial strongholds without addressing the root causes of their recruitment and funding?"
+            }
+        ],
+        "full_response": "Does the comparison between targeting Al Qaida leadership and ISIS leadership account for fundamental differences in their organizational structures that might affect the strategy's success?  \nWhat specific mechanisms would ensure collaboration with tech companies effectively disrupts ISIS propaganda without infringing on broader freedoms or privacy rights?  \nHow does the plan address the potential for ISIS to resurge or adapt if pushed out of territorial strongholds without addressing the root causes of their recruitment and funding?",
+        "reasoning": "Okay, let's tackle this. I need to generate three useful critical questions for Clinton's argument about defeating ISIS. First, I should read the text carefully to understand her main points. She talks about a plan involving tech companies, supporting partners in Iraq and Syria, targeting leadership, and disrupting propaganda.\n\nUseful questions should challenge the argument's validity by focusing on existing points. Let's see. She compares her plan to past efforts with Al Qaeda. Maybe ask if the comparison is valid, like differences between ISIS and Al Qaeda. That's in the text when she mentions taking out bin Laden.\n\nAnother point is about working with tech companies. She says \"do much more with our tech companies.\" But what does that mean? The question could ask about specific mechanisms or evidence that this approach works, as she doesn't provide details.\n\nShe mentions pushing ISIS out of Iraq and squeezing them in Syria. But does that address the underlying causes? The text doesn't mention preventing resurgence, so a question could challenge if territorial gains alone are sufficient without long-term strategies.\n\nAvoid questions that are too general or introduce new concepts. For example, asking about foreign policy in general would be invalid. Also, avoid ones that are just common sense, like why defeating ISIS is important.\n\nI think those three points cover the main areas: comparison to past efforts, effectiveness of tech collaboration, and sufficiency of military action. Each question stays within the text and challenges the argument's validity without bringing in external ideas."
+    },
+    "MT_40": {
+        "intervention_id": "MT_40",
+        "intervention": "MT: \"I don\u2019t think you just said the opposite of them was neutral\nSo if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?\nBut, hold on\nIsn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nTherefore isn\u2019t it a reasonable thing for the state to intervene in those cases\nbecause the knowledge is bounded?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "PracticalReasoning",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the assumption that the opposite of virtues like thrift and prudence must be inherently immoral account for contextual or situational differences?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the comparison between buying coffee and managing long-term interest rates establish a valid basis for state intervention?  "
+            },
+            {
+                "id": 2,
+                "cq": "If knowledge is bounded, does this inherently justify state intervention in all minor financial decisions like purchasing coffee?"
+            }
+        ],
+        "full_response": "Does the assumption that the opposite of virtues like thrift and prudence must be inherently immoral account for contextual or situational differences?  \nHow does the comparison between buying coffee and managing long-term interest rates establish a valid basis for state intervention?  \nIf knowledge is bounded, does this inherently justify state intervention in all minor financial decisions like purchasing coffee?",
+        "reasoning": "Okay, let me tackle this. The user wants me to generate three useful critical questions for the given text. First, I need to understand the text properly.\n\nThe text seems to be a conversation where MT is arguing that if thrift and prudence are virtues, their opposites might be considered immoral. Then MT questions if buying coffee (a small, immediate purchase) is less demanding than dealing with long-term interest rates, suggesting state intervention because knowledge is bounded.\n\nNow, I need to create questions that challenge the argument's validity based on the text without introducing new concepts. Let me break down the key points: \n\n1. Equating opposite of virtues (thrift/prudence) as immoral. Is that a valid implication? The text says \"doesn\u2019t that imply...\" so a question could challenge if that implication holds. \n\n2. Comparing buying coffee to working up a long-term interest rate. Are these comparable? The argument assumes they're different in complexity, but is that assumption justified?\n\n3. State intervention due to bounded knowledge. Does bounded knowledge necessarily justify intervention? The text links the two, but maybe there's a gap there.\n\nSo possible questions:\n\n- Does the assumption that the opposite of thrift and prudence being immoral hold without considering contextual factors? (Challenges the implication of virtue opposites as immoral)\n\n- Is the comparison between buying coffee and managing long-term interest rates valid in justifying state intervention? (Questions the analogy's validity)\n\n- How does bounded knowledge specifically necessitate state intervention in minor purchases like coffee? (Challenges the link between bounded knowledge and intervention)\n\nI need to make sure these don't introduce new concepts and stay within the text. Avoid being too vague or generic. Let me check the examples again. The useful questions in the example targeted specific comparisons, evidence, and hidden fees. Similarly, my questions should target the logical steps in the argument here."
+    },
+    "CL_8": {
+        "intervention_id": "CL_8",
+        "intervention": "CL: \"Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?\nThey have absolutely very little choice except to take the terms that are being offered to them\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "DirectAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the assertion that individuals have \"very little choice\" assume the absence of alternative options without providing evidence?  "
+            },
+            {
+                "id": 1,
+                "cq": "How is the claim that negotiation is impossible substantiated, and does this inherently justify labeling the terms as exploitative?  "
+            },
+            {
+                "id": 2,
+                "cq": "What criteria determine whether terms are \"taking advantage\" of individuals versus reflecting standard market conditions for high-risk agreements?"
+            }
+        ],
+        "full_response": "Does the assertion that individuals have \"very little choice\" assume the absence of alternative options without providing evidence?  \nHow is the claim that negotiation is impossible substantiated, and does this inherently justify labeling the terms as exploitative?  \nWhat criteria determine whether terms are \"taking advantage\" of individuals versus reflecting standard market conditions for high-risk agreements?",
+        "reasoning": "Okay, I need to generate three useful critical questions for the given text. Let me start by understanding the text first. The text is a dialogue where CL is challenging someone about taking advantage of people who can't negotiate and have no choice but to accept the terms. The main argument here seems to be that the party being addressed is exploiting vulnerable individuals by offering non-negotiable terms.\n\nNow, following the guidelines, the questions should challenge the argument's validity by focusing on details present without introducing new concepts. The examples provided in the prompt often ask about assumptions, evidence, or validity of comparisons. Let me brainstorm possible angles.\n\nFirst, the claim is that people have \"very little choice.\" A useful question might challenge the assumption that they truly have no alternatives. For example, asking whether it's proven that there are no other options. That would target the core of the argument.\n\nAnother point is \"taking advantage.\" The question could question the evidence that the terms are exploitative rather than just unfavorable. Maybe there's a lack of proof that the terms are unfair versus just being the only option available.\n\nAlso, the speaker assumes that having little choice automatically means being taken advantage of. A question could challenge if that link is justified. Like, does having no alternatives necessarily imply exploitation?\n\nLet me check if these fit the useful criteria. They focus on the text's existing points: lack of choice, taking advantage, and the connection between them. They don't introduce external ideas. They make the reader think about the validity of the premises. \n\nAvoiding unhelpful questions: I shouldn't ask something that's common sense or already answered. The text doesn't provide evidence, so asking for evidence is valid. Also, the comparison between choice and exploitation is core here.\n\nInvalid questions would be those introducing new concepts or being too vague. So sticking to the text's elements is key.\n\nSo, the three questions could be:\n\n1. What evidence supports the claim that individuals have \"very little choice,\" and does it account for potential alternatives not mentioned?\n2. How does the absence of negotiation options directly equate to being taken advantage of, and is this correlation justified?\n3. Is there data indicating that the offered terms are exploitative rather than simply the only available option in the current market?\n\nLet me check each against the guidelines. The first question asks about evidence for \"very little choice,\" which is central. The second questions the direct link between no negotiation and exploitation. The third asks for data on the nature of the terms. All target the argument's validity without introducing new concepts. They seem to fit the useful category."
+    },
+    "CLINTON_130_1": {
+        "intervention_id": "CLINTON_130_1",
+        "intervention": "CLINTON: \"I've heard Donald say this at his rallies\nit's really unfortunate that he paints such a dire negative picture of black communities in our country\nthe vibrancy of the black church\nthe black businesses that employ so many people\nthe opportunities that so many families are working to provide for their kids\nThere's a lot that we should be proud of and we should be supporting and lifting up\nwe do always have to make sure we keep people safe\nThere are the right ways of doing it\nthen there are ways that are ineffective\nStop-and-frisk was found to be unconstitutional\nin part, because it was ineffective\nIt did not do what it needed to do\nI believe in community policing\nin fact, violent crime is one-half of what it was in 1991\nProperty crime is down 40 percent\nWe just don't want to see it creep back up\nWe've had 25 years of very good cooperation\nthere were some problems\nsome unintended consequences\nToo many young African-American and Latino men ended up in jail for nonviolent offenses\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Example",
+            "Consequences",
+            "Example",
+            "Example",
+            "Example",
+            "Example",
+            "Alternatives",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the correlation between the unconstitutionality of stop-and-frisk and its ineffectiveness account for potential external factors that might influence crime rates differently?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the comparison of current crime statistics to 1991 address potential shifts in reporting practices or demographic changes over the intervening decades?  "
+            },
+            {
+                "id": 2,
+                "cq": "If 25 years of cooperation led to unintended consequences like over-incarceration, what evidence supports the claim that current strategies will avoid repeating these outcomes?"
+            }
+        ],
+        "full_response": "Does the correlation between the unconstitutionality of stop-and-frisk and its ineffectiveness account for potential external factors that might influence crime rates differently?  \nHow does the comparison of current crime statistics to 1991 address potential shifts in reporting practices or demographic changes over the intervening decades?  \nIf 25 years of cooperation led to unintended consequences like over-incarceration, what evidence supports the claim that current strategies will avoid repeating these outcomes?",
+        "reasoning": "Okay, let's tackle this. So the user wants me to generate three useful critical questions for the given text by Clinton. The goal is to challenge the validity of the arguments presented.\n\nFirst, I need to understand the text thoroughly. Clinton is responding to Donald's portrayal of black communities. She mentions the vibrancy of the black church, businesses, opportunities, and argues against stop-and-frisk as unconstitutional and ineffective. She also cites crime statistics and mentions unintended consequences of past policies.\n\nNow, I need to find points where her argument might have weaknesses. Let's break it down. She compares current crime rates to 1991. Maybe that's a point to question. Why 1991? Is that comparison valid? What if other factors contributed to the drop?\n\nAnother point is her assertion that stop-and-frisk was ineffective because it was unconstitutional. Wait, the unconstitutionality might be separate from effectiveness. So maybe challenging whether the ruling against it was based on effectiveness or constitutional grounds. She conflates the two?\n\nAlso, she says community policing works, but how does she connect that to the crime statistics? Is there evidence that community policing caused the drop, or are there other factors? She might be assuming causation without proof.\n\nWhat about the mention of unintended consequences leading to incarceration for nonviolent offenses. She says \"we've had 25 years of cooperation,\" but if there were problems, how does she reconcile the cooperation with those negative outcomes? Maybe there's a contradiction there.\n\nSo possible questions:\n\n1. Does the constitutional ruling against stop-and-frisk necessarily prove its ineffectiveness, or were there other factors considered in the decision? (This challenges the link between unconstitutionality and effectiveness.)\n\n2. How does the comparison of current crime rates to 1991 account for changes in societal factors that may have influenced these statistics? (Questions the validity of the time frame chosen.)\n\n3. If there have been 25 years of cooperation leading to unintended consequences, what specific measures ensure current policies avoid similar issues? (Challenges the continuity between past cooperation and current proposals.)\n\nI need to ensure the questions don't introduce new concepts. Let me check the guidelines again. The questions should focus on existing details. The first two are based on the text's mention of the stop-and-frisk ruling and the crime stats. The third addresses the 25 years and unintended consequences. All are present in the text. They don't ask for external info or common sense, and they challenge the argument's validity. Seems good."
+    },
+    "kateinhawaii_103": {
+        "intervention_id": "kateinhawaii_103",
+        "intervention": "kateinhawaii: \"I personally have suffered from peanut allergies for over 40 years.\nIf there are packaged peanuts served on board a flight, it's 100% guaranteed that I will have a reaction from the peanut dust.\nI do not agree with a buffer zone for a couple of reasons.\nFor me, it's the dust in the air.\nSomeone posted that the air circulates peanut dust right out of the air\nbut apparently not quick enough to prevent a life threatening reaction.\nYou know, airlines tried to create nonsmoking zones on airplanes but that didn't work either.\nI have been on flights where nasty (and do I mean NASTY) flight attendants have made sarcastic remarks about me and my allergies especially on one Delta flight.\nNorthwest was great\nbecause they respected their passengers enough to address their concerns\nand prohibited peanuts altogether.\nIt was as much a relief to walk onto one of their flights as it was to walk onto one of the first smoke free flights!\nSmokers use to use the same logic and reasoning to justify smoking on flights as these peanut proponents are using now.\nI flew on many smoking flights and never needed to inject myself so that I could breathe\nI can't say the same for flights with peanuts.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample",
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the comparison between ineffective smoking zones and peanut buffer zones account for differences in how smoke and peanut particles disperse in airplane air circulation?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the personal experience of not needing medical intervention on smoking flights but requiring it on peanut flights substantiate the claim that peanut dust is uniquely hazardous?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is the relief felt when boarding a peanut-free flight sufficient evidence to conclude that a total ban is more effective than buffer zones, or could other factors contribute to this perception?"
+            }
+        ],
+        "full_response": "Does the comparison between ineffective smoking zones and peanut buffer zones account for differences in how smoke and peanut particles disperse in airplane air circulation?  \nHow does the personal experience of not needing medical intervention on smoking flights but requiring it on peanut flights substantiate the claim that peanut dust is uniquely hazardous?  \nIs the relief felt when boarding a peanut-free flight sufficient evidence to conclude that a total ban is more effective than buffer zones, or could other factors contribute to this perception?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text about peanut allergies on flights. The key is to challenge the argument's validity without introducing new concepts.\n\nFirst, I need to understand the main points. The author, Kate, argues against buffer zones because peanut dust in the air causes reactions, compares it to ineffective smoking zones, and shares personal experiences with airlines. She also contrasts Delta and Northwest's approaches.\n\nUseful questions should target the core arguments. Let's start with the smoking vs. peanut comparison. Is the analogy valid? The text mentions both, so a question about the validity of that comparison makes sense. Next, the claim about never needing an injection on smoking flights but needing it with peanuts. Does that experience alone support the conclusion? Maybe there's more factors. Lastly, the effectiveness of Northwest's policy. The author feels relief, but does that mean it's effective? Are there other factors?\n\nAvoid questions that are too general or common sense. Also, don't ask about things not in the text. For example, asking about other allergens would be invalid. Also, the sarcastic remarks from flight attendants might be a personal experience, but does that directly challenge the argument against buffer zones? Maybe not as much as the other points.\n\nSo possible questions:\n1. Comparing smoking and peanut policies' effectiveness. Validity of analogy?\n2. Personal experience with smoking flights vs. peanuts as sufficient evidence.\n3. Northwest's policy effectiveness based on relief feeling vs. actual data.\n\nCheck if these are present in the text and challenge the argument. Yes. They target the reasoning without introducing new ideas."
+    },
+    "TRUMP_174_1": {
+        "intervention_id": "TRUMP_174_1",
+        "intervention": "TRUMP: \"I would love to respond\nI got to watch in preparing for this some of your debates against Barack Obama\nYou treated him with terrible disrespect\nI watched the way you talk now about how lovely everything is and how wonderful you are\nIt does n't work that way\nYou were after him\nyou were trying to\u2014you even sent out or your campaign sent out pictures of him in a certain garb , very famous pictures\nI do n't think you can deny that\njust last week , your campaign manager said it was true\nwhen you tried to act holier than thou , it really does n't work\nas far as the lawsuit , yes , when I was very young , I went into my father 's company , had a real estate company in Brooklyn and Queens , and we , along with many , many other companies throughout the country\u2014it was a federal lawsuit\u2014were sued\nWe settled the suit with zero\u2014with no admission of guilt\nIt was very easy to do\nI notice you bring that up a lot\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "GenericAdHominem",
+            "PositionToKnow",
+            "CircumstantialAdHominem",
+            "GenericAdHominem",
+            "Sign",
+            "VerbalClassification",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Trump's comparison of his opponent's past criticism of Obama to their current behavior establish hypocrisy or distract from the substance of their arguments?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does settling a lawsuit without admission of guilt conclusively demonstrate innocence, given that settlements often avoid prolonged legal battles regardless of fault?  "
+            },
+            {
+                "id": 2,
+                "cq": "If the campaign manager acknowledged sending controversial images of Obama, does this admission directly implicate the opponent\u2019s personal integrity or reflect broader campaign tactics?"
+            }
+        ],
+        "full_response": "Does Trump's comparison of his opponent's past criticism of Obama to their current behavior establish hypocrisy or distract from the substance of their arguments?  \nHow does settling a lawsuit without admission of guilt conclusively demonstrate innocence, given that settlements often avoid prolonged legal battles regardless of fault?  \nIf the campaign manager acknowledged sending controversial images of Obama, does this admission directly implicate the opponent\u2019s personal integrity or reflect broader campaign tactics?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text where Trump is speaking. The goal is to challenge the argument's validity by focusing on details in the text without introducing new concepts.\n\nFirst, I need to understand the text thoroughly. Trump is responding to someone, possibly a political opponent, by accusing them of disrespecting Obama in the past. He mentions their debates, sending pictures of Obama in certain garb, and their campaign manager admitting it. Then he addresses a lawsuit, saying they settled without guilt and it was easy, and notes the opponent brings it up a lot.\n\nNow, I need to find points where the argument can be questioned. Let's break it down:\n\n1. **Comparison between past and present behavior**: Trump accuses the opponent of treating Obama disrespectfully and now acting \"holier than thou.\" Is there evidence that the opponent's past actions invalidate their current stance? This could challenge the relevance of past behavior to current arguments.\n\n2. **Implications of settling a lawsuit**: Trump says they settled with no admission of guilt. But settling doesn't necessarily mean innocence. Questioning the assumption that settlement equals innocence could undermine his defense.\n\n3. **Use of specific examples**: The mention of sending pictures of Obama in certain garb (maybe referencing the birther controversy?) and the campaign manager's admission. Are these actions directly comparable to the current criticism Trump is facing? Also, does admitting the action (as per the campaign manager) validate Trump's claim, or is there more nuance?\n\nPossible questions:\n\n- Does the comparison between the opponent's past treatment of Obama and their current behavior effectively undermine their credibility, or is it a diversion from the current issues?\n- How does the lack of admission of guilt in the lawsuit settlement support the claim of innocence, given that settlements often avoid legal liability regardless of guilt?\n- Does the reference to the campaign manager's admission conclusively prove the opponent's hypocrisy, or could there be other interpretations of those past actions?\n\nI need to ensure each question is specific to the text, doesn't introduce new concepts, and challenges the argument's validity. Let me check the guidelines again to confirm. Avoid common sense, stay within the text, etc. These seem to fit. Let me rephrase them to be more concise and precise."
+    },
+    "travellots_133_2": {
+        "intervention_id": "travellots_133_2",
+        "intervention": "travellots: \"If compensation is not high enough, the airlines will not have an incentive to schedule properly.\nIt is not fair to allow airlines to discriminate against lower fared passengers or \"free\" passengers\nsince it is the airline, not the passenger or government, who gave that passenger a seat.\nOtherwise, airlines can advertise low fares or con you into using them to build up your \"miles\" and then always bump you for someone who paid more.\nIn away,it is the same as being able to increase your ticket price anytime after purchase.\nWhen you are bumped, there are a lot of hidden extra costs\nIt irks me that airlines seem to be treating passengers more and more as if they have nothing better to do but wait around in airports and not get to where the airline promised to bring them.\nAgain, the airline sets the agreed price or miles for a seat, no one else.\nThe incentives to the airline should be to get all confirmed passengers (regardless of price paid) to the destination promised.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the analogy between bumping passengers and increasing ticket prices after purchase account for differences in contractual agreements or consumer protections?  "
+            },
+            {
+                "id": 1,
+                "cq": "Is there evidence that airlines prioritize higher-fare passengers over others solely due to compensation incentives rather than operational factors?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the argument substantiate the claim that hidden costs from being bumped are a systemic issue rather than isolated incidents?"
+            }
+        ],
+        "full_response": "Does the analogy between bumping passengers and increasing ticket prices after purchase account for differences in contractual agreements or consumer protections?  \nIs there evidence that airlines prioritize higher-fare passengers over others solely due to compensation incentives rather than operational factors?  \nHow does the argument substantiate the claim that hidden costs from being bumped are a systemic issue rather than isolated incidents?",
+        "reasoning": "Okay, so I need to generate three useful critical questions for the given text about airlines and compensation. Let me read through the text carefully first.\n\nThe main argument here is that airlines shouldn't discriminate against passengers who paid lower fares or used miles because the airline is responsible for giving them seats. The author claims that without proper compensation, airlines have no incentive to schedule properly and might bump passengers for those who paid more, leading to hidden costs and unfair treatment.\n\nFirst, I need to find parts of the argument that can be challenged. The text compares airline practices to increasing ticket prices after purchase. Maybe I can question the validity of that analogy. Also, the author assumes that the airline's responsibility for giving seats means they shouldn't discriminate. Is there a logical connection there?\n\nAnother point is about hidden costs when being bumped. The text mentions these costs but doesn't provide evidence. So, a question could ask if those hidden costs are substantiated. Also, the claim that incentives based on compensation would ensure proper scheduling\u2014does that hold? Maybe the link between compensation and scheduling isn't proven.\n\nI need to make sure each question is grounded in the text and doesn't introduce new concepts. Let me draft some questions:\n\n1. Does the comparison between bumping passengers and increasing ticket prices post-purchase hold under scrutiny regarding contractual obligations? (Challenges the analogy's validity)\n\n2. Is there evidence provided that hidden costs incurred from being bumped significantly impact passengers, or is this an assumption? (Questions the basis of the claim about hidden costs)\n\n3. How does the argument establish that higher compensation directly incentivizes airlines to improve scheduling practices? (Challenges the cause-effect relationship)\n\nThese questions target specific parts of the argument, using what's present in the text. They don't ask for common knowledge or introduce external ideas. I need to check if they fit the guidelines. The first question tackles the analogy, the second the hidden costs evidence, and the third the incentive structure. Seems good. Avoid being too vague or generic. Yep, these should work."
+    },
+    "dberger_74_2": {
+        "intervention_id": "dberger_74_2",
+        "intervention": "dberger: \"Other airlines with advance notice will not serve nuts\nbut all airlines allow passengers to bring on foods including nuts\nand will not stop the person from eating them if they wish to.\nSo you can have a 'nut free' flight and the person sitting next to you can take out their package of peanuts and eat away\nand the airlines will do nothing to help you.\nAgain all nuts should be banned from airplanes unless it is your own private plane  then go ahead and eat what you want.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the comparison between airline-served nuts and passenger-brought nuts account for differences in frequency or risk level that might affect policy effectiveness?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence demonstrates that airlines\u2019 refusal to restrict passenger-brought nuts invalidates the purpose of a \"nut-free\" flight policy entirely?  "
+            },
+            {
+                "id": 2,
+                "cq": "If banning all nuts on commercial flights is proposed, how does the text address the practicality of enforcing such a ban given passengers\u2019 freedom to carry personal food items?"
+            }
+        ],
+        "full_response": "Does the comparison between airline-served nuts and passenger-brought nuts account for differences in frequency or risk level that might affect policy effectiveness?  \nWhat evidence demonstrates that airlines\u2019 refusal to restrict passenger-brought nuts invalidates the purpose of a \"nut-free\" flight policy entirely?  \nIf banning all nuts on commercial flights is proposed, how does the text address the practicality of enforcing such a ban given passengers\u2019 freedom to carry personal food items?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is about banning nuts on airplanes, arguing that even if airlines don't serve nuts, passengers can still bring them, so all nuts should be banned except on private planes.\n\nFirst, I need to understand the argument's core. The author claims that since airlines can't stop passengers from bringing nuts, a \"nut-free\" flight isn't effective, hence a total ban is needed. The key points are the inconsistency in policies and the effectiveness of a total ban.\n\nTo challenge validity, the questions should target the argument's assumptions or evidence. Let's see:\n\n1. The text compares allowing passengers to bring nuts to the ineffectiveness of a nut-free policy. A useful question could question the validity of this comparison. Maybe there's an assumption that passenger-brought nuts are as common or problematic as airline-served ones. So: \"Does the allowance of passengers bringing nuts inherently undermine the effectiveness of a 'nut-free' flight policy, or could there be mitigating factors?\" That makes the reader think if the presence of passenger nuts is a significant issue or if other factors reduce their impact.\n\n2. The argument assumes that a total ban would solve the problem. But enforcing such a ban might be difficult. So: \"What evidence supports the assertion that banning all nuts on commercial flights would be enforceable, given the current policies allowing personal food items?\" This challenges the feasibility, pointing out enforcement issues not addressed in the text.\n\n3. The conclusion that all nuts should be banned except on private planes might not follow logically. Maybe private planes are different, but the text doesn't explain why. So: \"Is the distinction between commercial and private planes in allowing nuts justified by differing risk levels or practical considerations?\" This questions the rationale behind the exception for private planes, which the text doesn't substantiate.\n\nI need to make sure each question targets specific parts of the argument without introducing new concepts. Avoid being too general or asking for common knowledge. The examples provided in the guidelines focus on validity of comparisons, evidence, and logical consistency. These questions fit that by addressing the comparison's validity, enforceability, and the private vs. commercial distinction."
+    },
+    "TRUMP_240_2": {
+        "intervention_id": "TRUMP_240_2",
+        "intervention": "TRUMP: \"by the way , another one powerful is the worst deal I think I 've ever seen negotiated that you started is the Iran deal\nIran is one of their biggest trading partners\nIran has power over North Korea\nwhen they made that horrible deal with Iran , they should have included the fact that they do something with respect to North Korea\nthey should have done something with respect to Yemen and all these other places\nwhen asked to Secretary Kerry , why did n't you do that ?\nWhy did n't you add other things into the deal ?\nOne of the great giveaways of all time , of all time , including $ 400 million in cash\nNobody 's ever seen that before\nThat turned out to be wrong\nIt was actually $ 1.7 billion in cash\nobviously , I guess for the hostages\nIt certainly looks that way\nThis is one of the worst deals ever made by any country in history\nyou say to yourself , why did n't they make the right deal ?\nThe deal with Iran will lead to nuclear problems\nAll they have to do is sit back 10 years , and they do n't have to do much\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Consequences",
+            "Consequences",
+            "GenericAdHominem",
+            "CircumstantialAdHominem",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the argument that the Iran deal should have included provisions for North Korea and Yemen assume a direct geopolitical influence that Iran may not possess?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that the $1.7 billion cash payment was linked to hostages, and does this connection inherently invalidate the deal\u2019s terms?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the assertion that the deal will lead to nuclear problems after 10 years address existing safeguards or monitoring mechanisms outlined in the agreement?"
+            }
+        ],
+        "full_response": "Does the argument that the Iran deal should have included provisions for North Korea and Yemen assume a direct geopolitical influence that Iran may not possess?  \nWhat evidence supports the claim that the $1.7 billion cash payment was linked to hostages, and does this connection inherently invalidate the deal\u2019s terms?  \nHow does the assertion that the deal will lead to nuclear problems after 10 years address existing safeguards or monitoring mechanisms outlined in the agreement?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given Trump text about the Iran deal. First, I need to understand the text thoroughly. Trump is criticizing the Iran deal, saying it's the worst ever. He claims they should have included North Korea, Yemen, etc., and mentions the $1.7 billion cash payment linked to hostages.\n\nNow, guidelines say the questions must challenge the argument's validity by focusing on existing details. Let me break down his arguments. He compares the Iran deal's scope, implying it should have addressed other countries. Is that a valid expectation? Also, he links the cash payment to hostages, suggesting a quid pro quo. But does the text provide evidence for that connection? Then he says the deal will lead to nuclear problems in 10 years. Is there support for that timeline?\n\nSo, possible questions: One about the assumption that including other countries in the Iran deal was necessary or feasible. Another on the evidence connecting the cash payment to hostages. Third, the basis for the 10-year nuclear problem claim. Need to make sure these don't introduce new concepts, just use what's in the text. Avoid being too general or common sense. For example, asking why they didn't add other things is in the text, but a useful question would challenge the validity of that expectation. Got it."
+    },
+    "CLINTON_176_2": {
+        "intervention_id": "CLINTON_176_2",
+        "intervention": "CLINTON: \"we recently have learned that, you know, that this is one of their preferred methods of trying to wreak havoc and collect information\nWe need to make it very clear\u2014whether it's Russia, China, Iran or anybody else\u2014the United States has much greater capacity\nwe are not going to sit idly by and permit state actors to go after our information, our private-sector information or our public-sector information\n we're going to have to make it clear that we don't want to use the kinds of tools that we have\nWe don't want to engage in a different kind of warfare\nwe will defend the citizens of this country\n the Russians need to understand that\n they've been treating it as almost a probing, how far would we go, how much would we do\nI was so shocked when Donald publicly invited Putin to hack into Americans\nThat is just unacceptable\"",
+        "dataset": "US2016",
+        "schemes": [
+            "DangerAppeal",
+            "DangerAppeal",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence supports the assertion that the United States has \"much greater capacity\" to deter state actors compared to countries like Russia or China?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the stated reluctance to use available tools align with the commitment to defend citizens against cyber threats effectively?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is there evidence that public statements such as inviting foreign hacking directly influence state actors' probing strategies as described?"
+            }
+        ],
+        "full_response": "What evidence supports the assertion that the United States has \"much greater capacity\" to deter state actors compared to countries like Russia or China?  \nHow does the stated reluctance to use available tools align with the commitment to defend citizens against cyber threats effectively?  \nIs there evidence that public statements such as inviting foreign hacking directly influence state actors' probing strategies as described?",
+        "reasoning": "Okay, so I need to generate three useful critical questions for this text from Clinton. Let me read through the text again to understand the main arguments.\n\nClinton is talking about state actors like Russia, China, Iran trying to collect information and wreak havoc. She says the US has greater capacity and won't sit idly by, they don't want to use certain tools or engage in different warfare, and mentions that Trump invited Putin to hack Americans, which she finds unacceptable.\n\nFirst, I need to challenge the validity of the arguments here. Useful questions should focus on details in the text without introducing new concepts. Let's break it down.\n\nShe claims the US has \"much greater capacity.\" I can question the evidence for this claim. Is there support in the text? The question could ask if the assertion of greater capacity is supported by evidence, which challenges the validity.\n\nThen she says they don't want to use the tools they have. But she also says they will defend citizens. There's a possible contradiction here. So a question could ask about the contradiction between not wanting to use tools and defending citizens effectively. That would make the reader think if her stance is coherent.\n\nShe mentions that Russians are probing how far the US would go. Then she criticizes Trump for inviting Putin to hack. Maybe there's an assumption that public statements affect adversaries' actions. A question could ask if there's evidence that public statements like Trump's influence state actors' probing. That ties into the text's points without adding new concepts.\n\nAvoiding unhelpful questions: Don't ask why she thinks Trump's invitation is bad\u2014that's stated. Also, don't ask general things about cybersecurity. Need to stick to the text's arguments.\n\nSo the three questions would be:\n\n1. What evidence supports the assertion that the United States has \"much greater capacity\" to deter state actors compared to countries like Russia or China?\n2. How does the stated reluctance to use available tools align with the commitment to defend citizens against cyber threats effectively?\n3. Is there evidence that public statements, such as inviting foreign hacking, directly influence state actors' probing strategies as described?\n\nCheck if these meet the guidelines. Each challenges the argument, uses existing text details, and doesn't introduce new concepts. Yeah, I think these work."
+    },
+    "CLINTON_87": {
+        "intervention_id": "CLINTON_87",
+        "intervention": "CLINTON: \"I happen to support that in a way that will actually work to our benefit\nwhen I look at what you have proposed , you have what is called now the Trump loophole\nit would so advantage you and the business you do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Bias"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the labeling of the proposal as the \"Trump loophole\" rely on an unproven assumption of intentional self-benefit?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence does the text provide to directly link the proposed loophole to personal advantage for Trump\u2019s businesses?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does Clinton reconcile supporting a proposal claimed to \"work to our benefit\" while simultaneously alleging it contains a self-serving loophole?"
+            }
+        ],
+        "full_response": "Does the labeling of the proposal as the \"Trump loophole\" rely on an unproven assumption of intentional self-benefit?  \nWhat evidence does the text provide to directly link the proposed loophole to personal advantage for Trump\u2019s businesses?  \nHow does Clinton reconcile supporting a proposal claimed to \"work to our benefit\" while simultaneously alleging it contains a self-serving loophole?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is a quote from Clinton criticizing Trump's proposal, calling it the \"Trump loophole\" and saying it would advantage Trump and his businesses. \n\nFirst, I need to understand the core argument here. Clinton is asserting that Trump's proposal contains a loophole that benefits Trump personally. The key points are the existence of this loophole, its naming after Trump, and the claim that it advantages his businesses.\n\nNow, to form useful questions, they must challenge the validity without introducing new concepts. Let's break it down. \n\n1. The term \"Trump loophole\" is central. A useful question might question the basis of this label. Why is it called that? Is there evidence that Trump intentionally created it for personal gain? That challenges the assumption behind the name.\n\n2. Clinton says the loophole \"would so advantage you.\" Is there evidence provided that directly links the loophole to benefiting Trump's businesses? The question would check if the claim is supported or just asserted.\n\n3. The comparison to \"work to our benefit\" \u2013 Clinton supports the proposal in a way that benefits \"us,\" but the loophole benefits Trump. Is there a contradiction here? That's a potential inconsistency to probe.\n\nAvoiding unhelpful questions: Asking how Clinton knows it's a loophole is too obvious since the text states it. Invalid would be something about other policies not mentioned.\n\nSo the questions should focus on the justification of the loophole label, evidence for personal gain, and possible contradiction in benefits. Let me phrase those."
+    },
+    "CLINTON_21": {
+        "intervention_id": "CLINTON_21",
+        "intervention": "CLINTON: \"nine million people lost their jobs\nFive million people lost their homes\n$ 13 trillion in family wealth was wiped out\nNow , we have come back from that abyss\nit has not been easy\nwe 're now on the precipice of having a potentially much better economy\nthe last thing we need to do is to go back to the policies that failed us in the first place\nIndependent experts have looked at what I 've proposed\nlooked at what Donald 's proposed\nI intend to get it done\nTake clean energy\nSome country is going to be the clean- energy superpower of the 21st century\nDonald thinks that climate change is a hoax perpetrated by the Chinese\nI think it 's real\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the claim that reverting to previous policies would repeat economic failure account for differing global or contextual factors since the initial collapse?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the assertion that \"independent experts\" validated the proposals address potential biases or methodological flaws in their analysis?  "
+            },
+            {
+                "id": 2,
+                "cq": "Can a country realistically become a clean-energy leader without acknowledging climate change, given that innovation often follows economic incentives rather than ideological acceptance?"
+            }
+        ],
+        "full_response": "Does the claim that reverting to previous policies would repeat economic failure account for differing global or contextual factors since the initial collapse?  \nHow does the assertion that \"independent experts\" validated the proposals address potential biases or methodological flaws in their analysis?  \nCan a country realistically become a clean-energy leader without acknowledging climate change, given that innovation often follows economic incentives rather than ideological acceptance?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is a statement by Clinton discussing the economic recovery and contrasting her policies with Trump's, particularly on clean energy and climate change.\n\nFirst, I need to understand the key arguments here. Clinton mentions the economic downturn, recovery, and warns against reverting to old policies. She cites independent experts validating her proposals. Then she moves to clean energy, positioning the U.S. as a potential superpower, and contrasts her stance on climate change with Trump's.\n\nUseful questions should challenge the validity without introducing new concepts. Let's break it down.\n\n1. The mention of independent experts: The user might question the independence or basis of these experts. So a question like, \"How do we know the experts are truly independent and unbiased?\" That challenges the credibility of her claim.\n\n2. She links past policies to the economic collapse. But correlation isn't causation. So, \"Is there evidence that the previous policies directly caused the economic issues?\" That questions the causal relationship she implies.\n\n3. She contrasts her clean energy stance with Trump's climate denial. The argument is that her approach is better. But does being a clean energy superpower depend on acknowledging climate change? Maybe not directly. So, \"Does dismissing climate change necessarily prevent leading in clean energy?\" This challenges the assumption in her argument.\n\nI need to make sure the questions don't ask for common knowledge or go outside the text. Also, avoid vague terms. Let me check the examples again. The sample questions in the example target specific comparisons, evidence, and hidden aspects.\n\nAnother point: Clinton says \"we're on the precipice of a better economy.\" A question could challenge the evidence for being on the precipice. But the text doesn't provide data, so maybe \"What evidence supports the claim that the economy is on the precipice of improvement?\" That's valid as it asks for support within her statement.\n\nWait, but does she provide any data here? She mentions the past problems and the recovery but not specific indicators. So the question would challenge the basis of her assertion about the precipice.\n\nAlternatively, the link between not reverting to old policies and avoiding past failures. The assumption is that the old policies caused the problems. So, \"Is there direct evidence that reverting to previous policies would repeat the economic collapse?\" That's similar to the causation question.\n\nI think the three I initially thought of fit the guidelines. Let me rephrase them to match the style in the examples.\n\n1. How does the assertion that independent experts validated the proposals establish their effectiveness without addressing potential biases or conflicts of interest?\n\nBut maybe more concise: \"What evidence confirms the independence of the experts evaluating the proposals, and could their biases affect their conclusions?\" Hmm, perhaps better to simplify. \"Does the endorsement by independent experts account for potential biases or conflicts of interest that could affect their analysis?\" But the example questions are more direct. Let's see the sample useful questions: \"What is the basis for comparing...\" So maybe \"What evidence supports the claim that independent experts' evaluations of the proposals are free from bias?\" But the text doesn't mention bias, so maybe it's introducing a new concept. Wait, the user's guidelines say to focus on details present. The text says \"Independent experts have looked at what I\u2019ve proposed, looked at what Donald\u2019s proposed.\" The question could challenge the validity by questioning the independence. So the first question could be: \"What criteria determine the independence of the experts cited, and how does this ensure their assessments are unbiased?\" But maybe too wordy. Alternatively: \"How does the reference to 'independent experts' substantiate the superiority of Clinton's proposals over Donald's without examining their methodology?\" That's better. It challenges the reliance on experts without knowing their methods.\n\nSecond, the causation between past policies and economic collapse. So: \"Is there direct evidence linking the previous policies to the economic collapse, or is this a correlation without proven causation?\" That's good.\n\nThird, the clean energy point: \"Does Donald\u2019s belief in climate change as a hoax inherently negate the possibility of advancing clean energy initiatives under his policies?\" Wait, the text says Trump thinks it's a hoax, Clinton thinks it's real. She implies that her stance is necessary for clean energy leadership. So the question could challenge if that's necessarily true. \"Does dismissing climate change as a hoax necessarily prevent a country from becoming a clean-energy superpower, or can technological advancement occur independently of climate beliefs?\" That's a bit long. Maybe: \"Can a country become a clean-energy superpower without acknowledging climate change, thereby challenging the necessity of Clinton\u2019s stance?\" But the text says \"Some country is going to be...\" So the question is whether Trump's stance (climate as hoax) would prevent the US from being that superpower. So the question could be: \"Is the acknowledgment of climate change a necessary factor in becoming a clean-energy superpower, or could technological investments proceed regardless of climate beliefs?\" That's better.\n\nSo the three questions would be:\n\n1. How does the endorsement by independent experts validate the effectiveness of the proposed policies without examining their potential biases or methodologies?\n\n2. Is there conclusive evidence that reverting to previous policies would reinitiate economic collapse, or is this an assumption based on correlation?\n\n3. Can technological advancements in clean energy be achieved independently of acknowledging climate change, thereby challenging the necessity of Clinton\u2019s proposed approach?\n\nWait, but the third question introduces \"technological advancements\" which might not be in the text. The text says \"clean-energy superpower\". So maybe rephrase: \"Does a country's stance on climate change directly determine its ability to lead in clean energy, or can other factors compensate?\" That's better. It stays within the text's content.\n\nAlternatively, \"Is the claim that dismissing climate change hinders becoming a clean-energy superpower supported by evidence, or can such leadership be achieved through other means?\" \n\nHmm. Need to make sure it's concise and directly challenges the argument. Maybe: \"Does the dismissal of climate change as a hoax inherently prevent the development of clean energy initiatives, or can they coexist independently?\" \n\nYes, that's better. It questions the link Clinton implies between acknowledging climate change and leading in clean energy.\n\nSo final three questions:\n\nWhat evidence substantiates the independence and objectivity of the experts evaluating the competing proposals?\n\nIs there direct causation established between the previous policies and the economic collapse, or is the connection merely correlational?\n\nDoes the rejection of climate change science necessarily impede a country's ability to become a leader in clean energy technology?"
+    },
+    "CLINTON_223_1": {
+        "intervention_id": "CLINTON_223_1",
+        "intervention": "CLINTON: \"Let 's talk about two important issues that were briefly mentioned by Donald\nfirst , NATO\nNATO as a military alliance has something called Article 5\nyou know the only time it 's ever been invoked ?\nAfter 9/11 , when the 28 nations of NATO said that they would go to Afghanistan with us to fight terrorism\nsomething that they still are doing by our side\nWith respect to Iran , when I became secretary of state , Iran was weeks away from having enough nuclear material to form a bomb\nThey had mastered the nuclear fuel cycle under the Bush administration\nThey had built covert facilities\nThey had stocked them with centrifuges that were whirling away\nwe had sanctioned them\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Sign",
+            "Sign",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the invocation of NATO's Article 5 in Afghanistan directly strengthen the argument about Iran's nuclear capabilities under Clinton's tenure?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that Iran was only weeks away from producing a nuclear bomb when Clinton became secretary of state?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does attributing Iran's mastery of the nuclear fuel cycle to the Bush administration impact the validity of Clinton's own policy outcomes with Iran?"
+            }
+        ],
+        "full_response": "Does the invocation of NATO's Article 5 in Afghanistan directly strengthen the argument about Iran's nuclear capabilities under Clinton's tenure?  \nWhat evidence supports the claim that Iran was only weeks away from producing a nuclear bomb when Clinton became secretary of state?  \nHow does attributing Iran's mastery of the nuclear fuel cycle to the Bush administration impact the validity of Clinton's own policy outcomes with Iran?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text about Clinton's statements. First, I need to understand the text thoroughly.\n\nClinton mentions NATO's Article 5 being invoked after 9/11, leading NATO nations to join in Afghanistan. Then she talks about Iran's nuclear program when she became Secretary of State, stating they were weeks away from a bomb, had mastered the fuel cycle under Bush, built covert facilities, and had centrifuges. She also mentions sanctions.\n\nUseful questions should challenge the argument's validity based on existing details. Let me think: \n\n1. The comparison between NATO's Article 5 invocation and the Iran situation. Are they related? Does invoking Article 5 strengthen her point on Iran? Maybe question the relevance of mentioning NATO here.\n\n2. She says Iran was weeks away from a bomb. What evidence supports that timeline? Is there data or verification for that claim?\n\n3. She states they mastered the nuclear cycle under Bush. Does she provide proof that it happened during Bush's time? How does that timeline affect her argument?\n\nCheck if these questions are based on the text, don't introduce new concepts, and challenge validity. Avoid common sense or generic questions. Let me rephrase them clearly."
+    },
+    "Melanie_64": {
+        "intervention_id": "Melanie_64",
+        "intervention": "Melanie: \"Well the State has taken a moral position\nthat position was non-judgmentalism\nand terrible harm it\u2019s done\nIt\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime\n I think they do need help\nbut that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "NegativeConsequences"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the text provide evidence that non-judgmentalism directly caused the creation of victims, or is this an assumed correlation?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the State\u2019s non-judgmental stance specifically undermine the capacity for independence and personal responsibility in those it aims to help?  "
+            },
+            {
+                "id": 2,
+                "cq": "If the victims of non-judgmentalism sometimes commit crimes, does the text address alternative factors that could contribute to criminal behavior beyond the State\u2019s moral position?"
+            }
+        ],
+        "full_response": "Does the text provide evidence that non-judgmentalism directly caused the creation of victims, or is this an assumed correlation?  \nHow does the State\u2019s non-judgmental stance specifically undermine the capacity for independence and personal responsibility in those it aims to help?  \nIf the victims of non-judgmentalism sometimes commit crimes, does the text address alternative factors that could contribute to criminal behavior beyond the State\u2019s moral position?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is a statement by Melanie about the State's non-judgmental moral position leading to harm and victims.\n\nFirst, I need to understand Melanie's argument. She claims that the State's non-judgmental approach caused harm, creating victims who then might commit crimes, and that help should be calibrated to restore independence and responsibility.\n\nGuidelines say the questions should challenge the argument's validity by focusing on existing details. So, I should look for assumptions, evidence, and logical connections in the text.\n\nStarting with the first part: Melanie says non-judgmentalism caused harm. But does she provide evidence linking the two? A useful question could ask about the evidence for causation here.\n\nNext, she mentions victims creating more victims through crime. Is there an assumption that the State's approach directly leads to crime? Maybe question that causal link without evidence.\n\nThen, she talks about calibrating help to restore independence. But how does non-judgmentalism prevent that? The question could challenge if the State's approach actually hinders fostering responsibility.\n\nAvoiding questions that are too general or introduce new concepts. Need to stay within the text's scope. For example, not asking about alternative solutions, which aren't mentioned.\n\nDouble-checking each question: Are they based on the text? Do they challenge validity without introducing external ideas? Yeah, each one targets a part of her argument and asks for justification or evidence that's missing."
+    },
+    "smg_72": {
+        "intervention_id": "smg_72",
+        "intervention": "smg: \"It has become abundantly clear that commercial airline travel is a \"race to the bottom\" that satisfies needs of neither passengers nor airline profits.\nA change of environment, which can only be imposed from outside the industry is needed.\nImposition of common sense regulations,\nwould level the playing field and remove the impetus for airlines to costcut in this area.\nThe results would be better service to customers and a renormalization of the playing field from which the airlines compete without fear of being undercut.\nThis goes for most of the proposed new regulations.\nI sincerely believe that these regulations are in the best interests of both airlines and passengers.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the assertion that regulations benefit both airlines and passengers account for potential conflicts between corporate profitability and customer service improvements?  "
+            },
+            {
+                "id": 1,
+                "cq": "What specific evidence demonstrates that a \"race to the bottom\" directly harms airline profits, rather than reflecting competitive market dynamics?  "
+            },
+            {
+                "id": 2,
+                "cq": "How do the proposed regulations address the possibility of airlines shifting cost-cutting measures to unregulated areas of their operations?"
+            }
+        ],
+        "full_response": "Does the assertion that regulations benefit both airlines and passengers account for potential conflicts between corporate profitability and customer service improvements?  \nWhat specific evidence demonstrates that a \"race to the bottom\" directly harms airline profits, rather than reflecting competitive market dynamics?  \nHow do the proposed regulations address the possibility of airlines shifting cost-cutting measures to unregulated areas of their operations?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text about commercial airline regulations. First, I need to understand the text's main argument. The author is saying that current airline practices are a \"race to the bottom,\" harming both passengers and profits. They argue that external regulations are necessary to level the playing field, leading to better service and fair competition.\n\nNow, following the guidelines, the questions should challenge the argument's validity without introducing new concepts. Let's break down the argument. The key claims are: 1) external regulations are needed, 2) these regulations will level the playing field, 3) this will result in better service and fair competition, and 4) the regulations are in the best interests of both airlines and passengers.\n\nFor the first question, maybe challenge the assumption that regulations will automatically benefit both parties. The text says \"best interests of both,\" but is there evidence that airlines would benefit? Maybe they could face higher costs or other issues. So a question like: \"How does imposing regulations ensure mutual benefit for airlines and passengers when airlines might resist increased costs?\"\n\nSecond, the text compares airline competition to a \"race to the bottom.\" Is this comparison valid? The author uses the term but doesn't provide evidence that it's a race to the bottom. So: \"What evidence supports the claim that airline competition is a 'race to the bottom,' and does this analogy hold under scrutiny?\"\n\nThird, the argument assumes that leveling the playing field will remove the need for cost-cutting. But maybe airlines could still find other ways to cut costs, or the regulations might not address all areas. So: \"Does leveling the competitive field through regulations eliminate all incentives for airlines to reduce costs, or could alternative cost-cutting measures emerge?\"\n\nCheck if these questions are specific, challenge the core arguments, and don't introduce external ideas. They should focus on existing points in the text. Avoid being too general or asking for common knowledge. These seem to fit. Alright, I think these are the three useful questions."
+    },
+    "CLINTON_85": {
+        "intervention_id": "CLINTON_85",
+        "intervention": "CLINTON: \"let 's start the clock again , Lester\nWe 've looked at your tax proposals\nI do n't see changes in the corporate tax rates or the kinds of proposals you 're referring to that would cause the repatriation , bringing back of money that 's stranded overseas\nI happen to support that\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Alternatives"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the absence of corporate tax rate changes in the proposals definitively prevent repatriation, or could other factors incentivize it?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does Clinton\u2019s stated support for repatriation align with her critique of the proposals lacking mechanisms to achieve it?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is there evidence provided that the proposed policies are insufficient to address \"stranded\" overseas money without altering corporate tax rates?"
+            }
+        ],
+        "full_response": "Does the absence of corporate tax rate changes in the proposals definitively prevent repatriation, or could other factors incentivize it?  \nHow does Clinton\u2019s stated support for repatriation align with her critique of the proposals lacking mechanisms to achieve it?  \nIs there evidence provided that the proposed policies are insufficient to address \"stranded\" overseas money without altering corporate tax rates?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text. The text is a quote from Clinton discussing tax proposals, specifically corporate tax rates and repatriation of overseas money.\n\nFirst, I need to understand the argument here. Clinton is saying that she doesn't see changes in corporate tax rates or proposals that would cause repatriation, but she supports that idea. So her point is that the proposals (presumably from someone else) don't include these changes, yet she's in favor of repatriation.\n\nNow, useful questions should challenge the validity of her argument. Let's break it down. She mentions not seeing changes in the tax proposals that would lead to repatriation. So maybe there's an assumption that corporate tax rate changes are necessary for repatriation. A question could ask if that link is established. For example, does the lack of rate changes necessarily mean repatriation won't happen? Maybe other factors could influence it.\n\nAnother angle: she supports repatriation but doesn't see the proposals causing it. So is there evidence that her support alone would lead to repatriation without the specific tax changes? That challenges the connection between her support and the outcome.\n\nThird, she differentiates between her support and the proposals. Maybe she's implying that the proposals are inadequate. But does the text provide evidence that the proposals are insufficient for repatriation? That questions whether her critique is justified based on the information given.\n\nI need to make sure each question is based on the text, not introducing outside concepts. Also, avoid being too general. The questions should target the logical structure of her argument."
+    },
+    "howie_201": {
+        "intervention_id": "howie_201",
+        "intervention": "howie: \"First, stop reading that propaganda magazine.\nPublications like that only serve to create fear in minds like yours.\nSecond, how old is your kid?\nIf under 5, relax the sensitivity will probably go away by the time he is 5.\nThird, go to a real doctor  not an allergist and see if there is really even a problem at all.\nThis supposed plague of food allergies is the result of very clever advertising by this profession of pseudoscientists.\nAllergists are not doctors.\nI sincerely doubt you \"know plenty of people who will die if they do have peanuts or breathe in peanut dust\".\nAlmost noone is actually that allergic.\nLot's of people think they are much worse off than they really are.\nMethinks you have an agenda.\nHighly suspicious that the child of a physician who is hyper aware of bad things that can happen coincidentally has not one, but three life threatening allergies.\nHave you heard of Munchasen by Proxy?\nDo you realize that most kids have mild reactions to various food items that they invariably grow out of by the age of 5?\nFood allergies have to be the most overblown imagined health problem of our time.\nHypochondriacs all.\"\n < this message is answering to > \njsooudi: \"I'm a physician, epidemiologist, and mother to a four year old boy with allergies to milk, peanuts and egg.\nMy son's dairy allergy is severe,\nand he has had numerous lifethreatening anaphylactic reactions to trace amounts of milk,\nwhich required multiple doses of epinephrine and trips to the Emergency Department.\nTests indicate that his peanut allergy is worse,\nbut fortunately he has only been exposed once to a peanut;\nhe put one in his mouth and had a relatively mild  reaction.\nI've traveled with my children\nand despite calling ahead, making requests, and reminding employees at the door, I've rarely had respect, let alone consistency, in any kind of peanutfree buffer zone or flight.\nSeveral years ago Continental Airlines customer service headquarters informed me that they would serve peanuts on all flights as they were unable to guarantee a peanut free flight.\n(So why not hand out weapons since they can't guarantee a weapon free flight either?)\nI've sat with my epi pen in hand on a filthy flight with visible peanut crumbs on the floor while a flight attendant insisted on offering peanuts to the passengers around me because \"it was their right.\"\nFortunately for me, my son's peanut allergy is not severe enough that it prohibits us from air travel.\nNow that he is old enough to not put things in his mouth, and to protect himself, we are safer.\nHowever, I know of many, many others in the allergy community, children and adults who simply can NOT fly.\nMy son's dairy allergy is quite severe.\nThe world would be a much safer place for us if no one consumed milk near him.\nIf his skin touches anything that once touched milk, even if it was partially cleaned, he will get severe hives.\nIf he consumes even less than a drop, within seconds his lips, eyes and face will swell, he will be covered in hives, vomit, and be gasping for breath.\nWithout epinephrine he would probably die within minutes.\nBut milk is ubiquitous,\nand milk allergy relatively uncommon,\nso we must protect ourselves.\nPeanut allergy is common,\nand it is a simple step to serve an alternative peanut based snacks for a short period of time.\nSo why is this a big problem?\nThe vast majority of potential reactions would be eliminated by simply avoiding snacks that have peanuts or peanut butter as an ingredient.\nPeanut oil is known to contain very little of the actual peanut protein,\nand would be of little risk in an airborne environment.\nAs a physician, I have responded to the call from airline staff asking for emergency medical assistance.\nI am well aware of how expensive and inconvenient it is to ground a plane.\nIn addition, most epipens come in two pack doses,\neach of which are good for maybe 10 to 15 minutes.\nWhich in a severe anaphylactic reaction is simply not enough time between the beginning of a reaction and the patient reaching EMS.\nI've found that other passengers, as a rule, are extremely supportive,\nand are more than happy to help with a fellow passengers safety.\nI think the people commenting on this site would react entirely differently were they seated next to an allergic child on a plane.\nOf course they would refrain from eating peanuts for a few hours if they knew it would hurt someone they were looking in the face.\nBut I am sympathetic to individuals who are unhappy with yet another discomfort inflicted on air travelers.\nThis restriction is designed to protect people with allergies from the airlines callous disregard for cleanliness and for our safety, not from our fellow passengers.\n\"Hi.  My name is Steven.  I am 4 years old.\nI am allergic to peanuts, eggs and cow milk.\nIf I eat a peanut I'll get sick.\nI ate a nut one time and got a big bump on my lip and it swelled up and it was hard to breathe.\nIt was scary and my dad gave me some medicine that made it better.\nI would like for them to not give out peanuts so I won't get sick because I'm allergic.\nEverybody should drink Sprite and eat Pringles and Pretzels.\"\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Howie's dismissal of severe allergies account for the documented medical emergencies described by jsooudi, including her son's anaphylactic reactions requiring epinephrine?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports Howie's claim that allergists are \"pseudoscientists\" and not real doctors, given jsooudi's professional medical background and reliance on allergists?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does Howie reconcile his assertion that most children outgrow food allergies by age 5 with jsooudi's son nearing that age while still experiencing life-threatening reactions?"
+            }
+        ],
+        "full_response": "Does Howie's dismissal of severe allergies account for the documented medical emergencies described by jsooudi, including her son's anaphylactic reactions requiring epinephrine?  \nWhat evidence supports Howie's claim that allergists are \"pseudoscientists\" and not real doctors, given jsooudi's professional medical background and reliance on allergists?  \nHow does Howie reconcile his assertion that most children outgrow food allergies by age 5 with jsooudi's son nearing that age while still experiencing life-threatening reactions?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions based on the given text. The text is a conversation between Howie and jsooudi. Howie is dismissing the severity of food allergies, claiming they're overblown and even suggesting Munchausen by Proxy. Jsooudi, as a physician and mother, shares her son's severe allergies and the challenges they face, especially during flights.\n\nFirst, I need to understand the main arguments. Howie argues that food allergies are exaggerated, allergists are pseudoscientists, and implies the mother might be fabricating the condition. Jsooudi provides detailed evidence of her son's severe reactions and the lack of airline accommodations.\n\nNow, to generate useful questions that challenge Howie's arguments. The questions should focus on existing details without introducing new concepts. Let me check the examples given earlier. The useful questions there targeted the comparison made in the text, evidence for claims, and hidden fees.\n\nFirst, Howie questions the existence of life-threatening allergies, saying he doubts people actually die from peanut exposure. But jsooudi mentions her son's severe reactions and knowing others who can't fly. A question could challenge Howie's skepticism by pointing to the evidence provided.\n\nSecond, Howie compares allergists to pseudoscientists and claims they're not doctors. Jsooudi is a physician herself, so maybe a question about Howie's basis for discrediting allergists, given that medical professionals recognize them.\n\nThird, Howie suggests Munchausen by Proxy, implying the mother is causing harm for attention. But jsooudi is a physician and provides specific medical details. A question could ask if Howie's accusation is supported by evidence in her account.\n\nAlso, Howie claims most kids outgrow allergies by 5. Jsooudi's son is 4, so maybe a question on whether Howie's dismissal considers ongoing severe cases beyond that age.\n\nI need to ensure the questions don't introduce new ideas. Let me check each guideline. Avoid common sense, too general, etc.\n\nPossible questions:\n\n1. How does Howie reconcile his claim that \"almost no one is actually that allergic\" with the detailed medical evidence provided by jsooudi regarding her son's life-threatening reactions?\n\nThis targets Howie's dismissal versus the evidence given.\n\n2. What evidence does Howie provide to support his assertion that allergists are \"pseudoscientists\" and not real doctors, especially when jsooudi identifies herself as a physician relying on medical professionals?\n\nChallenges the basis for discrediting allergists, using the text's info.\n\n3. Does Howie's suggestion of Munchausen by Proxy account for the documented medical history and emergency interventions described by jsooudi, or does it dismiss verified health risks without substantiation?\n\nQuestions the validity of the Munchausen accusation against the provided evidence.\n\nAnother angle: Howie's claim that kids outgrow allergies by 5. Since jsooudi's son is 4, but she mentions ongoing severe issues. Maybe a question on whether Howie's generalization ignores persistent severe cases.\n\nBut the third question I have now covers the Munchausen angle. Let me check if these are valid. They should focus on existing details and challenge the argument's validity. Yes, each question references specific parts of the text and challenges Howie's claims using the evidence provided by jsooudi. They don't introduce new concepts. Avoid being too general. These seem to fit."
+    },
+    "TRUMP_222": {
+        "intervention_id": "TRUMP_222",
+        "intervention": "TRUMP: \"I have much better judgment than she does\nThere 's no question about that\nI also have a much better temperament than she has\nshe spent hundreds of millions of dollars on an advertising\nthey get Madison Avenue into a room\nthey put names\ntemperament , let 's go after\nmy strongest asset , maybe by far , is my temperament\nI have a winning temperament\nI know how to win\nShe does not have a\nWrong\nthere 's a person with a temperament that 's got a problem\nThe AFL-CIO the other day , behind the blue screen , I do n't know who you were talking to , Secretary Clinton , but you were totally out of control\n I do n't know who you were talking to\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PopularOpinion",
+            "CauseToEffect",
+            "Sign",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Trump provide concrete evidence for his claim of superior temperament, or is it asserted without substantiation?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the mention of Madison Avenue advertising tactics directly undermine Clinton's temperament as opposed to highlighting strategic differences?  "
+            },
+            {
+                "id": 2,
+                "cq": "If Trump admits uncertainty about the context of Clinton's AFL-CIO remarks, can his assessment of her being \"out of control\" be considered a reliable critique of her temperament?"
+            }
+        ],
+        "full_response": "Does Trump provide concrete evidence for his claim of superior temperament, or is it asserted without substantiation?  \nHow does the mention of Madison Avenue advertising tactics directly undermine Clinton's temperament as opposed to highlighting strategic differences?  \nIf Trump admits uncertainty about the context of Clinton's AFL-CIO remarks, can his assessment of her being \"out of control\" be considered a reliable critique of her temperament?",
+        "reasoning": "Okay, I need to generate three useful critical questions for this text where Trump is arguing about his judgment and temperament compared to Clinton's. Let's start by understanding the text.\n\nFirst, Trump claims he has better judgment and temperament. He mentions that Clinton spent a lot on ads, using Madison Avenue to focus on temperament. He asserts his temperament is his strongest asset and that Clinton was \"out of control\" in a conversation with AFL-CIO. \n\nNow, the goal is to challenge the validity of his arguments. Useful questions should target the core of his claims without introducing new concepts. Let's break down his points.\n\nHe compares his temperament to Clinton's but doesn't provide evidence. So a question could ask about the evidence supporting his assertion. Also, he uses Madison Avenue as part of the attack on her; maybe the analogy's validity is questionable. Then, the AFL-CIO comment is a specific example where he says she was out of control, but he admits he doesn't know who she was talking to. That seems contradictory\u2014how can he judge her temperament in that situation without context?\n\nPotential questions:\n\n1. How does Trump substantiate his claim of superior temperament without providing specific examples? (Challenges evidence for his assertion.)\n2. Does equating Clinton's ad spending with Madison Avenue tactics logically undermine her temperament? (Questions the validity of the comparison.)\n3. Can Trump's criticism of Clinton's AFL-CIO interaction be valid if he lacks knowledge of the context? (Targets the contradiction in his argument.)\n\nI need to make sure these questions don't introduce external ideas and stay focused on the text. Let me check the examples given earlier. The first example's useful questions focus on comparisons and evidence. So these questions align with that approach. They challenge the core arguments by pointing out lack of evidence, questionable analogies, and contradictions."
+    },
+    "Doctor-Mom_205": {
+        "intervention_id": "Doctor-Mom_205",
+        "intervention": "Doctor-Mom: \"I would support a full ban of peanut products on any airline.\nPeanut reactions can be life threatening.\nAn individual doesn't have to consume the product to have a life threatening reaction.\nThey can have contact or inhalation reactions.\nRestricting to certain flights is not enough,\nas residue can be rampant.\nProviding buffer zones is a thoughtful gesture,\nbut from a practical point of view does not work.\nWith so many food choices available, why are peanuts a necessary choice?\nI am a physician , and author on the subject.\nI have free food allergy online support forums with 3000 members.\nhttp://www.drmomsallergyrx.com/\nI would be more than willing to work with you in any way on this decision making process.\nThe allergic community is so grateful that you are allowing our voices to be heard.\nThe decision you are considering could save many lives.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExpertOpinion",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the author provide evidence that buffer zones are ineffective in practice beyond their theoretical shortcomings?  "
+            },
+            {
+                "id": 1,
+                "cq": "Is the claim that peanut residue remains rampant on all flights supported by data, or does it rely on anecdotal assumptions?  "
+            },
+            {
+                "id": 2,
+                "cq": "Does the argument address why airlines might prioritize peanuts over alternative snacks despite their availability, or assume necessity without justification?"
+            }
+        ],
+        "full_response": "Does the author provide evidence that buffer zones are ineffective in practice beyond their theoretical shortcomings?  \nIs the claim that peanut residue remains rampant on all flights supported by data, or does it rely on anecdotal assumptions?  \nDoes the argument address why airlines might prioritize peanuts over alternative snacks despite their availability, or assume necessity without justification?",
+        "reasoning": "Okay, I need to generate three useful critical questions for the given text about banning peanuts on airlines. Let me start by understanding the text. The author, a physician and allergy expert, argues for a full ban on peanuts in all flights. Her main points are that peanut reactions can be life-threatening through contact or inhalation, residue is a problem even on restricted flights, buffer zones are impractical, and there are plenty of other food options. She also cites her credentials and her support forum with 3000 members.\n\nFirst, I should look for the core arguments. She claims that buffer zones don't work practically. So a question could challenge the assumption that buffer zones are ineffective. Maybe ask if there's evidence that buffer zones fail despite being a thoughtful gesture. That's present in the text.\n\nAnother point is about residue being rampant even on restricted flights. The author states that restricting to certain flights isn't enough because residue remains. So, is there data showing residue persists across all flights, or is this an assumption? That could question the validity of her claim about residue.\n\nThird, she mentions many food choices available, implying peanuts aren't necessary. A question here could ask if alternatives are equally feasible for airlines in terms of cost, availability, etc., which the text doesn't address. But wait, the guidelines say to avoid introducing new concepts. The text says there are many choices, but does she provide evidence that peanuts are uniquely replaceable without downsides? So maybe question whether availability of other foods necessarily makes peanuts unnecessary, considering factors the author hasn't addressed.\n\nAlso, her credentials and support forum are used to bolster her argument. A question could ask if her forum's size (3000 members) is representative of the allergic community's views, challenging the assumption that her group's stance is the majority.\n\nWait, but the first example in the guidelines asks about comparisons made in the text. Here, the author compares buffer zones to a ban. The questions should focus on existing arguments. Let me check each guideline again.\n\nUseful questions should challenge the argument's validity by focusing on details in the text. So:\n\n1. Buffer zones are called thoughtful but impractical. The author claims they don't work, but is there evidence provided for why they fail? The text doesn't give specific reasons, so the question would ask for that evidence.\n\n2. Residue being rampant on flights even when restricted. The text says restricting to certain flights isn't enough because residue remains. But is there data proving residue is a widespread issue across all flights, or is that an assumption?\n\n3. The availability of many food choices making peanuts unnecessary. The author presents this as a given, but does she address possible reasons airlines might still need peanuts, like cost or passenger preference? The question would challenge the necessity by asking if alternatives are as viable without negative impact, based on the text's claims.\n\nAnother angle: The author's authority as a physician and having a support forum. Does having 3000 members mean the forum's opinions are representative? The question could ask if that sample size is sufficient to generalize for all allergic individuals, but that might be introducing external ideas about statistical representation. Maybe better to stick to arguments within the text.\n\nAlternatively, the author states that reactions can happen without consumption. The text mentions contact or inhalation. Is there evidence provided that these non-consumption reactions are common enough on flights to warrant a ban? The text doesn't cite specific incidents, so a question could ask for that evidence.\n\nWait, but the example questions in the original example focused on comparing to food products, evidence for claims, and hidden fees. Similarly, here, the author makes several claims without providing specific evidence. So useful questions would challenge the evidence behind those claims.\n\nSo possible useful questions:\n\n1. Is there evidence provided that buffer zones, despite being a thoughtful gesture, are impractical in real-world airline settings? (Challenges the practical failure claim.)\n\n2. Does the author provide data showing peanut residue remains problematic on flights even when peanut products are restricted to certain routes? (Questions the residue claim.)\n\n3. Are the available alternative food options mentioned by the author equally feasible for airlines in terms of cost and passenger preference, or does the argument overlook potential challenges? (This might introduce new concepts like cost and preference, which aren't in the text. The text only says there are many choices. So maybe rephrase to focus on the necessity: Does the availability of many food choices necessarily make peanuts unnecessary, and does the argument address why peanuts specifically should be banned over other allergens?)\n\nWait, the text says \"With so many food choices available, why are peanuts a necessary choice?\" So the author assumes peanuts aren't necessary. A question could challenge that assumption by asking if the argument considers reasons airlines might still require peanuts despite alternatives, but the text doesn't mention any such reasons, so maybe the question is valid as it's based on the text's claim.\n\nAlternatively, the question could be: Does the argument consider potential reasons airlines continue to offer peanuts despite other food options, or does it assume their necessity without justification?\n\nBut the user's guidelines say to avoid introducing new concepts. So perhaps better to ask: Does the availability of alternative food options sufficiently justify a full ban on peanuts, or are there unaddressed reasons peanuts might still be preferred by airlines?\n\nBut maybe that's introducing new ideas. Alternatively, the text's question is \"why are peanuts a necessary choice?\" implying they aren't. So a useful question could be: Is the assumption that peanuts are unnecessary supported by evidence about airline food choices and passenger preferences, or is it presented as self-evident?\n\nBut passenger preferences aren't in the text. The text only states that many choices exist. So maybe: Does the author provide evidence that peanuts are not a necessary choice for airlines given other available foods, or is this assertion based solely on the existence of alternatives?\n\nYes, that's challenging the link between availability of alternatives and necessity of peanuts. The author assumes that because alternatives exist, peanuts aren't needed, but maybe there are reasons airlines choose peanuts (like cost, shelf-life, etc.) that aren't addressed. The question stays within the text's mention of many choices and necessity, without introducing external factors, just questioning the sufficiency of the reasoning.\n\nSo compiling these, the three questions could be:\n\n1. Is there evidence provided that buffer zones are impractical, or is this assumption based solely on the author's assertion?\n\n2. Does the author substantiate the claim that peanut residue remains rampant on flights with restricted peanut usage, or is this presented without data?\n\n3. Does the argument demonstrate that the availability of other food choices inherently makes peanuts unnecessary, or does it overlook potential reasons for their continued use?\n\nThese questions target specific parts of the text, challenge the evidence or assumptions, and don't introduce external concepts."
+    },
+    "17th_knight__247": {
+        "intervention_id": "17th_knight__247",
+        "intervention": "17th: \"They should get the coverage\nThey are here\nthey work\nthey are a part of this society\nFuck off with your xenophobia\"\n < this message is answering to > \nreaper527: \"now you have a field of democrat presidential candidates supporting it\nrepublicans used to get mocked and laughed at when they said that illegal immigrants would be getting obamacare coverage\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the assumption that working in society inherently justifies healthcare coverage address the legal residency requirements mentioned in the original argument?  "
+            },
+            {
+                "id": 1,
+                "cq": "Does equating opposition to healthcare coverage for undocumented immigrants with xenophobia overlook potential economic or logistical concerns raised by critics?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the claim that immigrants \"are a part of this society\" reconcile with the distinction between legal and undocumented status in policy debates?"
+            }
+        ],
+        "full_response": "Does the assumption that working in society inherently justifies healthcare coverage address the legal residency requirements mentioned in the original argument?  \nDoes equating opposition to healthcare coverage for undocumented immigrants with xenophobia overlook potential economic or logistical concerns raised by critics?  \nHow does the claim that immigrants \"are a part of this society\" reconcile with the distinction between legal and undocumented status in policy debates?",
+        "reasoning": "Okay, let's tackle this. The text is a conversation where one person argues that immigrants should get coverage because they're part of society, responding to another who mentions Democrats supporting healthcare for illegals, which Republicans were mocked for.\n\nFirst, I need to generate questions that challenge the argument's validity. The main points here are the claim that working immigrants deserve coverage and the rebuttal against xenophobia. \n\nThe first useful question might challenge the assumption that working automatically entitles them to coverage. So, \"Does the assertion that they work and are part of society inherently justify coverage without addressing legal status?\" That targets the core premise without bringing in new concepts.\n\nNext, the comparison to xenophobia. The original response dismisses the opposition as xenophobic. A question could ask if dismissing the opposition as xenophobic overlooks other arguments. Like, \"Does equating opposition to coverage with xenophobia ignore legitimate policy concerns?\" This challenges the validity of the counterargument.\n\nThird, the original tweet mentions Republicans being mocked. The response says \"they work\" etc. But does working without legal status affect eligibility? So, \"Is there evidence that working without legal residency ensures societal contribution justifying healthcare access?\" This questions the link between work and contribution in this context.\n\nAvoiding unhelpful questions: Asking why they should get coverage is too direct and maybe covered. Invalid questions would be ones about external policies not mentioned. Need to stay within the text's scope."
+    },
+    "CLINTON_193": {
+        "intervention_id": "CLINTON_193",
+        "intervention": "CLINTON: \"I hope the fact-checkers are turning up the volume and really working hard\nDonald supported the invasion of Iraq\n...\nThat is absolutely proved over and over again\n...\nHe actually advocated for the actions we took in Libya\nurged that Gadhafi be taken out\nafter actually doing some business with him one time\nlarger point\u2014and he says this constantly\u2014is George W. Bush made the agreement about when American troops would leave Iraq , not Barack Obama\n the only way that American troops could have stayed in Iraq is to get an agreement from the then-Iraqi government that would have protected our troops\nthe Iraqi government would not give that\nlet 's talk about the question you asked , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the text provide specific evidence that Donald's support for the Iraq invasion was \"absolutely proved,\" or is this assertion presented without substantiation?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that the Iraqi government's refusal to protect U.S. troops was the sole reason for withdrawal, and were there alternative solutions considered?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is there a demonstrated connection in the text between Donald's past business with Gadhafi and his advocacy for military action in Libya, or is this implied without evidence?"
+            }
+        ],
+        "full_response": "Does the text provide specific evidence that Donald's support for the Iraq invasion was \"absolutely proved,\" or is this assertion presented without substantiation?  \nWhat evidence supports the claim that the Iraqi government's refusal to protect U.S. troops was the sole reason for withdrawal, and were there alternative solutions considered?  \nIs there a demonstrated connection in the text between Donald's past business with Gadhafi and his advocacy for military action in Libya, or is this implied without evidence?",
+        "reasoning": "Okay, so I need to generate three useful critical questions for the given text. Let me start by reading through the text carefully to understand the arguments presented.\n\nThe text is a statement by Clinton, discussing Donald's support for the Iraq invasion, his advocacy for actions in Libya, and the claim that George W. Bush, not Obama, set the timeline for troop withdrawal from Iraq. Clinton asserts these points as proven and mentions that the Iraqi government wouldn't agree to protect U.S. troops, hence why they couldn't stay.\n\nFirst, I need to identify the main arguments here. Clinton is challenging Donald's positions on military actions and attributing the troop withdrawal timeline to Bush. She also brings up Libya and Gadhafi. The key claims are that Donald supported the Iraq invasion, advocated for Libya actions, and that Bush, not Obama, decided the troop exit.\n\nNow, to create useful questions, I should target these claims. The questions should challenge the validity without introducing new concepts. Let's break down each part.\n\n1. \"Donald supported the invasion of Iraq... absolutely proved over and over again.\" A useful question might question the evidence behind this proof. For example, does the text provide specific instances or sources for this proof?\n\n2. The comparison between Bush and Obama regarding the troop withdrawal. Clinton says Bush made the agreement, not Obama, and the Iraqi government wouldn't protect troops. A question here could challenge the assumption that Bush's agreement was the only factor, or if other factors under Obama's administration influenced the withdrawal.\n\n3. Mention of Donald advocating for Libya actions and urging Gadhafi's removal after doing business with him. Here, a question could address the implied conflict of interest. Does the text provide evidence that his business dealings influenced his advocacy?\n\nI also need to avoid common sense or unhelpful questions. For instance, asking \"Did Donald support the Iraq invasion?\" would be unhelpful because it's stated. Instead, digging into the evidence or assumptions behind the claims is better.\n\nAnother angle: The text says the Iraqi government would not agree to protect U.S. troops. Is there an assumption here that no alternatives were possible? Or that the Iraqi government's refusal was the sole reason, ignoring other potential factors?\n\nFor the Libya part, the mention of doing business with Gadhafi before advocating his removal might imply a contradiction or ulterior motive. A question could ask if the text connects the business dealings to his advocacy, and if that connection is substantiated.\n\nAlso, the claim that Bush's agreement is the reason troops left\u2014does the text consider any decisions or actions by Obama's administration that might have affected the timeline?\n\nPutting this together, the three questions could be:\n\n1. Does the text provide specific evidence that Donald's support for the Iraq invasion was \"absolutely proved,\" or is this assertion presented without substantiation?\n\n2. What evidence supports the claim that the Iraqi government's refusal to protect U.S. troops was the sole reason for withdrawal, and were there alternative solutions considered?\n\n3. Is there a demonstrated connection in the text between Donald's past business with Gadhafi and his advocacy for military action in Libya, or is this implied without evidence?\n\nThese questions target the core arguments, challenge their validity by probing into evidence and assumptions, and don't introduce external concepts. They make the reader reflect on whether the claims are well-supported or if there are gaps in the reasoning."
+    },
+    "TRUMP_253": {
+        "intervention_id": "TRUMP_253",
+        "intervention": "TRUMP: \"She does n't have the look\nShe does n't have the stamina\nI said she does n't have the stamina\nI do n't believe she does have the stamina\nTo be president of this country , you need tremendous stamina\nI just do n't think she has the presidential look\nYou asked me a question\nYou have to be able to negotiate our trade deals\nYou have to be able to negotiate , that 's right , with Japan , with Saudi Arabia\nAll you have to do is speak to them\nWait\n...\nDid you ask me a question\ncan you imagine , we 're defending Saudi Arabia\nwith all of the money they have , we 're defending them , and they 're not paying\nYou have so many different things you have to be able to do , and I do n't believe that Hillary has the stamina\nThe world\nHillary has experience , but it 's bad experience\nit 's bad , bad experience\nit 's the Iran deal that you 're so in love with , where we gave them $ 150 billion back\nit 's the Iran deal\nit 's anything you can\u2014name\nyou almost ca n't name a good deal\nShe 's got experience , but it 's bad experience\"",
+        "dataset": "US2016",
+        "schemes": [
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the claim that Clinton lacks stamina address specific instances where her performance failed due to insufficient endurance?  "
+            },
+            {
+                "id": 1,
+                "cq": "How is \"the presidential look\" defined in this context, and what evidence links it to effective governance?  "
+            },
+            {
+                "id": 2,
+                "cq": "Does citing the Iran deal as \"bad experience\" account for complexities in international negotiations that might justify its terms?"
+            }
+        ],
+        "full_response": "Does the claim that Clinton lacks stamina address specific instances where her performance failed due to insufficient endurance?  \nHow is \"the presidential look\" defined in this context, and what evidence links it to effective governance?  \nDoes citing the Iran deal as \"bad experience\" account for complexities in international negotiations that might justify its terms?",
+        "reasoning": "Okay, I need to generate three useful critical questions for this Trump text. Let me start by understanding the argument here. Trump is arguing that Hillary Clinton doesn't have the stamina or the \"look\" to be president, and that her experience is bad, specifically mentioning the Iran deal. \n\nFirst, I should look for the main claims. The key points are stamina, presidential look, and bad experience (Iran deal). The useful questions need to challenge these points based on the text without introducing new concepts.\n\nFor stamina: Trump repeats that she lacks stamina. A useful question might challenge the criteria for stamina. How does he define it? The text mentions negotiating trade deals, defending Saudi Arabia, etc. So maybe question the link between those tasks and stamina.\n\nPresidential look: He mentions \"look\" but doesn't explain. A question about how look is defined and its relevance to presidential duties.\n\nBad experience: He cites the Iran deal giving $150 billion. A question could ask about evidence that the deal was bad, or if other factors influenced that outcome.\n\nAvoid questions that are too general or common sense. For example, asking \"Is stamina important for a president?\" is too obvious. Instead, focus on the connection between the examples given and the claims made.\n\nSo potential questions:\n\n1. How does Trump define \"the presidential look,\" and is there evidence that this criterion is relevant to effective leadership? (Challenges the vague term \"look\" and its relevance.)\n\n2. What specific evidence does Trump provide to support the claim that Clinton's experience is \"bad,\" beyond referencing the Iran deal? (Questions the basis of the \"bad experience\" claim beyond a single example.)\n\n3. Does the assertion that Clinton lacks stamina account for her previous roles requiring sustained effort, such as Secretary of State? (Challenges the stamina claim by considering her past roles, which are implied in the text when he mentions her experience.)\n\nWait, but the text doesn't explicitly mention her role as Secretary of State. The user said to focus on details present. Hmm. The text does mention her experience in the Iran deal, which is part of her role. So maybe rephrase to focus on the Iran deal example.\n\nAlternatively: How does the Iran deal example conclusively demonstrate that Clinton's experience is detrimental, rather than other factors? (Challenges the link between the deal and her experience being bad.)\n\nOr maybe: Is the $150 billion cited in the Iran deal an accurate representation of its impact, and does this alone justify labeling her experience as \"bad\"? (Questions the evidence provided.)\n\nI need to make sure the questions don't introduce new concepts. The third question I thought of earlier might bring in her Secretary role, which isn't in the text. So better to stick to the Iran deal and the examples he gives.\n\nSo revised questions:\n\n1. How does Trump substantiate the claim that stamina is a necessary trait for negotiating trade deals, and is there evidence that Clinton lacks this specific ability? (Links stamina to the tasks mentioned.)\n\n2. What criteria define \"the presidential look,\" and how is this standard applied consistently to other political figures? (Challenges the vagueness of \"look\".)\n\n3. Does the example of the Iran deal sufficiently demonstrate that Clinton's experience is detrimental, considering potential external factors influencing the deal's outcome? (Questions the basis of the bad experience claim.)\n\nCheck guidelines: Each question should challenge the argument's validity using text details. These seem to fit. Avoid unhelpful or invalid ones. The first question links stamina to negotiation, which he mentions. The second tackles \"look.\" The third focuses on the Iran deal example. They don't introduce external concepts but use what's in the text."
+    },
+    "TRUMP_58": {
+        "intervention_id": "TRUMP_58",
+        "intervention": "TRUMP: \"You are going to approve one of the biggest tax cuts in history\nYou are going to approve one of the biggest tax increases in history\nYou are going to drive business out\nYour regulations are a disaster , and you 're going to increase regulations all over the place\nmy tax cut is the biggest since Ronald Reagan\nI 'm very proud of it\nIt will create tremendous numbers of new jobs\nyou are going to regulate these businesses out of existence\nWhen I go around\u2014Lester , I tell you this , I 've been all over\nwhen I go around , despite the tax cut , the thing\u2014the things that business as in people like the most is the fact that I 'm cutting regulation\nYou have regulations on top of regulations\nnew companies can not form and old companies are going out of business\nyou want to increase the regulations and make them even worse\nI 'm going to cut regulations\nI 'm going to cut taxes big league\nyou 're going to raise taxes big league\nend of story\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "CircumstantialAdHominem",
+            "CauseToEffect",
+            "CircumstantialAdHominem",
+            "CircumstantialAdHominem",
+            "Alternatives",
+            "CircumstantialAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the claim that the tax cut is the \"biggest since Ronald Reagan\" account for inflation or economic context, or is the comparison potentially misleading?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the assertion that businesses prioritize regulatory cuts over other factors like market stability or consumer demand when evaluating economic policies?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does the argument address the possibility that increased regulations might protect industries or consumers without necessarily driving businesses \"out of existence\"?"
+            }
+        ],
+        "full_response": "Does the claim that the tax cut is the \"biggest since Ronald Reagan\" account for inflation or economic context, or is the comparison potentially misleading?  \nWhat evidence supports the assertion that businesses prioritize regulatory cuts over other factors like market stability or consumer demand when evaluating economic policies?  \nHow does the argument address the possibility that increased regulations might protect industries or consumers without necessarily driving businesses \"out of existence\"?",
+        "reasoning": "Okay, I need to generate three useful critical questions for the given text by Trump. Let's first understand the text. Trump is contrasting his policies of cutting taxes and regulations with his opponent's, claiming that his tax cut is the biggest since Reagan, will create jobs, and that cutting regulations is what businesses like most. He accuses the opponent of wanting to increase taxes and regulations, driving businesses out.\n\nNow, following the guidelines, the questions should challenge the validity of his arguments without introducing new concepts. Let me break down the arguments. He makes several claims: 1) His tax cut is the biggest since Reagan. 2) Cutting regulations is most appreciated by businesses. 3) Opponent's policies will increase taxes and regulations, harming businesses.\n\nFor the first question, I can question the comparison to Reagan's tax cuts. The text says \"biggest since Ronald Reagan,\" but does that account for inflation or economic context? That's a valid challenge.\n\nSecond, he says businesses care most about regulation cuts. Is there evidence provided that this is their top priority over other factors like taxes or market conditions? The text doesn't provide data, so questioning the basis of this claim makes sense.\n\nThird, he claims the opponent's regulations will drive businesses out. But does increasing regulations always lead to business closures? Maybe some regulations help, or businesses adapt. The text assumes causation without evidence.\n\nAvoiding unhelpful questions like \"Why does Trump think his tax cut is good?\" which is too general. Also, not introducing external ideas like specific economic theories. Each question must target the existing arguments and challenge their validity based on what's present."
+    },
+    "CLINTON_1_2": {
+        "intervention_id": "CLINTON_1_2",
+        "intervention": "CLINTON: \"If you help create the profits , you should be able to share in them , not just the executives at the top\nI want us to do more to support people who are struggling to balance family and work\nI 've heard from so many of you about the difficult choices you face and the stresses that you 're under\nlet 's have paid family leave , earned sick days\nLet 's be sure we have affordable child care and debt-free college\nHow are we going to do it\nWe 're going to do it by having the wealthy pay their fair share and close the corporate loopholes\nwe tonight are on the stage together , Donald Trump and I\nit 's good to be with you\nWe 're going to have a debate where we are talking about the important issues facing our country\nYou have to judge us , who can shoulder the immense , awesome responsibilities of the presidency , who can put into action the plans that will make your life better\nI hope that I will be able to earn your vote on November 8th\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PopularOpinion",
+            "Values",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the assertion that making the wealthy pay their \"fair share\" adequately address the feasibility of funding multiple expansive policies simultaneously?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does Clinton\u2019s proposal to link profit-sharing beyond executives account for existing compensation structures or potential economic consequences?  "
+            },
+            {
+                "id": 2,
+                "cq": "Is there evidence that closing corporate loopholes alone would generate sufficient revenue to support debt-free college and affordable childcare without broader economic trade-offs?"
+            }
+        ],
+        "full_response": "Does the assertion that making the wealthy pay their \"fair share\" adequately address the feasibility of funding multiple expansive policies simultaneously?  \nHow does Clinton\u2019s proposal to link profit-sharing beyond executives account for existing compensation structures or potential economic consequences?  \nIs there evidence that closing corporate loopholes alone would generate sufficient revenue to support debt-free college and affordable childcare without broader economic trade-offs?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given text by Clinton. The goal is to challenge the validity of her arguments.\n\nFirst, I need to understand the text. Clinton is talking about sharing profits beyond executives, supporting work-family balance, paid leave, affordable childcare, debt-free college. She says funding will come from making the wealthy pay their fair share and closing corporate loopholes. She also mentions the debate with Trump and earning votes.\n\nNow, applying the guidelines. The questions should focus on existing details, not introduce new concepts. They should make the reader reflect on the argument's weaknesses.\n\nLooking at her claims: \"wealthy pay fair share\" and \"close corporate loopholes\" as funding sources. Possible issues: Are these sufficient? How does she define \"fair share\"? Are the plans feasible?\n\nAnother point is the connection between sharing profits and executives. She says people who help create profits should share. But how does that translate into policy? Does she assume that current systems don't allow this, or is there evidence that current profit-sharing is inadequate?\n\nAlso, she lists several policies (paid leave, sick days, childcare, college). Are these all addressed by the same funding source? Is there a prioritization, or might some require more resources than others?\n\nPotential questions:\n1. How does Clinton define \"fair share\" for the wealthy, and is there evidence this will cover all proposed programs?\n2. Does the assumption that closing corporate loopholes alone can fund these initiatives ignore potential economic impacts?\n3. How will profit-sharing beyond executives be implemented without disincentivizing corporate investment?\n\nCheck if these are too vague or introduce new ideas. The first question targets the funding mechanism's sufficiency. The second questions the feasibility and unintended consequences. The third addresses the practicality of profit-sharing. All are based on the text's claims without adding external concepts.\n\nAvoiding unhelpful questions like \"Why is family leave important?\" which is too obvious. Also, no invalid ones like introducing unrelated economic theories."
+    },
+    "FoodAllergyMom_199_1": {
+        "intervention_id": "FoodAllergyMom_199_1",
+        "intervention": "FoodAllergyMom: \"My child is 2 years old and he is severely allergic to peanuts, tree nuts, egg and milk.\nMy son has reacted to airborne particles from someone opening a bag of nuts near him.\nMy husband and I used to be world traveler's and dreamed of traveling with our son.\nIt is heartbreaking to think that our child will not get to experience the world, or if he does it may cost him his life.\nWhat about when he gets older and his job requires him to fly across the country in a weekend?\nShould he have to risk his life so he can work in his possible future dream job?\nThis is a disability, no question about it.\nWe are talking about being in the air with peanut particles being circulated through the cabin and possible no place to land for hours.\nAn EpiPen only last 15 minutes.\nPeanut allergy is unpredictable.\nThe first reaction could be mild\nand the second could cause your blood pressure to drop like a rocket, your throat to close up and your heart to stop beating.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the argument that peanut allergy is a disability account for existing airline protocols that mitigate airborne allergen risks, or does it assume universal exposure without evidence?  "
+            },
+            {
+                "id": 1,
+                "cq": "Is the claim that EpiPens only last 15 minutes sufficient to dismiss their effectiveness in conjunction with emergency landing procedures or in-flight medical assistance?  "
+            },
+            {
+                "id": 2,
+                "cq": "Does the emphasis on unpredictable reaction severity rely on an assumption that all subsequent exposures will inevitably escalate, ignoring documented cases of stable or diminishing reactions?"
+            }
+        ],
+        "full_response": "Does the argument that peanut allergy is a disability account for existing airline protocols that mitigate airborne allergen risks, or does it assume universal exposure without evidence?  \nIs the claim that EpiPens only last 15 minutes sufficient to dismiss their effectiveness in conjunction with emergency landing procedures or in-flight medical assistance?  \nDoes the emphasis on unpredictable reaction severity rely on an assumption that all subsequent exposures will inevitably escalate, ignoring documented cases of stable or diminishing reactions?",
+        "reasoning": "Okay, I need to generate three useful critical questions for this text about a child with severe allergies and the parents' concerns. Let me start by understanding the main arguments here. The parent is arguing that their child's peanut allergy is a disability because it severely limits their ability to travel, especially flying, due to airborne particles. They mention the unpredictability of reactions, the short duration of EpiPen effectiveness, and the risk in future scenarios like a job requiring flights.\n\nFirst, I should look for claims that can be challenged. For example, the parent compares the allergy to a disability. So, a useful question might challenge the basis of that comparison. Maybe ask if there's evidence that all airborne exposures on planes are unavoidable, which would test the validity of the disability claim.\n\nNext, the text says EpiPens only last 15 minutes. Is there an assumption here that no other interventions exist? A question could ask if the argument overlooks other medical measures that might extend safety beyond 15 minutes.\n\nAnother point is the unpredictability of reactions. The parent states the first reaction could be mild, the second severe. Does this assume that all subsequent exposures will be worse? Maybe question whether the argument accounts for cases where reactions don't escalate, which could weaken the claim about inevitable life-threatening risks.\n\nI should avoid questions that are too general or introduce new concepts. Also, make sure each question is rooted in the text's details. Let me check the guidelines again. The questions need to challenge the argument's validity by focusing on existing points without bringing in external ideas.\n\nSo, possible questions:\n\n1. Does the comparison of peanut allergy to a disability account for measures airlines take to prevent airborne exposure, or is the risk presented as inevitable without such context? (Challenges the disability claim by questioning if all risks are unavoidable.)\n\n2. Is there evidence that EpiPens are the sole medical intervention available during flights, or does the argument overlook potential complementary treatments or protocols? (Questions the reliance on EpiPen alone, maybe other measures exist.)\n\n3. Does the argument assume that all subsequent allergic reactions will necessarily escalate in severity, and are there documented cases where reactions remain manageable without life-threatening outcomes? (Challenges the unpredictability claim by suggesting maybe not all reactions escalate.)\n\nWait, the third question might be introducing documented cases, which is external. Maybe rephrase to focus on the text's assumption. Like: Does the argument's emphasis on the unpredictability of peanut allergy reactions account for instances where subsequent exposures do not result in increased severity, thereby challenging the inevitability of life-threatening outcomes?\n\nHmm, maybe better to phrase without bringing in external evidence. Focus on the assumption in the text. Let me adjust.\n\nAnother angle: The parent mentions future job scenarios requiring flights. Does the argument assume that no alternative accommodations (like remote work) are possible, thereby overstating the necessity of risking life for employment?\n\nBut that might be introducing new concepts (alternative accommodations) not in the text. The text doesn't mention possible job accommodations, so maybe that's invalid.\n\nStick to the existing points. The main arguments are about the inevitability of exposure on flights, EpiPen's limitations, and the disability classification.\n\nI think the first three questions I thought of are okay, but need to ensure they don't introduce external ideas. Let me check again.\n\nFirst question: Asks if the comparison to disability considers airline measures. The text mentions \"peanut particles circulated through the cabin and possible no place to land for hours.\" So the text does mention the cabin environment but doesn't say if airlines have prevention measures. The question is challenging whether the argument acknowledges existing measures, which is valid because if airlines do have protocols, the risk might be lower than presented.\n\nSecond question: Asks if EpiPens are the only intervention. The text says \"An EpiPen only last 15 minutes.\" The argument assumes that after 15 minutes, there's no recourse. If there are other measures, the argument's validity is weakened. But the text doesn't mention other measures, so the question is pointing out an assumption in the argument.\n\nThird question: The text says reactions are unpredictable, first mild, second severe. The question challenges if the argument accounts for cases where reactions don't escalate. Since the text presents escalation as a possibility, but maybe not a certainty, the question asks if the argument overstates the inevitability.\n\nThese seem to fit the guidelines. They challenge the argument's validity by targeting its assumptions and existing points without adding new concepts."
+    },
+    "TRUMP_13": {
+        "intervention_id": "TRUMP_13",
+        "intervention": "TRUMP: \"Secretary Clinton and others , politicians , should have been doing this for years , not right now\nwe 've created a movement\nThey should have been doing this for years\nWhat 's happened to our jobs and our country and our economy generally is\u2014look , we owe $ 20 trillion\nWe can not do it any longer , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Sign"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Trump establish a direct causal link between politicians' inaction and the $20 trillion debt, or is this an assumption?  "
+            },
+            {
+                "id": 1,
+                "cq": "How does the creation of a movement specifically address the economic failures attributed to prior politicians?  "
+            },
+            {
+                "id": 2,
+                "cq": "What evidence supports the claim that earlier action by politicians would have prevented the current economic challenges?"
+            }
+        ],
+        "full_response": "Does Trump establish a direct causal link between politicians' inaction and the $20 trillion debt, or is this an assumption?  \nHow does the creation of a movement specifically address the economic failures attributed to prior politicians?  \nWhat evidence supports the claim that earlier action by politicians would have prevented the current economic challenges?",
+        "reasoning": "Okay, let's tackle this. The user wants me to generate three useful critical questions for the given Trump quote. First, I need to understand the argument in the text. Trump is saying that Clinton and others should have been addressing economic issues years ago, implying that their failure led to the current debt and economic problems. He claims credit for creating a movement now.\n\nThe guidelines say the questions should challenge the argument's validity without introducing new concepts. So, I need to find points where the logic might be weak. Let's break down the elements of his argument.\n\nHe mentions owing $20 trillion and connects that to the inaction of others. But does he provide evidence that their inaction directly caused the debt? That's a possible angle. Also, he says \"we've created a movement\"\u2014but how does creating a movement address the economic issues he's talking about? There's a gap there. Also, he blames others for not acting sooner, but is there an assumption that their actions would have prevented the problems? Maybe he's not considering other factors.\n\nSo, possible questions:\n\n1. Does Trump provide evidence that Clinton's inaction directly caused the $20 trillion debt, or is there a correlation without causation? This challenges the link between the two.\n\n2. How does creating a movement address the specific economic issues mentioned, like the debt? Questions the effectiveness of his solution.\n\n3. Does the argument consider other factors contributing to the economic problems besides politicians' inaction? This points out potential overlooked causes.\n\nI need to make sure these questions are based solely on the text and don't bring in external ideas. Also, avoid being too general. Let me check against the examples. The useful questions in the example targeted specific comparisons and evidence. These questions seem to fit the criteria. They challenge the core reasoning without being too broad or introducing new concepts."
+    }
+}
