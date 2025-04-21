@@ -213,8 +213,8 @@ def evaluate_answer_corr(golden_answers, answer):
         logging.debug("Evaluating answer '%s' against reference set.", line['cq'])
         if line['cq'] == 'Missing CQs':
             continue
-        sentence_embedding = model_eval.encode(line['cq'])
-        reference_embedding = model_eval.encode(reference_set)
+        sentence_embedding = model_eval.encode(line['cq'], show_progress_bar=False,)
+        reference_embedding = model_eval.encode(reference_set, show_progress_bar=False)
         sims = model_eval.similarity(sentence_embedding, reference_embedding).tolist()[0]
         winner = np.argmax(sims)
         logging.debug("Similarity scores for '%s': %s", line['cq'], sims)
@@ -224,12 +224,12 @@ def evaluate_answer_corr(golden_answers, answer):
             if label == 'useful':
                 punctuation += 1/3
         else:
-            pass
-            # logging.debug("Similarity below threshold for '%s'. Using LLM fallback evaluation.", line['cq'])
-            # label = evluate_answer_corr_with_llm(line['cq'], golden_answers[0][0]['intervention'])
-            # logging.debug("LLM fallback label: %s", label)
-            # if label == 'useful':
-            #     punctuation += 1/3
+            # pass
+            logging.debug("Similarity below threshold for '%s'. Using LLM fallback evaluation.", line['cq'])
+            label = evluate_answer_corr_with_llm(line['cq'], golden_answers[0][0]['intervention'])
+            logging.debug("LLM fallback label: %s", label)
+            if label == 'useful':
+                punctuation += 1/3
     return punctuation
 
 def correctness_reward_func(prompts, completions, answer, **kwargs) -> list[float]:

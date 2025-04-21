@@ -113,22 +113,23 @@ def main():
         ]
     prompt_name_mape = {
         "rl_prompt": "cot",
+        "zero_shot": "Null",
         "zero_shot_with_instructions2": "Minimal",
         "few_shot": "FewShot",
         "comprehensive_few_shot": "few_shot_full_cot",
     }
 
     models = [
-            #   'meta-llama/Meta-Llama-3.1-405B-Instruct',
+              'meta-llama/Meta-Llama-3.1-405B-Instruct',
             #   'meta-llama/Llama-3.3-70B-Instruct',
             #   'meta-llama/Meta-Llama-3.1-8B-Instruct',
             #     'meta-llama/Llama-3.2-3B-Instruct',
-            # #   'Qwen/Qwen2.5-14B-Instruct', 
+            #   'Qwen/Qwen2.5-14B-Instruct', 
             #   'Qwen/Qwen2.5-72B-Instruct', 
-              'Qwen/Qwen2.5-7B-Instruct',
-
-            'deepseek-ai/DeepSeek-V3-0324', 
-              'deepseek-reasoner', 
+            #   'Qwen/Qwen2.5-7B-Instruct',
+            #     'Qwen/Qwen2.5-3B-Instruct',
+            # 'deepseek-ai/DeepSeek-V3-0324', 
+            #   'deepseek-reasoner', 
               ] 
     # models= ["deepseek-ai/DeepSeek-V3-0324"]
     # models = ["meta-llama/Meta-Llama-3.1-8B-Instruct"]
@@ -176,6 +177,12 @@ def main():
                         out = json.load(f_out)
                 else:
                     out = {}
+                    target_file_name_2 = f'experiments_results/{data_file}_output_{selected_prompt_name}_{model_name_in_file}_t0.1.json'
+                    if os.path.exists(target_file_name_2):
+                        print("Loading from 0.0")
+                        with open(target_file_name_2, 'r') as f_out:
+                            out = json.load(f_out)
+
 
                 new_params = None
                 logger.info(model_name)
@@ -185,16 +192,20 @@ def main():
 
 
                 logger.info('Loaded '+model_name)
+                new_out ={}
                 for key,line in tqdm.tqdm(data.items()):
                     text = line['intervention']
                     intervention_id = line.get('intervention_id')
                     if intervention_id in out and "full_response" in out[intervention_id]:
+                        one_missing = False
                         for cq in out[intervention_id]['cqs']:
                             if cq['cq'] == "Missing CQs":
                                 one_missing = True
                         if one_missing:
                             cqs_struct = structure_output( out[intervention_id]["full_response"])
                             out[intervention_id]['cqs'] = cqs_struct
+                            print("Updating", intervention_id)
+                        new_out[intervention_id] = out[intervention_id]
                         print(f"Skipping {intervention_id} as it already exists in the output file.")
                         continue
                     max_trials = 3
@@ -212,11 +223,11 @@ def main():
                     line['cqs'] = cqs_struct
                     line['full_response'] = model_out
                     line['reasoning'] = reasoning
-                    out[line['intervention_id']]=line
+                    new_out[line['intervention_id']]=line
 
                     target_file_name = f'experiments_results_benchmark/{data_file}_output_{selected_prompt_name}_{model_name_in_file}.json'
                     with open(target_file_name, 'w') as o:
-                        json.dump(out, o, indent=4)
+                        json.dump(new_out, o, indent=4)
                     print("Saving to", target_file_name)
 
 if __name__ == "__main__":

@@ -110,8 +110,8 @@ def query_model(messages, tokenizer , model,  model_name, pipeline, temperature=
         outputs = pipeline(
             messages,
             max_new_tokens=max_new_tokens,
-            temperature=temperature,
-            # do_sample=False
+            # temperature=temperature,
+            do_sample=True
             # use_auth_token=hf_token
         )
         response = outputs[0]["generated_text"][-1]['content']
@@ -126,7 +126,10 @@ def query_model(messages, tokenizer , model,  model_name, pipeline, temperature=
     input_token_count = inputs.input_ids.shape[1]  # Count input tokens
 
     with torch.no_grad():
-        generated_ids = model.generate(**inputs, max_new_tokens = max_new_tokens, temperature=temperature)
+        generated_ids = model.generate(**inputs, max_new_tokens = max_new_tokens, 
+                                        do_sample=True, 
+                                        # temperature=temperature
+                                        )
 
     generated_ids = [
         output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, generated_ids)

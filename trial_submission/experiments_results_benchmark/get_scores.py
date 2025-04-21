@@ -210,28 +210,35 @@ def eval_func(threshold, golden_path, submission_path):
 
 
 
-temperature = 0.8
+temperature = 0.0
+# selected_prompt_names = [
+#     "rl_prompt",    
+#     # "schema_prompt"
+#     "zero_shot", 
+#     "zero_shot_with_instructions2", 
+#     "few_shot", 
+#     "comprehensive_few_shot"
+#     ]
 selected_prompt_names = [
-    "rl_prompt",    
-    # "schema_prompt"
-    "zero_shot", 
-    "zero_shot_with_instructions2", 
-    "few_shot", 
-    "comprehensive_few_shot"
-    ]
+        "rl_prompt",    
+        # "schema_prompt"
+        "zero_shot", 
+        "zero_shot_with_instructions2", 
+        "few_shot", 
+        "comprehensive_few_shot"
+        ]
 models = [
-          'meta-llama/Meta-Llama-3.1-405B-Instruct',
-          'meta-llama/Llama-3.3-70B-Instruct',
-          'meta-llama/Meta-Llama-3.1-8B-Instruct',
+        #   'meta-llama/Meta-Llama-3.1-405B-Instruct',
+            'meta-llama/Llama-3.3-70B-Instruct',
+            'meta-llama/Meta-Llama-3.1-8B-Instruct',
             'meta-llama/Llama-3.2-3B-Instruct',
-        #   'Qwen/Qwen2.5-14B-Instruct', 
-          'Qwen/Qwen2.5-72B-Instruct', 
+            'Qwen/Qwen2.5-14B-Instruct', 
+            'Qwen/Qwen2.5-72B-Instruct', 
             'Qwen/Qwen2.5-7B-Instruct',
-
+            'Qwen/Qwen2.5-3B-Instruct',
         'deepseek-ai/DeepSeek-V3-0324', 
             'deepseek-reasoner', 
             ] 
-
 # models = ['deepseek-ai/DeepSeek-V3-0324', 'deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Llama-3.2-3B-Instruct', 'meta-llama/Llama-3.1-8B-Instruct'] 
 # models = ["meta-llama/Llama-3.1-8B-Instruct"]
 # data_files = ["sample", "validation"]

@@ -14,7 +14,7 @@ with open(txt_file, 'w') as f:
     f.write("=== Results ===\n")
 
 # pattern helpers
-PREFIX = 'testing_output_'
+PREFIX = 'testing_dataset_output_'
 SUFFIX = '_eval_similarity_0.6.json'
 
 # load reference
@@ -52,16 +52,16 @@ for fname in os.listdir('.'):
     # core → "{prompt}_{model}_{runid}_t{temp}"
 
     # 1) pull off the temperature
-    try:
-        before_t, temp_str = core.rsplit('_t', 1)
-        temperature = float(temp_str)
-    except ValueError:
-        print(f"Bad filename (no _t): {fname}")
-        continue
+    # try:
+    #     before_t, temp_str = core.rsplit('_t', 1)
+    #     temperature = float(temp_str)
+    # except ValueError:
+    #     print(f"Bad filename (no _t): {fname}")
+    #     continue
 
     # 2) identify which prompt it is by comparing to your list
     for p in selected_prompt_names:
-        if before_t.startswith(p + '_'):
+        if core.startswith(p + '_'):
             prompt_name = p
             if p in matched_prompt_names:
                 prompt_name = matched_prompt_names[p]

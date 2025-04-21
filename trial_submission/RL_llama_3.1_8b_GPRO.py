@@ -5,8 +5,8 @@ from RL_data_prep import get_critical_questions_dataset, correctness_reward_func
 import os
 from transformers.trainer_utils import get_last_checkpoint
 
-max_seq_length = 1024 # Can increase for longer reasoning traces
-lora_rank = 32 # Larger rank = smarter, but slower
+max_seq_length = 8084 # Can increase for longer reasoning traces
+lora_rank = 64 # Larger rank = smarter, but slower
 
 print("Load up llama 3.1 8b Instruct, and set parameters")
 
@@ -49,15 +49,17 @@ training_args = GRPOConfig(
     logging_steps = 1,
     per_device_train_batch_size = 1,
     gradient_accumulation_steps = 1, # Increase to 4 for smoother training
-    num_generations = 6, # Decrease if out of memory
-    max_prompt_length = max_prompt_length,
-    max_completion_length = max_seq_length - max_prompt_length,
+    num_generations = 8, # Decrease if out of memory
+    # max_prompt_length = max_prompt_length,
+    # max_completion_length = max_seq_length - max_prompt_length,
+    max_prompt_length = 3000,
+    max_completion_length = 2000,
     num_train_epochs = 5, # Set to 1 for a full training run
     # max_steps = 250,
-    save_steps = 250,
+    save_steps = 50,
     max_grad_norm = 0.1,
     report_to = "wandb", # Can use Weights & Biases
-    output_dir = "outputs",
+    output_dir = "outputs_llama8b_trial_1",
 )
 
 print("Start training!")
@@ -67,11 +69,12 @@ trainer = GRPOTrainer(
     processing_class = tokenizer,
     reward_funcs = [
         
+        correctness_reward_func,
         xmlcount_reward_func,
         soft_format_reward_func,
         strict_format_reward_func,
         structure_reward_func,
-        correctness_reward_func,
+
 
     ],
     args = training_args,
@@ -93,6 +96,6 @@ trainer.train(resume_from_checkpoint=checkpoint)
 
 # trainer.train()
 
-model.save_lora("llama_grpo_saved_lora")
+model.save_lora("llama_grpo_saved_lora_trial_1")
 
 wandb.finish()
