@@ -40,10 +40,9 @@ Scripts will be finalized soon. Expected entry points:
 
 | File                          | Description                                |
 |-------------------------------|--------------------------------------------|
-| `generate_questions.py`       | Generate initial critical questions        |
-| `evaluate_questions.py`       | Evaluate generated questions               |
-| `ml_classifier_training.py`   | Train ML model to classify question quality |
-| `agentic_pipeline.py`         | ML + LLM feedback agentic loop             |
+| `Data Analysis/dependency_analysis.ipynb`       | Lexical Analysis of the validation dataset        |
+| `Iteratively Agentic Approach/Approach*.ipynb`       | Pipeline to use llama405b to generate CQ using ML evaluator, LLM evaluator, and ML & LLM evvaluator|
+| `Iteratively Agentic Approach/ml_model_CQ.py`   | Train ML model to classify question quality |
 | `rl_finetuning.py`            | Reinforcement Learning fine-tuning         |
 | `argumentation_scheme_mapper.py` | Map texts to argumentation schemes       |
 | `logical_fallacy_detector.py` | Logical fallacy detection baseline         |
@@ -55,11 +54,15 @@ Scripts will be finalized soon. Expected entry points:
 ## 📂 Repository Structure (Expected)
 
 ```bash
-├── data/                    # Dataset (argumentative texts and labeled questions)
-├── models/                  # Saved ML/RL models
-├── outputs/                 # Generated outputs and evaluation reports
-├── scripts/                 # Main project scripts
-├── requirements.txt         # Project dependencies (coming soon)
-└── README.md                # Project overview (this file)
+├── Data_Analysis/                   # Exploratory Data Analysis (EDA) scripts and results
+├── Iteratively Agentic Approach/    # ML models and agentic improvement pipeline
+├── data_splits/                     # Dataset splits (train, validation, test)
+├── eval_scripts/                    # Evaluation scripts and RL fine-tuning code
+├── trial_submission/                # Trial submissions and experiment outputs
+├── .env                             # Environment variables (OpenAI API keys, etc.)
+├── .gitignore                       # Git ignored files configuration
+├── LICENSE                          # Project license
+├── README.md                        # Project overview (this file)
+├── eval.log                         # Evaluation logs
 ```
 
