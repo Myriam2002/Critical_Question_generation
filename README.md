@@ -17,12 +17,12 @@ We experiment with:
 
 ---
 
-## 🛠️ Setup (Placeholder)
+## 🛠️ Setup 
 
 You can prepare your environment while waiting for the finalized code.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/Myriam2002/Critical_Question_generation.git
 cd YOUR_REPOSITORY
 python3 -m venv venv
 source venv/bin/activate     # Linux / Mac
@@ -30,11 +30,9 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-_(requirements.txt will be added soon.)_
-
----
-
 ## 🚀 How to Run (Placeholder)
+WIP
+## 🔝 Most Import Files 
 
 Scripts will be finalized soon. Expected entry points:
 
@@ -47,11 +45,8 @@ Scripts will be finalized soon. Expected entry points:
 | `argumentation_scheme_mapper.py` | Map texts to argumentation schemes       |
 | `logical_fallacy_detector.py` | Logical fallacy detection baseline         |
 
-✅ Scripts will be updated once finalized.
 
----
-
-## 📂 Repository Structure (Expected)
+## 📂 Repository Structure (
 
 ```bash
 ├── Data_Analysis/                   # Exploratory Data Analysis (EDA) scripts and results
