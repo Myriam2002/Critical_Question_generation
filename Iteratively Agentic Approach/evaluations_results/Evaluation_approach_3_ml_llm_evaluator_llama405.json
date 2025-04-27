@@ -1,0 +1,1723 @@
+{
+    "MT_45": {
+        "intervention_id": "MT_45",
+        "intervention": "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific evidence supports the claim that industrial activities in the developed world were not generating sufficient surpluses, and how does this trend vary across different industries and time periods?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What evidence is there to support the claim that this form of capitalism wasn't generating sufficient surpluses?",
+                    "label": "Useful",
+                    "similarity": 0.686493992805481
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How does the speaker define 'sufficient surpluses,' and what are the implications of using this measure to evaluate the performance of industrial activities in the developed world?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What is meant by \"sufficient surpluses,\" and how are they measured?",
+                    "label": "Useful",
+                    "similarity": 0.7190818786621094
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential risks or unintended consequences of assuming a binary choice between investing in industrial activities and other unspecified options, and how might these risks impact the speaker's conclusion?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "Are there other factors in this particular case that could have interfered with the event of 'the money not flowing into industrial activities'?",
+                    "label": "Useful",
+                    "similarity": 0.5629807114601135
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What specific evidence supports the claim that industrial activities in the developed world were not generating sufficient surpluses, and how does this trend vary across different industries and time periods?\n- How does the speaker define 'sufficient surpluses,' and what are the implications of using this measure to evaluate the performance of industrial activities in the developed world?\n- What are the potential risks or unintended consequences of assuming a binary choice between investing in industrial activities and other unspecified options, and how might these risks impact the speaker's conclusion?"
+    },
+    "cd38_220_2": {
+        "intervention_id": "cd38_220_2",
+        "intervention": "cd38: \"The return flight is 6 \u00bd hours (plus commute time to the airport);\nwhen time allows, I make something to bring on the flight,\nbut if my mother is having a bad day, that's not always possible.\nOn a recent trip, I didn't have time to eat anything at all the day I flew home; got stuck in traffic and barely made my flight (I was the last one on) so didn't have time to eat or buy anything at the airport; and as we started to taxi, the flight crew announced that we had a nut allergy on board, and that they (JB) would not be serving cashews and requested that we not eat any nuts we may have brought on board.\n6 \u00bd hours feels pretty long at that point!\nNo, it didn't kill me,\nbut it does seem that if JB hadn't served cashews, the risks involved in one or two people eating nuts they may have brought with them would have been extremely, extremely small....\nand, NOTHING in life is riskfree.\nI understand that people want to minimize the risks for their loved ones,\nbut you cannot eliminate the risk completely, regardless of what legislation you put in place.\nIf I ate peanuts at the airport, didn't wash my hands, and then opened the rest room door on the plane immediately before a peanut allergy sufferer, that person could suffer a reaction.\nI can support airlines not serving peanuts/peanut products,\nthereby eliminating the most likely possible cause of a peanutrelated incident on a flight;\nbut not restrictions on what people may choose to eat.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the author's claim that \"NOTHING in life is risk-free\" address the specific concerns of passengers with severe nut allergies, and what alternative measures could be taken to minimize the risk of an allergic reaction on a flight?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Does the author's statement \"NOTHING in life is risk-free\" imply that some level of risk is acceptable, and if so, what level of risk is acceptable in the context of peanut allergies on flights?",
+                    "label": "Useful",
+                    "similarity": 0.8230863809585571
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence or expert opinion supports the author's assertion that the risk of an allergic reaction from a passenger eating nuts they brought on board is extremely small, and how does this assessment account for the severity of nut allergies?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Is the author's claim that the risks involved in one or two people eating nuts they may have brought with them would have been \"extremely, extremely small\" supported by evidence or data?",
+                    "label": "Useful",
+                    "similarity": 0.8028926849365234
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways does the author's analogy between eating peanuts at the airport and not washing hands before opening the restroom door on the plane accurately represent the risks associated with allowing passengers to eat nuts on board, and what limitations or flaws exist in this comparison?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Is the author's scenario of eating peanuts at the airport, not washing their hands, and then opening the restroom door on the plane immediately before a peanut allergy sufferer a realistic and likely scenario, or is it a hypothetical extreme case?",
+                    "label": "Useful",
+                    "similarity": 0.7847517728805542
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does the author's claim that \"NOTHING in life is risk-free\" address the specific concerns of passengers with severe nut allergies, and what alternative measures could be taken to minimize the risk of an allergic reaction on a flight?\n- What evidence or expert opinion supports the author's assertion that the risk of an allergic reaction from a passenger eating nuts they brought on board is extremely small, and how does this assessment account for the severity of nut allergies?\n- In what ways does the author's analogy between eating peanuts at the airport and not washing hands before opening the restroom door on the plane accurately represent the risks associated with allowing passengers to eat nuts on board, and what limitations or flaws exist in this comparison?"
+    },
+    "TRUMP_183": {
+        "intervention_id": "TRUMP_183",
+        "intervention": "TRUMP: \"I do want to say that I was just endorsed\nand more are coming next week\nit will be over 200 admirals\nmany of them here\u2014admirals and generals endorsed me to lead this country\nThat just happened\nmany more are coming\nI was just endorsed by ICE\nThey 've never endorsed anybody before on immigration\nI was just recently endorsed\u201416,500 Border Patrol agents\nwhen Secretary Clinton talks about this , I mean , I 'll take the admirals and I 'll take the generals any day over the political hacks that I see that have led our country so brilliantly over the last 10 years with their knowledge\nlook at the mess that we 're in\nAs far as the cyber , I agree to parts of what Secretary Clinton said\nWe should be better than anybody else\nperhaps we 're not\nI do n't think anybody knows it was Russia that broke into the DNC\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Values",
+            "PositionToKnow"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific policies or actions does Trump propose to address the perceived 'mess' in the country, and how do these proposals align with or diverge from the endorsements he received from admirals, generals, ICE, and Border Patrol agents?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What specific actions or policies has Trump proposed to address the \"mess\" that the country is in, and how do they differ from those of his opponent?",
+                    "label": "Useful",
+                    "similarity": 0.8469793796539307
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the implications of Trump's emphasis on endorsements from admirals, generals, ICE, and Border Patrol agents for his understanding of leadership qualifications and policy priorities, and how does this emphasis align with or diverge from traditional notions of political leadership?",
+                "matched_reference": {
+                    "index": 27,
+                    "cq": "What is the relevance of the endorsements from admirals, generals, ICE, and Border Patrol agents to Trump's ability to lead the country? Are these endorsements based on his policies or his personality?",
+                    "label": "Useful",
+                    "similarity": 0.8430784940719604
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Trump's dismissal of 'political hacks' engage with or evade the criticisms and policy proposals presented by Secretary Clinton, and what implications does this dismissal have for his approach to bipartisan cooperation and policy discourse?",
+                "matched_reference": {
+                    "index": 28,
+                    "cq": "What specific policies or actions has Trump proposed to address the issues he claims are a \"mess\"? How do these policies differ from Clinton's?",
+                    "label": "Useful",
+                    "similarity": 0.6086921691894531
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific policies or actions does Trump propose to address the perceived 'mess' in the country, and how do these proposals align with or diverge from the endorsements he received from admirals, generals, ICE, and Border Patrol agents?\n- What are the implications of Trump's emphasis on endorsements from admirals, generals, ICE, and Border Patrol agents for his understanding of leadership qualifications and policy priorities, and how does this emphasis align with or diverge from traditional notions of political leadership?\n- How does Trump's dismissal of 'political hacks' engage with or evade the criticisms and policy proposals presented by Secretary Clinton, and what implications does this dismissal have for his approach to bipartisan cooperation and policy discourse?"
+    },
+    "AngelComa__638": {
+        "intervention_id": "AngelComa__638",
+        "intervention": "AngelComa: \"Funny, I thought he did good\nThey get timed responses\nhis plan is all there\nHe can't talk about everything in the plan\nMust be how used you are to politicians saying things and not having a plan\"\n < this message is answering to > \nPunchee: \"That was a weird moment in American debate history. \"Yo check my website. Shit's on there.\"\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Is it reasonable to expect a politician to provide a clear and concise explanation of their plan during a debate, or are there limitations to the format that justify relying on external resources, such as a website?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Why can't the politician talk about everything in their plan? Is there a legitimate reason for not providing more detail, or is this a convenient excuse?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5314069390296936
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the implications of AngelComa's defense of the politician's performance, which emphasizes the existence of a plan on a website, for the expectations surrounding a politician's communication of their plans during a debate?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What does AngelComa mean by \"his plan is all there\"? Is the plan publicly available, and if so, where can it be accessed? What specific details of the plan are being referred to?",
+                    "label": "Unhelpful",
+                    "similarity": 0.613940954208374
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways does the existence of a plan on a website justify or fail to justify a politician's performance during a debate, particularly when the politician does not clearly explain the plan during the debate?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Why can't the politician talk about everything in their plan? Is there a legitimate reason for not providing more detail, or is this a convenient excuse?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6215606331825256
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- Is it reasonable to expect a politician to provide a clear and concise explanation of their plan during a debate, or are there limitations to the format that justify relying on external resources, such as a website?\n- What are the implications of AngelComa's defense of the politician's performance, which emphasizes the existence of a plan on a website, for the expectations surrounding a politician's communication of their plans during a debate?\n- In what ways does the existence of a plan on a website justify or fail to justify a politician's performance during a debate, particularly when the politician does not clearly explain the plan during the debate?"
+    },
+    "TRUMP_114_2": {
+        "intervention_id": "TRUMP_114_2",
+        "intervention": "TRUMP: \"our country 's a mess\nit 's one thing to have $ 20 trillion in debt\nOur airports are like from a third world country\nYou land at LaGuardia , you land at Kennedy , you land at LAX , you land at Newark , and you come in from Dubai and Qatar and you see these incredible\u2014you come in from China , you see these incredible airports\nwe 've become a third world country\nour bridges are good\neverything 's in great shape\nour airports\nthe worst of all things has happened\nWe owe $ 20 trillion\nwe 're a mess\nWe have n't even started\nwe 've spent $ 6 trillion in the Middle East\naccording to a report that I just saw\nWhether it 's 6 or 5\n it looks like it 's 6\nwe could have rebuilt our country twice\nit 's really a shame\nit 's politicians like Secretary Clinton that have caused this problem\nOur country has tremendous problems\nWe 're a debtor nation\nWe 're a serious debtor nation\nwe have a country that needs new roads , new tunnels , new bridges , new airports , new schools , new hospitals\nwe don't have the money\nit 's been squandered on so many of your ideas\"",
+        "dataset": "US2016",
+        "schemes": [
+            "ExpertOpinion",
+            "Example",
+            "CircumstantialAdHominem",
+            "PracticalReasoning",
+            "VerbalClassification",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the underlying assumptions and values that inform Trump's claim that the country could have been rebuilt twice with the $6 trillion spent in the Middle East, and how might these assumptions be challenged or supported by evidence and alternative perspectives?",
+                "matched_reference": {
+                    "index": 37,
+                    "cq": "Is there a proven relation between situations in which \"the government did not spend $6 trillion in the Middle East\" and situations in which \"our country could have been rebuilt twice\"?",
+                    "label": "Useful",
+                    "similarity": 0.6272015571594238
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the potential biases and limitations of the report stating $6 trillion spent in the Middle East, and how might these impact the credibility of Trump's argument about the country's debt and infrastructure problems?",
+                "matched_reference": {
+                    "index": 32,
+                    "cq": "What is the source of the report claiming that $6 trillion has been spent in the Middle East, and is this figure accurate?",
+                    "label": "Useful",
+                    "similarity": 0.6484070420265198
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential risks and unintended consequences of Trump's proposed solutions, such as building new roads, tunnels, bridges, airports, schools, and hospitals, given the country's current financial constraints, and how might these impact the country's overall situation?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What alternative solutions or policies does Trump propose to address the country's infrastructure and debt problems, and are these solutions supported by credible evidence or expert opinion?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6288264989852905
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- What are the underlying assumptions and values that inform Trump's claim that the country could have been rebuilt twice with the $6 trillion spent in the Middle East, and how might these assumptions be challenged or supported by evidence and alternative perspectives?\n- What are the potential biases and limitations of the report stating $6 trillion spent in the Middle East, and how might these impact the credibility of Trump's argument about the country's debt and infrastructure problems?\n- What are the potential risks and unintended consequences of Trump's proposed solutions, such as building new roads, tunnels, bridges, airports, schools, and hospitals, given the country's current financial constraints, and how might these impact the country's overall situation?"
+    },
+    "citizen-s_134": {
+        "intervention_id": "citizen-s_134",
+        "intervention": "citizen-s: \"DOT's objective in setting this rule should be to ELIMINATE all bumping, not merely achieve some (unspecified) reduction.\nRegardless of how many caveats an airline might state in its contract terms, passengers neither want nor deserve a ticket for an oversold seat.\nBumping is a purely economic device that treats passengers as economic units devoid of humanity, like so many other aspects of airline behavior.\nFrom that objective, it follows that there should be NO cap on compensation\nand that the financial penalty to the airline should be strong enough to prevent bumping, not just keep it at some arbitrarily \"acceptable\" level.\nThe 100% of the total ticket price for expected arrival within 2 hours later is reasonable.\nCompensation for a longer delay should be the GREATER of 200% of the total ticket cost or the passenger's demonstrable outofpocket costs resulting from the delay\n(a) including any higher priced air ticket from the same or another carrier at the same class, and lodging, meals and incidentals at average prevailing prices in that metro area,\nand (b) with the obligation on the passenger to minimize those costs by arranging, with good faith help from the airline, an alternate flight or other means to get him or her to the destination as soon as reasonably practical.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "While the text asserts that passengers neither want nor deserve a ticket for an oversold seat, what are the underlying values and assumptions that support this claim, and how might these values be balanced against the economic realities of airline operations?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "Is the characterization of bumping as a \"purely economic device\" that treats passengers as \"economic units devoid of humanity\" a fair representation of the motivations behind airline overbooking policies?",
+                    "label": "Useful",
+                    "similarity": 0.5849701166152954
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "How do the proposed compensation amounts (e.g., 100% of the total ticket price for a 2-hour delay) relate to the actual costs incurred by passengers, and what empirical evidence supports these amounts as effective deterrents against bumping?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is the proposed compensation scheme (100% of ticket price for delays up to 2 hours, 200% of ticket price or demonstrable out-of-pocket costs for longer delays) reasonable and fair, or might it be overly generous or punitive?",
+                    "label": "Useful",
+                    "similarity": 0.8372819423675537
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential unintended consequences of implementing a no-cap compensation policy, and how might these consequences impact the overall effectiveness of the proposed solution in eliminating bumping?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "Would a \"no cap\" policy on compensation lead to unintended consequences, such as airlines becoming overly cautious and reducing the number of flights they offer, or increasing ticket prices to offset the potential costs of compensation?",
+                    "label": "Useful",
+                    "similarity": 0.7227490544319153
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- While the text asserts that passengers neither want nor deserve a ticket for an oversold seat, what are the underlying values and assumptions that support this claim, and how might these values be balanced against the economic realities of airline operations?\n- How do the proposed compensation amounts (e.g., 100% of the total ticket price for a 2-hour delay) relate to the actual costs incurred by passengers, and what empirical evidence supports these amounts as effective deterrents against bumping?\n- What are the potential unintended consequences of implementing a no-cap compensation policy, and how might these consequences impact the overall effectiveness of the proposed solution in eliminating bumping?"
+    },
+    "MT_14": {
+        "intervention_id": "MT_14",
+        "intervention": "MT: \"We have indeed required those products to have very large warnings on them, telling people about their salt and fat content\nAnd we don\u2019t allow them to say things which are misleading\nWe don\u2019t allow fatty products to say they're healthy\nI've got in front of me a letter from a credit card company\nThere are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers\nNow, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges\nAnd then very, very quickly you\u2019ll be lured into paying a very large charge\nDo you think it\u2019s responsible to encourage people to mis-read something like that?\nI\u2019ve got all the information there in front of me\nWhy is that irresponsible?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "CauseToEffect",
+            "ExpertOpinion",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence supports the claim that preventing misleading descriptions of fatty products is an effective regulatory strategy, and how might this approach be applied to credit card advertising?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is the speaker's proposed solution - stricter regulation of financial marketing practices - likely to be effective in protecting consumers? Are there other factors at play that may contribute to consumers' misunderstanding of financial products?",
+                    "label": "Useful",
+                    "similarity": 0.505208432674408
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "How might the credit card company's advertising strategy be designed to take advantage of cognitive biases or heuristics, and what are the potential implications for consumer decision-making?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Is the speaker's assumption that consumers will be misled by the marketing practices justified? Do consumers have a reasonable understanding of financial products and the terms and conditions associated with them?",
+                    "label": "Useful",
+                    "similarity": 0.561598002910614
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential consequences of relying on fine print to disclose important information in credit card advertising, and how might this impact consumer understanding and decision-making?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "Is the assumption that people will \"mis-read\" the fine print a reasonable one, or are consumers capable of understanding the terms and conditions?",
+                    "label": "Useful",
+                    "similarity": 0.6858279705047607
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What evidence supports the claim that preventing misleading descriptions of fatty products is an effective regulatory strategy, and how might this approach be applied to credit card advertising?\n- How might the credit card company's advertising strategy be designed to take advantage of cognitive biases or heuristics, and what are the potential implications for consumer decision-making?\n- What are the potential consequences of relying on fine print to disclose important information in credit card advertising, and how might this impact consumer understanding and decision-making?"
+    },
+    "Antanagoge_104": {
+        "intervention_id": "Antanagoge_104",
+        "intervention": "Antanagoge: \"The airline industry can not be left to selfmonitor this.\nStudies have shown that the quality of information from airline customer service department is highly variable and, in some cases, incomplete or inaccurate.\nThe psychological effects of this, combined with the risk of death, are significant.\nStories told by families of vacations never taken, of midair retraction of the promise by the airline that peanuts would not be served, of public humiliation of peanutallergic individuals and their family by airline staff, and of serious reactions in flight, abound.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What is the underlying assumption behind the claim that the airline industry's self-monitoring would lead to an increase in the risk of death, and how do the provided anecdotes support or challenge this assumption?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "Is the claim that the airline industry cannot be left to self-monitor accurate, and what evidence supports this assertion?",
+                    "label": "Useful",
+                    "similarity": 0.6468167901039124
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific evidence is needed to demonstrate that the airline industry's self-monitoring is insufficient to ensure the safety of peanut-allergic individuals, and how do the provided anecdotes support or undermine this claim?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Are the stories told by families of peanut-allergic individuals representative of a larger trend, or are they anecdotal and exceptional cases?",
+                    "label": "Useful",
+                    "similarity": 0.6434451937675476
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How might external monitoring of the airline industry address the variability in customer service information and the associated risks to peanut-allergic individuals, and what are the potential benefits and drawbacks of such monitoring?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "How would regulation or external monitoring of the airline industry address the issue of inconsistent information, and what would be the potential costs and benefits of such an approach?",
+                    "label": "Useful",
+                    "similarity": 0.7316313982009888
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What is the underlying assumption behind the claim that the airline industry's self-monitoring would lead to an increase in the risk of death, and how do the provided anecdotes support or challenge this assumption?\n- What specific evidence is needed to demonstrate that the airline industry's self-monitoring is insufficient to ensure the safety of peanut-allergic individuals, and how do the provided anecdotes support or undermine this claim?\n- How might external monitoring of the airline industry address the variability in customer service information and the associated risks to peanut-allergic individuals, and what are the potential benefits and drawbacks of such monitoring?"
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the implications of Javier's argument that airlines have no responsibility to provide accurate and timely information to their customers, and how does this align with passenger rights and expectations?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Is Javier's argument based on a flawed assumption that flyers are somehow responsible for the problems caused by airline delays, rather than recognizing that delays are often a result of factors beyond the control of individual travelers?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6764039993286133
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How does Javier's personal experience as a frequent traveler influence his perspective on the potential problems with requiring airlines to give notification of delays, and what are the limitations of relying on anecdotal evidence?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "Does Javier's argument rely too heavily on anecdotal evidence and personal experience, rather than objective data or evidence?",
+                    "label": "Useful",
+                    "similarity": 0.6634880304336548
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Is it reasonable to expect airlines to provide accurate estimates of delay times, considering Javier's acknowledgment of the uncertainties involved in resolving maintenance issues and weather holds?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "Are the \"unavoidable problems\" mentioned by Javier truly unavoidable, or are they a result of poor planning or inefficiencies on the part of the airlines?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6812291145324707
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- What are the implications of Javier's argument that airlines have no responsibility to provide accurate and timely information to their customers, and how does this align with passenger rights and expectations?\n- How does Javier's personal experience as a frequent traveler influence his perspective on the potential problems with requiring airlines to give notification of delays, and what are the limitations of relying on anecdotal evidence?\n- Is it reasonable to expect airlines to provide accurate estimates of delay times, considering Javier's acknowledgment of the uncertainties involved in resolving maintenance issues and weather holds?"
+    },
+    "TRUMP_70": {
+        "intervention_id": "TRUMP_70",
+        "intervention": "TRUMP: \"you go to her website\nyou take a look at her website\nShe 's going to raise taxes $ 1.3 trillion\nlook at her website\nYou know what ?\nIt 's no difference than this\nShe 's telling us how to fight ISIS\nJust go to her website\nShe tells you how to fight ISIS on her website\nI do n't think General Douglas MacArthur would like that too much\n...\nNo , no\nyou 're telling the enemy everything you want to do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PositionToKnow"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How accurately does the claim that Clinton's plan would raise taxes by $1.3 trillion reflect the content of her website, and what context is necessary to understand this figure?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the source of the information about Hillary Clinton's plan to raise taxes by $1.3 trillion, and is it credible?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7529718279838562
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Is the characterization of Clinton \"telling the enemy everything you want to do\" a fair representation of the information available on her website, and what evidence supports or refutes this claim?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is it true that Hillary Clinton's website reveals sensitive information about how to fight ISIS, or is this a mischaracterization?",
+                    "label": "Useful",
+                    "similarity": 0.7008564472198486
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the information available on Clinton's website about her plan to fight ISIS compare to a traditional military strategy, and what are the implications of making such a plan publicly available?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Is it true that Hillary Clinton's website outlines her plan to fight ISIS, and if so, what specific details are shared?",
+                    "label": "Useful",
+                    "similarity": 0.8590336441993713
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How accurately does the claim that Clinton's plan would raise taxes by $1.3 trillion reflect the content of her website, and what context is necessary to understand this figure?\n- Is the characterization of Clinton \"telling the enemy everything you want to do\" a fair representation of the information available on her website, and what evidence supports or refutes this claim?\n- How does the information available on Clinton's website about her plan to fight ISIS compare to a traditional military strategy, and what are the implications of making such a plan publicly available?"
+    },
+    "secretcurse__139": {
+        "intervention_id": "secretcurse__139",
+        "intervention": "secretcurse: \"The first debate was already limited to five people\nAccording to the FEC\n171 people have officially declared their candidacy for the Democratic Party nomination with the FEC (sort by party to see the 171 people a bit easier)\nDo you think every single one of the 171 people that have filed the paperwork with the FEC declaring their candidacy deserves their fair shot at expressing themselves at the first debate\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "ArgumentFromAuthority"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "In what ways might the comparison between the number of people who have declared candidacy and the number of people allowed in the debate be misleading or unfair, and how might alternative comparisons or metrics be used to evaluate the inclusivity and representativeness of the debate?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Is the goal of the first debate solely to provide a \"fair shot\" for each candidate to express themselves, or are there other goals, such as to inform voters or to winnow down the field?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7313023209571838
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Is the assumption that every single one of the 171 people who have filed paperwork deserves a fair shot at expressing themselves at the debate reasonable, and how might this assumption be challenged or supported by evidence from past debates or democratic processes?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Is it feasible to have 171 people participate in a single debate, and would it be an effective way to discuss the issues?",
+                    "label": "Useful",
+                    "similarity": 0.7184212803840637
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What is the underlying rationale for assuming that the FEC's process for declaring candidacy implies that all declared candidates should be included in the debate, and how might this assumption be challenged or supported by evidence from past debates or democratic processes?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How would the exclusion of certain candidates from the first debate impact the overall legitimacy and fairness of the nomination process?",
+                    "label": "Useful",
+                    "similarity": 0.720173716545105
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- In what ways might the comparison between the number of people who have declared candidacy and the number of people allowed in the debate be misleading or unfair, and how might alternative comparisons or metrics be used to evaluate the inclusivity and representativeness of the debate?\n- Is the assumption that every single one of the 171 people who have filed paperwork deserves a fair shot at expressing themselves at the debate reasonable, and how might this assumption be challenged or supported by evidence from past debates or democratic processes?\n- What is the underlying rationale for assuming that the FEC's process for declaring candidacy implies that all declared candidates should be included in the debate, and how might this assumption be challenged or supported by evidence from past debates or democratic processes?"
+    },
+    "ND_28": {
+        "intervention_id": "ND_28",
+        "intervention": "ND: \"In some ways I agree with you\nIf you want the economy to run smoothly, you have to incentivise certain types of behaviour.\nSo, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies\nOn the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt\nBut it certainly isn\u2019t the debts of the people who most need it in society\nFor productive investments. I agree with you.\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific evidence supports the claim that massive amounts of debt have been written off, and how do these write\u2011offs align with the goal of incentivizing productive investments?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What is the evidence for the claim that massive amounts of debt have been written off, and what is the nature of this debt (e.g. government debt, personal debt, corporate debt)?",
+                    "label": "Useful",
+                    "similarity": 0.7836185693740845
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How do the economic policies that incentivized saving in South Korea address the needs of vulnerable populations, and what are the potential risks of not targeting debt relief effectively?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "What specific economic policies in South Korea incentivized saving, and how did they contribute to the country's growth?",
+                    "label": "Useful",
+                    "similarity": 0.7462338805198669
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential long-term consequences of writing off massive amounts of debt, and how might this impact the stability of the financial system?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What are the \"massive amounts of debt\" being referred to, and who or what entities have written them off?",
+                    "label": "Useful",
+                    "similarity": 0.6289430260658264
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific evidence supports the claim that massive amounts of debt have been written off, and how do these write\u2011offs align with the goal of incentivizing productive investments?\n- How do the economic policies that incentivized saving in South Korea address the needs of vulnerable populations, and what are the potential risks of not targeting debt relief effectively?\n- What are the potential long-term consequences of writing off massive amounts of debt, and how might this impact the stability of the financial system?"
+    },
+    "CLINTON_186": {
+        "intervention_id": "CLINTON_186",
+        "intervention": "CLINTON: \"there are a number of issues that we should be addressing\nI have put forth a plan to defeat ISIS\nIt does involve going after them online\nwe need to do much more with our tech companies to prevent ISIS and their operatives from being able to use the Internet to radicalize , even direct people in our country and Europe and elsewhere\neventually support our Arab and Kurdish partners to be able to actually take out ISIS in Raqqa\nend their claim of being a Caliphate\nWe 're making progress\nOur military is assisting in Iraq\nwe 're hoping that within the year we 'll be able to push ISIS out of Iraq\nreally squeeze them in Syria\nwe have to be cognizant of the fact that they 've had foreign fighters coming to volunteer for them\nforeign money\nforeign weapons\nwe have to make this the top priority\nI would also do everything possible to take out their leadership\nI was involved in a number of efforts to take out Al Qaida leadership when I was secretary of state\nincluding , of course , taking out bin Laden\nwe need to go after Baghdadi , as well\nmake that one of our organizing principles\nwe 've got to defeat ISIS\nwe 've got to do everything we can to disrupt their propaganda efforts online\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "VerbalClassification",
+            "Values",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific resources and support would Clinton provide to Arab and Kurdish partners to enable them to effectively take out ISIS in Raqqa, and how would she ensure that these efforts are coordinated and sustainable in the long term?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What is the current status of Clinton's proposed plan to support Arab and Kurdish partners in taking out ISIS in Raqqa, and what specific actions has she taken or will take to make this happen?",
+                    "label": "Useful",
+                    "similarity": 0.8139379024505615
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What lessons can be drawn from Clinton's previous experiences with Al Qaida, including the operation that took out bin Laden, and how would she apply these lessons to the fight against ISIS, considering the differences between the two organizations and the evolving nature of the threat?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "How does Clinton's experience in taking out Al Qaida leadership, including bin Laden, inform her approach to defeating ISIS, and what lessons has she learned from these efforts?",
+                    "label": "Useful",
+                    "similarity": 0.8890941143035889
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How would Clinton balance the need to disrupt ISIS's online propaganda efforts with concerns about internet freedom and censorship, and what specific steps would she take to ensure that her plan does not inadvertently drive extremist ideologies further underground?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What specific details does Clinton's plan entail to \"go after\" ISIS online, and how does she propose to balance this with free speech and privacy concerns?",
+                    "label": "Useful",
+                    "similarity": 0.8342729806900024
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific resources and support would Clinton provide to Arab and Kurdish partners to enable them to effectively take out ISIS in Raqqa, and how would she ensure that these efforts are coordinated and sustainable in the long term?\n- What lessons can be drawn from Clinton's previous experiences with Al Qaida, including the operation that took out bin Laden, and how would she apply these lessons to the fight against ISIS, considering the differences between the two organizations and the evolving nature of the threat?\n- How would Clinton balance the need to disrupt ISIS's online propaganda efforts with concerns about internet freedom and censorship, and what specific steps would she take to ensure that her plan does not inadvertently drive extremist ideologies further underground?"
+    },
+    "MT_40": {
+        "intervention_id": "MT_40",
+        "intervention": "MT: \"I don\u2019t think you just said the opposite of them was neutral\nSo if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?\nBut, hold on\nIsn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nTherefore isn\u2019t it a reasonable thing for the state to intervene in those cases\nbecause the knowledge is bounded?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the potential unintended consequences of state intervention in financial matters, and how might they impact personal freedom and responsibility?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Are there other factors that should be considered when deciding whether the state should intervene in economic matters, such as individual freedom or market efficiency?",
+                    "label": "Useful",
+                    "similarity": 0.67462158203125
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the potential benefits and drawbacks of considering thrift and prudence as virtues, and how might this impact financial decision-making?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "What are the definitions of thrift and prudence, and how do they relate to morality?",
+                    "label": "Unhelpful",
+                    "similarity": 0.8185752630233765
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Can the speaker's argument for state intervention in financial matters be applied to other areas of life where knowledge is bounded, and what would be the implications?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What is meant by \"bounded knowledge,\" and how does it justify state intervention in certain cases?",
+                    "label": "Useful",
+                    "similarity": 0.6307730674743652
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What are the potential unintended consequences of state intervention in financial matters, and how might they impact personal freedom and responsibility?\n- What are the potential benefits and drawbacks of considering thrift and prudence as virtues, and how might this impact financial decision-making?\n- Can the speaker's argument for state intervention in financial matters be applied to other areas of life where knowledge is bounded, and what would be the implications?"
+    },
+    "CL_8": {
+        "intervention_id": "CL_8",
+        "intervention": "CL: \"Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?\nThey have absolutely very little choice except to take the terms that are being offered to them\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "DirectAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What is the basis for the implication that the terms being offered are inherently unfair or exploitative, and how does this relate to the speaker's concern about taking advantage of people?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What are the \"terms that are being offered to them\" and are they truly unfair or unreasonable?",
+                    "label": "Invalid",
+                    "similarity": 0.6783520579338074
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 1,
+                "cq": "What specific evidence supports the assumption that people have \"very little choice\" when dealing with the terms being offered, and how does this evidence account for potential alternative explanations?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Are there any alternative options available to these individuals, or are they truly limited to accepting the terms being offered?",
+                    "label": "Useful",
+                    "similarity": 0.6773509383201599
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the speaker define \"vulnerable\" in the context of people accepting the terms, and what are the implications of this definition for their argument about taking advantage of people?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "Who is defining what constitutes a \"vulnerable position\"? How is this definition being used to justify the exploitation of these individuals?",
+                    "label": "Invalid",
+                    "similarity": 0.7442470788955688
+                },
+                "label": "Invalid"
+            }
+        ],
+        "full_response": "- What is the basis for the implication that the terms being offered are inherently unfair or exploitative, and how does this relate to the speaker's concern about taking advantage of people?\n- What specific evidence supports the assumption that people have \"very little choice\" when dealing with the terms being offered, and how does this evidence account for potential alternative explanations?\n- How does the speaker define \"vulnerable\" in the context of people accepting the terms, and what are the implications of this definition for their argument about taking advantage of people?"
+    },
+    "CLINTON_130_1": {
+        "intervention_id": "CLINTON_130_1",
+        "intervention": "CLINTON: \"I've heard Donald say this at his rallies\nit's really unfortunate that he paints such a dire negative picture of black communities in our country\nthe vibrancy of the black church\nthe black businesses that employ so many people\nthe opportunities that so many families are working to provide for their kids\nThere's a lot that we should be proud of and we should be supporting and lifting up\nwe do always have to make sure we keep people safe\nThere are the right ways of doing it\nthen there are ways that are ineffective\nStop-and-frisk was found to be unconstitutional\nin part, because it was ineffective\nIt did not do what it needed to do\nI believe in community policing\nin fact, violent crime is one-half of what it was in 1991\nProperty crime is down 40 percent\nWe just don't want to see it creep back up\nWe've had 25 years of very good cooperation\nthere were some problems\nsome unintended consequences\nToo many young African-American and Latino men ended up in jail for nonviolent offenses\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CauseToEffect",
+            "Example",
+            "Consequences",
+            "VerbalClassification",
+            "Alternatives"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific empirical evidence supports Clinton's claim that stop-and-frisk is ineffective in reducing crime, and how does this evidence address potential counterarguments about the policy's impact on public safety?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "How does Clinton's argument that stop-and-frisk is ineffective and unconstitutional address the concerns of those who argue that it is a necessary tool for public safety?",
+                    "label": "Useful",
+                    "similarity": 0.8008400201797485
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How does Clinton's portrayal of black communities, including the vibrancy of the black church and black businesses, relate to her broader argument about policing and crime rates, and what implications might this portrayal have for her policy proposals?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What evidence does Clinton have to support her claims about the vibrancy of black communities and the effectiveness of community policing?",
+                    "label": "Useful",
+                    "similarity": 0.7130764722824097
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways might Clinton's emphasis on 'keeping people safe' be seen as inconsistent with her critique of stop-and-frisk, and how do these two approaches differ in their underlying assumptions about public safety and policing?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "How does Clinton plan to balance the need to \"keep people safe\" with the need to address the concerns of communities of color who may feel targeted or marginalized by law enforcement practices?",
+                    "label": "Useful",
+                    "similarity": 0.7237510681152344
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific empirical evidence supports Clinton's claim that stop-and-frisk is ineffective in reducing crime, and how does this evidence address potential counterarguments about the policy's impact on public safety?\n- How does Clinton's portrayal of black communities, including the vibrancy of the black church and black businesses, relate to her broader argument about policing and crime rates, and what implications might this portrayal have for her policy proposals?\n- In what ways might Clinton's emphasis on 'keeping people safe' be seen as inconsistent with her critique of stop-and-frisk, and how do these two approaches differ in their underlying assumptions about public safety and policing?"
+    },
+    "kateinhawaii_103": {
+        "intervention_id": "kateinhawaii_103",
+        "intervention": "kateinhawaii: \"I personally have suffered from peanut allergies for over 40 years.\nIf there are packaged peanuts served on board a flight, it's 100% guaranteed that I will have a reaction from the peanut dust.\nI do not agree with a buffer zone for a couple of reasons.\nFor me, it's the dust in the air.\nSomeone posted that the air circulates peanut dust right out of the air\nbut apparently not quick enough to prevent a life threatening reaction.\nYou know, airlines tried to create nonsmoking zones on airplanes but that didn't work either.\nI have been on flights where nasty (and do I mean NASTY) flight attendants have made sarcastic remarks about me and my allergies especially on one Delta flight.\nNorthwest was great\nbecause they respected their passengers enough to address their concerns\nand prohibited peanuts altogether.\nIt was as much a relief to walk onto one of their flights as it was to walk onto one of the first smoke free flights!\nSmokers use to use the same logic and reasoning to justify smoking on flights as these peanut proponents are using now.\nI flew on many smoking flights and never needed to inject myself so that I could breathe\nI can't say the same for flights with peanuts.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the author's reliance on personal experience with peanut allergies and reactions on flights impact the generalizability of their claim that buffer zones are ineffective, and what additional evidence would strengthen or challenge this assertion?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Are there any scientific studies or expert opinions that support or contradict the author's claims about peanut allergies and air travel?",
+                    "label": "Useful",
+                    "similarity": 0.7488369941711426
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Beyond personal experience and analogy, what empirical evidence or logical reasoning could support or refute the author's claim that peanut proponents use the same logic as smokers did to justify smoking on flights?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "How does the author's experience with smoking on flights inform their argument about peanut allergies, and is this a relevant comparison?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7013964653015137
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "To what extent can the success of Northwest Airlines' peanut-free policy be attributed to factors unique to that airline, and what implications does this have for implementing similar policies across all flights as a solution to peanut allergy concerns?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the basis for the author's assertion that Northwest Airlines' policy of prohibiting peanuts altogether was effective in addressing their concerns, and is this a viable solution for all airlines?",
+                    "label": "Useful",
+                    "similarity": 0.7966955900192261
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does the author's reliance on personal experience with peanut allergies and reactions on flights impact the generalizability of their claim that buffer zones are ineffective, and what additional evidence would strengthen or challenge this assertion?\n- Beyond personal experience and analogy, what empirical evidence or logical reasoning could support or refute the author's claim that peanut proponents use the same logic as smokers did to justify smoking on flights?\n- To what extent can the success of Northwest Airlines' peanut-free policy be attributed to factors unique to that airline, and what implications does this have for implementing similar policies across all flights as a solution to peanut allergy concerns?"
+    },
+    "TRUMP_174_1": {
+        "intervention_id": "TRUMP_174_1",
+        "intervention": "TRUMP: \"I would love to respond\nI got to watch in preparing for this some of your debates against Barack Obama\nYou treated him with terrible disrespect\nI watched the way you talk now about how lovely everything is and how wonderful you are\nIt does n't work that way\nYou were after him\nyou were trying to\u2014you even sent out or your campaign sent out pictures of him in a certain garb , very famous pictures\nI do n't think you can deny that\njust last week , your campaign manager said it was true\nwhen you tried to act holier than thou , it really does n't work\nas far as the lawsuit , yes , when I was very young , I went into my father 's company , had a real estate company in Brooklyn and Queens , and we , along with many , many other companies throughout the country\u2014it was a federal lawsuit\u2014were sued\nWe settled the suit with zero\u2014with no admission of guilt\nIt was very easy to do\nI notice you bring that up a lot\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "Sign",
+            "PositionToKnow",
+            "VerbalClassification",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does Trump's defense of his actions in the lawsuit, particularly his emphasis on the ease of settlement and lack of admission of guilt, respond to or sidestep the concerns raised by Clinton about his business practices?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "How does Trump's response to the lawsuit against his father's company address the issue at hand? Is he using this as a way to deflect criticism or avoid taking responsibility?",
+                    "label": "Useful",
+                    "similarity": 0.7042458057403564
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "In what ways does Trump's settlement of the lawsuit with no admission of guilt address or fail to address the underlying allegations, and how does this impact the validity of Clinton's criticism of Trump's business practices?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What are the details of the federal lawsuit that Trump's company was involved in, and is it accurate to say that it was settled with \"zero admission of guilt\"?",
+                    "label": "Useful",
+                    "similarity": 0.7686368227005005
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Trump's characterization of Clinton's treatment of Obama as \"terrible disrespect\" relate to the specific policy issues being discussed in the current debate, and what implications does this have for Trump's critique of Clinton's behavior?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "How does Trump's criticism of Clinton's behavior in debates against Obama relate to the topic at hand, and is it a relevant or distracting point?",
+                    "label": "Useful",
+                    "similarity": 0.8228646516799927
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does Trump's defense of his actions in the lawsuit, particularly his emphasis on the ease of settlement and lack of admission of guilt, respond to or sidestep the concerns raised by Clinton about his business practices?\n- In what ways does Trump's settlement of the lawsuit with no admission of guilt address or fail to address the underlying allegations, and how does this impact the validity of Clinton's criticism of Trump's business practices?\n- How does Trump's characterization of Clinton's treatment of Obama as \"terrible disrespect\" relate to the specific policy issues being discussed in the current debate, and what implications does this have for Trump's critique of Clinton's behavior?"
+    },
+    "travellots_133_2": {
+        "intervention_id": "travellots_133_2",
+        "intervention": "travellots: \"If compensation is not high enough, the airlines will not have an incentive to schedule properly.\nIt is not fair to allow airlines to discriminate against lower fared passengers or \"free\" passengers\nsince it is the airline, not the passenger or government, who gave that passenger a seat.\nOtherwise, airlines can advertise low fares or con you into using them to build up your \"miles\" and then always bump you for someone who paid more.\nIn away,it is the same as being able to increase your ticket price anytime after purchase.\nWhen you are bumped, there are a lot of hidden extra costs\nIt irks me that airlines seem to be treating passengers more and more as if they have nothing better to do but wait around in airports and not get to where the airline promised to bring them.\nAgain, the airline sets the agreed price or miles for a seat, no one else.\nThe incentives to the airline should be to get all confirmed passengers (regardless of price paid) to the destination promised.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the author's personal experience or anecdotal evidence support or undermine the claim that airlines are treating passengers as if they have nothing better to do but wait around in airports, and what broader implications might this have for airline policies?",
+                "matched_reference": {
+                    "index": 25,
+                    "cq": "Is it accurate to say that airlines are treating passengers as if they have nothing better to do but wait around in airports, or are there other factors contributing to flight delays and cancellations?",
+                    "label": "Useful",
+                    "similarity": 0.7979735732078552
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the underlying principles or ethical considerations that justify the claim that airlines should not discriminate against lower-fared passengers, and how do these principles relate to the airline's business model and passenger agreements?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "Are there other relevant goals that conflict with airlines not discriminating lower fared passengers or \"free\" passengers?",
+                    "label": "Useful",
+                    "similarity": 0.6727953553199768
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What empirical evidence or logical reasoning supports the assumption that airlines will not have an incentive to schedule properly if compensation for bumped passengers is not high enough, and how might this assumption be challenged or validated?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "Is it true that airlines will not have an incentive to schedule properly if compensation is not high enough? Is there any evidence to support this claim?",
+                    "label": "Useful",
+                    "similarity": 0.8150966763496399
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does the author's personal experience or anecdotal evidence support or undermine the claim that airlines are treating passengers as if they have nothing better to do but wait around in airports, and what broader implications might this have for airline policies?\n- What are the underlying principles or ethical considerations that justify the claim that airlines should not discriminate against lower-fared passengers, and how do these principles relate to the airline's business model and passenger agreements?\n- What empirical evidence or logical reasoning supports the assumption that airlines will not have an incentive to schedule properly if compensation for bumped passengers is not high enough, and how might this assumption be challenged or validated?"
+    },
+    "dberger_74_2": {
+        "intervention_id": "dberger_74_2",
+        "intervention": "dberger: \"Other airlines with advance notice will not serve nuts\nbut all airlines allow passengers to bring on foods including nuts\nand will not stop the person from eating them if they wish to.\nSo you can have a 'nut free' flight and the person sitting next to you can take out their package of peanuts and eat away\nand the airlines will do nothing to help you.\nAgain all nuts should be banned from airplanes unless it is your own private plane  then go ahead and eat what you want.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What is the basis for the claim that all airlines allow passengers to bring on foods including nuts, and are there any exceptions or variations in policies across different airlines?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Is it true that all airlines allow passengers to bring on foods including nuts, or are there some exceptions?",
+                    "label": "Unhelpful",
+                    "similarity": 0.9331718683242798
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that airlines will not take any action to protect passengers with nut allergies if someone nearby is consuming nuts, despite the flight being labeled as \"nut-free\"?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is it true that airlines will not stop a person from eating nuts if they wish to, even if another passenger has a severe allergy?",
+                    "label": "Useful",
+                    "similarity": 0.7413622140884399
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What alternative solutions or measures could be implemented to mitigate the risks associated with nut allergies on commercial flights, and how do these compare to the proposed ban on nuts?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "Are there other solutions that could be implemented to protect passengers with severe nut allergies?",
+                    "label": "Useful",
+                    "similarity": 0.8413057327270508
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What is the basis for the claim that all airlines allow passengers to bring on foods including nuts, and are there any exceptions or variations in policies across different airlines?\n- What evidence supports the claim that airlines will not take any action to protect passengers with nut allergies if someone nearby is consuming nuts, despite the flight being labeled as \"nut-free\"?\n- What alternative solutions or measures could be implemented to mitigate the risks associated with nut allergies on commercial flights, and how do these compare to the proposed ban on nuts?"
+    },
+    "TRUMP_240_2": {
+        "intervention_id": "TRUMP_240_2",
+        "intervention": "TRUMP: \"by the way , another one powerful is the worst deal I think I 've ever seen negotiated that you started is the Iran deal\nIran is one of their biggest trading partners\nIran has power over North Korea\nwhen they made that horrible deal with Iran , they should have included the fact that they do something with respect to North Korea\nthey should have done something with respect to Yemen and all these other places\nwhen asked to Secretary Kerry , why did n't you do that ?\nWhy did n't you add other things into the deal ?\nOne of the great giveaways of all time , of all time , including $ 400 million in cash\nNobody 's ever seen that before\nThat turned out to be wrong\nIt was actually $ 1.7 billion in cash\nobviously , I guess for the hostages\nIt certainly looks that way\nThis is one of the worst deals ever made by any country in history\nyou say to yourself , why did n't they make the right deal ?\nThe deal with Iran will lead to nuclear problems\nAll they have to do is sit back 10 years , and they do n't have to do much\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "CircumstantialAdHominem",
+            "Consequences",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Which specific provisions or omissions in the Iran deal lead Trump to conclude that it is \"one of the worst deals ever made by any country in history\", and what alternative approaches would have addressed these concerns?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What specific aspects of the Iran deal make it \"the worst deal ever made by any country in history\"?",
+                    "label": "Useful",
+                    "similarity": 0.753836989402771
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Is the assumption that the Iran deal should have included provisions related to North Korea and Yemen supported by historical precedents, diplomatic norms, or expert analysis, and what are the potential risks and benefits of such an approach?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Why should the Iran deal have included provisions related to North Korea and Yemen? What is the logical connection between these countries and the Iran nuclear deal?",
+                    "label": "Useful",
+                    "similarity": 0.731701135635376
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What specific evidence supports Trump's claim that Iran has significant influence over North Korea, and how does this alleged relationship impact the effectiveness of the Iran deal?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What is the evidence for Iran having \"power over North Korea\"? Is this a widely accepted fact or an unsubstantiated claim?",
+                    "label": "Useful",
+                    "similarity": 0.726984977722168
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- Which specific provisions or omissions in the Iran deal lead Trump to conclude that it is \"one of the worst deals ever made by any country in history\", and what alternative approaches would have addressed these concerns?\n- Is the assumption that the Iran deal should have included provisions related to North Korea and Yemen supported by historical precedents, diplomatic norms, or expert analysis, and what are the potential risks and benefits of such an approach?\n- What specific evidence supports Trump's claim that Iran has significant influence over North Korea, and how does this alleged relationship impact the effectiveness of the Iran deal?"
+    },
+    "CLINTON_176_2": {
+        "intervention_id": "CLINTON_176_2",
+        "intervention": "CLINTON: \"we recently have learned that, you know, that this is one of their preferred methods of trying to wreak havoc and collect information\nWe need to make it very clear\u2014whether it's Russia, China, Iran or anybody else\u2014the United States has much greater capacity\nwe are not going to sit idly by and permit state actors to go after our information, our private-sector information or our public-sector information\n we're going to have to make it clear that we don't want to use the kinds of tools that we have\nWe don't want to engage in a different kind of warfare\nwe will defend the citizens of this country\n the Russians need to understand that\n they've been treating it as almost a probing, how far would we go, how much would we do\nI was so shocked when Donald publicly invited Putin to hack into Americans\nThat is just unacceptable\"",
+        "dataset": "US2016",
+        "schemes": [
+            "DangerAppeal",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the implications of Clinton's statement that the US will not engage in a different kind of warfare, and how does this constraint shape the US response to state actors like Russia, particularly in terms of deterrence and escalation?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does Clinton's proposal to \"make it clear\" to state actors that the US will not tolerate cyber attacks differ from current US policy, and what evidence is there that this approach would be more effective?",
+                    "label": "Useful",
+                    "similarity": 0.5404173731803894
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific evidence supports Clinton's claim that the US has a greater capacity to respond to cyber threats, and how does this capacity translate into effective deterrence against state actors like Russia?",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What is the basis for the claim that the United States has a \"much greater capacity\" to engage in cyber warfare, and how does this capacity compare to that of other nations?",
+                    "label": "Useful",
+                    "similarity": 0.8136957883834839
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the defense of private-sector and public-sector information align with the broader national security interests of the US, and what are the potential consequences of prioritizing these interests in the face of cyber threats?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "How does the United States plan to \"defend the citizens of this country\" from cyber attacks, and what specific measures will be taken to do so?",
+                    "label": "Useful",
+                    "similarity": 0.6894369125366211
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What are the implications of Clinton's statement that the US will not engage in a different kind of warfare, and how does this constraint shape the US response to state actors like Russia, particularly in terms of deterrence and escalation?\n- What specific evidence supports Clinton's claim that the US has a greater capacity to respond to cyber threats, and how does this capacity translate into effective deterrence against state actors like Russia?\n- How does the defense of private-sector and public-sector information align with the broader national security interests of the US, and what are the potential consequences of prioritizing these interests in the face of cyber threats?"
+    },
+    "CLINTON_87": {
+        "intervention_id": "CLINTON_87",
+        "intervention": "CLINTON: \"I happen to support that in a way that will actually work to our benefit\nwhen I look at what you have proposed , you have what is called now the Trump loophole\nit would so advantage you and the business you do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Bias"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific provision in the Trump loophole does Clinton claim will disproportionately benefit Trump's business, and what evidence does she provide to support this assertion?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the \"Trump loophole\" that Clinton is referring to? How does it specifically advantage Trump and his business, and what are the implications of this loophole?",
+                    "label": "Useful",
+                    "similarity": 0.832344651222229
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "In what ways does Clinton's proposal differ from the Trump loophole in terms of its potential impact on the economy, and what evidence supports these differences?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "What exactly does Clinton mean by \"in a way that will actually work to our benefit\"? How does her proposal differ from Trump's, and what specific benefits does she claim it will bring?",
+                    "label": "Useful",
+                    "similarity": 0.7561289072036743
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Clinton's proposal address the potential risks associated with the Trump loophole, and what mechanisms does she propose to mitigate these risks?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "How does Clinton's proposal address the issues that she claims are problematic in Trump's proposal? What specific measures does she propose to prevent the kinds of advantages she accuses Trump of seeking?",
+                    "label": "Useful",
+                    "similarity": 0.8229321241378784
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific provision in the Trump loophole does Clinton claim will disproportionately benefit Trump's business, and what evidence does she provide to support this assertion?\n- In what ways does Clinton's proposal differ from the Trump loophole in terms of its potential impact on the economy, and what evidence supports these differences?\n- How does Clinton's proposal address the potential risks associated with the Trump loophole, and what mechanisms does she propose to mitigate these risks?"
+    },
+    "CLINTON_21": {
+        "intervention_id": "CLINTON_21",
+        "intervention": "CLINTON: \"nine million people lost their jobs\nFive million people lost their homes\n$ 13 trillion in family wealth was wiped out\nNow , we have come back from that abyss\nit has not been easy\nwe 're now on the precipice of having a potentially much better economy\nthe last thing we need to do is to go back to the policies that failed us in the first place\nIndependent experts have looked at what I 've proposed\nlooked at what Donald 's proposed\nI intend to get it done\nTake clean energy\nSome country is going to be the clean- energy superpower of the 21st century\nDonald thinks that climate change is a hoax perpetrated by the Chinese\nI think it 's real\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific policies implemented prior to the economic crisis are being referred to, and what evidence supports the claim that these policies were the primary cause of the crisis? How might a return to these policies impact the current economic situation?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "How does Clinton's proposal address the root causes of the previous economic crisis, and what specific policies does she propose to prevent another crisis?",
+                    "label": "Useful",
+                    "similarity": 0.6468054056167603
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific economic indicators or evidence support the claim that the United States is on the precipice of having a potentially much better economy? How do these indicators address potential risks and challenges to sustained economic growth?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What evidence does Clinton have to support her claim that her policies will lead to a \"potentially much better economy\"?",
+                    "label": "Useful",
+                    "similarity": 0.43605393171310425
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "What specific steps would Clinton take to implement her proposals, and how would she address potential obstacles and challenges to achieving her goals? What are the implications of her approach for the policy-making process and stakeholder engagement?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What specific actions does Clinton plan to take to \"get it done\" in terms of implementing her policies, and what are the potential obstacles to success?",
+                    "label": "Useful",
+                    "similarity": 0.8326590657234192
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific policies implemented prior to the economic crisis are being referred to, and what evidence supports the claim that these policies were the primary cause of the crisis? How might a return to these policies impact the current economic situation?\n- What specific economic indicators or evidence support the claim that the United States is on the precipice of having a potentially much better economy? How do these indicators address potential risks and challenges to sustained economic growth?\n- What specific steps would Clinton take to implement her proposals, and how would she address potential obstacles and challenges to achieving her goals? What are the implications of her approach for the policy-making process and stakeholder engagement?"
+    },
+    "CLINTON_223_1": {
+        "intervention_id": "CLINTON_223_1",
+        "intervention": "CLINTON: \"Let 's talk about two important issues that were briefly mentioned by Donald\nfirst , NATO\nNATO as a military alliance has something called Article 5\nyou know the only time it 's ever been invoked ?\nAfter 9/11 , when the 28 nations of NATO said that they would go to Afghanistan with us to fight terrorism\nsomething that they still are doing by our side\nWith respect to Iran , when I became secretary of state , Iran was weeks away from having enough nuclear material to form a bomb\nThey had mastered the nuclear fuel cycle under the Bush administration\nThey had built covert facilities\nThey had stocked them with centrifuges that were whirling away\nwe had sanctioned them\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "Sign"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific evidence supports Clinton's claim that Iran had \"mastered the nuclear fuel cycle\" under the Bush administration, and how does this assertion relate to the country's overall nuclear program?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "What does Clinton mean by \"mastered the nuclear fuel cycle\"? Is this a technical term that can be verified, or is it a subjective judgment?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7016863226890564
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How accurate is Clinton's statement that Iran was \"weeks away\" from having enough nuclear material to form a bomb when she became secretary of state, considering the complexity of nuclear development timelines and the potential for oversimplification?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What is the evidence that Iran was \"weeks away\" from having enough nuclear material to form a bomb when Clinton became Secretary of State, and is this claim verifiable?",
+                    "label": "Useful",
+                    "similarity": 0.8466459512710571
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the implications of Clinton's characterization of Iran's covert facilities and centrifuges, and how do these claims relate to the broader context of the country's nuclear program?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What evidence does Clinton have that Iran had built \"covert facilities\" and stocked them with centrifuges? Are these claims supported by credible sources?",
+                    "label": "Useful",
+                    "similarity": 0.7858794331550598
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific evidence supports Clinton's claim that Iran had \"mastered the nuclear fuel cycle\" under the Bush administration, and how does this assertion relate to the country's overall nuclear program?\n- How accurate is Clinton's statement that Iran was \"weeks away\" from having enough nuclear material to form a bomb when she became secretary of state, considering the complexity of nuclear development timelines and the potential for oversimplification?\n- What are the implications of Clinton's characterization of Iran's covert facilities and centrifuges, and how do these claims relate to the broader context of the country's nuclear program?"
+    },
+    "Melanie_64": {
+        "intervention_id": "Melanie_64",
+        "intervention": "Melanie: \"Well the State has taken a moral position\nthat position was non-judgmentalism\nand terrible harm it\u2019s done\nIt\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime\n I think they do need help\nbut that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "NegativeConsequences"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the potential risks and unintended consequences of Melanie's proposed solution, and how might they be mitigated?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Are there any alternative explanations for the harm caused by the State's moral position, and has Melanie considered these alternatives?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7162700891494751
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence supports Melanie's claim that the State's non-judgmentalism has caused harm, and how does she account for potential confounding variables?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "How does Melanie support the claim that the State's moral position of non-judgmentalism has caused \"terrible harm\"?",
+                    "label": "Useful",
+                    "similarity": 0.850022554397583
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How might Melanie's proposed solution be adapted or modified to address the diverse needs and experiences of victims who have been severely impacted by the State's non-judgmentalism?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Is Melanie's assumption that victims need help to restore their independence and personal responsibility universally applicable, or are there exceptions or nuances that need to be considered?",
+                    "label": "Useful",
+                    "similarity": 0.7151503562927246
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What are the potential risks and unintended consequences of Melanie's proposed solution, and how might they be mitigated?\n- What empirical evidence supports Melanie's claim that the State's non-judgmentalism has caused harm, and how does she account for potential confounding variables?\n- How might Melanie's proposed solution be adapted or modified to address the diverse needs and experiences of victims who have been severely impacted by the State's non-judgmentalism?"
+    },
+    "smg_72": {
+        "intervention_id": "smg_72",
+        "intervention": "smg: \"It has become abundantly clear that commercial airline travel is a \"race to the bottom\" that satisfies needs of neither passengers nor airline profits.\nA change of environment, which can only be imposed from outside the industry is needed.\nImposition of common sense regulations,\nwould level the playing field and remove the impetus for airlines to costcut in this area.\nThe results would be better service to customers and a renormalization of the playing field from which the airlines compete without fear of being undercut.\nThis goes for most of the proposed new regulations.\nI sincerely believe that these regulations are in the best interests of both airlines and passengers.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What empirical evidence or industry research supports the claim that the proposed regulations would lead to better service for customers, and how would this outcome be measured and evaluated?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What is the definition of \"better service to customers\" in this context, and how would the proposed regulations achieve it?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7345333099365234
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How would the imposition of new regulations affect the industry's profitability, and what are the potential trade-offs between improved customer service and increased costs for airlines?",
+                "matched_reference": {
+                    "index": 25,
+                    "cq": "How would these regulations affect the airline industry's profitability, and are there any potential unintended consequences?",
+                    "label": "Useful",
+                    "similarity": 0.8752301335334778
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential limitations and challenges of implementing \"common sense regulations\" in an industry with diverse business models and operating costs, and how would these regulations be enforced and monitored?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "What specific \"common sense regulations\" are being proposed, and how would they address the perceived problems in the industry?",
+                    "label": "Useful",
+                    "similarity": 0.7985565662384033
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What empirical evidence or industry research supports the claim that the proposed regulations would lead to better service for customers, and how would this outcome be measured and evaluated?\n- How would the imposition of new regulations affect the industry's profitability, and what are the potential trade-offs between improved customer service and increased costs for airlines?\n- What are the potential limitations and challenges of implementing \"common sense regulations\" in an industry with diverse business models and operating costs, and how would these regulations be enforced and monitored?"
+    },
+    "CLINTON_85": {
+        "intervention_id": "CLINTON_85",
+        "intervention": "CLINTON: \"let 's start the clock again , Lester\nWe 've looked at your tax proposals\nI do n't see changes in the corporate tax rates or the kinds of proposals you 're referring to that would cause the repatriation , bringing back of money that 's stranded overseas\nI happen to support that\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Alternatives"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific evidence or data does Clinton rely on to conclude that the tax proposals do not include changes in corporate tax rates that would lead to repatriation of money stranded overseas?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What evidence does Clinton have that the proposed tax rates or policies would not lead to repatriation of money stranded overseas?",
+                    "label": "Useful",
+                    "similarity": 0.7972625494003296
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Can Clinton reconcile her support for repatriation of money stranded overseas with her criticism of the tax proposals, and what implications might this have for her overall stance on tax policy?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "How does Clinton's support for repatriation of money stranded overseas align with her broader economic policies and goals?",
+                    "label": "Useful",
+                    "similarity": 0.7012377381324768
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways might Clinton's support for repatriation of money stranded overseas be seen as inconsistent with her criticism of the tax proposals, and how might she respond to such criticisms?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "How does Clinton's support for repatriation of money stranded overseas align with her broader economic policies and goals?",
+                    "label": "Useful",
+                    "similarity": 0.7034165859222412
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What specific evidence or data does Clinton rely on to conclude that the tax proposals do not include changes in corporate tax rates that would lead to repatriation of money stranded overseas?\n- Can Clinton reconcile her support for repatriation of money stranded overseas with her criticism of the tax proposals, and what implications might this have for her overall stance on tax policy?\n- In what ways might Clinton's support for repatriation of money stranded overseas be seen as inconsistent with her criticism of the tax proposals, and how might she respond to such criticisms?"
+    },
+    "howie_201": {
+        "intervention_id": "howie_201",
+        "intervention": "howie: \"First, stop reading that propaganda magazine.\nPublications like that only serve to create fear in minds like yours.\nSecond, how old is your kid?\nIf under 5, relax the sensitivity will probably go away by the time he is 5.\nThird, go to a real doctor  not an allergist and see if there is really even a problem at all.\nThis supposed plague of food allergies is the result of very clever advertising by this profession of pseudoscientists.\nAllergists are not doctors.\nI sincerely doubt you \"know plenty of people who will die if they do have peanuts or breathe in peanut dust\".\nAlmost noone is actually that allergic.\nLot's of people think they are much worse off than they really are.\nMethinks you have an agenda.\nHighly suspicious that the child of a physician who is hyper aware of bad things that can happen coincidentally has not one, but three life threatening allergies.\nHave you heard of Munchasen by Proxy?\nDo you realize that most kids have mild reactions to various food items that they invariably grow out of by the age of 5?\nFood allergies have to be the most overblown imagined health problem of our time.\nHypochondriacs all.\"\n < this message is answering to > \njsooudi: \"I'm a physician, epidemiologist, and mother to a four year old boy with allergies to milk, peanuts and egg.\nMy son's dairy allergy is severe,\nand he has had numerous lifethreatening anaphylactic reactions to trace amounts of milk,\nwhich required multiple doses of epinephrine and trips to the Emergency Department.\nTests indicate that his peanut allergy is worse,\nbut fortunately he has only been exposed once to a peanut;\nhe put one in his mouth and had a relatively mild  reaction.\nI've traveled with my children\nand despite calling ahead, making requests, and reminding employees at the door, I've rarely had respect, let alone consistency, in any kind of peanutfree buffer zone or flight.\nSeveral years ago Continental Airlines customer service headquarters informed me that they would serve peanuts on all flights as they were unable to guarantee a peanut free flight.\n(So why not hand out weapons since they can't guarantee a weapon free flight either?)\nI've sat with my epi pen in hand on a filthy flight with visible peanut crumbs on the floor while a flight attendant insisted on offering peanuts to the passengers around me because \"it was their right.\"\nFortunately for me, my son's peanut allergy is not severe enough that it prohibits us from air travel.\nNow that he is old enough to not put things in his mouth, and to protect himself, we are safer.\nHowever, I know of many, many others in the allergy community, children and adults who simply can NOT fly.\nMy son's dairy allergy is quite severe.\nThe world would be a much safer place for us if no one consumed milk near him.\nIf his skin touches anything that once touched milk, even if it was partially cleaned, he will get severe hives.\nIf he consumes even less than a drop, within seconds his lips, eyes and face will swell, he will be covered in hives, vomit, and be gasping for breath.\nWithout epinephrine he would probably die within minutes.\nBut milk is ubiquitous,\nand milk allergy relatively uncommon,\nso we must protect ourselves.\nPeanut allergy is common,\nand it is a simple step to serve an alternative peanut based snacks for a short period of time.\nSo why is this a big problem?\nThe vast majority of potential reactions would be eliminated by simply avoiding snacks that have peanuts or peanut butter as an ingredient.\nPeanut oil is known to contain very little of the actual peanut protein,\nand would be of little risk in an airborne environment.\nAs a physician, I have responded to the call from airline staff asking for emergency medical assistance.\nI am well aware of how expensive and inconvenient it is to ground a plane.\nIn addition, most epipens come in two pack doses,\neach of which are good for maybe 10 to 15 minutes.\nWhich in a severe anaphylactic reaction is simply not enough time between the beginning of a reaction and the patient reaching EMS.\nI've found that other passengers, as a rule, are extremely supportive,\nand are more than happy to help with a fellow passengers safety.\nI think the people commenting on this site would react entirely differently were they seated next to an allergic child on a plane.\nOf course they would refrain from eating peanuts for a few hours if they knew it would hurt someone they were looking in the face.\nBut I am sympathetic to individuals who are unhappy with yet another discomfort inflicted on air travelers.\nThis restriction is designed to protect people with allergies from the airlines callous disregard for cleanliness and for our safety, not from our fellow passengers.\n\"Hi.  My name is Steven.  I am 4 years old.\nI am allergic to peanuts, eggs and cow milk.\nIf I eat a peanut I'll get sick.\nI ate a nut one time and got a big bump on my lip and it swelled up and it was hard to breathe.\nIt was scary and my dad gave me some medicine that made it better.\nI would like for them to not give out peanuts so I won't get sick because I'm allergic.\nEverybody should drink Sprite and eat Pringles and Pretzels.\"\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does Howie's assertion that most kids grow out of food allergies by age 5 relate to the specific experiences of individuals with severe allergies, such as jsooudi's son, who have had life-threatening reactions to milk and peanuts, and what are the implications of this assertion for the treatment and management of severe allergies?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "What is the basis for Howie's claim that most kids have mild reactions to food items that they \"invariably grow out of\" by the age of 5, and what is the scientific consensus on the natural history of food allergies?",
+                    "label": "Useful",
+                    "similarity": 0.8127142786979675
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific evidence would be required to support Howie's claim that the \"supposed plague of food allergies\" is the result of advertising by allergists, and how does his argument account for the documented experiences of individuals with severe allergies, such as jsooudi's son?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What evidence does Howie have to support his claim that the profession of allergists is engaging in \"very clever advertising\" and that food allergies are not a legitimate health concern?",
+                    "label": "Useful",
+                    "similarity": 0.7887462377548218
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Howie's argument that food allergies are overblown and imagined health problems account for the specific, documented risks and consequences faced by individuals with severe allergies, such as jsooudi's son, and what are the implications of this argument for the treatment and management of severe allergies?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "How does Howie support his claim that food allergies are the \"most overblown imagined health problem of our time,\" and what is the scientific consensus on the significance of food allergies as a public health concern?",
+                    "label": "Useful",
+                    "similarity": 0.8446046710014343
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does Howie's assertion that most kids grow out of food allergies by age 5 relate to the specific experiences of individuals with severe allergies, such as jsooudi's son, who have had life-threatening reactions to milk and peanuts, and what are the implications of this assertion for the treatment and management of severe allergies?\n- What specific evidence would be required to support Howie's claim that the \"supposed plague of food allergies\" is the result of advertising by allergists, and how does his argument account for the documented experiences of individuals with severe allergies, such as jsooudi's son?\n- How does Howie's argument that food allergies are overblown and imagined health problems account for the specific, documented risks and consequences faced by individuals with severe allergies, such as jsooudi's son, and what are the implications of this argument for the treatment and management of severe allergies?"
+    },
+    "TRUMP_222": {
+        "intervention_id": "TRUMP_222",
+        "intervention": "TRUMP: \"I have much better judgment than she does\nThere 's no question about that\nI also have a much better temperament than she has\nshe spent hundreds of millions of dollars on an advertising\nthey get Madison Avenue into a room\nthey put names\ntemperament , let 's go after\nmy strongest asset , maybe by far , is my temperament\nI have a winning temperament\nI know how to win\nShe does not have a\nWrong\nthere 's a person with a temperament that 's got a problem\nThe AFL-CIO the other day , behind the blue screen , I do n't know who you were talking to , Secretary Clinton , but you were totally out of control\n I do n't know who you were talking to\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CauseToEffect",
+            "VerbalClassification",
+            "Sign",
+            "PopularOpinion"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "To what extent does Trump's prioritization of his temperament over policy expertise or experience reflect a broader strategy or philosophy of leadership, and what are the potential risks and benefits of this approach?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What does Trump mean by \"winning temperament,\" and how does he define it? Is it a measurable trait, or is it a subjective opinion?",
+                    "label": "Useful",
+                    "similarity": 0.7283926010131836
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific, verifiable evidence supports Trump's claim that his temperament is superior to Clinton's, and how does this evidence address potential counterarguments about his own behavior and decision-making?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "How does Trump define \"temperament\" and what evidence does he provide to support his claim that he has a better temperament than Clinton?",
+                    "label": "Useful",
+                    "similarity": 0.8910897970199585
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Trump's characterization of Clinton as being 'totally out of control' during her AFL-CIO speech align with or contradict independent accounts or video evidence of the event, and what implications does this have for his credibility?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What is the relevance of the AFL-CIO incident to Trump's claim about Clinton's temperament, and is it a fair representation of her behavior?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7589359283447266
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- To what extent does Trump's prioritization of his temperament over policy expertise or experience reflect a broader strategy or philosophy of leadership, and what are the potential risks and benefits of this approach?\n- What specific, verifiable evidence supports Trump's claim that his temperament is superior to Clinton's, and how does this evidence address potential counterarguments about his own behavior and decision-making?\n- How does Trump's characterization of Clinton as being 'totally out of control' during her AFL-CIO speech align with or contradict independent accounts or video evidence of the event, and what implications does this have for his credibility?"
+    },
+    "Doctor-Mom_205": {
+        "intervention_id": "Doctor-Mom_205",
+        "intervention": "Doctor-Mom: \"I would support a full ban of peanut products on any airline.\nPeanut reactions can be life threatening.\nAn individual doesn't have to consume the product to have a life threatening reaction.\nThey can have contact or inhalation reactions.\nRestricting to certain flights is not enough,\nas residue can be rampant.\nProviding buffer zones is a thoughtful gesture,\nbut from a practical point of view does not work.\nWith so many food choices available, why are peanuts a necessary choice?\nI am a physician , and author on the subject.\nI have free food allergy online support forums with 3000 members.\nhttp://www.drmomsallergyrx.com/\nI would be more than willing to work with you in any way on this decision making process.\nThe allergic community is so grateful that you are allowing our voices to be heard.\nThe decision you are considering could save many lives.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERExpertOpinion"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Can the author provide data or expert opinions to support their claim that buffer zones are impractical, and what specific challenges or limitations do buffer zones pose?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "What is the basis for the assertion that providing buffer zones is not a practical solution?",
+                    "label": "Useful",
+                    "similarity": 0.6644616723060608
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence supports the claim that peanut residue is rampant on flights, and how does this impact the effectiveness of buffer zones in preventing life-threatening reactions?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "Is there any data to support the claim that restricting peanut products to certain flights is not enough, and that residue can be rampant?",
+                    "label": "Useful",
+                    "similarity": 0.7981908917427063
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the author's involvement with online support forums and their willingness to work with the decision-making process influence their argument, and what steps can be taken to address potential biases?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "How representative are the 3000 members of the online support forums of the broader allergic community, and do they reflect a diverse range of perspectives and experiences?",
+                    "label": "Useful",
+                    "similarity": 0.48359575867652893
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- Can the author provide data or expert opinions to support their claim that buffer zones are impractical, and what specific challenges or limitations do buffer zones pose?\n- What empirical evidence supports the claim that peanut residue is rampant on flights, and how does this impact the effectiveness of buffer zones in preventing life-threatening reactions?\n- How does the author's involvement with online support forums and their willingness to work with the decision-making process influence their argument, and what steps can be taken to address potential biases?"
+    },
+    "17th_knight__247": {
+        "intervention_id": "17th_knight__247",
+        "intervention": "17th: \"They should get the coverage\nThey are here\nthey work\nthey are a part of this society\nFuck off with your xenophobia\"\n < this message is answering to > \nreaper527: \"now you have a field of democrat presidential candidates supporting it\nrepublicans used to get mocked and laughed at when they said that illegal immigrants would be getting obamacare coverage\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence or reasoning supports the claim that xenophobia is the primary motivation behind opposition to providing coverage to certain groups, and how can we distinguish between legitimate policy concerns and xenophobic attitudes?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is the accusation of \"xenophobia\" a valid critique of opposing views, or is it a form of ad hominem attack? Are there legitimate reasons why someone might oppose health insurance coverage for undocumented immigrants that have nothing to do with xenophobia?",
+                    "label": "Useful",
+                    "similarity": 0.8549782633781433
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Is the assumption that physical presence and contribution to society through work a sufficient condition for receiving coverage, and what are the potential consequences of using this criterion as a basis for policy-making?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does the author's assertion that immigrants \"work\" support the claim that they should have access to health care coverage? Are there other factors that should be considered, such as their employment status, income level, or access to employer-sponsored health insurance?",
+                    "label": "Useful",
+                    "similarity": 0.6092407703399658
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the necessary and sufficient conditions for being considered \"a part of this society\" in the context of receiving coverage, and how can we ensure that these conditions are fair, equitable, and transparent?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What is the definition of \"they are here\" and how does it relate to the issue of health insurance coverage? Is it a moral obligation to provide health insurance to anyone who is physically present in a country, regardless of their immigration status?",
+                    "label": "Useful",
+                    "similarity": 0.5026016235351562
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What evidence or reasoning supports the claim that xenophobia is the primary motivation behind opposition to providing coverage to certain groups, and how can we distinguish between legitimate policy concerns and xenophobic attitudes?\n- Is the assumption that physical presence and contribution to society through work a sufficient condition for receiving coverage, and what are the potential consequences of using this criterion as a basis for policy-making?\n- What are the necessary and sufficient conditions for being considered \"a part of this society\" in the context of receiving coverage, and how can we ensure that these conditions are fair, equitable, and transparent?"
+    },
+    "CLINTON_193": {
+        "intervention_id": "CLINTON_193",
+        "intervention": "CLINTON: \"I hope the fact-checkers are turning up the volume and really working hard\nDonald supported the invasion of Iraq\n...\nThat is absolutely proved over and over again\n...\nHe actually advocated for the actions we took in Libya\nurged that Gadhafi be taken out\nafter actually doing some business with him one time\nlarger point\u2014and he says this constantly\u2014is George W. Bush made the agreement about when American troops would leave Iraq , not Barack Obama\n the only way that American troops could have stayed in Iraq is to get an agreement from the then-Iraqi government that would have protected our troops\nthe Iraqi government would not give that\nlet 's talk about the question you asked , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Can Clinton's assertion that Trump's support for the invasion of Iraq is \"absolutely proved over and over again\" be supported by concrete, publicly available evidence, and what are the implications of this claim for Trump's credibility on foreign policy issues?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What is the evidence for Donald Trump's support of the invasion of Iraq?** Clinton claims that Trump supported the invasion, but what are the sources that prove this? Is there a quote or a statement from Trump that explicitly shows his support?",
+                    "label": "Useful",
+                    "similarity": 0.8230550289154053
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the potential consequences of accepting or rejecting Clinton's claim that George W. Bush's agreement determined the withdrawal of American troops from Iraq, and how might this impact our understanding of Trump's foreign policy positions?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "How does Clinton's statement about the need for an agreement to protect American troops relate to the broader point about Trump's position on Iraq? Is this a red herring or a relevant consideration?",
+                    "label": "Useful",
+                    "similarity": 0.7198493480682373
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What specific evidence can be provided to substantiate Clinton's claim that Trump advocated for the actions taken in Libya, and how does this evidence relate to Trump's overall foreign policy stance?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Did Trump support the actions we took in Libya?",
+                    "label": "Useful",
+                    "similarity": 0.7254152894020081
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- Can Clinton's assertion that Trump's support for the invasion of Iraq is \"absolutely proved over and over again\" be supported by concrete, publicly available evidence, and what are the implications of this claim for Trump's credibility on foreign policy issues?\n- What are the potential consequences of accepting or rejecting Clinton's claim that George W. Bush's agreement determined the withdrawal of American troops from Iraq, and how might this impact our understanding of Trump's foreign policy positions?\n- What specific evidence can be provided to substantiate Clinton's claim that Trump advocated for the actions taken in Libya, and how does this evidence relate to Trump's overall foreign policy stance?"
+    },
+    "TRUMP_253": {
+        "intervention_id": "TRUMP_253",
+        "intervention": "TRUMP: \"She does n't have the look\nShe does n't have the stamina\nI said she does n't have the stamina\nI do n't believe she does have the stamina\nTo be president of this country , you need tremendous stamina\nI just do n't think she has the presidential look\nYou asked me a question\nYou have to be able to negotiate our trade deals\nYou have to be able to negotiate , that 's right , with Japan , with Saudi Arabia\nAll you have to do is speak to them\nWait\n...\nDid you ask me a question\ncan you imagine , we 're defending Saudi Arabia\nwith all of the money they have , we 're defending them , and they 're not paying\nYou have so many different things you have to be able to do , and I do n't believe that Hillary has the stamina\nThe world\nHillary has experience , but it 's bad experience\nit 's bad , bad experience\nit 's the Iran deal that you 're so in love with , where we gave them $ 150 billion back\nit 's the Iran deal\nit 's anything you can\u2014name\nyou almost ca n't name a good deal\nShe 's got experience , but it 's bad experience\"",
+        "dataset": "US2016",
+        "schemes": [
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does Trump's claim that Saudi Arabia is not paying for its own defense reflect the actual financial and defense agreements between the U.S. and Saudi Arabia, and what implications does this have for evaluating Hillary's diplomatic efforts?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What is the basis for Trump's claim that Saudi Arabia is not paying for its defense, and is this a accurate representation of the situation?",
+                    "label": "Useful",
+                    "similarity": 0.8217440843582153
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific aspects of Hillary's experience does Trump consider \"bad experience,\" and how does he justify his characterization of her diplomatic efforts in this way, considering the complexities of international relations and the context of her decisions?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "How does Trump define \"bad experience,\" and is it a fair characterization of Hillary Clinton's experience in government?",
+                    "label": "Useful",
+                    "similarity": 0.7662842869758606
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Trump define \"presidential look,\" and what evidence does he provide to support the notion that physical appearance is a valid criterion for evaluating a candidate's qualifications for the presidency?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What does Trump mean by \"presidential look\"? Is it based on physical appearance or something else? How is it relevant to being a good president?",
+                    "label": "Useful",
+                    "similarity": 0.9144188165664673
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does Trump's claim that Saudi Arabia is not paying for its own defense reflect the actual financial and defense agreements between the U.S. and Saudi Arabia, and what implications does this have for evaluating Hillary's diplomatic efforts?\n- What specific aspects of Hillary's experience does Trump consider \"bad experience,\" and how does he justify his characterization of her diplomatic efforts in this way, considering the complexities of international relations and the context of her decisions?\n- How does Trump define \"presidential look,\" and what evidence does he provide to support the notion that physical appearance is a valid criterion for evaluating a candidate's qualifications for the presidency?"
+    },
+    "TRUMP_58": {
+        "intervention_id": "TRUMP_58",
+        "intervention": "TRUMP: \"You are going to approve one of the biggest tax cuts in history\nYou are going to approve one of the biggest tax increases in history\nYou are going to drive business out\nYour regulations are a disaster , and you 're going to increase regulations all over the place\nmy tax cut is the biggest since Ronald Reagan\nI 'm very proud of it\nIt will create tremendous numbers of new jobs\nyou are going to regulate these businesses out of existence\nWhen I go around\u2014Lester , I tell you this , I 've been all over\nwhen I go around , despite the tax cut , the thing\u2014the things that business as in people like the most is the fact that I 'm cutting regulation\nYou have regulations on top of regulations\nnew companies can not form and old companies are going out of business\nyou want to increase the regulations and make them even worse\nI 'm going to cut regulations\nI 'm going to cut taxes big league\nyou 're going to raise taxes big league\nend of story\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "Alternatives",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Which specific regulations is Trump referring to when he says \"you have regulations on top of regulations,\" and what quantitative data or research supports the claim that these regulations are hindering business growth?",
+                "matched_reference": {
+                    "index": 22,
+                    "cq": "What specific regulations are you referring to, and how do they harm businesses or prevent new companies from forming?",
+                    "label": "Invalid",
+                    "similarity": 0.7355642318725586
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 1,
+                "cq": "How does Trump's statement that new companies cannot form and old companies are going out of business due to regulations align with data on business formation and dissolution rates, and what alternative explanations might account for these trends?",
+                "matched_reference": {
+                    "index": 29,
+                    "cq": "How does the speaker's claim that \"new companies cannot form and old companies are going out of business\" due to regulations align with data on business formation and closure rates?",
+                    "label": "Useful",
+                    "similarity": 0.7846691608428955
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What empirical evidence supports the assertion that cutting regulations will create tremendous numbers of new jobs, and what specific industries or sectors are most likely to benefit from deregulation?",
+                "matched_reference": {
+                    "index": 24,
+                    "cq": "What is the evidence that reducing regulations will lead to increased economic growth and job creation, and how do you respond to arguments that regulations are necessary to protect public health and safety?",
+                    "label": "Invalid",
+                    "similarity": 0.688149631023407
+                },
+                "label": "Invalid"
+            }
+        ],
+        "full_response": "- Which specific regulations is Trump referring to when he says \"you have regulations on top of regulations,\" and what quantitative data or research supports the claim that these regulations are hindering business growth?\n- How does Trump's statement that new companies cannot form and old companies are going out of business due to regulations align with data on business formation and dissolution rates, and what alternative explanations might account for these trends?\n- What empirical evidence supports the assertion that cutting regulations will create tremendous numbers of new jobs, and what specific industries or sectors are most likely to benefit from deregulation?"
+    },
+    "CLINTON_1_2": {
+        "intervention_id": "CLINTON_1_2",
+        "intervention": "CLINTON: \"If you help create the profits , you should be able to share in them , not just the executives at the top\nI want us to do more to support people who are struggling to balance family and work\nI 've heard from so many of you about the difficult choices you face and the stresses that you 're under\nlet 's have paid family leave , earned sick days\nLet 's be sure we have affordable child care and debt-free college\nHow are we going to do it\nWe 're going to do it by having the wealthy pay their fair share and close the corporate loopholes\nwe tonight are on the stage together , Donald Trump and I\nit 's good to be with you\nWe 're going to have a debate where we are talking about the important issues facing our country\nYou have to judge us , who can shoulder the immense , awesome responsibilities of the presidency , who can put into action the plans that will make your life better\nI hope that I will be able to earn your vote on November 8th\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "Values",
+            "PopularOpinion"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence or data supports the claim that implementing paid family leave, earned sick days, affordable child care, and debt-free college will lead to improved outcomes for individuals and society as a whole, and how will these outcomes be measured?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "How would the proposed policies (paid family leave, earned sick days, affordable child care, debt-free college) be funded, and what would be the impact on the economy and taxpayers?",
+                    "label": "Useful",
+                    "similarity": 0.6769001483917236
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Is it realistic to assume that the revenue generated from taxing the wealthy and closing corporate loopholes will be sufficient to cover the costs of implementing and sustaining the proposed social programs, and what contingency plans are in place if this assumption proves incorrect?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "How would you define \"the wealthy\" and what specific tax reforms would you implement to ensure they pay their \"fair share\", and how would you measure the impact of these reforms?",
+                    "label": "Useful",
+                    "similarity": 0.5367876887321472
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the potential risks and unintended consequences of relying solely on taxing the wealthy and closing corporate loopholes to fund the proposed social programs, and how will these risks be mitigated?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "How would you define \"the wealthy\" and what specific tax reforms would you implement to ensure they pay their \"fair share\", and how would you measure the impact of these reforms?",
+                    "label": "Useful",
+                    "similarity": 0.5691564679145813
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What evidence or data supports the claim that implementing paid family leave, earned sick days, affordable child care, and debt-free college will lead to improved outcomes for individuals and society as a whole, and how will these outcomes be measured?\n- Is it realistic to assume that the revenue generated from taxing the wealthy and closing corporate loopholes will be sufficient to cover the costs of implementing and sustaining the proposed social programs, and what contingency plans are in place if this assumption proves incorrect?\n- What are the potential risks and unintended consequences of relying solely on taxing the wealthy and closing corporate loopholes to fund the proposed social programs, and how will these risks be mitigated?"
+    },
+    "FoodAllergyMom_199_1": {
+        "intervention_id": "FoodAllergyMom_199_1",
+        "intervention": "FoodAllergyMom: \"My child is 2 years old and he is severely allergic to peanuts, tree nuts, egg and milk.\nMy son has reacted to airborne particles from someone opening a bag of nuts near him.\nMy husband and I used to be world traveler's and dreamed of traveling with our son.\nIt is heartbreaking to think that our child will not get to experience the world, or if he does it may cost him his life.\nWhat about when he gets older and his job requires him to fly across the country in a weekend?\nShould he have to risk his life so he can work in his possible future dream job?\nThis is a disability, no question about it.\nWe are talking about being in the air with peanut particles being circulated through the cabin and possible no place to land for hours.\nAn EpiPen only last 15 minutes.\nPeanut allergy is unpredictable.\nThe first reaction could be mild\nand the second could cause your blood pressure to drop like a rocket, your throat to close up and your heart to stop beating.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Is the scenario in which the child's job requires him to fly across the country in a weekend a realistic concern, and what alternative solutions or accommodations might be available to mitigate this risk?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "Are there any accommodations that airlines could make to reduce the risk of an allergic reaction?",
+                    "label": "Useful",
+                    "similarity": 0.4662424921989441
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the limitations and potential risks of relying on an EpiPen as a primary treatment for anaphylaxis, and how might these factors impact the child's safety and well-being?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "How common is it for children with peanut allergies to react to airborne particles, and what is the severity of such reactions?",
+                    "label": "Useful",
+                    "similarity": 0.5569705963134766
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "How might the author's past experience as a world traveler influence her perception of the limitations imposed by her child's allergies, and what are the implications of this perspective for the argument?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Is the author's account of their child's allergy supported by medical evidence?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5906943678855896
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- Is the scenario in which the child's job requires him to fly across the country in a weekend a realistic concern, and what alternative solutions or accommodations might be available to mitigate this risk?\n- What are the limitations and potential risks of relying on an EpiPen as a primary treatment for anaphylaxis, and how might these factors impact the child's safety and well-being?\n- How might the author's past experience as a world traveler influence her perception of the limitations imposed by her child's allergies, and what are the implications of this perspective for the argument?"
+    },
+    "TRUMP_13": {
+        "intervention_id": "TRUMP_13",
+        "intervention": "TRUMP: \"Secretary Clinton and others , politicians , should have been doing this for years , not right now\nwe 've created a movement\nThey should have been doing this for years\nWhat 's happened to our jobs and our country and our economy generally is\u2014look , we owe $ 20 trillion\nWe can not do it any longer , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Sign"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence does Trump provide to support his claim that the creation of a \"movement\" is a sufficient justification for his approach to addressing jobs and the economy, and how does this evidence relate to the specific policy proposals he has made?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What evidence is there that Trump's \"movement\" is responsible for any positive change, and how does it address the problems he's identified?",
+                    "label": "Useful",
+                    "similarity": 0.7322043180465698
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How does Trump's claim that politicians like Secretary Clinton should have been addressing the issue of jobs and the economy for years account for the complexities of globalization, technological change, and other structural factors that may have contributed to economic challenges?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What specific actions should Secretary Clinton and other politicians have taken \"for years\" to address the issues Trump is concerned about?",
+                    "label": "Invalid",
+                    "similarity": 0.6433318257331848
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 2,
+                "cq": "What specific policies or actions does Trump propose to address the national debt of $20 trillion, and how do these proposals relate to his argument about jobs and the economy?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "How does Trump's statement that \"we owe $20 trillion\" support his argument, and what specific solutions does he propose to address this debt?",
+                    "label": "Useful",
+                    "similarity": 0.7774084806442261
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What evidence does Trump provide to support his claim that the creation of a \"movement\" is a sufficient justification for his approach to addressing jobs and the economy, and how does this evidence relate to the specific policy proposals he has made?\n- How does Trump's claim that politicians like Secretary Clinton should have been addressing the issue of jobs and the economy for years account for the complexities of globalization, technological change, and other structural factors that may have contributed to economic challenges?\n- What specific policies or actions does Trump propose to address the national debt of $20 trillion, and how do these proposals relate to his argument about jobs and the economy?"
+    },
+    "Overall_stats": {
+        "Distribution of the labels": {
+            "Useful": 81,
+            "LLM_useful": 13,
+            "Unhelpful": 14,
+            "LLM_unhelpful": 1,
+            "Invalid": 5
+        },
+        "Distribution of the intervention punctuation": {
+            "1.0": 22,
+            "0.3333333333333333": 4,
+            "0.6666666666666666": 12
+        },
+        "Overall punctuation": 0.8245614035087719,
+        "LLM labeled": 12.280701754385964
+    }
+}

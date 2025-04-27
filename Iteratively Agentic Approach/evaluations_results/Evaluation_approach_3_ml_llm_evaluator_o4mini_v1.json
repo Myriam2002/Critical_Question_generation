@@ -1,0 +1,1725 @@
+{
+    "MT_45": {
+        "intervention_id": "MT_45",
+        "intervention": "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Is the migration of capital away from traditional manufacturing better understood as part of a broader structural shift toward service\u2011 or technology\u2011based economies, and what evidence (for example, employment patterns or sectoral productivity gains) supports that interpretation over the \u201cinsufficient surplus\u201d explanation?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Is it assumed that the primary goal of capitalism is to generate surpluses, or are there other considerations at play?",
+                    "label": "Unhelpful",
+                    "similarity": 0.4565504193305969
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What precise features characterize \u201cthat form of capitalism\u201d\u2014for instance, levels of financialization, deregulation, or globalized supply chains\u2014and what quantitative data demonstrates its inability to generate surpluses sufficient for sustained industrial investment in developed economies?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What evidence is there to support the claim that the form of capitalism in question wasn't generating sufficient surpluses?",
+                    "label": "Useful",
+                    "similarity": 0.6518917679786682
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Can we identify historical cases\u2014such as postwar West Germany, early\u201120th\u2011century United States, or Meiji Japan\u2014where comparable capitalist models produced surpluses large enough to fuel robust manufacturing growth, and what roles did state intervention, labor relations, or export strategies play in those outcomes?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "What specific form of capitalism is being referred to? Is it a particular historical period, a specific economic system, or a theoretical model?",
+                    "label": "Useful",
+                    "similarity": 0.5291401743888855
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- Is the migration of capital away from traditional manufacturing better understood as part of a broader structural shift toward service\u2011 or technology\u2011based economies, and what evidence (for example, employment patterns or sectoral productivity gains) supports that interpretation over the \u201cinsufficient surplus\u201d explanation?\n- What precise features characterize \u201cthat form of capitalism\u201d\u2014for instance, levels of financialization, deregulation, or globalized supply chains\u2014and what quantitative data demonstrates its inability to generate surpluses sufficient for sustained industrial investment in developed economies?\n- Can we identify historical cases\u2014such as postwar West Germany, early\u201120th\u2011century United States, or Meiji Japan\u2014where comparable capitalist models produced surpluses large enough to fuel robust manufacturing growth, and what roles did state intervention, labor relations, or export strategies play in those outcomes?"
+    },
+    "cd38_220_2": {
+        "intervention_id": "cd38_220_2",
+        "intervention": "cd38: \"The return flight is 6 \u00bd hours (plus commute time to the airport);\nwhen time allows, I make something to bring on the flight,\nbut if my mother is having a bad day, that's not always possible.\nOn a recent trip, I didn't have time to eat anything at all the day I flew home; got stuck in traffic and barely made my flight (I was the last one on) so didn't have time to eat or buy anything at the airport; and as we started to taxi, the flight crew announced that we had a nut allergy on board, and that they (JB) would not be serving cashews and requested that we not eat any nuts we may have brought on board.\n6 \u00bd hours feels pretty long at that point!\nNo, it didn't kill me,\nbut it does seem that if JB hadn't served cashews, the risks involved in one or two people eating nuts they may have brought with them would have been extremely, extremely small....\nand, NOTHING in life is riskfree.\nI understand that people want to minimize the risks for their loved ones,\nbut you cannot eliminate the risk completely, regardless of what legislation you put in place.\nIf I ate peanuts at the airport, didn't wash my hands, and then opened the rest room door on the plane immediately before a peanut allergy sufferer, that person could suffer a reaction.\nI can support airlines not serving peanuts/peanut products,\nthereby eliminating the most likely possible cause of a peanutrelated incident on a flight;\nbut not restrictions on what people may choose to eat.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Which pre\u2011boarding and between\u2011flight cleaning protocols, and which passenger and crew hand\u2011hygiene measures, have been shown to remove or neutralize nut allergens effectively, and what are the time, staffing, and cost implications of implementing these practices routinely?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Are there other measures that airlines could take to minimize the risk of allergic reactions, such as providing allergy-friendly snacks or having emergency protocols in place?",
+                    "label": "Useful",
+                    "similarity": 0.546966552734375
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What observational studies, incident reports, or case series document the frequency and severity of allergic reactions linked to passengers consuming their own nuts on board\u2014whether via direct ingestion, contact with contaminated surfaces, or airborne exposure\u2014and what gaps remain in this evidence base?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How common are severe allergic reactions to nuts on flights, and what are the consequences of such reactions?",
+                    "label": "Useful",
+                    "similarity": 0.774408221244812
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the comparative strengths, weaknesses, and enforcement challenges of voluntary \u2018please refrain from nuts\u2019 notices versus mandatory no\u2011nut policies, and which mix of screening, in\u2011flight monitoring, and penalty mechanisms offers the most credible deterrent?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Are there any other measures that could be taken to minimize the risks associated with peanut allergies on flights, beyond not serving peanuts/peanut products and restricting what people may choose to eat?",
+                    "label": "Useful",
+                    "similarity": 0.5377365946769714
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "- Which pre\u2011boarding and between\u2011flight cleaning protocols, and which passenger and crew hand\u2011hygiene measures, have been shown to remove or neutralize nut allergens effectively, and what are the time, staffing, and cost implications of implementing these practices routinely?\n- What observational studies, incident reports, or case series document the frequency and severity of allergic reactions linked to passengers consuming their own nuts on board\u2014whether via direct ingestion, contact with contaminated surfaces, or airborne exposure\u2014and what gaps remain in this evidence base?\n- What are the comparative strengths, weaknesses, and enforcement challenges of voluntary \u2018please refrain from nuts\u2019 notices versus mandatory no\u2011nut policies, and which mix of screening, in\u2011flight monitoring, and penalty mechanisms offers the most credible deterrent?"
+    },
+    "TRUMP_183": {
+        "intervention_id": "TRUMP_183",
+        "intervention": "TRUMP: \"I do want to say that I was just endorsed\nand more are coming next week\nit will be over 200 admirals\nmany of them here\u2014admirals and generals endorsed me to lead this country\nThat just happened\nmany more are coming\nI was just endorsed by ICE\nThey 've never endorsed anybody before on immigration\nI was just recently endorsed\u201416,500 Border Patrol agents\nwhen Secretary Clinton talks about this , I mean , I 'll take the admirals and I 'll take the generals any day over the political hacks that I see that have led our country so brilliantly over the last 10 years with their knowledge\nlook at the mess that we 're in\nAs far as the cyber , I agree to parts of what Secretary Clinton said\nWe should be better than anybody else\nperhaps we 're not\nI do n't think anybody knows it was Russia that broke into the DNC\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Values",
+            "PositionToKnow"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What concrete, quantifiable evidence underpins the assertion that the past decade of leadership has \u201cleft us in a mess,\u201d and how might alternative metrics\u2014such as GDP growth, unemployment rates, social\u2011inequality indices, or diplomatic\u2011stability measures\u2014lead to a more nuanced evaluation of that record?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What evidence does Trump have to support his claim that the political hacks have led the country poorly over the last 10 years? Is this a subjective opinion or based on verifiable facts?",
+                    "label": "Useful",
+                    "similarity": 0.5483275651931763
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "How representative are the perspectives of ICE and Border Patrol agents on immigration policy relative to broader public opinion and national interests, and what trade\u2011offs could emerge if operational priorities of these agencies are given primacy over other policy objectives?",
+                "matched_reference": {
+                    "index": 27,
+                    "cq": "What is the relevance of the endorsements from admirals, generals, ICE, and Border Patrol agents to Trump's ability to lead the country? Are these endorsements based on his policies or his personality?",
+                    "label": "Useful",
+                    "similarity": 0.49454331398010254
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "Given that multiple U.S. intelligence agencies have publicly attributed the 2016 DNC breach to Russia, what additional data or analysis would be required to justify disputing that consensus, and what risks to national security or diplomatic relations might arise from raising such doubts without new evidence?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "What is the basis for Trump's skepticism about Russia's involvement in the DNC hacking, and how does he propose to investigate and respond to cyber threats?",
+                    "label": "Useful",
+                    "similarity": 0.6775762438774109
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What concrete, quantifiable evidence underpins the assertion that the past decade of leadership has \u201cleft us in a mess,\u201d and how might alternative metrics\u2014such as GDP growth, unemployment rates, social\u2011inequality indices, or diplomatic\u2011stability measures\u2014lead to a more nuanced evaluation of that record?\n- How representative are the perspectives of ICE and Border Patrol agents on immigration policy relative to broader public opinion and national interests, and what trade\u2011offs could emerge if operational priorities of these agencies are given primacy over other policy objectives?\n- Given that multiple U.S. intelligence agencies have publicly attributed the 2016 DNC breach to Russia, what additional data or analysis would be required to justify disputing that consensus, and what risks to national security or diplomatic relations might arise from raising such doubts without new evidence?"
+    },
+    "AngelComa__638": {
+        "intervention_id": "AngelComa__638",
+        "intervention": "AngelComa: \"Funny, I thought he did good\nThey get timed responses\nhis plan is all there\nHe can't talk about everything in the plan\nMust be how used you are to politicians saying things and not having a plan\"\n < this message is answering to > \nPunchee: \"That was a weird moment in American debate history. \"Yo check my website. Shit's on there.\"\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific standards or metrics should be applied to evaluate whether the candidate\u2019s online policy outline is both comprehensive and implementable, and how can voters or independent experts verify those standards without relying on the candidate\u2019s own framing?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What specific aspects of the politician's plan are being referred to, and how do they address the critic's concerns?",
+                    "label": "Unhelpful",
+                    "similarity": 0.4598734974861145
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What formal or informal mechanisms (e.g., debate commission rules, fact\u2011checkers, legislative oversight) ought to exist to ensure that any gaps, inconsistencies, or impracticalities in the policy claims on the candidate\u2019s website are identified and remedied before those proposals reach the ballot?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What specific aspects of the politician's plan are being referred to, and how do they address the critic's concerns?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5582255125045776
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "How could directing debate viewers to a website for substantive policy details compromise their ability to judge the candidate\u2019s real\u2011time reasoning, and what impact might that have on perceptions of the candidate\u2019s competence or authenticity?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What is the basis for the claim that the politician did well in the speech? Is it based on the content of the speech or some other factor?",
+                    "label": "Useful",
+                    "similarity": 0.4670083224773407
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What specific standards or metrics should be applied to evaluate whether the candidate\u2019s online policy outline is both comprehensive and implementable, and how can voters or independent experts verify those standards without relying on the candidate\u2019s own framing?\n- What formal or informal mechanisms (e.g., debate commission rules, fact\u2011checkers, legislative oversight) ought to exist to ensure that any gaps, inconsistencies, or impracticalities in the policy claims on the candidate\u2019s website are identified and remedied before those proposals reach the ballot?\n- How could directing debate viewers to a website for substantive policy details compromise their ability to judge the candidate\u2019s real\u2011time reasoning, and what impact might that have on perceptions of the candidate\u2019s competence or authenticity?"
+    },
+    "TRUMP_114_2": {
+        "intervention_id": "TRUMP_114_2",
+        "intervention": "TRUMP: \"our country 's a mess\nit 's one thing to have $ 20 trillion in debt\nOur airports are like from a third world country\nYou land at LaGuardia , you land at Kennedy , you land at LAX , you land at Newark , and you come in from Dubai and Qatar and you see these incredible\u2014you come in from China , you see these incredible airports\nwe 've become a third world country\nour bridges are good\neverything 's in great shape\nour airports\nthe worst of all things has happened\nWe owe $ 20 trillion\nwe 're a mess\nWe have n't even started\nwe 've spent $ 6 trillion in the Middle East\naccording to a report that I just saw\nWhether it 's 6 or 5\n it looks like it 's 6\nwe could have rebuilt our country twice\nit 's really a shame\nit 's politicians like Secretary Clinton that have caused this problem\nOur country has tremendous problems\nWe 're a debtor nation\nWe 're a serious debtor nation\nwe have a country that needs new roads , new tunnels , new bridges , new airports , new schools , new hospitals\nwe don't have the money\nit 's been squandered on so many of your ideas\"",
+        "dataset": "US2016",
+        "schemes": [
+            "ExpertOpinion",
+            "Example",
+            "CircumstantialAdHominem",
+            "PracticalReasoning",
+            "VerbalClassification",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "You describe our $20\u00a0trillion national debt as evidence of economic ruin. How has the debt\u2011to\u2011GDP ratio evolved over the past four decades, and how does today\u2019s ratio compare with peer economies such as Germany, Japan, and the UK? Which budget categories\u2014entitlement programs, defense spending, interest on debt, or revenue shortfalls\u2014now contribute most to annual deficits, and how have their shares shifted over time?",
+                "matched_reference": {
+                    "index": 48,
+                    "cq": "What is the source of the $20 trillion debt figure, and is it accurate?",
+                    "label": "Useful",
+                    "similarity": 0.6427673101425171
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Your statement cites a $6\u00a0trillion expenditure in the Middle East. Can you clarify exactly how that figure is calculated\u2014does it include interest on borrowed funds, veterans\u2019 care, or reconstruction aid? Of that total, what proportions funded immediate operational costs, long\u2011term rebuilding efforts, and strategic objectives such as counterterrorism or alliance\u2011building? What measures demonstrate the return on investment for each category?",
+                "matched_reference": {
+                    "index": 36,
+                    "cq": "What is the source of the $6 trillion figure spent in the Middle East, and is this figure accurate?",
+                    "label": "Useful",
+                    "similarity": 0.7682129144668579
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Your argument assumes that \u201cwe don\u2019t have the money\u201d for new roads, bridges, and airports. What share of U.S. infrastructure investment currently comes from state and local bonds, toll revenues, airport fees, or public\u2011private partnerships? Which legal, institutional, or market constraints\u2014such as bonding limits, permitting delays, or investor risk perceptions\u2014are the true bottlenecks to accelerating project delivery?",
+                "matched_reference": {
+                    "index": 33,
+                    "cq": "How does the speaker propose to address the country's infrastructure needs and debt, given the lack of funds and the need for new investments?",
+                    "label": "Useful",
+                    "similarity": 0.6359832286834717
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- You describe our $20\u00a0trillion national debt as evidence of economic ruin. How has the debt\u2011to\u2011GDP ratio evolved over the past four decades, and how does today\u2019s ratio compare with peer economies such as Germany, Japan, and the UK? Which budget categories\u2014entitlement programs, defense spending, interest on debt, or revenue shortfalls\u2014now contribute most to annual deficits, and how have their shares shifted over time?\n- Your statement cites a $6\u00a0trillion expenditure in the Middle East. Can you clarify exactly how that figure is calculated\u2014does it include interest on borrowed funds, veterans\u2019 care, or reconstruction aid? Of that total, what proportions funded immediate operational costs, long\u2011term rebuilding efforts, and strategic objectives such as counterterrorism or alliance\u2011building? What measures demonstrate the return on investment for each category?\n- Your argument assumes that \u201cwe don\u2019t have the money\u201d for new roads, bridges, and airports. What share of U.S. infrastructure investment currently comes from state and local bonds, toll revenues, airport fees, or public\u2011private partnerships? Which legal, institutional, or market constraints\u2014such as bonding limits, permitting delays, or investor risk perceptions\u2014are the true bottlenecks to accelerating project delivery?"
+    },
+    "citizen-s_134": {
+        "intervention_id": "citizen-s_134",
+        "intervention": "citizen-s: \"DOT's objective in setting this rule should be to ELIMINATE all bumping, not merely achieve some (unspecified) reduction.\nRegardless of how many caveats an airline might state in its contract terms, passengers neither want nor deserve a ticket for an oversold seat.\nBumping is a purely economic device that treats passengers as economic units devoid of humanity, like so many other aspects of airline behavior.\nFrom that objective, it follows that there should be NO cap on compensation\nand that the financial penalty to the airline should be strong enough to prevent bumping, not just keep it at some arbitrarily \"acceptable\" level.\nThe 100% of the total ticket price for expected arrival within 2 hours later is reasonable.\nCompensation for a longer delay should be the GREATER of 200% of the total ticket cost or the passenger's demonstrable outofpocket costs resulting from the delay\n(a) including any higher priced air ticket from the same or another carrier at the same class, and lodging, meals and incidentals at average prevailing prices in that metro area,\nand (b) with the obligation on the passenger to minimize those costs by arranging, with good faith help from the airline, an alternate flight or other means to get him or her to the destination as soon as reasonably practical.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "To what extent is it equitable and feasible to require passengers to self\u2011arrange alternate travel to mitigate delay costs\u2014given disparities in travel experience, language proficiency, and resource access\u2014and what standards of \u201cgood faith\u201d assistance should airlines be mandated to provide?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "How would the airline's obligation to assist passengers in minimizing their costs be enforced, and what would be the consequences for non-compliance?",
+                    "label": "Useful",
+                    "similarity": 0.6138122081756592
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical or analogous regulatory evidence supports setting two\u2011hour\u2011delay compensation at 100% of the ticket price, and how might airlines and consumers adapt behavior or pricing if that threshold is perceived as misaligned with actual inconvenience?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is the proposed compensation scheme (100% of ticket price for delays up to 2 hours, 200% of ticket price or demonstrable out-of-pocket costs for longer delays) reasonable and fair, or might it be overly generous or punitive?",
+                    "label": "Useful",
+                    "similarity": 0.7528498768806458
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How might airlines adapt their overbooking and capacity\u2011forecasting algorithms in response to a no\u2011bump mandate, and what dynamic economic simulations could regulators use to assess the net impact on consumer welfare, load factors, and operational resilience?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Would the proposed compensation structure, including unlimited financial penalties, be economically viable for airlines, or would it lead to significant increases in ticket prices or reductions in service?",
+                    "label": "Useful",
+                    "similarity": 0.6231033205986023
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- To what extent is it equitable and feasible to require passengers to self\u2011arrange alternate travel to mitigate delay costs\u2014given disparities in travel experience, language proficiency, and resource access\u2014and what standards of \u201cgood faith\u201d assistance should airlines be mandated to provide?\n- What empirical or analogous regulatory evidence supports setting two\u2011hour\u2011delay compensation at 100% of the ticket price, and how might airlines and consumers adapt behavior or pricing if that threshold is perceived as misaligned with actual inconvenience?\n- How might airlines adapt their overbooking and capacity\u2011forecasting algorithms in response to a no\u2011bump mandate, and what dynamic economic simulations could regulators use to assess the net impact on consumer welfare, load factors, and operational resilience?"
+    },
+    "MT_14": {
+        "intervention_id": "MT_14",
+        "intervention": "MT: \"We have indeed required those products to have very large warnings on them, telling people about their salt and fat content\nAnd we don\u2019t allow them to say things which are misleading\nWe don\u2019t allow fatty products to say they're healthy\nI've got in front of me a letter from a credit card company\nThere are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers\nNow, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges\nAnd then very, very quickly you\u2019ll be lured into paying a very large charge\nDo you think it\u2019s responsible to encourage people to mis-read something like that?\nI\u2019ve got all the information there in front of me\nWhy is that irresponsible?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "CauseToEffect",
+            "ExpertOpinion",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What empirical evidence\u2014such as randomized trials, longitudinal cohort studies, or behavioral experiments\u2014exists about the effect of prominent, front\u2011page warning labels on consumer decision\u2011making and borrowing outcomes in credit\u2011card offers? Which outcome measures (e.g., reduction in promotional balance transfers, shifts in default rates, or self\u2011reported comprehension) did those studies use, and what were their findings?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "Is the comparison between food labeling and financial information fair? Are the two industries comparable in terms of their impact on consumers and the level of regulation required?",
+                    "label": "Useful",
+                    "similarity": 0.5021792650222778
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What economic trade\u2011offs and market distortions\u2014such as higher compliance and legal costs, reduced product differentiation, market exit by smaller issuers, or downstream price increases\u2014could result from mandating prominent warnings on all promotional APRs? How might those effects differ across large versus small issuers or niche versus mass\u2011market segments?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What specific products are being referred to, and what are the \"very large warnings\" on them?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5991529226303101
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What decision framework or criteria can regulators apply to distinguish between legally mandated, consumer\u2011protective disclosures and fine\u2011print language deliberately crafted to obscure key terms? Can we identify specific linguistic markers or structural patterns\u2014supported by consumer\u2011psychology insights or legal precedent\u2014that reliably flag deceptive obfuscation?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "Is the speaker's characterization of the credit card company's marketing practices accurate? Are the charges and fees clearly disclosed, or are they hidden in small print?",
+                    "label": "Unhelpful",
+                    "similarity": 0.545617401599884
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What empirical evidence\u2014such as randomized trials, longitudinal cohort studies, or behavioral experiments\u2014exists about the effect of prominent, front\u2011page warning labels on consumer decision\u2011making and borrowing outcomes in credit\u2011card offers? Which outcome measures (e.g., reduction in promotional balance transfers, shifts in default rates, or self\u2011reported comprehension) did those studies use, and what were their findings?\n- What economic trade\u2011offs and market distortions\u2014such as higher compliance and legal costs, reduced product differentiation, market exit by smaller issuers, or downstream price increases\u2014could result from mandating prominent warnings on all promotional APRs? How might those effects differ across large versus small issuers or niche versus mass\u2011market segments?\n- What decision framework or criteria can regulators apply to distinguish between legally mandated, consumer\u2011protective disclosures and fine\u2011print language deliberately crafted to obscure key terms? Can we identify specific linguistic markers or structural patterns\u2014supported by consumer\u2011psychology insights or legal precedent\u2014that reliably flag deceptive obfuscation?"
+    },
+    "Antanagoge_104": {
+        "intervention_id": "Antanagoge_104",
+        "intervention": "Antanagoge: \"The airline industry can not be left to selfmonitor this.\nStudies have shown that the quality of information from airline customer service department is highly variable and, in some cases, incomplete or inaccurate.\nThe psychological effects of this, combined with the risk of death, are significant.\nStories told by families of vacations never taken, of midair retraction of the promise by the airline that peanuts would not be served, of public humiliation of peanutallergic individuals and their family by airline staff, and of serious reactions in flight, abound.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "To what extent do existing studies on airline customer\u2010service communications systematically sample different carriers, routes, and inquiry types, and what additional randomized, longitudinal, or third\u2011party data would be needed to confirm their generalizability about information accuracy and completeness?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What are the specific studies that have shown the quality of information from airline customer service departments to be highly variable, incomplete, or inaccurate?",
+                    "label": "Useful",
+                    "similarity": 0.5880283117294312
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "Which mixed\u2011method research designs\u2014combining targeted passenger surveys, cabin\u2011crew incident logs, validated psychological scales, and in\u2011depth interviews\u2014best capture the frequency, severity, and emotional impact of in\u2011flight peanut exposures on allergic travelers and their companions?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "How do the experiences of peanut-allergic individuals and their families compare to those of individuals with other types of allergies or medical conditions?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5960619449615479
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Which performance indicators\u2014like average response time to allergy inquiries, rates of documented policy breaches, and third\u2011party audit scores\u2014would transparently track airline adherence to peanut\u2011allergy protocols, and what reporting formats and frequencies would keep regulators, consumers, and carriers accountable?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Are there any existing regulations or industry standards in place to address peanut allergies, and if so, are they inadequate or ineffective?",
+                    "label": "Useful",
+                    "similarity": 0.5251874327659607
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- To what extent do existing studies on airline customer\u2010service communications systematically sample different carriers, routes, and inquiry types, and what additional randomized, longitudinal, or third\u2011party data would be needed to confirm their generalizability about information accuracy and completeness?\n- Which mixed\u2011method research designs\u2014combining targeted passenger surveys, cabin\u2011crew incident logs, validated psychological scales, and in\u2011depth interviews\u2014best capture the frequency, severity, and emotional impact of in\u2011flight peanut exposures on allergic travelers and their companions?\n- Which performance indicators\u2014like average response time to allergy inquiries, rates of documented policy breaches, and third\u2011party audit scores\u2014would transparently track airline adherence to peanut\u2011allergy protocols, and what reporting formats and frequencies would keep regulators, consumers, and carriers accountable?"
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Beyond a single alert at T\u201330, what alternative notification protocols\u2014such as phased warnings at T\u201345, T\u201330, and T\u201315 minutes; automatic push updates upon status changes; or a live online dashboard\u2014could optimize the trade\u2011off between advance notice and information accuracy, and what are the pros and cons of each approach?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is it reasonable to expect airlines to notify passengers of delays within 30 minutes of becoming aware of them, considering the unpredictable nature of weather holds and maintenance issues?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5163205862045288
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the estimated costs for airlines to implement a 30\u2011minute delay\u2011notice system\u2014including IT upgrades, staff training, and potential compensation payouts\u2014and how do these costs compare to quantifiable passenger benefits such as fewer missed connections, reduced rebooking expenses, and improved loyalty or customer\u2011satisfaction scores?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is it reasonable to expect airlines to notify passengers of delays within 30 minutes of becoming aware of them, considering the unpredictable nature of weather holds and maintenance issues?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7248498201370239
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "How should \u201cknown delay\u201d be defined in precise, operational terms\u2014for example, minimum expected delay duration, required maintenance or weather confirmation, or passenger\u2011impact thresholds\u2014and what metrics and processes would ensure that definition is applied consistently across all airlines?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What is the definition of \"known\" delays, and how would airlines determine when a delay is certain enough to warrant notification?",
+                    "label": "Useful",
+                    "similarity": 0.8230080604553223
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- Beyond a single alert at T\u201330, what alternative notification protocols\u2014such as phased warnings at T\u201345, T\u201330, and T\u201315 minutes; automatic push updates upon status changes; or a live online dashboard\u2014could optimize the trade\u2011off between advance notice and information accuracy, and what are the pros and cons of each approach?\n- What are the estimated costs for airlines to implement a 30\u2011minute delay\u2011notice system\u2014including IT upgrades, staff training, and potential compensation payouts\u2014and how do these costs compare to quantifiable passenger benefits such as fewer missed connections, reduced rebooking expenses, and improved loyalty or customer\u2011satisfaction scores?\n- How should \u201cknown delay\u201d be defined in precise, operational terms\u2014for example, minimum expected delay duration, required maintenance or weather confirmation, or passenger\u2011impact thresholds\u2014and what metrics and processes would ensure that definition is applied consistently across all airlines?"
+    },
+    "TRUMP_70": {
+        "intervention_id": "TRUMP_70",
+        "intervention": "TRUMP: \"you go to her website\nyou take a look at her website\nShe 's going to raise taxes $ 1.3 trillion\nlook at her website\nYou know what ?\nIt 's no difference than this\nShe 's telling us how to fight ISIS\nJust go to her website\nShe tells you how to fight ISIS on her website\nI do n't think General Douglas MacArthur would like that too much\n...\nNo , no\nyou 're telling the enemy everything you want to do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PositionToKnow"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What established security\u2011classification frameworks or evaluation criteria do military and intelligence leaders use to distinguish open\u2011source policy proposals from genuine operational secrets, and how would those apply to her website content?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is it reasonable to assume that sharing information about military strategy on a website would necessarily compromise national security or inform the enemy of one's plans?",
+                    "label": "Useful",
+                    "similarity": 0.5776567459106445
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific wording or sections on her campaign website could plausibly be repurposed as step\u2011by\u2011step military tactics, as opposed to broad strategic or political messaging?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "Are there any other candidates or politicians who have shared their plans to fight ISIS or other enemies on their websites or in public forums, and if so, how does this differ from Clinton's approach?",
+                    "label": "Useful",
+                    "similarity": 0.5515626668930054
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "Which independent budget analyses or nonpartisan fiscal watchdog reports substantiate the claim of a $1.3\u00a0trillion tax increase, and how do they treat proposed offsets or revenue\u2011neutral mechanisms?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Are the claims about raising taxes by $1.3 trillion supported by credible sources or is it an exaggeration?",
+                    "label": "Useful",
+                    "similarity": 0.6182907819747925
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What established security\u2011classification frameworks or evaluation criteria do military and intelligence leaders use to distinguish open\u2011source policy proposals from genuine operational secrets, and how would those apply to her website content?\n- What specific wording or sections on her campaign website could plausibly be repurposed as step\u2011by\u2011step military tactics, as opposed to broad strategic or political messaging?\n- Which independent budget analyses or nonpartisan fiscal watchdog reports substantiate the claim of a $1.3\u00a0trillion tax increase, and how do they treat proposed offsets or revenue\u2011neutral mechanisms?"
+    },
+    "secretcurse__139": {
+        "intervention_id": "secretcurse__139",
+        "intervention": "secretcurse: \"The first debate was already limited to five people\nAccording to the FEC\n171 people have officially declared their candidacy for the Democratic Party nomination with the FEC (sort by party to see the 171 people a bit easier)\nDo you think every single one of the 171 people that have filed the paperwork with the FEC declaring their candidacy deserves their fair shot at expressing themselves at the first debate\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "ArgumentFromAuthority"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What assumptions about media impact, voter attention spans, and candidate viability underlie the belief that all 171 declared hopefuls deserve equal live debate time, and are those premises defensible given the realities of a televised format?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Would allowing all 171 candidates to participate in the debate lead to a more informative and engaging discussion, or would it be chaotic and confusing?",
+                    "label": "Useful",
+                    "similarity": 0.6391280889511108
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "In what ways could excluding the majority of FEC\u2011filed candidates shape voters\u2019 perceptions of the Democratic Party\u2019s openness, legitimacy, and inclusiveness\u2014especially among grassroots activists, minority communities, and undecided blocs?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How would the exclusion of certain candidates from the first debate impact the overall legitimacy and fairness of the nomination process?",
+                    "label": "Useful",
+                    "similarity": 0.5895079374313354
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "If every officially declared candidate took the debate stage, how might an expanded roster affect the depth, coherence, and continuity of substantive policy discussion\u2014and what procedural safeguards (e.g., pre\u2011debate issue committees or algorithmic time\u2011allocation tools) could prevent mere soundbite\u2011fest?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "What is the purpose of the debate, and is it to give every candidate a chance to speak, or to provide a meaningful discussion of the issues among the most viable candidates?",
+                    "label": "Unhelpful",
+                    "similarity": 0.718330442905426
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- What assumptions about media impact, voter attention spans, and candidate viability underlie the belief that all 171 declared hopefuls deserve equal live debate time, and are those premises defensible given the realities of a televised format?\n- In what ways could excluding the majority of FEC\u2011filed candidates shape voters\u2019 perceptions of the Democratic Party\u2019s openness, legitimacy, and inclusiveness\u2014especially among grassroots activists, minority communities, and undecided blocs?\n- If every officially declared candidate took the debate stage, how might an expanded roster affect the depth, coherence, and continuity of substantive policy discussion\u2014and what procedural safeguards (e.g., pre\u2011debate issue committees or algorithmic time\u2011allocation tools) could prevent mere soundbite\u2011fest?"
+    },
+    "ND_28": {
+        "intervention_id": "ND_28",
+        "intervention": "ND: \"In some ways I agree with you\nIf you want the economy to run smoothly, you have to incentivise certain types of behaviour.\nSo, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies\nOn the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt\nBut it certainly isn\u2019t the debts of the people who most need it in society\nFor productive investments. I agree with you.\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "If debt relief were expanded to additional social groups or sectors, how would you mitigate the risk of moral hazard, overborrowing, or erosion of public fiscal discipline, and what policy designs would embed prudent borrowing incentives?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "Are there any potential negative consequences of incentivizing certain types of behavior through economic policies, and how would these be mitigated?",
+                    "label": "Useful",
+                    "similarity": 0.5706706047058105
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific monitoring and accountability mechanisms would you implement to ensure that beneficiaries of debt relief allocate funds to productive, growth\u2011enhancing activities rather than immediate consumption or speculative uses?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "How do the speaker's points about incentivizing behavior and debt relief relate to the broader goal of a smoothly running economy?",
+                    "label": "Useful",
+                    "similarity": 0.5277513861656189
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What criteria and empirical indicators will you use to select behaviors for incentive programs, and how will you verify that those targeted behaviors translate into sustained improvements in economic growth and resilience?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What is the evidence that incentivizing certain types of behavior leads to a smoothly running economy?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6491909027099609
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- If debt relief were expanded to additional social groups or sectors, how would you mitigate the risk of moral hazard, overborrowing, or erosion of public fiscal discipline, and what policy designs would embed prudent borrowing incentives?\n- What specific monitoring and accountability mechanisms would you implement to ensure that beneficiaries of debt relief allocate funds to productive, growth\u2011enhancing activities rather than immediate consumption or speculative uses?\n- What criteria and empirical indicators will you use to select behaviors for incentive programs, and how will you verify that those targeted behaviors translate into sustained improvements in economic growth and resilience?"
+    },
+    "CLINTON_186": {
+        "intervention_id": "CLINTON_186",
+        "intervention": "CLINTON: \"there are a number of issues that we should be addressing\nI have put forth a plan to defeat ISIS\nIt does involve going after them online\nwe need to do much more with our tech companies to prevent ISIS and their operatives from being able to use the Internet to radicalize , even direct people in our country and Europe and elsewhere\neventually support our Arab and Kurdish partners to be able to actually take out ISIS in Raqqa\nend their claim of being a Caliphate\nWe 're making progress\nOur military is assisting in Iraq\nwe 're hoping that within the year we 'll be able to push ISIS out of Iraq\nreally squeeze them in Syria\nwe have to be cognizant of the fact that they 've had foreign fighters coming to volunteer for them\nforeign money\nforeign weapons\nwe have to make this the top priority\nI would also do everything possible to take out their leadership\nI was involved in a number of efforts to take out Al Qaida leadership when I was secretary of state\nincluding , of course , taking out bin Laden\nwe need to go after Baghdadi , as well\nmake that one of our organizing principles\nwe 've got to defeat ISIS\nwe 've got to do everything we can to disrupt their propaganda efforts online\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "VerbalClassification",
+            "Values",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What quantitative and qualitative metrics, data sources, and evaluation timelines will be used to determine whether efforts to disrupt ISIS\u2019s online networks actually reduce recruitment and operational planning, rather than merely displacing these activities to less visible or encrypted platforms?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What is the specific plan to \"go after\" ISIS online, and how would it be implemented?",
+                    "label": "Useful",
+                    "similarity": 0.542393147945404
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What precise benchmarks on command cohesion, adherence to international humanitarian law, civil\u2011military coordination, resource distribution, and representation of local communities will indicate that Arab and Kurdish partner forces are prepared to lead the operation in Raqqa without intensifying ethnic tensions or sparking insurgent backlash?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What is the current status of Clinton's proposed plan to support Arab and Kurdish partners in taking out ISIS in Raqqa, and what specific actions has she taken or will take to make this happen?",
+                    "label": "Useful",
+                    "similarity": 0.5165010690689087
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "Which independent monitoring bodies, reporting protocols, and accountability frameworks will be established to investigate and remediate allegations of human\u2011rights abuses by coalition\u2011backed ground forces, and how will findings inform operational adjustments to minimize civilian harm and reduce the risk of fueling further radicalization?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the evidence that the current military efforts in Iraq are making progress, and what are the metrics for measuring success?",
+                    "label": "Useful",
+                    "similarity": 0.46759170293807983
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What quantitative and qualitative metrics, data sources, and evaluation timelines will be used to determine whether efforts to disrupt ISIS\u2019s online networks actually reduce recruitment and operational planning, rather than merely displacing these activities to less visible or encrypted platforms?\n- What precise benchmarks on command cohesion, adherence to international humanitarian law, civil\u2011military coordination, resource distribution, and representation of local communities will indicate that Arab and Kurdish partner forces are prepared to lead the operation in Raqqa without intensifying ethnic tensions or sparking insurgent backlash?\n- Which independent monitoring bodies, reporting protocols, and accountability frameworks will be established to investigate and remediate allegations of human\u2011rights abuses by coalition\u2011backed ground forces, and how will findings inform operational adjustments to minimize civilian harm and reduce the risk of fueling further radicalization?"
+    },
+    "MT_40": {
+        "intervention_id": "MT_40",
+        "intervention": "MT: \"I don\u2019t think you just said the opposite of them was neutral\nSo if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?\nBut, hold on\nIsn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nTherefore isn\u2019t it a reasonable thing for the state to intervene in those cases\nbecause the knowledge is bounded?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence supports the assumption that individuals lack the cognitive and financial literacy necessary for complex financial decisions, and how do variations in education, socioeconomic status, or access to advice challenge the claim that knowledge is inherently \"bounded\"?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "How does the argument account for individual differences in knowledge and decision-making abilities?",
+                    "label": "Useful",
+                    "similarity": 0.5390030145645142
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "How can the proposed intervention be designed to mitigate unintended consequences\u2014such as moral hazard, reduced consumer confidence in simple transactions, or new information asymmetries\u2014and what monitoring and evaluation framework would detect and correct these effects early?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Are there any potential negative consequences of state intervention in cases of bounded knowledge that should be considered?",
+                    "label": "Useful",
+                    "similarity": 0.5333240628242493
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What measurable criteria or cognitive tests can compare the decision\u2011making demands of buying a coffee versus selecting a long\u2011term interest rate, and how might cultural norms, habitual behavior, or technology tools alter this distinction across different groups?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "How does the comparison between buying a cup of coffee and working up a long-term interest rate relate to the issue of state intervention?",
+                    "label": "Useful",
+                    "similarity": 0.6348503828048706
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What evidence supports the assumption that individuals lack the cognitive and financial literacy necessary for complex financial decisions, and how do variations in education, socioeconomic status, or access to advice challenge the claim that knowledge is inherently \"bounded\"?\n- How can the proposed intervention be designed to mitigate unintended consequences\u2014such as moral hazard, reduced consumer confidence in simple transactions, or new information asymmetries\u2014and what monitoring and evaluation framework would detect and correct these effects early?\n- What measurable criteria or cognitive tests can compare the decision\u2011making demands of buying a coffee versus selecting a long\u2011term interest rate, and how might cultural norms, habitual behavior, or technology tools alter this distinction across different groups?"
+    },
+    "CL_8": {
+        "intervention_id": "CL_8",
+        "intervention": "CL: \"Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?\nThey have absolutely very little choice except to take the terms that are being offered to them\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "DirectAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Prior to finalizing the agreement, what exact feedback mechanisms (surveys, interviews, focus groups) did you employ to gather participants\u2019 concerns, and how did that feedback alter the final terms?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "Is the speaker's definition of \"choice\" realistic, given the circumstances of the people involved? Are they truly able to make an informed decision, or are they being coerced by their circumstances?",
+                    "label": "Invalid",
+                    "similarity": 0.41951167583465576
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "From the participants\u2019 perspective, how might these terms be perceived as equitable or advantageous, and what criteria would they use to judge fairness?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What are the \"terms that are being offered to them\" and are they truly unfair or unreasonable?",
+                    "label": "Invalid",
+                    "similarity": 0.6869806051254272
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 2,
+                "cq": "What specific data or case studies can you provide that demonstrate participants truly had no viable alternative options or bargaining power when accepting these terms?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Are there any alternative options available to these individuals, or are they truly limited to accepting the terms being offered?",
+                    "label": "Useful",
+                    "similarity": 0.6276081800460815
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- Prior to finalizing the agreement, what exact feedback mechanisms (surveys, interviews, focus groups) did you employ to gather participants\u2019 concerns, and how did that feedback alter the final terms?\n- From the participants\u2019 perspective, how might these terms be perceived as equitable or advantageous, and what criteria would they use to judge fairness?\n- What specific data or case studies can you provide that demonstrate participants truly had no viable alternative options or bargaining power when accepting these terms?"
+    },
+    "CLINTON_130_1": {
+        "intervention_id": "CLINTON_130_1",
+        "intervention": "CLINTON: \"I've heard Donald say this at his rallies\nit's really unfortunate that he paints such a dire negative picture of black communities in our country\nthe vibrancy of the black church\nthe black businesses that employ so many people\nthe opportunities that so many families are working to provide for their kids\nThere's a lot that we should be proud of and we should be supporting and lifting up\nwe do always have to make sure we keep people safe\nThere are the right ways of doing it\nthen there are ways that are ineffective\nStop-and-frisk was found to be unconstitutional\nin part, because it was ineffective\nIt did not do what it needed to do\nI believe in community policing\nin fact, violent crime is one-half of what it was in 1991\nProperty crime is down 40 percent\nWe just don't want to see it creep back up\nWe've had 25 years of very good cooperation\nthere were some problems\nsome unintended consequences\nToo many young African-American and Latino men ended up in jail for nonviolent offenses\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CauseToEffect",
+            "Example",
+            "Consequences",
+            "VerbalClassification",
+            "Alternatives"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "To what degree can the 50\u00a0percent drop in violent crime and 40\u00a0percent reduction in property crime since 1991 be causally attributed to policing strategies\u2014such as community policing or crime\u2011mapping technologies\u2014versus other factors like demographic shifts, economic cycles, or advances in surveillance, and what research design will isolate these drivers?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What is the basis for Clinton's claim that violent crime is one-half of what it was in 1991, and property crime is down 40 percent? Is this based on national data or specific to certain cities or regions?",
+                    "label": "Useful",
+                    "similarity": 0.5319948792457581
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "How will the broad goal of \u201ckeeping people safe\u201d be defined through measurable metrics\u2014such as changes in crime rates, civilian\u2011complaint volumes, and residents\u2019 perceived security\u2014and what pre\u2011set thresholds for civil\u2011rights impacts (for example, disproportional stop\u2011and\u2011search rates) will trigger policy reviews or course corrections?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "How does Clinton plan to balance the need to \"keep people safe\" with the need to address the concerns of communities of color who may feel targeted or marginalized by law enforcement practices?",
+                    "label": "Useful",
+                    "similarity": 0.5474002361297607
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "Aside from policing reforms, what prioritized investments\u2014in early childhood education, workforce development, community health centers, affordable housing, or youth mentorship\u2014are planned to address the root causes of crime, and how will their effectiveness be measured and integrated with public\u2011safety outcomes?",
+                "matched_reference": {
+                    "index": 24,
+                    "cq": "How does Clinton's focus on community policing and reducing crime rates address the root causes of the problems in black communities?",
+                    "label": "Useful",
+                    "similarity": 0.5555505752563477
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- To what degree can the 50\u00a0percent drop in violent crime and 40\u00a0percent reduction in property crime since 1991 be causally attributed to policing strategies\u2014such as community policing or crime\u2011mapping technologies\u2014versus other factors like demographic shifts, economic cycles, or advances in surveillance, and what research design will isolate these drivers?\n- How will the broad goal of \u201ckeeping people safe\u201d be defined through measurable metrics\u2014such as changes in crime rates, civilian\u2011complaint volumes, and residents\u2019 perceived security\u2014and what pre\u2011set thresholds for civil\u2011rights impacts (for example, disproportional stop\u2011and\u2011search rates) will trigger policy reviews or course corrections?\n- Aside from policing reforms, what prioritized investments\u2014in early childhood education, workforce development, community health centers, affordable housing, or youth mentorship\u2014are planned to address the root causes of crime, and how will their effectiveness be measured and integrated with public\u2011safety outcomes?"
+    },
+    "kateinhawaii_103": {
+        "intervention_id": "kateinhawaii_103",
+        "intervention": "kateinhawaii: \"I personally have suffered from peanut allergies for over 40 years.\nIf there are packaged peanuts served on board a flight, it's 100% guaranteed that I will have a reaction from the peanut dust.\nI do not agree with a buffer zone for a couple of reasons.\nFor me, it's the dust in the air.\nSomeone posted that the air circulates peanut dust right out of the air\nbut apparently not quick enough to prevent a life threatening reaction.\nYou know, airlines tried to create nonsmoking zones on airplanes but that didn't work either.\nI have been on flights where nasty (and do I mean NASTY) flight attendants have made sarcastic remarks about me and my allergies especially on one Delta flight.\nNorthwest was great\nbecause they respected their passengers enough to address their concerns\nand prohibited peanuts altogether.\nIt was as much a relief to walk onto one of their flights as it was to walk onto one of the first smoke free flights!\nSmokers use to use the same logic and reasoning to justify smoking on flights as these peanut proponents are using now.\nI flew on many smoking flights and never needed to inject myself so that I could breathe\nI can't say the same for flights with peanuts.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How do the physical properties (particle size, dispersion pattern, clearance rate) and health impacts of airborne peanut proteins compare to those of secondhand tobacco smoke particulates in aircraft cabins, and what do these comparisons imply for the validity and limits of applying \"no-smoking\"-style regulations to food allergen exposure?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "Is the analogy between peanut allergies and smoking on flights a valid one, or are there significant differences between the two?",
+                    "label": "Useful",
+                    "similarity": 0.7392608523368835
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Which combinations of enhanced cabin-cleaning protocols (e.g., allergen-targeted detergents, deep-clean cycles between flights), upgraded HEPA filtration systems, and modified snack-distribution timing have been pilot-tested to reduce airborne peanut allergen exposure, and what quantitative reductions in allergen levels and passenger reaction incidents did each approach achieve compared to flights without a peanut ban?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the basis for the author's assertion that Northwest Airlines' policy of prohibiting peanuts altogether was effective in addressing their concerns, and is this a viable solution for all airlines?",
+                    "label": "Useful",
+                    "similarity": 0.49670037627220154
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "How can airlines stratify passenger risk by peanut-allergy severity (via medical declarations, physician notes, or on-board assessments) to design differentiated in-flight policies that protect the most vulnerable passengers while preserving reasonable snack choices for others, and what trade-offs in enforcement complexity and cost does such stratification entail?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Are there any alternative solutions to prohibiting peanuts on flights that could accommodate both peanut allergy sufferers and peanut enthusiasts?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6377815008163452
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- How do the physical properties (particle size, dispersion pattern, clearance rate) and health impacts of airborne peanut proteins compare to those of secondhand tobacco smoke particulates in aircraft cabins, and what do these comparisons imply for the validity and limits of applying \"no-smoking\"-style regulations to food allergen exposure?\n- Which combinations of enhanced cabin-cleaning protocols (e.g., allergen-targeted detergents, deep-clean cycles between flights), upgraded HEPA filtration systems, and modified snack-distribution timing have been pilot-tested to reduce airborne peanut allergen exposure, and what quantitative reductions in allergen levels and passenger reaction incidents did each approach achieve compared to flights without a peanut ban?\n- How can airlines stratify passenger risk by peanut-allergy severity (via medical declarations, physician notes, or on-board assessments) to design differentiated in-flight policies that protect the most vulnerable passengers while preserving reasonable snack choices for others, and what trade-offs in enforcement complexity and cost does such stratification entail?"
+    },
+    "TRUMP_174_1": {
+        "intervention_id": "TRUMP_174_1",
+        "intervention": "TRUMP: \"I would love to respond\nI got to watch in preparing for this some of your debates against Barack Obama\nYou treated him with terrible disrespect\nI watched the way you talk now about how lovely everything is and how wonderful you are\nIt does n't work that way\nYou were after him\nyou were trying to\u2014you even sent out or your campaign sent out pictures of him in a certain garb , very famous pictures\nI do n't think you can deny that\njust last week , your campaign manager said it was true\nwhen you tried to act holier than thou , it really does n't work\nas far as the lawsuit , yes , when I was very young , I went into my father 's company , had a real estate company in Brooklyn and Queens , and we , along with many , many other companies throughout the country\u2014it was a federal lawsuit\u2014were sued\nWe settled the suit with zero\u2014with no admission of guilt\nIt was very easy to do\nI notice you bring that up a lot\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "Sign",
+            "PositionToKnow",
+            "VerbalClassification",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Can you cite examples where shifts in your campaign\u2019s tone both genuinely reflected your convictions and were simultaneously calibrated to appeal to specific voter blocs, and how do you balance authenticity with strategic messaging?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "What specific instances of disrespect did Trump witness in the debates against Barack Obama, and are they accurately represented?",
+                    "label": "Useful",
+                    "similarity": 0.43415331840515137
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How does describing your federal discrimination\u2011suit settlement as \u201cvery easy\u201d gloss over the legal hurdles, financial costs, and ethical considerations typically involved, and what factors led you to accept that deal?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "What is the significance of Trump's statement that he settled the lawsuit with \"zero\u2014with no admission of guilt\"? Does this imply that he is innocent of any wrongdoing, or is he simply trying to spin the situation to his advantage?",
+                    "label": "Useful",
+                    "similarity": 0.43562522530555725
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "What specific behaviors or language patterns define \u201crespectful debate\u201d versus \u201cpersonal attacks,\u201d and which of Governor Romney\u2019s past remarks would you classify as crossing your own threshold of disrespect?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "Is Trump's tone and language in this response respectful and constructive, or is it confrontational and divisive?",
+                    "label": "Invalid",
+                    "similarity": 0.6526529788970947
+                },
+                "label": "Invalid"
+            }
+        ],
+        "full_response": "- Can you cite examples where shifts in your campaign\u2019s tone both genuinely reflected your convictions and were simultaneously calibrated to appeal to specific voter blocs, and how do you balance authenticity with strategic messaging?\n- How does describing your federal discrimination\u2011suit settlement as \u201cvery easy\u201d gloss over the legal hurdles, financial costs, and ethical considerations typically involved, and what factors led you to accept that deal?\n- What specific behaviors or language patterns define \u201crespectful debate\u201d versus \u201cpersonal attacks,\u201d and which of Governor Romney\u2019s past remarks would you classify as crossing your own threshold of disrespect?"
+    },
+    "travellots_133_2": {
+        "intervention_id": "travellots_133_2",
+        "intervention": "travellots: \"If compensation is not high enough, the airlines will not have an incentive to schedule properly.\nIt is not fair to allow airlines to discriminate against lower fared passengers or \"free\" passengers\nsince it is the airline, not the passenger or government, who gave that passenger a seat.\nOtherwise, airlines can advertise low fares or con you into using them to build up your \"miles\" and then always bump you for someone who paid more.\nIn away,it is the same as being able to increase your ticket price anytime after purchase.\nWhen you are bumped, there are a lot of hidden extra costs\nIt irks me that airlines seem to be treating passengers more and more as if they have nothing better to do but wait around in airports and not get to where the airline promised to bring them.\nAgain, the airline sets the agreed price or miles for a seat, no one else.\nThe incentives to the airline should be to get all confirmed passengers (regardless of price paid) to the destination promised.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific enforcement and oversight tools\u2014real\u2011time audit dashboards, automated passenger\u2011claim platforms, performance\u2011based fines, third\u2011party compliance reviews\u2014are necessary to ensure airlines treat all confirmed passengers equally, and what are the projected implementation costs and workflow impacts for both carriers and regulators?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Is it reasonable to expect airlines to prioritize getting all confirmed passengers to their destination, regardless of price paid, when there are other factors that may affect flight operations?",
+                    "label": "Useful",
+                    "similarity": 0.5831857919692993
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Which empirical studies or airline case examples demonstrate that raising involuntary bump compensation directly leads to measurable improvements in flight scheduling and on\u2011time performance, and how robust are those findings once you control for external factors like seasonal demand or fleet changes?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "Are there any alternative solutions to high compensation that could address the concerns around bumping passengers?",
+                    "label": "Useful",
+                    "similarity": 0.6064331531524658
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How might enhanced bump\u2011compensation requirements and anti\u2011reprioritization rules impact the financial viability and service continuity of regional or ultra\u2011low\u2011cost carriers on thin or seasonal routes, and what alternative business models (e.g., dynamic overbooking, ancillary\u2011fee bundling) could they pursue to maintain operations?",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "Are there any potential unintended consequences of mandating high compensation for bumped passengers, such as increased ticket prices or reduced route offerings?",
+                    "label": "Invalid",
+                    "similarity": 0.6607062816619873
+                },
+                "label": "Invalid"
+            }
+        ],
+        "full_response": "- What specific enforcement and oversight tools\u2014real\u2011time audit dashboards, automated passenger\u2011claim platforms, performance\u2011based fines, third\u2011party compliance reviews\u2014are necessary to ensure airlines treat all confirmed passengers equally, and what are the projected implementation costs and workflow impacts for both carriers and regulators?\n- Which empirical studies or airline case examples demonstrate that raising involuntary bump compensation directly leads to measurable improvements in flight scheduling and on\u2011time performance, and how robust are those findings once you control for external factors like seasonal demand or fleet changes?\n- How might enhanced bump\u2011compensation requirements and anti\u2011reprioritization rules impact the financial viability and service continuity of regional or ultra\u2011low\u2011cost carriers on thin or seasonal routes, and what alternative business models (e.g., dynamic overbooking, ancillary\u2011fee bundling) could they pursue to maintain operations?"
+    },
+    "dberger_74_2": {
+        "intervention_id": "dberger_74_2",
+        "intervention": "dberger: \"Other airlines with advance notice will not serve nuts\nbut all airlines allow passengers to bring on foods including nuts\nand will not stop the person from eating them if they wish to.\nSo you can have a 'nut free' flight and the person sitting next to you can take out their package of peanuts and eat away\nand the airlines will do nothing to help you.\nAgain all nuts should be banned from airplanes unless it is your own private plane  then go ahead and eat what you want.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "In what ways might a blanket nut ban adversely affect passengers who rely on nuts for documented medical or dietary needs (for instance, hypoglycemia management or high\u2011protein regimens), and what reasonable accommodation protocols could mitigate those unintended health or compliance issues?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "Are there other solutions that could be implemented to protect passengers with severe nut allergies?",
+                    "label": "Useful",
+                    "similarity": 0.7466170787811279
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What additional direct and indirect operational costs\u2014such as investments in screening equipment, lost concession revenue, extra staff hours\u2014and what specialized training programs would airlines incur to implement and sustain a strictly nut\u2011free cabin environment?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Would a ban on nuts on airplanes be enforceable, or would it be difficult to police and lead to conflicts between passengers and airline staff?",
+                    "label": "Useful",
+                    "similarity": 0.5256844162940979
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "In what ways could strict scrutiny of personal food choices (for example, mandatory declarations or spot checks) influence passenger trust in airline policies, perceptions of service quality, and their future willingness to fly with or recommend those carriers?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is it fair to compare a commercial airplane to a private plane in terms of food policies?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5285100340843201
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "- In what ways might a blanket nut ban adversely affect passengers who rely on nuts for documented medical or dietary needs (for instance, hypoglycemia management or high\u2011protein regimens), and what reasonable accommodation protocols could mitigate those unintended health or compliance issues?\n- What additional direct and indirect operational costs\u2014such as investments in screening equipment, lost concession revenue, extra staff hours\u2014and what specialized training programs would airlines incur to implement and sustain a strictly nut\u2011free cabin environment?\n- In what ways could strict scrutiny of personal food choices (for example, mandatory declarations or spot checks) influence passenger trust in airline policies, perceptions of service quality, and their future willingness to fly with or recommend those carriers?"
+    },
+    "TRUMP_240_2": {
+        "intervention_id": "TRUMP_240_2",
+        "intervention": "TRUMP: \"by the way , another one powerful is the worst deal I think I 've ever seen negotiated that you started is the Iran deal\nIran is one of their biggest trading partners\nIran has power over North Korea\nwhen they made that horrible deal with Iran , they should have included the fact that they do something with respect to North Korea\nthey should have done something with respect to Yemen and all these other places\nwhen asked to Secretary Kerry , why did n't you do that ?\nWhy did n't you add other things into the deal ?\nOne of the great giveaways of all time , of all time , including $ 400 million in cash\nNobody 's ever seen that before\nThat turned out to be wrong\nIt was actually $ 1.7 billion in cash\nobviously , I guess for the hostages\nIt certainly looks that way\nThis is one of the worst deals ever made by any country in history\nyou say to yourself , why did n't they make the right deal ?\nThe deal with Iran will lead to nuclear problems\nAll they have to do is sit back 10 years , and they do n't have to do much\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "CircumstantialAdHominem",
+            "Consequences",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What objective metrics\u2014such as reductions in enriched\u2011uranium stockpiles, centrifuge dismantlement counts, frequency and scope of inspections, and specified sanctions\u2011relief thresholds\u2014would one use to substantiate the characterization of the JCPOA as \u201cthe worst deal ever,\u201d and how do those same metrics compare to benchmarks applied in earlier arms\u2011control agreements like New START or the INF Treaty?",
+                "matched_reference": {
+                    "index": 29,
+                    "cq": "How does the deal with Iran compare to other international agreements or deals in terms of its provisions and outcomes? Is it truly \"one of the worst deals ever made by any country in history\"?",
+                    "label": "Useful",
+                    "similarity": 0.5472921133041382
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "How do international\u2011law scholars and precedent cases characterize the $1.7 billion payment to Iran\u2014do they frame it as a standard diplomatic claim settlement, a quid pro quo tied to hostages, or an extraordinary concession\u2014and what analogous transactions can be found in previous U.S. government settlement histories?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "Is the payment of $1.7 billion in cash a \"giveaway\" or a legitimate payment for the release of hostages, and what is the evidence for either interpretation?",
+                    "label": "Useful",
+                    "similarity": 0.6559345722198486
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Which primary sources\u2014declassified U.S. memoranda, Iranian transaction records, or sworn testimonies\u2014demonstrate whether the $1.7 billion cash transfer was explicitly conditional on the release of U.S. hostages versus representing the settlement of a separate legal claim, and how have U.S. and Iranian officials respectively described that relationship?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "Is the payment of $1.7 billion in cash a \"giveaway\" or a legitimate payment for the release of hostages, and what is the evidence for either interpretation?",
+                    "label": "Useful",
+                    "similarity": 0.6535522937774658
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What objective metrics\u2014such as reductions in enriched\u2011uranium stockpiles, centrifuge dismantlement counts, frequency and scope of inspections, and specified sanctions\u2011relief thresholds\u2014would one use to substantiate the characterization of the JCPOA as \u201cthe worst deal ever,\u201d and how do those same metrics compare to benchmarks applied in earlier arms\u2011control agreements like New START or the INF Treaty?\n- How do international\u2011law scholars and precedent cases characterize the $1.7 billion payment to Iran\u2014do they frame it as a standard diplomatic claim settlement, a quid pro quo tied to hostages, or an extraordinary concession\u2014and what analogous transactions can be found in previous U.S. government settlement histories?\n- Which primary sources\u2014declassified U.S. memoranda, Iranian transaction records, or sworn testimonies\u2014demonstrate whether the $1.7 billion cash transfer was explicitly conditional on the release of U.S. hostages versus representing the settlement of a separate legal claim, and how have U.S. and Iranian officials respectively described that relationship?"
+    },
+    "CLINTON_176_2": {
+        "intervention_id": "CLINTON_176_2",
+        "intervention": "CLINTON: \"we recently have learned that, you know, that this is one of their preferred methods of trying to wreak havoc and collect information\nWe need to make it very clear\u2014whether it's Russia, China, Iran or anybody else\u2014the United States has much greater capacity\nwe are not going to sit idly by and permit state actors to go after our information, our private-sector information or our public-sector information\n we're going to have to make it clear that we don't want to use the kinds of tools that we have\nWe don't want to engage in a different kind of warfare\nwe will defend the citizens of this country\n the Russians need to understand that\n they've been treating it as almost a probing, how far would we go, how much would we do\nI was so shocked when Donald publicly invited Putin to hack into Americans\nThat is just unacceptable\"",
+        "dataset": "US2016",
+        "schemes": [
+            "DangerAppeal",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the declaration that \u201cwe don\u2019t want to use the kinds of tools that we have\u201d leave adversaries uncertain about where U.S. red lines truly lie, and in what ways could they exploit that ambiguity to mount increasingly bold probes without triggering a clear retaliatory threshold?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What are the potential consequences of the US taking a more aggressive stance against state actors who engage in cyber attacks, and how might this escalate into a larger conflict?",
+                    "label": "Useful",
+                    "similarity": 0.4928908348083496
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "Given the technical and political complexities of cyber\u2011forensics, what is our margin of error when attributing a major intrusion to a specific state actor, and what strategic, legal, or diplomatic fallout could occur if we publicly respond to an incident that later proves misattributed?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What are the potential consequences of the US taking a more aggressive stance against state actors who engage in cyber attacks, and how might this escalate into a larger conflict?",
+                    "label": "Useful",
+                    "similarity": 0.6748466491699219
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What verifiable indicators\u2014such as budget allocations, organizational structure, demonstrated operations, or open\u2011source intelligence\u2014substantiate the claim that the United States holds \u201cmuch greater capacity\u201d for cyber operations than Russia, China, or Iran, and how might unrecognized strengths, asymmetric tactics, or rapid innovation by these rivals erode our deterrence advantage?",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What is the basis for the claim that the United States has a \"much greater capacity\" to engage in cyber warfare, and how does this capacity compare to that of other nations?",
+                    "label": "Useful",
+                    "similarity": 0.7862576842308044
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does the declaration that \u201cwe don\u2019t want to use the kinds of tools that we have\u201d leave adversaries uncertain about where U.S. red lines truly lie, and in what ways could they exploit that ambiguity to mount increasingly bold probes without triggering a clear retaliatory threshold?\n- Given the technical and political complexities of cyber\u2011forensics, what is our margin of error when attributing a major intrusion to a specific state actor, and what strategic, legal, or diplomatic fallout could occur if we publicly respond to an incident that later proves misattributed?\n- What verifiable indicators\u2014such as budget allocations, organizational structure, demonstrated operations, or open\u2011source intelligence\u2014substantiate the claim that the United States holds \u201cmuch greater capacity\u201d for cyber operations than Russia, China, or Iran, and how might unrecognized strengths, asymmetric tactics, or rapid innovation by these rivals erode our deterrence advantage?"
+    },
+    "CLINTON_87": {
+        "intervention_id": "CLINTON_87",
+        "intervention": "CLINTON: \"I happen to support that in a way that will actually work to our benefit\nwhen I look at what you have proposed , you have what is called now the Trump loophole\nit would so advantage you and the business you do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Bias"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific guardrails\u2014such as sunset clauses, mandatory periodic reviews, or tiered thresholds\u2014could be embedded in the amended policy to prevent the emergence of equivalent loopholes or new advantages, and how often should these safeguards be revisited and adjusted?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "How does Clinton's proposal address the issues that she claims are problematic in Trump's proposal? What specific measures does she propose to prevent the kinds of advantages she accuses Trump of seeking?",
+                    "label": "Useful",
+                    "similarity": 0.40645483136177063
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How would eliminating the loophole alter projected compliance costs\u2014broken down by fixed versus variable expenses and by firm size\u2014and what new administrative or procedural burdens might arise in reporting, monitoring, or enforcement?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Is Clinton's characterization of the proposal as a \"loophole\" accurate, or is it a biased interpretation?",
+                    "label": "Useful",
+                    "similarity": 0.381735622882843
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What quantitative and qualitative evidence indicates that these provisions disproportionately benefit particular businesses over the broader group\u2014such as shifts in market share, revenue projections, or compliance outcomes\u2014and what primary data sources support these assessments?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the \"Trump loophole\" that Clinton is referring to? How does it specifically advantage Trump and his business, and what are the implications of this loophole?",
+                    "label": "Useful",
+                    "similarity": 0.39843878149986267
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What specific guardrails\u2014such as sunset clauses, mandatory periodic reviews, or tiered thresholds\u2014could be embedded in the amended policy to prevent the emergence of equivalent loopholes or new advantages, and how often should these safeguards be revisited and adjusted?\n- How would eliminating the loophole alter projected compliance costs\u2014broken down by fixed versus variable expenses and by firm size\u2014and what new administrative or procedural burdens might arise in reporting, monitoring, or enforcement?\n- What quantitative and qualitative evidence indicates that these provisions disproportionately benefit particular businesses over the broader group\u2014such as shifts in market share, revenue projections, or compliance outcomes\u2014and what primary data sources support these assessments?"
+    },
+    "CLINTON_21": {
+        "intervention_id": "CLINTON_21",
+        "intervention": "CLINTON: \"nine million people lost their jobs\nFive million people lost their homes\n$ 13 trillion in family wealth was wiped out\nNow , we have come back from that abyss\nit has not been easy\nwe 're now on the precipice of having a potentially much better economy\nthe last thing we need to do is to go back to the policies that failed us in the first place\nIndependent experts have looked at what I 've proposed\nlooked at what Donald 's proposed\nI intend to get it done\nTake clean energy\nSome country is going to be the clean- energy superpower of the 21st century\nDonald thinks that climate change is a hoax perpetrated by the Chinese\nI think it 's real\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the key causal mechanisms by which your policy proposals will deliver superior economic and energy outcomes compared to current policies, and what specific monitoring frameworks, early\u2011warning indicators, and decision\u2011making processes will you implement to identify underperformance and trigger timely adjustments?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "How does Clinton's proposal address the issue of climate change, and what specific policies does she propose to mitigate its effects?",
+                    "label": "Useful",
+                    "similarity": 0.4704861342906952
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Which specific policies from the 2008\u20132009 crisis period do you classify as failures, and what empirical studies or counterfactual analyses demonstrate their isolated negative impacts\u2014distinct from concurrent global trends or external factors?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What are the \"policies that failed us in the first place\" that Clinton is referring to, and how does she propose to avoid repeating them?",
+                    "label": "Useful",
+                    "similarity": 0.4468611478805542
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "How do you define \u201creturning from the abyss,\u201d and which precise economic indicators\u2014such as real median household income, unemployment rates by demographic group, or private investment levels\u2014will you track over what time horizon to demonstrate a sustainable, resilient recovery rather than a temporary rebound?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "How does Clinton's proposal address the root causes of the previous economic crisis, and what specific policies does she propose to prevent another crisis?",
+                    "label": "Useful",
+                    "similarity": 0.4124598503112793
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What are the key causal mechanisms by which your policy proposals will deliver superior economic and energy outcomes compared to current policies, and what specific monitoring frameworks, early\u2011warning indicators, and decision\u2011making processes will you implement to identify underperformance and trigger timely adjustments?\n- Which specific policies from the 2008\u20132009 crisis period do you classify as failures, and what empirical studies or counterfactual analyses demonstrate their isolated negative impacts\u2014distinct from concurrent global trends or external factors?\n- How do you define \u201creturning from the abyss,\u201d and which precise economic indicators\u2014such as real median household income, unemployment rates by demographic group, or private investment levels\u2014will you track over what time horizon to demonstrate a sustainable, resilient recovery rather than a temporary rebound?"
+    },
+    "CLINTON_223_1": {
+        "intervention_id": "CLINTON_223_1",
+        "intervention": "CLINTON: \"Let 's talk about two important issues that were briefly mentioned by Donald\nfirst , NATO\nNATO as a military alliance has something called Article 5\nyou know the only time it 's ever been invoked ?\nAfter 9/11 , when the 28 nations of NATO said that they would go to Afghanistan with us to fight terrorism\nsomething that they still are doing by our side\nWith respect to Iran , when I became secretary of state , Iran was weeks away from having enough nuclear material to form a bomb\nThey had mastered the nuclear fuel cycle under the Bush administration\nThey had built covert facilities\nThey had stocked them with centrifuges that were whirling away\nwe had sanctioned them\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "Sign"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "During internal policy deliberations, what worst\u2011case scenarios and unintended consequences (for example, escalation with regional proxies or disruption of global oil markets) were identified for potential military strikes on Iran\u2019s nuclear facilities, and how did decision\u2011makers balance these projected costs against the goal of preempting rapid weaponization?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Could USA sanctioning Iran have consequences that we should take into account? Is it practically possible?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5533604025840759
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What primary sources\u2014NATO communiqu\u00e9s, defense\u2011minister meeting minutes, or operational after\u2011action reviews\u2014demonstrate that the invocation of Article\u00a05 after 9/11 yielded a truly unified military campaign, and how did contrasting strategic priorities of key members (e.g., the US, Germany, Turkey) shape decision\u2011making and strain coalition cohesion in Afghanistan?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is it accurate to say that NATO only invoked Article 5 after 9/11, and are there any other instances where it was invoked?",
+                    "label": "Useful",
+                    "similarity": 0.6928042769432068
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Which classified or declassified intelligence assessments\u2014such as IAEA reports, satellite imagery analyses, or HUMINT sources\u2014underpinned the determination that Iran was within weeks of weaponization in early 2009, and how did policymakers quantify and communicate the margin of error or alternative scenarios associated with those estimates?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Are there any events other than Iranians building covert facilities that would more reliably account for Iranians having mastered the nuclear fuel cycle?",
+                    "label": "Useful",
+                    "similarity": 0.5227439403533936
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- During internal policy deliberations, what worst\u2011case scenarios and unintended consequences (for example, escalation with regional proxies or disruption of global oil markets) were identified for potential military strikes on Iran\u2019s nuclear facilities, and how did decision\u2011makers balance these projected costs against the goal of preempting rapid weaponization?\n- What primary sources\u2014NATO communiqu\u00e9s, defense\u2011minister meeting minutes, or operational after\u2011action reviews\u2014demonstrate that the invocation of Article\u00a05 after 9/11 yielded a truly unified military campaign, and how did contrasting strategic priorities of key members (e.g., the US, Germany, Turkey) shape decision\u2011making and strain coalition cohesion in Afghanistan?\n- Which classified or declassified intelligence assessments\u2014such as IAEA reports, satellite imagery analyses, or HUMINT sources\u2014underpinned the determination that Iran was within weeks of weaponization in early 2009, and how did policymakers quantify and communicate the margin of error or alternative scenarios associated with those estimates?"
+    },
+    "Melanie_64": {
+        "intervention_id": "Melanie_64",
+        "intervention": "Melanie: \"Well the State has taken a moral position\nthat position was non-judgmentalism\nand terrible harm it\u2019s done\nIt\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime\n I think they do need help\nbut that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "NegativeConsequences"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How is \u201cnon\u2011judgmentalism\u201d defined in concrete policy terms\u2014what guidelines, training protocols, and staff behaviors constitute the stance\u2014and in what ways does it differ from neutrality or unconditional support for harmful actions?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "How does Melanie define \"non-judgmentalism\" in this context, and is it a accurate representation of the State's moral position?",
+                    "label": "Useful",
+                    "similarity": 0.6951697468757629
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "Which validated instruments, behavioral metrics, or outcome measures will be used to assess \u201cindependence\u201d and \u201cpersonal responsibility,\u201d and what threshold values will distinguish genuine capacity from superficial compliance across diverse populations?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "How does Melanie define \"independence\" and \"personal responsibility\", and how would she measure the restoration of these capacities?",
+                    "label": "Useful",
+                    "similarity": 0.5402886867523193
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "What decision\u2011making framework, data inputs, and review intervals will guide the calibration of support intensity to each person\u2019s needs, and which quantitative or qualitative benchmarks will trigger escalation or withdrawal of services?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "How does Melanie propose to \"carefully calibrate\" help to restore independence and personal responsibility? What specific policies or programs would she recommend, and what is the evidence for their effectiveness?",
+                    "label": "Useful",
+                    "similarity": 0.42869144678115845
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "- How is \u201cnon\u2011judgmentalism\u201d defined in concrete policy terms\u2014what guidelines, training protocols, and staff behaviors constitute the stance\u2014and in what ways does it differ from neutrality or unconditional support for harmful actions?\n- Which validated instruments, behavioral metrics, or outcome measures will be used to assess \u201cindependence\u201d and \u201cpersonal responsibility,\u201d and what threshold values will distinguish genuine capacity from superficial compliance across diverse populations?\n- What decision\u2011making framework, data inputs, and review intervals will guide the calibration of support intensity to each person\u2019s needs, and which quantitative or qualitative benchmarks will trigger escalation or withdrawal of services?"
+    },
+    "smg_72": {
+        "intervention_id": "smg_72",
+        "intervention": "smg: \"It has become abundantly clear that commercial airline travel is a \"race to the bottom\" that satisfies needs of neither passengers nor airline profits.\nA change of environment, which can only be imposed from outside the industry is needed.\nImposition of common sense regulations,\nwould level the playing field and remove the impetus for airlines to costcut in this area.\nThe results would be better service to customers and a renormalization of the playing field from which the airlines compete without fear of being undercut.\nThis goes for most of the proposed new regulations.\nI sincerely believe that these regulations are in the best interests of both airlines and passengers.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Could a framework of industry\u2011led best practices, certification programs, or targeted economic incentives (for example, on\u2011time performance subsidies or overbooking penalties) achieve comparable improvements in passenger service quality without the downsides of top\u2011down mandates? What governance and enforcement mechanisms would such voluntary approaches require to match the proposed regulatory objectives?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "What specific \"common sense regulations\" are being proposed, and how would they address the perceived problems in the industry?",
+                    "label": "Useful",
+                    "similarity": 0.6290489435195923
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "How would a uniform set of \u201ccommon\u2011sense\u201d service and pricing regulations impact carriers with differing fleet sizes, business models (legacy, low\u2011cost, regional), hub\u2011and\u2011spoke versus point\u2011to\u2011point networks, and cost structures? What carve\u2011outs, tiered thresholds, or adjustment factors would be needed to maintain fair competition and consistent service quality across all airline types?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "How would these regulations \"level the playing field\" and prevent airlines from undercutting each other, and what are the potential consequences of such regulations?",
+                    "label": "Useful",
+                    "similarity": 0.6985471248626709
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What empirical data or comparative case studies demonstrate that mandatory service regulations in the airline industry effectively curb harmful cost\u2011cutting practices without causing a significant fare increase? Which specific performance and pricing metrics should be tracked before and after implementation to validate these outcomes?",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What is the evidence that these regulations are in the best interests of both airlines and passengers, and how would their interests be balanced?",
+                    "label": "Useful",
+                    "similarity": 0.6293983459472656
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- Could a framework of industry\u2011led best practices, certification programs, or targeted economic incentives (for example, on\u2011time performance subsidies or overbooking penalties) achieve comparable improvements in passenger service quality without the downsides of top\u2011down mandates? What governance and enforcement mechanisms would such voluntary approaches require to match the proposed regulatory objectives?\n- How would a uniform set of \u201ccommon\u2011sense\u201d service and pricing regulations impact carriers with differing fleet sizes, business models (legacy, low\u2011cost, regional), hub\u2011and\u2011spoke versus point\u2011to\u2011point networks, and cost structures? What carve\u2011outs, tiered thresholds, or adjustment factors would be needed to maintain fair competition and consistent service quality across all airline types?\n- What empirical data or comparative case studies demonstrate that mandatory service regulations in the airline industry effectively curb harmful cost\u2011cutting practices without causing a significant fare increase? Which specific performance and pricing metrics should be tracked before and after implementation to validate these outcomes?"
+    },
+    "CLINTON_85": {
+        "intervention_id": "CLINTON_85",
+        "intervention": "CLINTON: \"let 's start the clock again , Lester\nWe 've looked at your tax proposals\nI do n't see changes in the corporate tax rates or the kinds of proposals you 're referring to that would cause the repatriation , bringing back of money that 's stranded overseas\nI happen to support that\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Alternatives"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What empirical evidence or modeling supports the premise that lowering the headline corporate tax rate will repatriate more offshore cash than targeted incentives (such as temporary repatriation credits), stricter anti\u2011inversion rules, or enhanced IRS enforcement\u2014and how do the projected budgetary costs and repatriation gains compare across these alternatives?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Are there any potential drawbacks or unintended consequences to changing corporate tax rates or implementing policies to encourage repatriation?",
+                    "label": "Useful",
+                    "similarity": 0.7598470449447632
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What precise metrics (for example, past tax payments, subsidiary earnings retention periods, or unremitted foreign profits by jurisdiction) define \u201cstranded\u201d overseas earnings in your plan, and how would altering those thresholds change the estimated volume of funds eligible for repatriation?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Are there any potential drawbacks or unintended consequences to changing corporate tax rates or implementing policies to encourage repatriation?",
+                    "label": "Useful",
+                    "similarity": 0.5983871221542358
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "Which forecasting methods, data sources, and time horizons will you use to project the net impact of repatriation measures on federal and state revenues, and what contingency triggers or adjustment mechanisms will ensure revenue estimates remain accurate if corporate behavior diverges from initial assumptions?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Are there any potential drawbacks or unintended consequences to changing corporate tax rates or implementing policies to encourage repatriation?",
+                    "label": "Useful",
+                    "similarity": 0.5967577695846558
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "- What empirical evidence or modeling supports the premise that lowering the headline corporate tax rate will repatriate more offshore cash than targeted incentives (such as temporary repatriation credits), stricter anti\u2011inversion rules, or enhanced IRS enforcement\u2014and how do the projected budgetary costs and repatriation gains compare across these alternatives?\n- What precise metrics (for example, past tax payments, subsidiary earnings retention periods, or unremitted foreign profits by jurisdiction) define \u201cstranded\u201d overseas earnings in your plan, and how would altering those thresholds change the estimated volume of funds eligible for repatriation?\n- Which forecasting methods, data sources, and time horizons will you use to project the net impact of repatriation measures on federal and state revenues, and what contingency triggers or adjustment mechanisms will ensure revenue estimates remain accurate if corporate behavior diverges from initial assumptions?"
+    },
+    "howie_201": {
+        "intervention_id": "howie_201",
+        "intervention": "howie: \"First, stop reading that propaganda magazine.\nPublications like that only serve to create fear in minds like yours.\nSecond, how old is your kid?\nIf under 5, relax the sensitivity will probably go away by the time he is 5.\nThird, go to a real doctor  not an allergist and see if there is really even a problem at all.\nThis supposed plague of food allergies is the result of very clever advertising by this profession of pseudoscientists.\nAllergists are not doctors.\nI sincerely doubt you \"know plenty of people who will die if they do have peanuts or breathe in peanut dust\".\nAlmost noone is actually that allergic.\nLot's of people think they are much worse off than they really are.\nMethinks you have an agenda.\nHighly suspicious that the child of a physician who is hyper aware of bad things that can happen coincidentally has not one, but three life threatening allergies.\nHave you heard of Munchasen by Proxy?\nDo you realize that most kids have mild reactions to various food items that they invariably grow out of by the age of 5?\nFood allergies have to be the most overblown imagined health problem of our time.\nHypochondriacs all.\"\n < this message is answering to > \njsooudi: \"I'm a physician, epidemiologist, and mother to a four year old boy with allergies to milk, peanuts and egg.\nMy son's dairy allergy is severe,\nand he has had numerous lifethreatening anaphylactic reactions to trace amounts of milk,\nwhich required multiple doses of epinephrine and trips to the Emergency Department.\nTests indicate that his peanut allergy is worse,\nbut fortunately he has only been exposed once to a peanut;\nhe put one in his mouth and had a relatively mild  reaction.\nI've traveled with my children\nand despite calling ahead, making requests, and reminding employees at the door, I've rarely had respect, let alone consistency, in any kind of peanutfree buffer zone or flight.\nSeveral years ago Continental Airlines customer service headquarters informed me that they would serve peanuts on all flights as they were unable to guarantee a peanut free flight.\n(So why not hand out weapons since they can't guarantee a weapon free flight either?)\nI've sat with my epi pen in hand on a filthy flight with visible peanut crumbs on the floor while a flight attendant insisted on offering peanuts to the passengers around me because \"it was their right.\"\nFortunately for me, my son's peanut allergy is not severe enough that it prohibits us from air travel.\nNow that he is old enough to not put things in his mouth, and to protect himself, we are safer.\nHowever, I know of many, many others in the allergy community, children and adults who simply can NOT fly.\nMy son's dairy allergy is quite severe.\nThe world would be a much safer place for us if no one consumed milk near him.\nIf his skin touches anything that once touched milk, even if it was partially cleaned, he will get severe hives.\nIf he consumes even less than a drop, within seconds his lips, eyes and face will swell, he will be covered in hives, vomit, and be gasping for breath.\nWithout epinephrine he would probably die within minutes.\nBut milk is ubiquitous,\nand milk allergy relatively uncommon,\nso we must protect ourselves.\nPeanut allergy is common,\nand it is a simple step to serve an alternative peanut based snacks for a short period of time.\nSo why is this a big problem?\nThe vast majority of potential reactions would be eliminated by simply avoiding snacks that have peanuts or peanut butter as an ingredient.\nPeanut oil is known to contain very little of the actual peanut protein,\nand would be of little risk in an airborne environment.\nAs a physician, I have responded to the call from airline staff asking for emergency medical assistance.\nI am well aware of how expensive and inconvenient it is to ground a plane.\nIn addition, most epipens come in two pack doses,\neach of which are good for maybe 10 to 15 minutes.\nWhich in a severe anaphylactic reaction is simply not enough time between the beginning of a reaction and the patient reaching EMS.\nI've found that other passengers, as a rule, are extremely supportive,\nand are more than happy to help with a fellow passengers safety.\nI think the people commenting on this site would react entirely differently were they seated next to an allergic child on a plane.\nOf course they would refrain from eating peanuts for a few hours if they knew it would hurt someone they were looking in the face.\nBut I am sympathetic to individuals who are unhappy with yet another discomfort inflicted on air travelers.\nThis restriction is designed to protect people with allergies from the airlines callous disregard for cleanliness and for our safety, not from our fellow passengers.\n\"Hi.  My name is Steven.  I am 4 years old.\nI am allergic to peanuts, eggs and cow milk.\nIf I eat a peanut I'll get sick.\nI ate a nut one time and got a big bump on my lip and it swelled up and it was hard to breathe.\nIt was scary and my dad gave me some medicine that made it better.\nI would like for them to not give out peanuts so I won't get sick because I'm allergic.\nEverybody should drink Sprite and eat Pringles and Pretzels.\"\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "If someone were to follow your advice and dismiss a child\u2019s allergic reaction, what protocols would you propose to mitigate the risk of delayed epinephrine administration, ensure prompt emergency action, and safeguard patient safety?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "How does the author's claim that most kids outgrow mild reactions to food items by the age of 5 relate to the specific case of the parent's child, who allegedly has three life-threatening allergies?",
+                    "label": "Unhelpful",
+                    "similarity": 0.4279254674911499
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "By suggesting a caregiver might be exhibiting M\u00fcnchausen by proxy, what specific objective evidence or diagnostic criteria would you require before dismissing a validated history of anaphylaxis, and how would you guard against overlooking genuine cases?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What is the author's understanding of Munchausen syndrome by proxy, and how does it relate to the parent's concerns about their child's allergies? Is the author suggesting that the parent is fabricating their child's allergies, and if so, what evidence do they have to support this claim?",
+                    "label": "Useful",
+                    "similarity": 0.6940490007400513
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "You claim life\u2011threatening food allergies are extremely rare\u2014can you cite population\u2011based studies or surveillance data that support this rarity, and explain why your view differs from documented increases in allergy prevalence and severity in recent epidemiological research?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What evidence does the author provide to support their claims that food allergies are overblown or imagined? Are these claims based on scientific research or personal opinion?",
+                    "label": "Useful",
+                    "similarity": 0.6162021160125732
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- If someone were to follow your advice and dismiss a child\u2019s allergic reaction, what protocols would you propose to mitigate the risk of delayed epinephrine administration, ensure prompt emergency action, and safeguard patient safety?\n- By suggesting a caregiver might be exhibiting M\u00fcnchausen by proxy, what specific objective evidence or diagnostic criteria would you require before dismissing a validated history of anaphylaxis, and how would you guard against overlooking genuine cases?\n- You claim life\u2011threatening food allergies are extremely rare\u2014can you cite population\u2011based studies or surveillance data that support this rarity, and explain why your view differs from documented increases in allergy prevalence and severity in recent epidemiological research?"
+    },
+    "TRUMP_222": {
+        "intervention_id": "TRUMP_222",
+        "intervention": "TRUMP: \"I have much better judgment than she does\nThere 's no question about that\nI also have a much better temperament than she has\nshe spent hundreds of millions of dollars on an advertising\nthey get Madison Avenue into a room\nthey put names\ntemperament , let 's go after\nmy strongest asset , maybe by far , is my temperament\nI have a winning temperament\nI know how to win\nShe does not have a\nWrong\nthere 's a person with a temperament that 's got a problem\nThe AFL-CIO the other day , behind the blue screen , I do n't know who you were talking to , Secretary Clinton , but you were totally out of control\n I do n't know who you were talking to\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CauseToEffect",
+            "VerbalClassification",
+            "Sign",
+            "PopularOpinion"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "By portraying Secretary Clinton as \u201cout of control,\u201d is there a risk you\u2019re shifting public focus away from substantive policy issues such as healthcare, immigration, or economic reform? How will you ensure the campaign remains centered on policy substance rather than personal temperament?",
+                "matched_reference": {
+                    "index": 24,
+                    "cq": "How strong is the generalization that if Clinton was out of control behind the blue screen, then she has a problem with her temperament?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6640183925628662
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "You\u2019ve made \u201ctemperament\u201d a centerpiece of your campaign, distinguishing it from Secretary Clinton\u2019s. What precise definition and measurable criteria are you using to assess temperament in presidential leadership, and why do you believe those criteria make your temperament superior?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "How does Trump define \"temperament\" and what evidence does he provide to support his claim that he has a better temperament than Clinton?",
+                    "label": "Useful",
+                    "similarity": 0.7409495115280151
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Can you describe a specific moment from your business or public\u2011service career where your temperament shaped a decision\u2019s outcome, and compare it to a similar situation handled by Secretary Clinton to illustrate the difference in results?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Are there other factors in this particular case that could have interfered with the event of 'Clinton is a person with a temperament that's got a problem'?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6456115245819092
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- By portraying Secretary Clinton as \u201cout of control,\u201d is there a risk you\u2019re shifting public focus away from substantive policy issues such as healthcare, immigration, or economic reform? How will you ensure the campaign remains centered on policy substance rather than personal temperament?\n- You\u2019ve made \u201ctemperament\u201d a centerpiece of your campaign, distinguishing it from Secretary Clinton\u2019s. What precise definition and measurable criteria are you using to assess temperament in presidential leadership, and why do you believe those criteria make your temperament superior?\n- Can you describe a specific moment from your business or public\u2011service career where your temperament shaped a decision\u2019s outcome, and compare it to a similar situation handled by Secretary Clinton to illustrate the difference in results?"
+    },
+    "Doctor-Mom_205": {
+        "intervention_id": "Doctor-Mom_205",
+        "intervention": "Doctor-Mom: \"I would support a full ban of peanut products on any airline.\nPeanut reactions can be life threatening.\nAn individual doesn't have to consume the product to have a life threatening reaction.\nThey can have contact or inhalation reactions.\nRestricting to certain flights is not enough,\nas residue can be rampant.\nProviding buffer zones is a thoughtful gesture,\nbut from a practical point of view does not work.\nWith so many food choices available, why are peanuts a necessary choice?\nI am a physician , and author on the subject.\nI have free food allergy online support forums with 3000 members.\nhttp://www.drmomsallergyrx.com/\nI would be more than willing to work with you in any way on this decision making process.\nThe allergic community is so grateful that you are allowing our voices to be heard.\nThe decision you are considering could save many lives.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERExpertOpinion"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What end-to-end operational protocols (from catering-supplier vetting through passenger-snack screening and crew training) would be required to enforce a genuinely peanut-free cabin, how likely are policy breaches, and what resource, safety, and reliability trade-offs would emerge?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What specific measures would the author propose to implement a full ban of peanut products on airlines, and how would these measures be enforced?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6177511215209961
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Under U.S., EU and international aviation regulations and disability-accommodation laws, what specific legal obligations and liabilities would a full peanut ban impose on airlines, and how have courts or regulators in other jurisdictions evaluated comparable allergen restrictions?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What specific measures would the author propose to implement a full ban of peanut products on airlines, and how would these measures be enforced?",
+                    "label": "Unhelpful",
+                    "similarity": 0.772113561630249
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "How would the direct and indirect costs (catering-contract adjustments, staff training, potential compensation claims) and impacts on ticket pricing, on-time performance and customer satisfaction of eliminating all peanut products stack up in a rigorous cost-benefit analysis?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What specific measures would the author propose to implement a full ban of peanut products on airlines, and how would these measures be enforced?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5426270365715027
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What end-to-end operational protocols (from catering-supplier vetting through passenger-snack screening and crew training) would be required to enforce a genuinely peanut-free cabin, how likely are policy breaches, and what resource, safety, and reliability trade-offs would emerge?\n- Under U.S., EU and international aviation regulations and disability-accommodation laws, what specific legal obligations and liabilities would a full peanut ban impose on airlines, and how have courts or regulators in other jurisdictions evaluated comparable allergen restrictions?\n- How would the direct and indirect costs (catering-contract adjustments, staff training, potential compensation claims) and impacts on ticket pricing, on-time performance and customer satisfaction of eliminating all peanut products stack up in a rigorous cost-benefit analysis?"
+    },
+    "17th_knight__247": {
+        "intervention_id": "17th_knight__247",
+        "intervention": "17th: \"They should get the coverage\nThey are here\nthey work\nthey are a part of this society\nFuck off with your xenophobia\"\n < this message is answering to > \nreaper527: \"now you have a field of democrat presidential candidates supporting it\nrepublicans used to get mocked and laughed at when they said that illegal immigrants would be getting obamacare coverage\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What precise, verifiable eligibility criteria (e.g., minimum quarterly payroll\u2011tax contributions, documented hours on W\u20112 forms, or residency confirmed via utility records) and anti\u2011fraud safeguards would you adopt to define \u201chere and working,\u201d and how would you limit related administrative costs to, say, under 3\u00a0percent of total program spending?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What is the author's definition of \"they are a part of this society\"? Is it based on residency, employment, or something else? How does this definition impact the argument?",
+                    "label": "Useful",
+                    "similarity": 0.34173768758773804
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "Drawing on migration\u2011policy analyses from OECD countries or U.S. border states, what shifts in unauthorized\u2010entry rates, overstay patterns, or labor\u2011market composition might you expect if health coverage were extended, and what specific immigration or guest\u2011worker frameworks would you pair with coverage to prevent unintended pull\u2011factors?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What are the potential consequences of providing health insurance coverage to undocumented immigrants? Would it create an incentive for more people to immigrate illegally, or would it improve public health outcomes?",
+                    "label": "Useful",
+                    "similarity": 0.6995213031768799
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Based on provider\u2011network models from regions that have added non\u2011citizen enrollees, how might average wait times for primary and specialty care, provider\u2011to\u2011patient ratios, and patient satisfaction scores evolve over the next five years, and what capacity\u2011building measures (e.g., loan forgiveness for rural providers or telehealth expansion) would you deploy to mitigate any service\u2011quality declines?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "Are there alternative solutions to providing health insurance coverage to undocumented immigrants, such as emergency medical care or community clinics? Would these alternatives be more effective or efficient?",
+                    "label": "Unhelpful",
+                    "similarity": 0.49391356110572815
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "- What precise, verifiable eligibility criteria (e.g., minimum quarterly payroll\u2011tax contributions, documented hours on W\u20112 forms, or residency confirmed via utility records) and anti\u2011fraud safeguards would you adopt to define \u201chere and working,\u201d and how would you limit related administrative costs to, say, under 3\u00a0percent of total program spending?\n- Drawing on migration\u2011policy analyses from OECD countries or U.S. border states, what shifts in unauthorized\u2010entry rates, overstay patterns, or labor\u2011market composition might you expect if health coverage were extended, and what specific immigration or guest\u2011worker frameworks would you pair with coverage to prevent unintended pull\u2011factors?\n- Based on provider\u2011network models from regions that have added non\u2011citizen enrollees, how might average wait times for primary and specialty care, provider\u2011to\u2011patient ratios, and patient satisfaction scores evolve over the next five years, and what capacity\u2011building measures (e.g., loan forgiveness for rural providers or telehealth expansion) would you deploy to mitigate any service\u2011quality declines?"
+    },
+    "CLINTON_193": {
+        "intervention_id": "CLINTON_193",
+        "intervention": "CLINTON: \"I hope the fact-checkers are turning up the volume and really working hard\nDonald supported the invasion of Iraq\n...\nThat is absolutely proved over and over again\n...\nHe actually advocated for the actions we took in Libya\nurged that Gadhafi be taken out\nafter actually doing some business with him one time\nlarger point\u2014and he says this constantly\u2014is George W. Bush made the agreement about when American troops would leave Iraq , not Barack Obama\n the only way that American troops could have stayed in Iraq is to get an agreement from the then-Iraqi government that would have protected our troops\nthe Iraqi government would not give that\nlet 's talk about the question you asked , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "In the lead-up to the 2011 mandate deadline, how did internal Iraqi factors\u2014sectarian splits in parliament, electoral pressures on Prime Minister Maliki, public sentiment in Baghdad and Basra\u2014and external influences (notably from Iran and neighboring states) shape Iraq\u2019s refusal to extend the U.S. troop presence, and could targeted U.S. incentives or security guarantees have altered that decision?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Was the Iraqi government's refusal to give an agreement the only reason American troops left Iraq?** Clinton implies that the Iraqi government's refusal to provide protection for American troops was the sole reason for their withdrawal. Were there other factors at play, such as the Obama administration's desire to end the war or the lack of a clear strategy for staying in Iraq?",
+                    "label": "Invalid",
+                    "similarity": 0.5078549385070801
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "What verifiable statements (with dates, venues, transcripts or recordings) did Donald Trump make about the 2003 Iraq invasion, how did his rhetoric evolve over time, and in what ways do different political constituencies interpret that record in light of his later claims?",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "How does Clinton's statement that Trump \"actually advocated for the actions we took in Libya\" relate to the topic of Iraq? Is this a non-sequitur or an attempt to distract from the original claim?",
+                    "label": "Useful",
+                    "similarity": 0.6136648058891296
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Does focusing debate on the procedural question of who negotiated the Iraq-exit timeline distract from evaluating the withdrawal\u2019s long-term consequences\u2014such as the security vacuum, sectarian reprisals, or the emergence of ISIS\u2014and how might an outcome-focused analysis reshape judgments about responsibility and timing?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is it accurate to say that George W. Bush made the agreement about when American troops would leave Iraq, or is this a simplification or distortion of the facts?",
+                    "label": "Useful",
+                    "similarity": 0.46703359484672546
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- In the lead-up to the 2011 mandate deadline, how did internal Iraqi factors\u2014sectarian splits in parliament, electoral pressures on Prime Minister Maliki, public sentiment in Baghdad and Basra\u2014and external influences (notably from Iran and neighboring states) shape Iraq\u2019s refusal to extend the U.S. troop presence, and could targeted U.S. incentives or security guarantees have altered that decision?\n- What verifiable statements (with dates, venues, transcripts or recordings) did Donald Trump make about the 2003 Iraq invasion, how did his rhetoric evolve over time, and in what ways do different political constituencies interpret that record in light of his later claims?\n- Does focusing debate on the procedural question of who negotiated the Iraq-exit timeline distract from evaluating the withdrawal\u2019s long-term consequences\u2014such as the security vacuum, sectarian reprisals, or the emergence of ISIS\u2014and how might an outcome-focused analysis reshape judgments about responsibility and timing?"
+    },
+    "TRUMP_253": {
+        "intervention_id": "TRUMP_253",
+        "intervention": "TRUMP: \"She does n't have the look\nShe does n't have the stamina\nI said she does n't have the stamina\nI do n't believe she does have the stamina\nTo be president of this country , you need tremendous stamina\nI just do n't think she has the presidential look\nYou asked me a question\nYou have to be able to negotiate our trade deals\nYou have to be able to negotiate , that 's right , with Japan , with Saudi Arabia\nAll you have to do is speak to them\nWait\n...\nDid you ask me a question\ncan you imagine , we 're defending Saudi Arabia\nwith all of the money they have , we 're defending them , and they 're not paying\nYou have so many different things you have to be able to do , and I do n't believe that Hillary has the stamina\nThe world\nHillary has experience , but it 's bad experience\nit 's bad , bad experience\nit 's the Iran deal that you 're so in love with , where we gave them $ 150 billion back\nit 's the Iran deal\nit 's anything you can\u2014name\nyou almost ca n't name a good deal\nShe 's got experience , but it 's bad experience\"",
+        "dataset": "US2016",
+        "schemes": [
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What lessons can be drawn from Hillary Clinton\u2019s historic \u201cfirsts\u201d and signature initiatives\u2014her role in the 1995 Beijing Women\u2019s Conference, her 2000 Senate victory as New York\u2019s first female senator, and her leadership of the 2013 Arms Trade Treaty negotiations\u2014that might offer a more nuanced understanding of her experience beyond a simplistic \u201cgood\u201d or \u201cbad\u201d label?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "Are there any examples of successful deals or diplomatic efforts that Hillary Clinton has been involved in, and if so, how do they counter Trump's claim that she has only \"bad experience\"?",
+                    "label": "Useful",
+                    "similarity": 0.5981253385543823
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "Which measurable economic and strategic indicators\u2014such as bilateral trade balances, domestic job creation in affected industries, foreign direct investment flows, tariff adjustments, and alignment with long\u2011term U.S. security objectives\u2014offer the most accurate assessment of a trade deal\u2019s benefits or drawbacks, and how do past agreements with partners like Japan and Saudi Arabia stack up against these benchmarks?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What are the specific trade deals that Trump is referring to, and how does he plan to negotiate them better than Clinton?",
+                    "label": "Useful",
+                    "similarity": 0.42144376039505005
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "To what extent does emphasis on a candidate\u2019s physical energy or appearance divert public and media attention from deeper assessments of their policy proposals, leadership style, and decision\u2011making record, and what do voter\u2011behavior studies or media\u2011analysis reports reveal about the strength of this distraction\u2014especially for female versus male candidates?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "What specific examples can Trump provide to demonstrate that Clinton lacks stamina? Has he observed her in situations that require stamina? ",
+                    "label": "Useful",
+                    "similarity": 0.4476146101951599
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What lessons can be drawn from Hillary Clinton\u2019s historic \u201cfirsts\u201d and signature initiatives\u2014her role in the 1995 Beijing Women\u2019s Conference, her 2000 Senate victory as New York\u2019s first female senator, and her leadership of the 2013 Arms Trade Treaty negotiations\u2014that might offer a more nuanced understanding of her experience beyond a simplistic \u201cgood\u201d or \u201cbad\u201d label?\n- Which measurable economic and strategic indicators\u2014such as bilateral trade balances, domestic job creation in affected industries, foreign direct investment flows, tariff adjustments, and alignment with long\u2011term U.S. security objectives\u2014offer the most accurate assessment of a trade deal\u2019s benefits or drawbacks, and how do past agreements with partners like Japan and Saudi Arabia stack up against these benchmarks?\n- To what extent does emphasis on a candidate\u2019s physical energy or appearance divert public and media attention from deeper assessments of their policy proposals, leadership style, and decision\u2011making record, and what do voter\u2011behavior studies or media\u2011analysis reports reveal about the strength of this distraction\u2014especially for female versus male candidates?"
+    },
+    "TRUMP_58": {
+        "intervention_id": "TRUMP_58",
+        "intervention": "TRUMP: \"You are going to approve one of the biggest tax cuts in history\nYou are going to approve one of the biggest tax increases in history\nYou are going to drive business out\nYour regulations are a disaster , and you 're going to increase regulations all over the place\nmy tax cut is the biggest since Ronald Reagan\nI 'm very proud of it\nIt will create tremendous numbers of new jobs\nyou are going to regulate these businesses out of existence\nWhen I go around\u2014Lester , I tell you this , I 've been all over\nwhen I go around , despite the tax cut , the thing\u2014the things that business as in people like the most is the fact that I 'm cutting regulation\nYou have regulations on top of regulations\nnew companies can not form and old companies are going out of business\nyou want to increase the regulations and make them even worse\nI 'm going to cut regulations\nI 'm going to cut taxes big league\nyou 're going to raise taxes big league\nend of story\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "Alternatives",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "You describe your plan as \u201cone of the biggest tax cuts in history\u201d and accuse your opponent of planning \u201cone of the biggest tax increases.\u201d By which absolute dollar amounts, share of GDP, or number of filers do you make these comparisons, and how do they stack up against the Reagan, Bush, and 2017 TCJA tax changes on identical metrics?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "What is the evidence for the claim that the proposed tax cut is the biggest since Ronald Reagan's, and how does it compare to other tax cuts in US history?",
+                    "label": "Useful",
+                    "similarity": 0.6490366458892822
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What empirical evidence\u2014such as revenue and job\u2011growth projections from the CBO, JCT, or independent economic research\u2014supports your claim that this tax cut will create a specific number of net new jobs over the next five years, and exactly how are you defining and measuring those jobs (e.g., full\u2011time equivalents, private\u2011sector only)?",
+                "matched_reference": {
+                    "index": 27,
+                    "cq": "What is the evidence that the proposed tax cut will create \"tremendous numbers of new jobs\"?",
+                    "label": "Useful",
+                    "similarity": 0.6719380021095276
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are the projected five\u2011 and ten\u2011year impacts of your revenue reductions on federal deficits and on mandatory spending programs (e.g., Medicare, Social Security), expressed in specific dollar figures, and which offsetting spending cuts or revenue\u2011neutral adjustments are you prepared to enact if revenues fall below forecasts?",
+                "matched_reference": {
+                    "index": 34,
+                    "cq": "What is the impact of the proposed tax cut on the national debt, and how do you plan to address any potential increase in debt?",
+                    "label": "Invalid",
+                    "similarity": 0.5201930999755859
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- You describe your plan as \u201cone of the biggest tax cuts in history\u201d and accuse your opponent of planning \u201cone of the biggest tax increases.\u201d By which absolute dollar amounts, share of GDP, or number of filers do you make these comparisons, and how do they stack up against the Reagan, Bush, and 2017 TCJA tax changes on identical metrics?\n- What empirical evidence\u2014such as revenue and job\u2011growth projections from the CBO, JCT, or independent economic research\u2014supports your claim that this tax cut will create a specific number of net new jobs over the next five years, and exactly how are you defining and measuring those jobs (e.g., full\u2011time equivalents, private\u2011sector only)?\n- What are the projected five\u2011 and ten\u2011year impacts of your revenue reductions on federal deficits and on mandatory spending programs (e.g., Medicare, Social Security), expressed in specific dollar figures, and which offsetting spending cuts or revenue\u2011neutral adjustments are you prepared to enact if revenues fall below forecasts?"
+    },
+    "CLINTON_1_2": {
+        "intervention_id": "CLINTON_1_2",
+        "intervention": "CLINTON: \"If you help create the profits , you should be able to share in them , not just the executives at the top\nI want us to do more to support people who are struggling to balance family and work\nI 've heard from so many of you about the difficult choices you face and the stresses that you 're under\nlet 's have paid family leave , earned sick days\nLet 's be sure we have affordable child care and debt-free college\nHow are we going to do it\nWe 're going to do it by having the wealthy pay their fair share and close the corporate loopholes\nwe tonight are on the stage together , Donald Trump and I\nit 's good to be with you\nWe 're going to have a debate where we are talking about the important issues facing our country\nYou have to judge us , who can shoulder the immense , awesome responsibilities of the presidency , who can put into action the plans that will make your life better\nI hope that I will be able to earn your vote on November 8th\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "Values",
+            "PopularOpinion"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What specific, quantifiable metrics (e.g., poverty rates, workforce participation, GDP growth) and reporting timelines will you mandate to assess the effects of paid family leave, sick days, childcare subsidies, and debt\u2011free college\u2014and what predefined thresholds or review mechanisms will trigger policy adjustments if targets aren\u2019t met within a five\u2011year horizon?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "How would the proposed policies be implemented, and what would be the timeline for their implementation?",
+                    "label": "Useful",
+                    "similarity": 0.5552481412887573
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "Given the current partisan divisions in Congress, what specific legislative strategies\u2014such as bipartisan working groups, targeted amendments, or revenue\u2011neutral offsets\u2014will you employ to secure the necessary votes for both the tax increases and benefit expansions, and how will you sustain that support beyond a single session?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "How would you build bipartisan support for your policies, and what would you do if faced with opposition from Congress or other stakeholders?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6718072891235352
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Which federal or independent agencies will oversee these new social programs, what layered audit protocols and anti\u2011fraud technologies (e.g., data analytics, third\u2011party verification) will be deployed, and how will you ensure real\u2011time compliance reporting at the state and local levels to prevent waste and implementation delays?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "How would the proposed policies be implemented, and what would be the timeline for their implementation?",
+                    "label": "Useful",
+                    "similarity": 0.5070152878761292
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "- What specific, quantifiable metrics (e.g., poverty rates, workforce participation, GDP growth) and reporting timelines will you mandate to assess the effects of paid family leave, sick days, childcare subsidies, and debt\u2011free college\u2014and what predefined thresholds or review mechanisms will trigger policy adjustments if targets aren\u2019t met within a five\u2011year horizon?\n- Given the current partisan divisions in Congress, what specific legislative strategies\u2014such as bipartisan working groups, targeted amendments, or revenue\u2011neutral offsets\u2014will you employ to secure the necessary votes for both the tax increases and benefit expansions, and how will you sustain that support beyond a single session?\n- Which federal or independent agencies will oversee these new social programs, what layered audit protocols and anti\u2011fraud technologies (e.g., data analytics, third\u2011party verification) will be deployed, and how will you ensure real\u2011time compliance reporting at the state and local levels to prevent waste and implementation delays?"
+    },
+    "FoodAllergyMom_199_1": {
+        "intervention_id": "FoodAllergyMom_199_1",
+        "intervention": "FoodAllergyMom: \"My child is 2 years old and he is severely allergic to peanuts, tree nuts, egg and milk.\nMy son has reacted to airborne particles from someone opening a bag of nuts near him.\nMy husband and I used to be world traveler's and dreamed of traveling with our son.\nIt is heartbreaking to think that our child will not get to experience the world, or if he does it may cost him his life.\nWhat about when he gets older and his job requires him to fly across the country in a weekend?\nShould he have to risk his life so he can work in his possible future dream job?\nThis is a disability, no question about it.\nWe are talking about being in the air with peanut particles being circulated through the cabin and possible no place to land for hours.\nAn EpiPen only last 15 minutes.\nPeanut allergy is unpredictable.\nThe first reaction could be mild\nand the second could cause your blood pressure to drop like a rocket, your throat to close up and your heart to stop beating.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What does the most recent clinical and airline\u2010safety data reveal about the frequency, severity, and outcomes of in\u2011flight anaphylactic reactions triggered by airborne peanut or tree\u2011nut proteins in modern HEPA\u2011filtered cabins, and how should these findings inform family travel guidelines and airline policies?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "Are there any studies or data that support the claim that peanut particles can be circulated through an airplane cabin and pose a significant risk to individuals with peanut allergies?",
+                    "label": "Useful",
+                    "similarity": 0.6848447322845459
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What is the current state of long\u2011term efficacy, safety, and accessibility data for emerging treatments\u2014such as peanut oral immunotherapy, epicutaneous patches, and anti\u2011IgE biologics\u2014and how might these therapies reshape the future risk profile for severe peanut and tree\u2011nut allergies?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What is the current state of research into peanut allergy treatment and prevention, and are there any promising developments that could improve the lives of individuals with peanut allergies?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7403877973556519
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "To what extent do modern aircraft ventilation and HEPA filters remove or reduce airborne peanut/tree\u2011nut proteins, and what residual allergen concentrations have been measured in passenger cabins before, during, and after nut consumption?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "Are there any studies or data that support the claim that peanut particles can be circulated through an airplane cabin and pose a significant risk to individuals with peanut allergies?",
+                    "label": "Useful",
+                    "similarity": 0.7227878570556641
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What does the most recent clinical and airline\u2010safety data reveal about the frequency, severity, and outcomes of in\u2011flight anaphylactic reactions triggered by airborne peanut or tree\u2011nut proteins in modern HEPA\u2011filtered cabins, and how should these findings inform family travel guidelines and airline policies?\n- What is the current state of long\u2011term efficacy, safety, and accessibility data for emerging treatments\u2014such as peanut oral immunotherapy, epicutaneous patches, and anti\u2011IgE biologics\u2014and how might these therapies reshape the future risk profile for severe peanut and tree\u2011nut allergies?\n- To what extent do modern aircraft ventilation and HEPA filters remove or reduce airborne peanut/tree\u2011nut proteins, and what residual allergen concentrations have been measured in passenger cabins before, during, and after nut consumption?"
+    },
+    "TRUMP_13": {
+        "intervention_id": "TRUMP_13",
+        "intervention": "TRUMP: \"Secretary Clinton and others , politicians , should have been doing this for years , not right now\nwe 've created a movement\nThey should have been doing this for years\nWhat 's happened to our jobs and our country and our economy generally is\u2014look , we owe $ 20 trillion\nWe can not do it any longer , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Sign"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What potential unintended economic and social consequences\u2014such as cuts to essential services, slowed growth, or a deeper recession\u2014could result from a rapid drive to shrink the deficit, and what safeguards or contingency plans would your movement implement to mitigate those risks?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What evidence is there that these actions would have been effective in preventing the current state of the economy and job market?",
+                    "label": "Invalid",
+                    "similarity": 0.43285101652145386
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "Could you identify the exact labor\u2011market and economic policies you believe previous administrations should have enacted to prevent the job losses you cite? How do these compare in scope, mechanisms, and expected outcomes with the specific initiatives your movement now proposes?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What specific policies or actions does Trump propose to address the problems he's identified, and how do these policies differ from what politicians have been doing \"for years\"?",
+                    "label": "Useful",
+                    "similarity": 0.5125001668930054
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "How do you define success for the movement you\u2019ve created in terms of concrete economic or social indicators, and what empirical evidence, pilot programs, or early metrics demonstrate that your approach will outperform strategies employed by past administrations?",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "What evidence is there that Trump's \"movement\" is responsible for any positive change, and how does it address the problems he's identified?",
+                    "label": "Useful",
+                    "similarity": 0.46051788330078125
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "- What potential unintended economic and social consequences\u2014such as cuts to essential services, slowed growth, or a deeper recession\u2014could result from a rapid drive to shrink the deficit, and what safeguards or contingency plans would your movement implement to mitigate those risks?\n- Could you identify the exact labor\u2011market and economic policies you believe previous administrations should have enacted to prevent the job losses you cite? How do these compare in scope, mechanisms, and expected outcomes with the specific initiatives your movement now proposes?\n- How do you define success for the movement you\u2019ve created in terms of concrete economic or social indicators, and what empirical evidence, pilot programs, or early metrics demonstrate that your approach will outperform strategies employed by past administrations?"
+    },
+    "Overall_stats": {
+        "Distribution of the labels": {
+            "LLM_useful": 42,
+            "Useful": 36,
+            "LLM_unhelpful": 21,
+            "Unhelpful": 10,
+            "Invalid": 3,
+            "LLM_invalid": 2
+        },
+        "Distribution of the intervention punctuation": {
+            "1.0": 14,
+            "0.6666666666666666": 13,
+            "0": 1,
+            "0.3333333333333333": 10
+        },
+        "Overall punctuation": 0.6842105263157897,
+        "LLM labeled": 57.01754385964912
+    }
+}
