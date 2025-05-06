@@ -41,7 +41,7 @@ Create the Conda env from the provided spec:
 conda env create -f RL/RL_environment.yml
 ```
 
-## 🚀 How to Run (Placeholder)
+## 🚀 How to Run
 
 ### Benchmarking:
 ```bash
