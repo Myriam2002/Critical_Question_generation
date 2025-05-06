@@ -101,7 +101,7 @@ Scripts will be finalized soon. Expected entry points:
 | `Iteratively Agentic Approach/ml_model_CQ.py`   | Train ML model to classify question quality |
 | `RL/RL_llama_3.1_8b_GPRO.py` and    `python RL/RL_qwen_2.5_3b_GPRO.py`       | Reinforcement Learning fine-tuning         |
 | `SchemechoosePrompt in theory/prompts.py` | Map texts to argumentation schemes       |
-| `LogicalFallaciesPrompt in theory/prompts.py` | Logical fallacy detection baseline         |
+| `LogicalFallaciesPrompt in theory/prompts.py and its handling in generate.py` | Logical fallacy detection baseline         |
 
 
 ## 📂 Repository Structure (
