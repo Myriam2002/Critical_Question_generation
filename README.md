@@ -4,6 +4,8 @@ This repository contains the setup for our **Critical Question Generation** proj
 Developed by:  
 **Alaa Elsetohy · Sama Hadhoud · Mariam Barakat**
 
+Repo Link: https://github.com/Myriam2002/Critical_Question_generation
+
 ## 📚 Project Description
 
 This project aims to automatically generate and evaluate critical questions over argumentative texts.  
@@ -30,8 +32,51 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
+RL environment (optional)
+
+Running the RL scripts requires extra dependencies.
+Create the Conda env from the provided spec:
+
+```bash
+conda env create -f RL/RL_environment.yml
+```
+
 ## 🚀 How to Run (Placeholder)
 WIP
+
+### Benchmarking:
+```bash
+python trial_submission/generate_benchmark.py
+```
+Results will appear under `trial_submission/experiments_results_benchmark/`
+All reported benchmarks are in this folder also
+
+### Reinforcement-learning inference:
+
+Pre-trained LoRA adapters are on the Hugging Face Hub:
+
+| Base model   | Epochs | Adapter repo                                                              |
+| ------------ | ------ | ------------------------------------------------------------------------- |
+| Qwen 2.4-3B  | 3      | `samahadhoud/critical_questions_generation_qwen_lora_RL_fintuned_3epoch`  |
+| Llama 3.1-8B | 3      | `samahadhoud/critical_questions_generation_llama_lora_RL_fintuned_3epoch` |
+| Llama 3.1-8B | 5      | `samahadhoud/critical_questions_generation_llama_lora_RL_fintuned_5epoch` |
+| Llama 3.1-8B | 7      | `samahadhoud/critical_questions_generation_llama_lora_RL_fintuned_7epoch` |
+
+To run inference, edit `repo_id` inside `RL/RL_inference.py`, then:
+
+```bash
+python RL/RL_inference.py 
+```
+### Reinforcement-learnin Training (optional):
+```bash
+# Llama-3.1-8B + GRPO
+python RL/RL_llama_3.1_8b_GPRO.py
+
+# Qwen-2.5-3B + GRPO
+python RL/RL_qwen_2.5_3b_GPRO.py
+```
+All reward-function details and prompt templates live in `RL/RL_data_prep.py`.
+
 ## 🔝 Most Import Files 
 
 Scripts will be finalized soon. Expected entry points:
@@ -41,7 +86,7 @@ Scripts will be finalized soon. Expected entry points:
 | `Data Analysis/dependency_analysis.ipynb`       | Lexical Analysis of the validation dataset        |
 | `Iteratively Agentic Approach/Approach*.ipynb`       | Pipeline to use llama405b to generate CQ using ML evaluator, LLM evaluator, and ML & LLM evvaluator|
 | `Iteratively Agentic Approach/ml_model_CQ.py`   | Train ML model to classify question quality |
-| `rl_finetuning.py`            | Reinforcement Learning fine-tuning         |
+| `RL/RL_llama_3.1_8b_GPRO.py` and    `python RL/RL_qwen_2.5_3b_GPRO.py`       | Reinforcement Learning fine-tuning         |
 | `argumentation_scheme_mapper.py` | Map texts to argumentation schemes       |
 | `logical_fallacy_detector.py` | Logical fallacy detection baseline         |
 
@@ -49,15 +94,16 @@ Scripts will be finalized soon. Expected entry points:
 ## 📂 Repository Structure (
 
 ```bash
-├── Data_Analysis/                   # Exploratory Data Analysis (EDA) scripts and results
-├── Iteratively Agentic Approach/    # ML models and agentic improvement pipeline
-├── data_splits/                     # Dataset splits (train, validation, test)
-├── eval_scripts/                    # Evaluation scripts and RL fine-tuning code
-├── trial_submission/                # Trial submissions and experiment outputs
-├── .env                             # Environment variables (OpenAI API keys, etc.)
-├── .gitignore                       # Git ignored files configuration
-├── LICENSE                          # Project license
-├── README.md                        # Project overview (this file)
-├── eval.log                         # Evaluation logs
+Critical_Question_generation/
+├── Data_Analysis/                 # Exploratory notebooks & scripts
+├── Iteratively Agentic Approach/  # ML + agentic improvement pipeline
+├── data_splits/                   # Train / val / test JSON files
+├── eval_scripts/                  # Evaluation helpers & RL code
+├── trial_submission/              # Benchmark runs & outputs
+├── RL/                            # RL training & inference code
+├── requirements.txt               # Base Python deps
+├── RL/RL_environment.yml          # Conda spec for RL experiments
+├── .env                           # API keys (ignored by Git)
+└── README.md                      # You are here 🚀
 ```
 

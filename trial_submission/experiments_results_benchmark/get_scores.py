@@ -228,7 +228,7 @@ selected_prompt_names = [
         "comprehensive_few_shot"
         ]
 models = [
-        #   'meta-llama/Meta-Llama-3.1-405B-Instruct',
+          'meta-llama/Meta-Llama-3.1-405B-Instruct',
             'meta-llama/Llama-3.3-70B-Instruct',
             'meta-llama/Meta-Llama-3.1-8B-Instruct',
             'meta-llama/Llama-3.2-3B-Instruct',
@@ -242,7 +242,7 @@ models = [
 # models = ['deepseek-ai/DeepSeek-V3-0324', 'deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Llama-3.2-3B-Instruct', 'meta-llama/Llama-3.1-8B-Instruct'] 
 # models = ["meta-llama/Llama-3.1-8B-Instruct"]
 # data_files = ["sample", "validation"]
-golden_path = "/home/sama.hadhoud/Documents/Critical_Question_generation/data_splits/testing_dataset.json"
+golden_path = "/Users/sama/Documents/MBZUAI/NLP804/Critical_Question_generation/data_splits/testing_dataset.json"
 
 for model_name in models:
     model_name_in_file = model_name.replace("/", "_") 

@@ -74,7 +74,7 @@ template = (
     "   - Uses vague language or fails to challenge the argument’s core reasoning.\n\n"
     "Now, using the guidelines above, generate three USEFUL critical questions for the following text:\n\n"
     "TEXT:\n\"{intervention}\"\n\n"
-    "Respond in the following format:\n"
+    "Let’s think step by step, Respond in the following format:\n"
     "<reasoning>\nYour reasoning here.\n</reasoning>\n<answer>\nProvide three questions one question per line. Do not include any special characters or numbering except for the question mark.\n</answer>"
 )
 

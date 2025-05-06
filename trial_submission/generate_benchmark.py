@@ -54,7 +54,8 @@ def structure_output(whole_text):
         if re.match('.*\?(\")?( )?(\([a-zA-Z0-9\.\'\-,\? ]*\))?([a-zA-Z \.,\"\']*)?(\")?$', cq):
             valid.append(cq)
         else:
-            not_valid.append(cq)
+            if len(cq) > 10:
+                not_valid.append(cq)
 
     still_not_valid = []
     for text in not_valid:
@@ -104,8 +105,7 @@ prompt_classes = {
 def main():
     temperature = 0.0
     selected_prompt_names = [
-        "rl_prompt",    
-        # "schema_prompt"
+        # "rl_prompt",    
         "zero_shot", 
         "zero_shot_with_instructions2", 
         "few_shot", 
@@ -121,15 +121,15 @@ def main():
 
     models = [
               'meta-llama/Meta-Llama-3.1-405B-Instruct',
-            #   'meta-llama/Llama-3.3-70B-Instruct',
-            #   'meta-llama/Meta-Llama-3.1-8B-Instruct',
-            #     'meta-llama/Llama-3.2-3B-Instruct',
-            #   'Qwen/Qwen2.5-14B-Instruct', 
-            #   'Qwen/Qwen2.5-72B-Instruct', 
-            #   'Qwen/Qwen2.5-7B-Instruct',
-            #     'Qwen/Qwen2.5-3B-Instruct',
-            # 'deepseek-ai/DeepSeek-V3-0324', 
-            #   'deepseek-reasoner', 
+              'meta-llama/Llama-3.3-70B-Instruct',
+              'meta-llama/Meta-Llama-3.1-8B-Instruct',
+                'meta-llama/Llama-3.2-3B-Instruct',
+              'Qwen/Qwen2.5-14B-Instruct', 
+              'Qwen/Qwen2.5-72B-Instruct', 
+              'Qwen/Qwen2.5-7B-Instruct',
+                'Qwen/Qwen2.5-3B-Instruct',
+            'deepseek-ai/DeepSeek-V3-0324', 
+              'deepseek-reasoner', 
               ] 
     # models= ["deepseek-ai/DeepSeek-V3-0324"]
     # models = ["meta-llama/Meta-Llama-3.1-8B-Instruct"]
@@ -148,18 +148,18 @@ def main():
             model = ""
             tokenizer = ""
             pipeline = ""
-            if model_name not in deepinfra_models and "meta-llama" in model_name:
-                pipeline = transformers.pipeline(
-                    "text-generation",
-                    model=model_name,
-                    model_kwargs={"torch_dtype": torch.bfloat16},
-                    device_map="auto",
-                    # use_auth_token=hf_token
-                )
+            # if model_name not in deepinfra_models and "meta-llama" in model_name:
+            #     pipeline = transformers.pipeline(
+            #         "text-generation",
+            #         model=model_name,
+            #         model_kwargs={"torch_dtype": torch.bfloat16},
+            #         device_map="auto",
+            #         # use_auth_token=hf_token
+            #     )
 
-            elif model_name not in deepinfra_models and model_name not in openrouter_models and model_name not in deepseek_models:     
-                tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-                model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
+            # elif model_name not in deepinfra_models and model_name not in openrouter_models and model_name not in deepseek_models:     
+            #     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+            #     model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
 
             for selected_prompt_name in selected_prompt_names:
                 if selected_prompt_name in prompt_classes:
@@ -174,6 +174,7 @@ def main():
                 if os.path.exists(target_file_name):
                     print("Loading from 0.0")
                     with open(target_file_name, 'r') as f_out:
+                        print(f"Loading from {target_file_name}")
                         out = json.load(f_out)
                 else:
                     out = {}
@@ -181,6 +182,7 @@ def main():
                     if os.path.exists(target_file_name_2):
                         print("Loading from 0.0")
                         with open(target_file_name_2, 'r') as f_out:
+                            print("Loading from {target_file_name_2}")
                             out = json.load(f_out)
 
 
@@ -207,26 +209,28 @@ def main():
                             print("Updating", intervention_id)
                         new_out[intervention_id] = out[intervention_id]
                         print(f"Skipping {intervention_id} as it already exists in the output file.")
-                        continue
-                    max_trials = 3
-                    for trial in range(max_trials):
-                        model_out, reasoning= output_cqs(model_name, text, prompt_obj, model, tokenizer, pipeline, temperature, new_params, remove_instruction)
-                        cqs_struct = structure_output(model_out)
-                        one_missing = False
-                        for cq in cqs_struct:
-                            if cq["cq"] == "Missing CQs":
-                                one_missing = True
+                    else:
+
+                        max_trials = 3
+                        for trial in range(max_trials):
+                            model_out, reasoning= output_cqs(model_name, text, prompt_obj, model, tokenizer, pipeline, temperature, new_params, remove_instruction)
+                            cqs_struct = structure_output(model_out)
+                            one_missing = False
+                            for cq in cqs_struct:
+                                if cq["cq"] == "Missing CQs":
+                                    one_missing = True
+                                    break
+                            if not one_missing:
                                 break
-                        if not one_missing:
-                            break
-                    # cqs, reasoning= output_cqs(model_name, text, prompt_obj, model, tokenizer, pipeline, 0.0, new_params, remove_instruction)
-                    line['cqs'] = cqs_struct
-                    line['full_response'] = model_out
-                    line['reasoning'] = reasoning
-                    new_out[line['intervention_id']]=line
+                        # cqs, reasoning= output_cqs(model_name, text, prompt_obj, model, tokenizer, pipeline, 0.0, new_params, remove_instruction)
+                        line['cqs'] = cqs_struct
+                        line['full_response'] = model_out
+                        line['reasoning'] = reasoning
+                        new_out[line['intervention_id']]=line
 
                     target_file_name = f'experiments_results_benchmark/{data_file}_output_{selected_prompt_name}_{model_name_in_file}.json'
                     with open(target_file_name, 'w') as o:
+                        print("Saving to", target_file_name)
                         json.dump(new_out, o, indent=4)
                     print("Saving to", target_file_name)
 

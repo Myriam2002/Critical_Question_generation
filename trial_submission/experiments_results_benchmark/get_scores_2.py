@@ -2,7 +2,7 @@ import json
 import os
 import csv     # ← add this
 from collections import Counter
-
+import statistics
 golden_path   = "/Users/sama/Documents/MBZUAI/NLP804/Critical_Question_generation/data_splits/testing_dataset.json"
 txt_file  = "stats/results.txt"
 csv_file  = "stats/results.csv"
@@ -14,7 +14,7 @@ with open(txt_file, 'w') as f:
     f.write("=== Results ===\n")
 
 # pattern helpers
-PREFIX = 'testing_dataset_output_'
+PREFIX = 'testing_output_'
 SUFFIX = '_eval_similarity_0.6.json'
 
 # load reference
@@ -25,20 +25,23 @@ with open(golden_path) as f:
 results = []
 
 selected_prompt_names = [
-    "zero_shot_with_instructions",
+    
     "zero_shot_with_instructions2",
+    # "zero_shot_with_instructions",
+
     "rl_prompt",
-    "schema_prompt",
+    # "schema_prompt",
     "zero_shot",
     "few_shot",
     "comprehensive_few_shot"
 ]
 
 matched_prompt_names = {
-    "rl_prompt": "cot",
-    "zero_shot_with_instructions2": "Minimal",
+    "rl_prompt": "CoT",
+    "zero_shot_with_instructions2": "MinimalZeroShot",
     "few_shot": "FewShot",
-    "comprehensive_few_shot": "few_shot_full_cot",
+    "zero_shot": "ZeroShot",
+    "comprehensive_few_shot": "FewShotFullCoT",
 }
 
 
@@ -46,6 +49,7 @@ results = []
 
 for fname in os.listdir('.'):
     if not (fname.startswith(PREFIX) and fname.endswith(SUFFIX)) :
+
         continue
 
     core = fname[len(PREFIX):-len(SUFFIX)]
@@ -65,7 +69,7 @@ for fname in os.listdir('.'):
             prompt_name = p
             if p in matched_prompt_names:
                 prompt_name = matched_prompt_names[p]
-            remainder  = before_t[len(p) + 1:]  # drop "p_"
+            remainder  = core[len(p) + 1:]  # drop "p_"
             break
     else:
         print(f"Unknown prompt in {fname}")
@@ -145,7 +149,6 @@ for fname in os.listdir('.'):
         outf.write(f"{fname}:\n")
         outf.write(f"  ° prompt: {prompt_name}\n")
         outf.write(f"  ° model:  {model_name}\n")
-        outf.write(f"  ° temp:   {temperature}\n")
         outf.write(f"  ° overall punctuation:           {overall_p}\n")
         outf.write(f"  ° overall punctuation with llm:  {overall_p_llm}\n")
         outf.write(f"  ° overall llm labeled %:         {overall_llm_labeled_percentage}\n")
@@ -153,15 +156,13 @@ for fname in os.listdir('.'):
 
     for result in results:
         if result['prompt'] == prompt_name and \
-              result['model'] == model_name and \
-                result['temperature'] == temperature:
+              result['model'] == model_name:
             break
     # collect for raw CSV
     results.append({
         "fname": fname,
         'prompt': prompt_name,
         'model': model_name,
-        'temperature': temperature,
         'overall_punctuation': overall_p,
         'overall_punctuation_with_llm': overall_p_llm,
         'overall_llm_labeled_percentage': overall_llm_labeled_percentage
@@ -169,7 +170,7 @@ for fname in os.listdir('.'):
 
 # 1) write the raw CSV
 with open(csv_file, 'w', newline='') as cf:
-    fieldnames = ["fname", 'prompt','model','temperature',
+    fieldnames = ["fname", 'prompt','model',
                   'overall_punctuation',
                   'overall_punctuation_with_llm',
                   'overall_llm_labeled_percentage']
@@ -183,24 +184,41 @@ for row in results:
     grouped[row['model']].append(row)
 
 with open(summary_file, 'w', newline='') as sf:
-    fieldnames = ['model',
-                  'runs',
-                  'mean_punctuation',
-                  'mean_punctuation_with_llm',
-                  'mean_llm_labeled_percentage']
+    fieldnames = [
+        'model',
+        'runs',
+        'mean_punctuation',
+        'std_punctuation',
+        'mean_punctuation_with_llm',
+        'std_punctuation_with_llm',
+        'mean_llm_labeled_percentage',
+        'std_llm_labeled_percentage'
+    ]
     writer = csv.DictWriter(sf, fieldnames=fieldnames)
     writer.writeheader()
+
     for model, rows in grouped.items():
         n = len(rows)
-        mean_p    = sum(r['overall_punctuation'] for r in rows)          / n
-        mean_p_llm= sum(r['overall_punctuation_with_llm'] for r in rows) / n
-        mean_pct  = sum(r['overall_llm_labeled_percentage'] for r in rows)      / n
+        p_vals    = [r['overall_punctuation'] for r in rows]
+        p_llm_vals= [r['overall_punctuation_with_llm'] for r in rows]
+        pct_vals  = [r['overall_llm_labeled_percentage'] for r in rows]
+
+        mean_p     = statistics.mean(p_vals)
+        std_p      = statistics.pstdev(p_vals) if n > 1 else 0.0
+        mean_p_llm = statistics.mean(p_llm_vals)
+        std_p_llm  = statistics.pstdev(p_llm_vals) if n > 1 else 0.0
+        mean_pct   = statistics.mean(pct_vals)
+        std_pct    = statistics.pstdev(pct_vals) if n > 1 else 0.0
+
         writer.writerow({
             'model': model,
             'runs': n,
             'mean_punctuation': mean_p,
+            'std_punctuation': std_p,
             'mean_punctuation_with_llm': mean_p_llm,
-            'mean_llm_labeled_percentage': mean_pct
+            'std_punctuation_with_llm': std_p_llm,
+            'mean_llm_labeled_percentage': mean_pct,
+            'std_llm_labeled_percentage': std_pct
         })
 
 print(f"✔ Raw results → {csv_file}")
@@ -218,7 +236,7 @@ df = pd.DataFrame(results)   # your raw list of dicts
 
 # pivot + flatten exactly as in the last snippet
 matrix = df.pivot_table(
-    index=['model','temperature'],
+    index=['model'],
     columns='prompt',
     values=metrics
 ).swaplevel(0,1, axis=1).sort_index(axis=1, level=0)
@@ -249,9 +267,47 @@ for p in selected_prompt_names_shown:
 
 # 3) Reorder columns: model, temperature, then all your prompts
 
-final_cols = ['model','temperature'] + selected_prompt_names_shown
+final_cols = ['model'] + selected_prompt_names_shown
 matrix = matrix[final_cols]
 
 # 4) Save to CSV
 matrix.to_csv('stats/results_matrix_combined.csv', index=False)
 print("✔ Saved results_matrix_combined.csv")
+
+
+# Turn into a DataFrame
+df = pd.DataFrame(results)
+
+# 1) Compute per-(model, prompt) means
+agg = (
+    df
+    .groupby(['model','prompt'])
+    .agg(
+        mean_punctuation = ('overall_punctuation',      'mean'),
+        mean_punctuation_with_llm = ('overall_punctuation_with_llm','mean'),
+        mean_llm_labeled_percentage = ('overall_llm_labeled_percentage','mean'),
+        runs = ('fname','count')
+    )
+    .reset_index()
+)
+
+# 2) For each model, pick the prompt with highest mean_punctuation
+best = (
+    agg
+    .loc[ agg.groupby('model')['mean_punctuation_with_llm'].idxmax() ]
+    .sort_values('model')
+)
+
+# 3) Print (or save) your winners
+print("=== Best prompt per model (by avg. punctuation) ===")
+for _, row in best.iterrows():
+    print(f"{row['model']:<20} → {row['prompt']:<20} "
+          f"(μₚ={row['mean_punctuation']:.3f}, "
+          f"μₚₗₗₘ={row['mean_punctuation_with_llm']:.3f}, "
+          f"μₗₗₘ%={row['mean_llm_labeled_percentage']:.1f}%, "
+          f"runs={row['runs']})")
+
+# (Optional) save to CSV
+best.to_csv('stats/best_prompts_per_model.csv', index=False)
+print("✔ Saved best_prompts_per_model.csv")
+

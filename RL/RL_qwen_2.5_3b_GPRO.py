@@ -15,7 +15,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     load_in_4bit = False, # False for LoRA 16bit
     fast_inference = True, # Enable vLLM fast inference
     max_lora_rank = lora_rank,
-    gpu_memory_utilization = 0.5, # Reduce if out of memory
+    gpu_memory_utilization = 0.6, # Reduce if out of memory
 )
 
 model = FastLanguageModel.get_peft_model(
@@ -52,12 +52,12 @@ training_args = GRPOConfig(
     num_generations = 8, # Decrease if out of memory
     max_prompt_length = 3000,
     max_completion_length = 2000,
-    num_train_epochs = 15, # Set to 1 for a full training run
+    num_train_epochs = 5, # Set to 1 for a full training run
     # max_steps = 250,
     save_steps = 25,
     max_grad_norm = 0.1,
     report_to = "wandb", # Can use Weights & Biases
-    output_dir = "outputs_trial_4",
+    output_dir = "outputs_trial_5",
 )
 
 print("Start training!")
@@ -87,6 +87,6 @@ if os.path.exists(training_args.output_dir):
 # Start or resume training accordingly
 trainer.train(resume_from_checkpoint=checkpoint)
 
-model.save_lora("grpo_saved_lora_trial_4")
+model.save_lora("grpo_saved_lora_trial_5")
 
 wandb.finish()
