@@ -1,0 +1,154 @@
+{
+    "title": "Argumentation Scheme Critical Questions",
+    "schemes": [
+      {
+        "scheme": "Argument From Sign",
+        "questions": [
+          "Is there a proved relation between ‘<eventB>’ and ‘<eventA>’?",
+          "Are there any events other than <eventB> that would more reliably account for <eventA>?"
+        ]
+      },
+      {
+        "scheme": "Argument from Example",
+        "questions": [
+          "Is it actually the case that <subjecta> <featF> <featG>? Is there evidence on this claim?",
+          "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+          "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+        ]
+      },
+      {
+        "scheme": "Argument from Verbal Classification",
+        "questions": [
+          "Is it the case that <subjecta> <featF>, or is there room for doubt?",
+          "Is there a proved relation between situations in which \"<featF>\" and situations in which \"<featG>\"?",
+          "Is it possible for the particular case of <subjecta> that <featG> is not the case?"
+        ]
+      },
+      {
+        "scheme": "Argument from Position to Know",
+        "questions": [
+          "Is <subjecta> in a position to know whether <eventA>?",
+          "Is <subjecta> an honest (trustworthy, reliable) source?",
+          "Did <subjecta> assert that <eventA>?"
+        ]
+      },
+      {
+        "scheme": "Expert Opinion",
+        "questions": [
+          "Is <expertE> a genuine expert in <domainD>?",
+          "Did <expertE> really assert that <eventA>?",
+          "Is <expertE>'s pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",
+          "If <expertE>'s advice is not quoted, does it look like important information or qualifications may have been left out?",
+          "Is what <expertE> said clear? Are there technical terms used that are not explained clearly?",
+          "Is <eventA> relevant to domain <domainD>?",
+          "Is <eventA> consistent with what other experts in <domainD> say?",
+          "Is <eventA> consistent with known evidence in <domainD>?"
+        ]
+      },
+      {
+        "scheme": "Argument from Cause to Effect",
+        "questions": [
+          "How strong is the generalisation that if <eventA> then <eventB>?",
+          "Are there other factors in this particular case that could have interfered with the event of ‘<eventB>’?"
+        ]
+      },
+      {
+        "scheme": "Argument from Consequences",
+        "questions": [
+          "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+          "What other consequences should also be taken into account if <neg> <eventA>?"
+         
+        ]
+      },
+      {
+        "scheme": "Argument from Analogy",
+        "questions": [
+           "Are <C1> and <C2> similar in the respect cited?",
+          "Is <eventA> true in <C1>?",
+          "Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?",
+          "Is there some other case that is also similar to <C1>, but in which <eventA> is false?"
+        ]
+      },
+      {
+        "scheme": "Argument from Popular Opinion",
+        "questions": [
+          "What evidence supports that <eventA> is generally accepted as true?",
+          "Even if <eventA> is generally accepted as true, are there any good reasons for doubting that it is true?"
+        ]
+      },
+      {
+        "scheme": "Argument from Popular Practice",
+        "questions": [
+          "What actions or other indications show that <large_majority> accept that <eventA> is the right thing to do?",
+          "Even if <large_majority> accepts <eventA> is the right thing to do, are there grounds for thinking they are justified in accepting it as a prudent course of action?"
+        ]
+      },
+      {
+        "scheme": "Argument from Bias",
+        "questions": [
+          "What evidence is there that <subjecta> is <subjectx>? Could <subjecta> have taken evidence on many sides even if <subjecta> is <subjectx>?",
+          "Does the matter of <eventA> require <subjecta> to take evidence on many sides?"
+        ]
+      },
+      {
+        "scheme": "Generic Ad Hominem",
+        "questions": [
+          "How does the allegation made affect the reliability of <subjecta>?",
+          "Is the reliability of <subjecta> relevant in the current dialogue?"
+        ]
+      },
+      {
+        "scheme": "Practical Reasoning",
+        "questions": [
+          "Are there other relevant goals that conflict with <goalG>?",
+          "Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",
+          "Could <eventA> have consequences that we should take into account? Is it practically possible?"
+        ]
+      },
+      {
+        "scheme": "Argument from Alternatives",
+        "questions": [
+          "Can <eventB> happen even if <eventA> is the case?",
+          "Is <eventA> plausibly not the case? What evidence supports this claim?"
+          
+        ]
+      },
+      {
+        "scheme": "Argument from Danger Appeal",
+        "questions": [
+          "If <eventA>, will <eventB> occur? What evidence supports this claim?",
+          "Why is <eventB> a danger? To whom is <eventB> a danger?",
+          "Is there a way of preventing <eventA>?",
+          "Are there other consequences of preventing <eventA> that we should take into account?"
+          
+        ]
+      },
+      {
+        "scheme": "Argument from Values",
+        "questions": [
+          "Is <valueV> seen as <direction> for most people?",
+          "Are there reasons to believe that <valueV> is not <direction> in this situation?",
+          "Will a subject that sees <valueV> as not <direction> agree with retaining commitment to \"<goalG>\"?"
+          
+        ]
+      },
+      {
+        "scheme": "Argument from Fear Appeal",
+        "questions": ["Is <eventB> bad? Why and to whom is it bad?",
+          "Is <eventA> a way to prevent <eventB>?",
+          "Is it practically possible for <eventA> to happen?",
+          "Are there other consequences from <eventA>?"
+          
+        ]
+      },
+      {
+        "scheme": "Argument from Circumstantial Ad Hominem",
+        "questions": [
+          "Does <argument1> imply <eventA>?",
+          "Can the practical inconsistency between <subjecta>'s commitments and \"<eventA>\" be identified? Can it be shown by evidence? Could it be explained by further dialogue?",
+          "Does the inconsistency between <subjecta>'s commitments and \"<eventA>\" result in a decrease of credibility for <subjecta>? Does <subjecta>'s argument depend in its credibility in this context?"
+        ]
+      }
+    ]
+  }
+  

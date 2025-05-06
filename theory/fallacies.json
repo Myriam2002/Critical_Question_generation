@@ -1,0 +1,55 @@
+{
+    "Faulty Generalization": {
+      "description": "An informal fallacy wherein a conclusion is drawn about all or many instances of a phenomenon on the basis of one or a few instances of that phenomenon (jumping to conclusions).",
+      "logical_form": "[MSK1] has attribute [MSK2]. [MSK1] is a subset of [MSK3]. Therefore, all [MSK3] has attribute [MSK2]."
+    },
+    "False Causality": {
+      "description": "A statement that jumps to a conclusion implying a causal relationship without supporting evidence.",
+      "logical_form": "[MSK1] occurred, then [MSK2] occurred. Therefore, [MSK1] caused [MSK2]."
+    },
+    "Circular Claim": {
+      "description": "A fallacy where the end of an argument comes back to the beginning without having proven itself.",
+      "logical_form": "[MSK1] is true because of [MSK2]. [MSK2] is true because of [MSK1]."
+    },
+    "Ad Populum": {
+      "description": "A fallacious argument which is based on affirming that something is real or better because the majority thinks so.",
+      "logical_form": "A lot of people believe [MSK1]. Therefore, [MSK1] must be true."
+    },
+    "Ad Hominem": {
+      "description": "An irrelevant attack towards the person or some aspect of the person who is making the argument, instead of addressing the argument directly.",
+      "logical_form": "[MSK1] is claiming [MSK2]. [MSK1] is a moron. Therefore, [MSK2] is not true."
+    },
+    "Deductive Fallacy": {
+      "description": "An error in the logical structure of an argument.",
+      "logical_form": "If [MSK1] is true, then [MSK2] is true. [MSK2] is true. Therefore, [MSK1] is true."
+    },
+    "Appeal to Emotion": {
+      "description": "Manipulation of the recipient’s emotions in order to win an argument without factual support.",
+      "logical_form": "[MSK1] is made without evidence. In place of evidence, emotion is used to convince the interlocutor that [MSK1] is true."
+    },
+    "False Dilemma": {
+      "description": "A claim presenting only two options or sides when there are many options or sides.",
+      "logical_form": "Either [MSK1] or [MSK2] is true."
+    },
+    "Equivocation": {
+      "description": "An argument that uses a key term or phrase in an ambiguous way, with one meaning in one portion of the argument and another meaning in another portion.",
+      "logical_form": "[MSK1] is used to mean [MSK2] in the premise. [MSK1] is used to mean [MSK3] in the conclusion."
+    },
+    "Fallacy of Extension": {
+      "description": "An argument that attacks an exaggerated or caricatured version of your opponent’s position (a straw man).",
+      "logical_form": "[MSK1] makes claim [MSK2]. [MSK3] restates [MSK2] in a distorted way. [MSK3] attacks the distorted version of [MSK2]. Therefore, [MSK2] is false."
+    },
+    "Fallacy of Relevance": {
+      "description": "Also known as red herring, this occurs when the speaker attempts to divert attention from the primary argument by offering a point that does not suffice as supporting evidence (even if it is true).",
+      "logical_form": "It is claimed that [MSK1] implies [MSK2], whereas [MSK1] is unrelated to [MSK2]."
+    },
+    "Fallacy of Credibility": {
+      "description": "An appeal is made to some form of ethics, authority, or credibility rather than to evidence.",
+      "logical_form": "[MSK1] claims that [MSK2]. [MSK1] are experts in the field concerning [MSK2]. Therefore, [MSK2] should be believed."
+    },
+    "Intentional Fallacy": {
+      "description": "A custom category for when an argument has some element that shows intent of a speaker to win an argument without actual supporting evidence.",
+      "logical_form": "[MSK1] knows [MSK2] is incorrect, yet [MSK1] still claims that [MSK2] is correct using an incorrect argument."
+    }
+  }
+  
