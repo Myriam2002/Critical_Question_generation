@@ -104,7 +104,7 @@ Scripts will be finalized soon. Expected entry points:
 | `LogicalFallaciesPrompt in theory/prompts.py and its handling in generate.py` | Logical fallacy detection baseline         |
 
 
-## 📂 Repository Structure (
+## 📂 Repository Structure
 
 ```bash
 Critical_Question_generation/
