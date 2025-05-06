@@ -42,7 +42,6 @@ conda env create -f RL/RL_environment.yml
 ```
 
 ## 🚀 How to Run (Placeholder)
-WIP
 
 ### Benchmarking:
 ```bash
@@ -50,6 +49,20 @@ python trial_submission/generate_benchmark.py
 ```
 Results will appear under `trial_submission/experiments_results_benchmark/`
 All reported benchmarks are in this folder also
+
+### Theory-based approaches using argumentation schemes
+
+All argumentation schemes are in `theory/templates.json`
+To run with them use SchemechoosePrompt in `theory/prompts.py`
+
+Results can be found in `theory/experiments_results_theory`
+
+### Logical fallacy detection baselines
+
+All fallacies are in `theory/fallacies.json`
+To run with them use LogicalFallaciesPrompt in `theory/prompts.py`
+
+Results can be found in `theory/experiments_results_theory`
 
 ### Reinforcement-learning inference:
 
@@ -87,8 +100,8 @@ Scripts will be finalized soon. Expected entry points:
 | `Iteratively Agentic Approach/Approach*.ipynb`       | Pipeline to use llama405b to generate CQ using ML evaluator, LLM evaluator, and ML & LLM evvaluator|
 | `Iteratively Agentic Approach/ml_model_CQ.py`   | Train ML model to classify question quality |
 | `RL/RL_llama_3.1_8b_GPRO.py` and    `python RL/RL_qwen_2.5_3b_GPRO.py`       | Reinforcement Learning fine-tuning         |
-| `argumentation_scheme_mapper.py` | Map texts to argumentation schemes       |
-| `logical_fallacy_detector.py` | Logical fallacy detection baseline         |
+| `SchemechoosePrompt in theory/prompts.py` | Map texts to argumentation schemes       |
+| `LogicalFallaciesPrompt in theory/prompts.py` | Logical fallacy detection baseline         |
 
 
 ## 📂 Repository Structure (
@@ -101,6 +114,7 @@ Critical_Question_generation/
 ├── eval_scripts/                  # Evaluation helpers & RL code
 ├── trial_submission/              # Benchmark runs & outputs
 ├── RL/                            # RL training & inference code
+├── theory/                        #  Theory-based approaches using argumentation schemes and Logical fallacy detection baseline
 ├── requirements.txt               # Base Python deps
 ├── RL/RL_environment.yml          # Conda spec for RL experiments
 ├── .env                           # API keys (ignored by Git)
