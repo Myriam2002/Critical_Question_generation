@@ -1,0 +1,245 @@
+{
+    "CLINTON_1_1": {
+        "intervention_id": "CLINTON_1_1",
+        "intervention": "CLINTON: \"The central question in this election is really what kind of country we want to be and what kind of future we 'll build together\nToday is my granddaughter 's second birthday\nI think about this a lot\nwe have to build an economy that works for everyone , not just those at the top\nwe need new jobs , good jobs , with rising incomes\nI want us to invest in you\nI want us to invest in your future\njobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business\nmost of the new jobs will come from small business\nWe also have to make the economy fairer\nThat starts with raising the national minimum wage and also guarantee , finally , equal pay for women 's work\nI also want to see more companies do profit-sharing\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PopularPractice",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does Clinton's plan to invest in various sectors (infrastructure, advanced manufacturing, innovation, technology, clean energy, and small business) ensure that the economy works for everyone, and not just those at the top?",
+                "matched_reference": {
+                    "index": 27,
+                    "cq": "How would you fund the investments in infrastructure, advanced manufacturing, innovation and technology, clean and renewable energy, and small business, and what would be the expected returns on these investments?",
+                    "label": "Invalid",
+                    "similarity": 0.5957803726196289
+                },
+                "label": "not_able_to_evaluate"
+            },
+            {
+                "id": 1,
+                "cq": "What specific measures does Clinton propose to make the economy fairer, and how will raising the national minimum wage and guaranteeing equal pay for women's work address economic inequality?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What is the proposed plan for making the economy fairer, beyond raising the national minimum wage and guaranteeing equal pay for women's work?",
+                    "label": "Useful",
+                    "similarity": 0.8327587842941284
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Clinton's emphasis on small businesses as the primary source of new jobs align with the broader goal of building an economy that works for everyone, and what evidence supports this claim?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "How would you ensure that small businesses, which you claim will create most new jobs, have access to the necessary resources and support to thrive?",
+                    "label": "Invalid",
+                    "similarity": 0.7149797677993774
+                },
+                "label": "Invalid"
+            }
+        ],
+        "full_response": "- How does Clinton's plan to invest in various sectors (infrastructure, advanced manufacturing, innovation, technology, clean energy, and small business) ensure that the economy works for everyone, and not just those at the top?\n- What specific measures does Clinton propose to make the economy fairer, and how will raising the national minimum wage and guaranteeing equal pay for women's work address economic inequality?\n- How does Clinton's emphasis on small businesses as the primary source of new jobs align with the broader goal of building an economy that works for everyone, and what evidence supports this claim?"
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence is there to support the claim that notifying passengers of delays could lead to them missing flights if the issues are resolved more quickly than expected?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Are there any potential consequences of requiring airlines to provide notification of delays, such as passengers waiting too long to go to the airport and missing their flight?",
+                    "label": "Unhelpful",
+                    "similarity": 0.789739191532135
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How does the argument that flyers will \"crucify\" the airlines for poor planning if they miss a flight due to waiting for a delay notification address the potential benefits of providing timely information?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Are there any potential consequences of requiring airlines to provide notification of delays, such as passengers waiting too long to go to the airport and missing their flight?",
+                    "label": "Unhelpful",
+                    "similarity": 0.802391767501831
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Is the assumption that flyers are unreasonable in their expectations of airlines justified, or are there valid reasons for passengers to expect timely and accurate information about their flights?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is it fair to place the blame solely on passengers for being unhappy with airline delays and cancellations, or do airlines bear some responsibility for communicating effectively with passengers?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6822627782821655
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- What evidence is there to support the claim that notifying passengers of delays could lead to them missing flights if the issues are resolved more quickly than expected?\n- How does the argument that flyers will \"crucify\" the airlines for poor planning if they miss a flight due to waiting for a delay notification address the potential benefits of providing timely information?\n- Is the assumption that flyers are unreasonable in their expectations of airlines justified, or are there valid reasons for passengers to expect timely and accurate information about their flights?"
+    },
+    "TRUMP_125_1": {
+        "intervention_id": "TRUMP_125_1",
+        "intervention": "TRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order\nIf we don't have it, we're not going to have a country\nwhen I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long\nI just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in\nWe have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States\nWe have a situation where we have our inner cities, African- Americans, Hispanics are living in hell\nit's so dangerous\nYou walk down the street, you get shot\nIn Chicago, they've had thousands of shootings, thousands since January 1st\nI'm saying, where is this\nIs this a war-torn country\nWhat are we doing\nwe have to stop the violence\nIn a place like Chicago, where thousands of people have been killed, thousands over the last number of years\nalmost 4,000 have been killed since Barack Obama became president\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Example",
+            "Example",
+            "Sign",
+            "Sign",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What evidence does Trump provide to support the claim that Secretary Clinton's reluctance to use the words \"law and order\" is a significant issue for the country?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What is the basis for Trump's assertion that the country will not survive without \"law and order\"?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6933135390281677
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How does Trump's assertion that \"African-Americans, Hispanics are living in hell\" in inner cities stand up to scrutiny, and what specific data or examples does he use to back this claim?",
+                "matched_reference": {
+                    "index": 41,
+                    "cq": "What is the evidence for the claim that \"African-Americans, Hispanics are living in hell\" in inner cities, and is this a fair representation of the experiences of all individuals in these groups?",
+                    "label": "Useful",
+                    "similarity": 0.7553214430809021
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Is the comparison between the violence in Chicago and a \"war-torn country\" an accurate and fair representation of the situation, and what evidence supports this comparison?",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "Is Chicago actually a typical case of other cities where there have been thousands of shootings? How widely applicable is the generalization?",
+                    "label": "Useful",
+                    "similarity": 0.644282877445221
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- What evidence does Trump provide to support the claim that Secretary Clinton's reluctance to use the words \"law and order\" is a significant issue for the country?\n- How does Trump's assertion that \"African-Americans, Hispanics are living in hell\" in inner cities stand up to scrutiny, and what specific data or examples does he use to back this claim?\n- Is the comparison between the violence in Chicago and a \"war-torn country\" an accurate and fair representation of the situation, and what evidence supports this comparison?"
+    },
+    "travellots_133_1": {
+        "intervention_id": "travellots_133_1",
+        "intervention": "travellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles.\nAirline tickets are not lottery tickets.\nOne does not purchase a ticket hoping to reach a certain destination.\nSame as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it.\nThe price does not dictate that \"maybe\" you will get the product or service.\nAlso, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B.\nIf they can not afford to give  a ticket for that price, they should not sell it.\nWhen you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline.\nA passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does the argument that airline tickets are not lottery tickets address the issue of overbooking and bumping, and what implications does this have for the airline's responsibility to passengers?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Are there any circumstances in which the airline might need to prioritize certain passengers over others?",
+                    "label": "Useful",
+                    "similarity": 0.6741312146186829
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "If the price of a ticket does not dictate the certainty of receiving the service, how should airlines determine the compensation for bumped passengers, and what criteria should be used?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "How do airlines currently handle bumping and compensation, and are there any existing regulations or industry standards that govern these practices?",
+                    "label": "Invalid",
+                    "similarity": 0.6463431715965271
+                },
+                "label": "Invalid"
+            },
+            {
+                "id": 2,
+                "cq": "What is the basis for the claim that airlines should not sell tickets if they cannot afford to honor them, and how does this align with current industry practices and economic realities?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What happens when an airline sells a ticket at a price that is lower than its actual cost, and how does this impact the airline's ability to provide the promised service?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6444672346115112
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "- How does the argument that airline tickets are not lottery tickets address the issue of overbooking and bumping, and what implications does this have for the airline's responsibility to passengers?\n- If the price of a ticket does not dictate the certainty of receiving the service, how should airlines determine the compensation for bumped passengers, and what criteria should be used?\n- What is the basis for the claim that airlines should not sell tickets if they cannot afford to honor them, and how does this align with current industry practices and economic realities?"
+    },
+    "Zewstain__641": {
+        "intervention_id": "Zewstain__641",
+        "intervention": "Zewstain: \"It seemed like that was most of her argument. Being a woman\nHow will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How does Hillary Clinton's response that she is a woman address the question about policy differences from Obama?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "What specific policy differences does Hillary have with Obama?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7704675793647766
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Is the statement \"As a woman it's clear\" sufficient to explain how she differs from Obama in terms of policy?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does being a woman necessarily translate to differences in policy or approach?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7013083696365356
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "What specific policy differences does Hillary Clinton imply by emphasizing her gender, and how are these differences relevant to her campaign?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "Is gender being presented as the sole distinguishing factor between the two candidates, or was Hillary Clinton making a broader point about the importance of diversity and representation in politics?",
+                    "label": "Useful",
+                    "similarity": 0.8230805397033691
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "- How does Hillary Clinton's response that she is a woman address the question about policy differences from Obama?\n- Is the statement \"As a woman it's clear\" sufficient to explain how she differs from Obama in terms of policy?\n- What specific policy differences does Hillary Clinton imply by emphasizing her gender, and how are these differences relevant to her campaign?"
+    },
+    "Overall_stats": {
+        "Distribution of the labels": {
+            "not_able_to_evaluate": 1,
+            "Useful": 5,
+            "Invalid": 2,
+            "Unhelpful": 7
+        },
+        "Distribution of the intervention punctuation": {
+            "0.3333333333333333": 3,
+            "0": 1,
+            "0.6666666666666666": 1
+        },
+        "Overall punctuation": 0.3333333333333333
+    }
+}

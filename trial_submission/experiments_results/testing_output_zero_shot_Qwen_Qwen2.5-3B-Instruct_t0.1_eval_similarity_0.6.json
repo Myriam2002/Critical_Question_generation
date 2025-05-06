@@ -1,0 +1,1781 @@
+{
+    "MT_45": {
+        "intervention_id": "MT_45",
+        "intervention": "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "CauseToEffect",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who was Claire referring to?  ",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Are there any counterexamples or exceptions to the speaker's claims, and how would they be addressed?",
+                    "label": "Invalid",
+                    "similarity": 0.3082582950592041
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "What form of capitalism is being discussed?  ",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "What specific form of capitalism is being referred to, and what are its defining characteristics?",
+                    "label": "Unhelpful",
+                    "similarity": 0.858518660068512
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Where did the money actually flow according to MT?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What is meant by \"where did the money flow\"? Is this referring to investment, consumption, or something else?",
+                    "label": "Useful",
+                    "similarity": 0.51227205991745
+                },
+                "label": "LLM_invalid"
+            }
+        ],
+        "full_response": "Who was Claire referring to?  \nWhat form of capitalism is being discussed?  \nWhere did the money actually flow according to MT?",
+        "reasoning": null
+    },
+    "cd38_220_2": {
+        "intervention_id": "cd38_220_2",
+        "intervention": "cd38: \"The return flight is 6 \u00bd hours (plus commute time to the airport);\nwhen time allows, I make something to bring on the flight,\nbut if my mother is having a bad day, that's not always possible.\nOn a recent trip, I didn't have time to eat anything at all the day I flew home; got stuck in traffic and barely made my flight (I was the last one on) so didn't have time to eat or buy anything at the airport; and as we started to taxi, the flight crew announced that we had a nut allergy on board, and that they (JB) would not be serving cashews and requested that we not eat any nuts we may have brought on board.\n6 \u00bd hours feels pretty long at that point!\nNo, it didn't kill me,\nbut it does seem that if JB hadn't served cashews, the risks involved in one or two people eating nuts they may have brought with them would have been extremely, extremely small....\nand, NOTHING in life is riskfree.\nI understand that people want to minimize the risks for their loved ones,\nbut you cannot eliminate the risk completely, regardless of what legislation you put in place.\nIf I ate peanuts at the airport, didn't wash my hands, and then opened the rest room door on the plane immediately before a peanut allergy sufferer, that person could suffer a reaction.\nI can support airlines not serving peanuts/peanut products,\nthereby eliminating the most likely possible cause of a peanutrelated incident on a flight;\nbut not restrictions on what people may choose to eat.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why did the narrator skip meals?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "Does the author's statement \"6 \u00bd hours feels pretty long at that point!\" imply that the lack of food on the flight was a significant hardship, and if so, is this relevant to the argument about peanut allergies?",
+                    "label": "Useful",
+                    "similarity": 0.41368475556373596
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "what are the narrator's concerns about airline food?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "How would the writer propose to balance the needs of individuals with severe allergies with the desire for personal freedom and choice in what they eat on a flight?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6233715415000916
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "how does the narrator balance personal choices with safety?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Is the writer's statement \"NOTHING in life is risk-free\" a valid argument against taking precautions to minimize risks, or is it a false dichotomy?",
+                    "label": "Useful",
+                    "similarity": 0.47340190410614014
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "why did the narrator skip meals?\nwhat are the narrator's concerns about airline food?\nhow does the narrator balance personal choices with safety?",
+        "reasoning": null
+    },
+    "TRUMP_183": {
+        "intervention_id": "TRUMP_183",
+        "intervention": "TRUMP: \"I do want to say that I was just endorsed\nand more are coming next week\nit will be over 200 admirals\nmany of them here\u2014admirals and generals endorsed me to lead this country\nThat just happened\nmany more are coming\nI was just endorsed by ICE\nThey 've never endorsed anybody before on immigration\nI was just recently endorsed\u201416,500 Border Patrol agents\nwhen Secretary Clinton talks about this , I mean , I 'll take the admirals and I 'll take the generals any day over the political hacks that I see that have led our country so brilliantly over the last 10 years with their knowledge\nlook at the mess that we 're in\nAs far as the cyber , I agree to parts of what Secretary Clinton said\nWe should be better than anybody else\nperhaps we 're not\nI do n't think anybody knows it was Russia that broke into the DNC\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PositionToKnow",
+            "PositionToKnow",
+            "Values",
+            "PositionToKnow",
+            "PositionToKnow",
+            "Values"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who exactly endorsed Trump and how many?  ",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "What is the significance of the number of endorsements Trump has received, and how does it compare to the number of endorsements received by his opponent?",
+                    "label": "Useful",
+                    "similarity": 0.6639124155044556
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific actions did the admirals and generals endorse?  ",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "Did many admirals and generals assert that Trump should be endorsed?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6241306662559509
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Is there evidence supporting Russia's involvement in breaking into the DNC?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "On what basis does Trump claim that nobody knows if Russia broke into the DNC? Is this a credible claim, and what evidence does he have to support it?",
+                    "label": "Useful",
+                    "similarity": 0.5905505418777466
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "Who exactly endorsed Trump and how many?  \nWhat specific actions did the admirals and generals endorse?  \nIs there evidence supporting Russia's involvement in breaking into the DNC?",
+        "reasoning": null
+    },
+    "AngelComa__638": {
+        "intervention_id": "AngelComa__638",
+        "intervention": "AngelComa: \"Funny, I thought he did good\nThey get timed responses\nhis plan is all there\nHe can't talk about everything in the plan\nMust be how used you are to politicians saying things and not having a plan\"\n < this message is answering to > \nPunchee: \"That was a weird moment in American debate history. \"Yo check my website. Shit's on there.\"\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who is AngelComa referring to?  ",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What specific aspects of the politician's performance is AngelComa referring to when they say \"he did good\"? What criteria are they using to evaluate the performance?",
+                    "label": "Useful",
+                    "similarity": 0.6171517372131348
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What does AngelComa mean by his plan being all there?  ",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What does AngelComa mean by \"his plan is all there\"? Is the plan publicly available, and if so, where can it be accessed? What specific details of the plan are being referred to?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7799370288848877
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Why does AngelComa think the speaker can't talk about everything in the plan?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "How does AngelComa know that the politician cannot talk about everything in the plan? Is there a specific constraint or limitation that prevents them from doing so?",
+                    "label": "Unhelpful",
+                    "similarity": 0.8052366971969604
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "Who is AngelComa referring to?  \nWhat does AngelComa mean by his plan being all there?  \nWhy does AngelComa think the speaker can't talk about everything in the plan?",
+        "reasoning": null
+    },
+    "TRUMP_114_2": {
+        "intervention_id": "TRUMP_114_2",
+        "intervention": "TRUMP: \"our country 's a mess\nit 's one thing to have $ 20 trillion in debt\nOur airports are like from a third world country\nYou land at LaGuardia , you land at Kennedy , you land at LAX , you land at Newark , and you come in from Dubai and Qatar and you see these incredible\u2014you come in from China , you see these incredible airports\nwe 've become a third world country\nour bridges are good\neverything 's in great shape\nour airports\nthe worst of all things has happened\nWe owe $ 20 trillion\nwe 're a mess\nWe have n't even started\nwe 've spent $ 6 trillion in the Middle East\naccording to a report that I just saw\nWhether it 's 6 or 5\n it looks like it 's 6\nwe could have rebuilt our country twice\nit 's really a shame\nit 's politicians like Secretary Clinton that have caused this problem\nOur country has tremendous problems\nWe 're a debtor nation\nWe 're a serious debtor nation\nwe have a country that needs new roads , new tunnels , new bridges , new airports , new schools , new hospitals\nwe don't have the money\nit 's been squandered on so many of your ideas\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Example",
+            "Example",
+            "Example",
+            "GenericAdHominem",
+            "CircumstantialAdHominem",
+            "VerbalClassification",
+            "PracticalReasoning",
+            "Example",
+            "ExpertOpinion",
+            "Example",
+            "VerbalClassification",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "what does trump mean by our country being a mess?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "How does Trump's rhetoric about the country being a \"mess\" and a \"debtor nation\" align with the actual economic indicators, such as GDP growth, unemployment rates, and inflation, which may provide a more nuanced view of the country's economic situation?",
+                    "label": "Useful",
+                    "similarity": 0.535856306552887
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "why does trump believe our airports are from a third world country?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "Is the characterization of the country's airports as \"third world\" accurate, or is it an exaggeration?",
+                    "label": "Useful",
+                    "similarity": 0.7522675395011902
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "how much money has trump mentioned we've spent in the middle east?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Did this report really assert that we've spent $6 trillion in the Middle East?",
+                    "label": "Useful",
+                    "similarity": 0.6901953816413879
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "what does trump mean by our country being a mess?\nwhy does trump believe our airports are from a third world country?\nhow much money has trump mentioned we've spent in the middle east?",
+        "reasoning": null
+    },
+    "citizen-s_134": {
+        "intervention_id": "citizen-s_134",
+        "intervention": "citizen-s: \"DOT's objective in setting this rule should be to ELIMINATE all bumping, not merely achieve some (unspecified) reduction.\nRegardless of how many caveats an airline might state in its contract terms, passengers neither want nor deserve a ticket for an oversold seat.\nBumping is a purely economic device that treats passengers as economic units devoid of humanity, like so many other aspects of airline behavior.\nFrom that objective, it follows that there should be NO cap on compensation\nand that the financial penalty to the airline should be strong enough to prevent bumping, not just keep it at some arbitrarily \"acceptable\" level.\nThe 100% of the total ticket price for expected arrival within 2 hours later is reasonable.\nCompensation for a longer delay should be the GREATER of 200% of the total ticket cost or the passenger's demonstrable outofpocket costs resulting from the delay\n(a) including any higher priced air ticket from the same or another carrier at the same class, and lodging, meals and incidentals at average prevailing prices in that metro area,\nand (b) with the obligation on the passenger to minimize those costs by arranging, with good faith help from the airline, an alternate flight or other means to get him or her to the destination as soon as reasonably practical.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why eliminate all bumping?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "Is the objective of eliminating all bumping realistic, considering the economic and logistical complexities of the airline industry?",
+                    "label": "Useful",
+                    "similarity": 0.6226227283477783
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "what constitutes acceptable compensation?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Is the proposed compensation structure, including the 100% and 200% thresholds, based on empirical evidence or is it arbitrary?",
+                    "label": "Useful",
+                    "similarity": 0.5254053473472595
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "how does this proposal address long-term passenger satisfaction?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "How would the proposed scheme for calculating compensation for longer delays (including higher-priced air tickets, lodging, meals, and incidentals) be implemented in practice, and would it be susceptible to abuse or exploitation by passengers?",
+                    "label": "Useful",
+                    "similarity": 0.46285924315452576
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "why eliminate all bumping?\nwhat constitutes acceptable compensation?\nhow does this proposal address long-term passenger satisfaction?",
+        "reasoning": null
+    },
+    "MT_14": {
+        "intervention_id": "MT_14",
+        "intervention": "MT: \"We have indeed required those products to have very large warnings on them, telling people about their salt and fat content\nAnd we don\u2019t allow them to say things which are misleading\nWe don\u2019t allow fatty products to say they're healthy\nI've got in front of me a letter from a credit card company\nThere are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers\nNow, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges\nAnd then very, very quickly you\u2019ll be lured into paying a very large charge\nDo you think it\u2019s responsible to encourage people to mis-read something like that?\nI\u2019ve got all the information there in front of me\nWhy is that irresponsible?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "Example",
+            "ExpertOpinion",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why is encouraging people to misread important?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "Is the assumption that people will \"mis-read\" the fine print a reasonable one, or are consumers capable of understanding the terms and conditions?",
+                    "label": "Useful",
+                    "similarity": 0.4924173951148987
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "isn't it misleading to hide crucial information?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What constitutes \"misleading\" claims, and who decides what is misleading?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5215035080909729
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "what responsibility does encouraging such practices hold?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Are there any potential unintended consequences of stricter regulation?",
+                    "label": "Useful",
+                    "similarity": 0.4838806986808777
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "why is encouraging people to misread important?\nisn't it misleading to hide crucial information?\nwhat responsibility does encouraging such practices hold?",
+        "reasoning": null
+    },
+    "Antanagoge_104": {
+        "intervention_id": "Antanagoge_104",
+        "intervention": "Antanagoge: \"The airline industry can not be left to selfmonitor this.\nStudies have shown that the quality of information from airline customer service department is highly variable and, in some cases, incomplete or inaccurate.\nThe psychological effects of this, combined with the risk of death, are significant.\nStories told by families of vacations never taken, of midair retraction of the promise by the airline that peanuts would not be served, of public humiliation of peanutallergic individuals and their family by airline staff, and of serious reactions in flight, abound.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who conducted the studies mentioned?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "How were these studies conducted, and what were their methodologies?",
+                    "label": "Useful",
+                    "similarity": 0.7021615505218506
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific psychological effects are highlighted?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What are the specific psychological effects being referred to, and how do they impact individuals with peanut allergies?",
+                    "label": "Useful",
+                    "similarity": 0.7114091515541077
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "how common are these incidents according to the studies?",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "How were these studies conducted, and what were their methodologies?",
+                    "label": "Useful",
+                    "similarity": 0.5267820954322815
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "who conducted the studies mentioned?\nwhat specific psychological effects are highlighted?\nhow common are these incidents according to the studies?",
+        "reasoning": null
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who decides what constitutes a \"known\" delay?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What is the definition of \"known\" delays, and how would airlines determine when a delay is certain enough to warrant notification?",
+                    "label": "Useful",
+                    "similarity": 0.6222765445709229
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What are the potential consequences for passengers who decide to reschedule their trips based on delayed notifications?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Are there any potential consequences of requiring airlines to provide notification of delays, such as passengers waiting too long to go to the airport and missing their flight?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7889233827590942
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the unpredictability of delays affect the fairness of airline responsibility?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "How would requiring airlines to provide notification of delays impact their operations and customer service, and would it lead to any unintended consequences?",
+                    "label": "Unhelpful",
+                    "similarity": 0.7253694534301758
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "Who decides what constitutes a \"known\" delay?\nWhat are the potential consequences for passengers who decide to reschedule their trips based on delayed notifications?\nHow does the unpredictability of delays affect the fairness of airline responsibility?",
+        "reasoning": null
+    },
+    "TRUMP_70": {
+        "intervention_id": "TRUMP_70",
+        "intervention": "TRUMP: \"you go to her website\nyou take a look at her website\nShe 's going to raise taxes $ 1.3 trillion\nlook at her website\nYou know what ?\nIt 's no difference than this\nShe 's telling us how to fight ISIS\nJust go to her website\nShe tells you how to fight ISIS on her website\nI do n't think General Douglas MacArthur would like that too much\n...\nNo , no\nyou 're telling the enemy everything you want to do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PositionToKnow"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "what is the source of the information mentioned?  ",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the source of the information about Hillary Clinton's plan to raise taxes by $1.3 trillion, and is it credible?",
+                    "label": "Unhelpful",
+                    "similarity": 0.39457669854164124
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "how does raising taxes by 1.3 trillion affect the economy?  ",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "Are the claims about raising taxes by $1.3 trillion supported by credible sources or is it an exaggeration?",
+                    "label": "Useful",
+                    "similarity": 0.6900738477706909
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "what specific actions are being suggested to fight ISIS on her website?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Is it true that Hillary Clinton's website outlines her plan to fight ISIS, and if so, what specific details are shared?",
+                    "label": "Useful",
+                    "similarity": 0.6965409517288208
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "what is the source of the information mentioned?  \nhow does raising taxes by 1.3 trillion affect the economy?  \nwhat specific actions are being suggested to fight ISIS on her website?",
+        "reasoning": null
+    },
+    "secretcurse__139": {
+        "intervention_id": "secretcurse__139",
+        "intervention": "secretcurse: \"The first debate was already limited to five people\nAccording to the FEC\n171 people have officially declared their candidacy for the Democratic Party nomination with the FEC (sort by party to see the 171 people a bit easier)\nDo you think every single one of the 171 people that have filed the paperwork with the FEC declaring their candidacy deserves their fair shot at expressing themselves at the first debate\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "ArgumentFromAuthority",
+            "ArgumentFromAuthority"
+        ],
+        "cqs": "Missing CQs",
+        "full_response": "?  \n?  \n?",
+        "reasoning": null
+    },
+    "ND_28": {
+        "intervention_id": "ND_28",
+        "intervention": "ND: \"In some ways I agree with you\nIf you want the economy to run smoothly, you have to incentivise certain types of behaviour.\nSo, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies\nOn the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt\nBut it certainly isn\u2019t the debts of the people who most need it in society\nFor productive investments. I agree with you.\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "what does nd mean by incentivising certain types of behavior?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What is the evidence that incentivizing certain types of behavior leads to a smoothly running economy?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5610790252685547
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "why are certain debts being written off according to nd?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What are the \"massive amounts of debt\" being referred to, and who or what entities have written them off?",
+                    "label": "Useful",
+                    "similarity": 0.6787716150283813
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "who does nd suggest would benefit from these productive investments?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "What are the criteria for determining what constitutes \"productive investments\", and how would incentivizing these investments benefit the economy?",
+                    "label": "Useful",
+                    "similarity": 0.5494154691696167
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "what does nd mean by incentivising certain types of behavior?\nwhy are certain debts being written off according to nd?\nwho does nd suggest would benefit from these productive investments?",
+        "reasoning": null
+    },
+    "CLINTON_186": {
+        "intervention_id": "CLINTON_186",
+        "intervention": "CLINTON: \"there are a number of issues that we should be addressing\nI have put forth a plan to defeat ISIS\nIt does involve going after them online\nwe need to do much more with our tech companies to prevent ISIS and their operatives from being able to use the Internet to radicalize , even direct people in our country and Europe and elsewhere\neventually support our Arab and Kurdish partners to be able to actually take out ISIS in Raqqa\nend their claim of being a Caliphate\nWe 're making progress\nOur military is assisting in Iraq\nwe 're hoping that within the year we 'll be able to push ISIS out of Iraq\nreally squeeze them in Syria\nwe have to be cognizant of the fact that they 've had foreign fighters coming to volunteer for them\nforeign money\nforeign weapons\nwe have to make this the top priority\nI would also do everything possible to take out their leadership\nI was involved in a number of efforts to take out Al Qaida leadership when I was secretary of state\nincluding , of course , taking out bin Laden\nwe need to go after Baghdadi , as well\nmake that one of our organizing principles\nwe 've got to defeat ISIS\nwe 've got to do everything we can to disrupt their propaganda efforts online\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Example",
+            "Example",
+            "VerbalClassification",
+            "Example",
+            "PracticalReasoning",
+            "Values",
+            "Values",
+            "PracticalReasoning",
+            "Values"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who are the main allies mentioned and how effective are they?  ",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "How does Clinton propose to address the issue of foreign fighters, money, and weapons supporting ISIS, and what international cooperation does she envision to tackle these challenges?",
+                    "label": "Useful",
+                    "similarity": 0.3492814302444458
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific measures will be taken against ISIS's foreign fighters and funding?  ",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What is the plan for dealing with the foreign fighters, money, and weapons that are supporting ISIS, and how would Clinton's administration coordinate with international partners to address these issues?",
+                    "label": "Useful",
+                    "similarity": 0.6476885080337524
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "how will the strategy address the threat of ISIS's online propaganda?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What is the specific plan to \"go after\" ISIS online, and how would it be implemented?",
+                    "label": "Useful",
+                    "similarity": 0.7584421634674072
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "who are the main allies mentioned and how effective are they?  \nwhat specific measures will be taken against ISIS's foreign fighters and funding?  \nhow will the strategy address the threat of ISIS's online propaganda?",
+        "reasoning": null
+    },
+    "MT_40": {
+        "intervention_id": "MT_40",
+        "intervention": "MT: \"I don\u2019t think you just said the opposite of them was neutral\nSo if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?\nBut, hold on\nIsn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nTherefore isn\u2019t it a reasonable thing for the state to intervene in those cases\nbecause the knowledge is bounded?\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "PracticalReasoning",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Is thrift and prudence indeed virtues?  ",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "What are the definitions of thrift and prudence, and how do they relate to morality?",
+                    "label": "Unhelpful",
+                    "similarity": 0.8369671702384949
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "Does buying a cup of coffee inherently lack moral significance compared to long-term interests?  ",
+                "matched_reference": {
+                    "index": 12,
+                    "cq": "How does the comparison between buying a cup of coffee and working up a long-term interest rate relate to the issue of state intervention?",
+                    "label": "Useful",
+                    "similarity": 0.5720141530036926
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "Can the state reasonably intervene in such cases based on the given argument?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Could the intervention of the state in those cases have consequences that we should take into account? Is it practically possible?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6918393969535828
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "Is thrift and prudence indeed virtues?  \nDoes buying a cup of coffee inherently lack moral significance compared to long-term interests?  \nCan the state reasonably intervene in such cases based on the given argument?",
+        "reasoning": null
+    },
+    "CL_8": {
+        "intervention_id": "CL_8",
+        "intervention": "CL: \"Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?\nThey have absolutely very little choice except to take the terms that are being offered to them\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "DirectAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why are you taking advantage??",
+                "matched_reference": {
+                    "index": 21,
+                    "cq": "What evidence is there that the people in question are being taken advantage of, and that they are not simply making a rational decision based on their circumstances?",
+                    "label": "Invalid",
+                    "similarity": 0.44353795051574707
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "are these people in a position to negotiate??",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What does it mean that they are in no position to negotiate?",
+                    "label": "Useful",
+                    "similarity": 0.5670280456542969
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "what terms are being offered and what choices do they have?",
+                "matched_reference": {
+                    "index": 9,
+                    "cq": "What are the terms being offered to them?",
+                    "label": "Useful",
+                    "similarity": 0.7959935665130615
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "why are you taking advantage??\nare these people in a position to negotiate??\nwhat terms are being offered and what choices do they have?",
+        "reasoning": null
+    },
+    "CLINTON_130_1": {
+        "intervention_id": "CLINTON_130_1",
+        "intervention": "CLINTON: \"I've heard Donald say this at his rallies\nit's really unfortunate that he paints such a dire negative picture of black communities in our country\nthe vibrancy of the black church\nthe black businesses that employ so many people\nthe opportunities that so many families are working to provide for their kids\nThere's a lot that we should be proud of and we should be supporting and lifting up\nwe do always have to make sure we keep people safe\nThere are the right ways of doing it\nthen there are ways that are ineffective\nStop-and-frisk was found to be unconstitutional\nin part, because it was ineffective\nIt did not do what it needed to do\nI believe in community policing\nin fact, violent crime is one-half of what it was in 1991\nProperty crime is down 40 percent\nWe just don't want to see it creep back up\nWe've had 25 years of very good cooperation\nthere were some problems\nsome unintended consequences\nToo many young African-American and Latino men ended up in jail for nonviolent offenses\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Example",
+            "Consequences",
+            "Example",
+            "Example",
+            "Example",
+            "Example",
+            "Alternatives",
+            "CauseToEffect"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who defines what is effective and what is ineffective in law enforcement??",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "Is there a proven relation between situations in which \"does not do what it needs to do\" and situations in which \"it's ineffective\"?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6012086272239685
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific actions does Clinton propose to prevent violent crime from creeping back up??",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What specific policies or actions does Clinton propose to address the racial disparities in the criminal justice system that she acknowledges?",
+                    "label": "Useful",
+                    "similarity": 0.6469666957855225
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How has community policing been implemented and enforced differently from stop-and-frisk policies??",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "Is it plausibly the case that there won't community policing? What evidence supports this claim?",
+                    "label": "Invalid",
+                    "similarity": 0.5541073679924011
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "Who defines what is effective and what is ineffective in law enforcement??\nWhat specific actions does Clinton propose to prevent violent crime from creeping back up??\nHow has community policing been implemented and enforced differently from stop-and-frisk policies??",
+        "reasoning": null
+    },
+    "kateinhawaii_103": {
+        "intervention_id": "kateinhawaii_103",
+        "intervention": "kateinhawaii: \"I personally have suffered from peanut allergies for over 40 years.\nIf there are packaged peanuts served on board a flight, it's 100% guaranteed that I will have a reaction from the peanut dust.\nI do not agree with a buffer zone for a couple of reasons.\nFor me, it's the dust in the air.\nSomeone posted that the air circulates peanut dust right out of the air\nbut apparently not quick enough to prevent a life threatening reaction.\nYou know, airlines tried to create nonsmoking zones on airplanes but that didn't work either.\nI have been on flights where nasty (and do I mean NASTY) flight attendants have made sarcastic remarks about me and my allergies especially on one Delta flight.\nNorthwest was great\nbecause they respected their passengers enough to address their concerns\nand prohibited peanuts altogether.\nIt was as much a relief to walk onto one of their flights as it was to walk onto one of the first smoke free flights!\nSmokers use to use the same logic and reasoning to justify smoking on flights as these peanut proponents are using now.\nI flew on many smoking flights and never needed to inject myself so that I could breathe\nI can't say the same for flights with peanuts.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample",
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why does kateinhawaii believe a buffer zone would not be effective?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How does the author's experience with nasty flight attendants relate to the argument about buffer zones, and is this a relevant consideration?",
+                    "label": "Unhelpful",
+                    "similarity": 0.34027183055877686
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific incidents led kateinhawaii to feel that nonsmoking zones did not work?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How does the author's experience with nasty flight attendants relate to the argument about buffer zones, and is this a relevant consideration?",
+                    "label": "Unhelpful",
+                    "similarity": 0.4329209625720978
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "how does kateinhawaii compare the treatment she received on northwest flights to other airlines?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the basis for the author's assertion that Northwest Airlines' policy of prohibiting peanuts altogether was effective in addressing their concerns, and is this a viable solution for all airlines?",
+                    "label": "Useful",
+                    "similarity": 0.5566690564155579
+                },
+                "label": "LLM_invalid"
+            }
+        ],
+        "full_response": "why does kateinhawaii believe a buffer zone would not be effective?\nwhat specific incidents led kateinhawaii to feel that nonsmoking zones did not work?\nhow does kateinhawaii compare the treatment she received on northwest flights to other airlines?",
+        "reasoning": null
+    },
+    "TRUMP_174_1": {
+        "intervention_id": "TRUMP_174_1",
+        "intervention": "TRUMP: \"I would love to respond\nI got to watch in preparing for this some of your debates against Barack Obama\nYou treated him with terrible disrespect\nI watched the way you talk now about how lovely everything is and how wonderful you are\nIt does n't work that way\nYou were after him\nyou were trying to\u2014you even sent out or your campaign sent out pictures of him in a certain garb , very famous pictures\nI do n't think you can deny that\njust last week , your campaign manager said it was true\nwhen you tried to act holier than thou , it really does n't work\nas far as the lawsuit , yes , when I was very young , I went into my father 's company , had a real estate company in Brooklyn and Queens , and we , along with many , many other companies throughout the country\u2014it was a federal lawsuit\u2014were sued\nWe settled the suit with zero\u2014with no admission of guilt\nIt was very easy to do\nI notice you bring that up a lot\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "GenericAdHominem",
+            "PositionToKnow",
+            "CircumstantialAdHominem",
+            "GenericAdHominem",
+            "Sign",
+            "VerbalClassification",
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who is Barack Obama?  ",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "Can the practical inconsistency between Clinton's commitments and \"Obama being good\" be identified? Can it be shown by evidence? Could it be explained by further dialogue?",
+                    "label": "Unhelpful",
+                    "similarity": 0.4518735408782959
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "What specific pictures are being referred to?  ",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What are the \"certain garb\" pictures that Trump is referring to, and did Clinton's campaign actually send them out?",
+                    "label": "Useful",
+                    "similarity": 0.43715590238571167
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Why did the campaign manager mention this?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "Is it true that Clinton's campaign manager admitted to sending out the pictures, and if so, what was the context?",
+                    "label": "Useful",
+                    "similarity": 0.520191490650177
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "Who is Barack Obama?  \nWhat specific pictures are being referred to?  \nWhy did the campaign manager mention this?",
+        "reasoning": null
+    },
+    "travellots_133_2": {
+        "intervention_id": "travellots_133_2",
+        "intervention": "travellots: \"If compensation is not high enough, the airlines will not have an incentive to schedule properly.\nIt is not fair to allow airlines to discriminate against lower fared passengers or \"free\" passengers\nsince it is the airline, not the passenger or government, who gave that passenger a seat.\nOtherwise, airlines can advertise low fares or con you into using them to build up your \"miles\" and then always bump you for someone who paid more.\nIn away,it is the same as being able to increase your ticket price anytime after purchase.\nWhen you are bumped, there are a lot of hidden extra costs\nIt irks me that airlines seem to be treating passengers more and more as if they have nothing better to do but wait around in airports and not get to where the airline promised to bring them.\nAgain, the airline sets the agreed price or miles for a seat, no one else.\nThe incentives to the airline should be to get all confirmed passengers (regardless of price paid) to the destination promised.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why is compensation not considered fair?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "Is it true that airlines will not have an incentive to schedule properly if compensation is not high enough? Is there any evidence to support this claim?",
+                    "label": "Useful",
+                    "similarity": 0.5540257096290588
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what are the hidden extra costs mentioned?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "What are the \"hidden extra costs\" associated with being bumped, and how do they impact passengers differently?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6337021589279175
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "how does the airline set the agreed price or miles?",
+                "matched_reference": {
+                    "index": 22,
+                    "cq": "Are there alternative actions to banning airlines from discriminating based on the ticket price of the passengers to achieve stopping airlines from advertising low fares or conning you into using them to build your \"miles\" and then bump you for someone who paid more? If so, which is the most efficient action?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5652734041213989
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "why is compensation not considered fair?\nwhat are the hidden extra costs mentioned?\nhow does the airline set the agreed price or miles?",
+        "reasoning": null
+    },
+    "dberger_74_2": {
+        "intervention_id": "dberger_74_2",
+        "intervention": "dberger: \"Other airlines with advance notice will not serve nuts\nbut all airlines allow passengers to bring on foods including nuts\nand will not stop the person from eating them if they wish to.\nSo you can have a 'nut free' flight and the person sitting next to you can take out their package of peanuts and eat away\nand the airlines will do nothing to help you.\nAgain all nuts should be banned from airplanes unless it is your own private plane  then go ahead and eat what you want.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why are some airlines allowing nuts while others are not?",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Would a ban on nuts on airplanes be enforceable, or would it be difficult to police and lead to conflicts between passengers and airline staff?",
+                    "label": "Useful",
+                    "similarity": 0.6959229707717896
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific measures does the author suggest to ensure a 'nut free' flight?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Are there alternative actions to completely banning tree nuts and peanuts on planes to achieve having a 'nut free' flight? If so, which is the most efficient action?",
+                    "label": "Useful",
+                    "similarity": 0.6676271557807922
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "is the author's proposal for banning nuts from all flights practical?",
+                "matched_reference": {
+                    "index": 10,
+                    "cq": "Could completely banning tree nuts and peanuts on planes have consequences that we should take into account? Is it practically possible?",
+                    "label": "Useful",
+                    "similarity": 0.7579745650291443
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "why are some airlines allowing nuts while others are not?\nwhat specific measures does the author suggest to ensure a 'nut free' flight?\nis the author's proposal for banning nuts from all flights practical?",
+        "reasoning": null
+    },
+    "TRUMP_240_2": {
+        "intervention_id": "TRUMP_240_2",
+        "intervention": "TRUMP: \"by the way , another one powerful is the worst deal I think I 've ever seen negotiated that you started is the Iran deal\nIran is one of their biggest trading partners\nIran has power over North Korea\nwhen they made that horrible deal with Iran , they should have included the fact that they do something with respect to North Korea\nthey should have done something with respect to Yemen and all these other places\nwhen asked to Secretary Kerry , why did n't you do that ?\nWhy did n't you add other things into the deal ?\nOne of the great giveaways of all time , of all time , including $ 400 million in cash\nNobody 's ever seen that before\nThat turned out to be wrong\nIt was actually $ 1.7 billion in cash\nobviously , I guess for the hostages\nIt certainly looks that way\nThis is one of the worst deals ever made by any country in history\nyou say to yourself , why did n't they make the right deal ?\nThe deal with Iran will lead to nuclear problems\nAll they have to do is sit back 10 years , and they do n't have to do much\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Consequences",
+            "Consequences",
+            "GenericAdHominem",
+            "CircumstantialAdHominem",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why did trump believe the iran deal was the worst he had ever seen?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What specific aspects of the Iran deal make it \"the worst deal ever made by any country in history\"?",
+                    "label": "Useful",
+                    "similarity": 0.8168138265609741
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific actions did trump suggest should have been included in the iran deal?",
+                "matched_reference": {
+                    "index": 24,
+                    "cq": "What are the motivations behind the deal, and are they purely driven by a desire to appease Iran, or are there other strategic or diplomatic considerations at play?",
+                    "label": "Invalid",
+                    "similarity": 0.5033674836158752
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "how did trump justify the discrepancy between the reported amount of cash given to iran?",
+                "matched_reference": {
+                    "index": 26,
+                    "cq": "Is the payment of $1.7 billion in cash a \"giveaway\" or a legitimate payment for the release of hostages, and what is the evidence for either interpretation?",
+                    "label": "Useful",
+                    "similarity": 0.44543325901031494
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "why did trump believe the iran deal was the worst he had ever seen?\nwhat specific actions did trump suggest should have been included in the iran deal?\nhow did trump justify the discrepancy between the reported amount of cash given to iran?",
+        "reasoning": null
+    },
+    "CLINTON_176_2": {
+        "intervention_id": "CLINTON_176_2",
+        "intervention": "CLINTON: \"we recently have learned that, you know, that this is one of their preferred methods of trying to wreak havoc and collect information\nWe need to make it very clear\u2014whether it's Russia, China, Iran or anybody else\u2014the United States has much greater capacity\nwe are not going to sit idly by and permit state actors to go after our information, our private-sector information or our public-sector information\n we're going to have to make it clear that we don't want to use the kinds of tools that we have\nWe don't want to engage in a different kind of warfare\nwe will defend the citizens of this country\n the Russians need to understand that\n they've been treating it as almost a probing, how far would we go, how much would we do\nI was so shocked when Donald publicly invited Putin to hack into Americans\nThat is just unacceptable\"",
+        "dataset": "US2016",
+        "schemes": [
+            "DangerAppeal",
+            "DangerAppeal",
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who are the state actors mentioned??",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "What specific actions is Clinton proposing to take in order to defend against cyber attacks, and how would these actions be effective in deterring state actors?",
+                    "label": "Useful",
+                    "similarity": 0.35742807388305664
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "what specific tools does the speaker say the US doesn't want to use??",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What are the \"kinds of tools\" that the United States has, and why are they not being used to defend against cyber attacks?",
+                    "label": "Useful",
+                    "similarity": 0.42547380924224854
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "why did the speaker express shock at Donald's invitation to Putin??",
+                "matched_reference": {
+                    "index": 30,
+                    "cq": "Is Clinton's characterization of Donald Trump's statement as an \"invitation\" to hack into Americans an accurate representation of his words, and what is the context in which he made this statement?",
+                    "label": "Useful",
+                    "similarity": 0.42623451352119446
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "who are the state actors mentioned??\nwhat specific tools does the speaker say the US doesn't want to use??\nwhy did the speaker express shock at Donald's invitation to Putin??",
+        "reasoning": null
+    },
+    "CLINTON_87": {
+        "intervention_id": "CLINTON_87",
+        "intervention": "CLINTON: \"I happen to support that in a way that will actually work to our benefit\nwhen I look at what you have proposed , you have what is called now the Trump loophole\nit would so advantage you and the business you do\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Bias"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who is the Trump loophole??",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the \"Trump loophole\" that Clinton is referring to? How does it specifically advantage Trump and his business, and what are the implications of this loophole?",
+                    "label": "Useful",
+                    "similarity": 0.732473611831665
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "what does supporting it actually mean in practice??",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "What exactly does Clinton mean by \"in a way that will actually work to our benefit\"? How does her proposal differ from Trump's, and what specific benefits does she claim it will bring?",
+                    "label": "Useful",
+                    "similarity": 0.373611181974411
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "how could it benefit the business mentioned?",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "What is the \"Trump loophole\" that Clinton is referring to? How does it specifically advantage Trump and his business, and what are the implications of this loophole?",
+                    "label": "Useful",
+                    "similarity": 0.4817577600479126
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "who is the Trump loophole??\nwhat does supporting it actually mean in practice??\nhow could it benefit the business mentioned?",
+        "reasoning": null
+    },
+    "CLINTON_21": {
+        "intervention_id": "CLINTON_21",
+        "intervention": "CLINTON: \"nine million people lost their jobs\nFive million people lost their homes\n$ 13 trillion in family wealth was wiped out\nNow , we have come back from that abyss\nit has not been easy\nwe 're now on the precipice of having a potentially much better economy\nthe last thing we need to do is to go back to the policies that failed us in the first place\nIndependent experts have looked at what I 've proposed\nlooked at what Donald 's proposed\nI intend to get it done\nTake clean energy\nSome country is going to be the clean- energy superpower of the 21st century\nDonald thinks that climate change is a hoax perpetrated by the Chinese\nI think it 's real\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "what policies did clinton propose?  ",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What specific proposals has Clinton made to address the issues she raises, and are they feasible and effective?",
+                    "label": "Useful",
+                    "similarity": 0.767845869064331
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "are independent experts' opinions reliable?  ",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What are the \"independent experts\" that Clinton mentions, and are their opinions credible and unbiased?",
+                    "label": "Useful",
+                    "similarity": 0.7877351641654968
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "how does clinton define climate change?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "How does Clinton's proposal address the issue of climate change, and what specific policies does she propose to mitigate its effects?",
+                    "label": "Useful",
+                    "similarity": 0.7081429958343506
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "what policies did clinton propose?  \nare independent experts' opinions reliable?  \nhow does clinton define climate change?",
+        "reasoning": null
+    },
+    "CLINTON_223_1": {
+        "intervention_id": "CLINTON_223_1",
+        "intervention": "CLINTON: \"Let 's talk about two important issues that were briefly mentioned by Donald\nfirst , NATO\nNATO as a military alliance has something called Article 5\nyou know the only time it 's ever been invoked ?\nAfter 9/11 , when the 28 nations of NATO said that they would go to Afghanistan with us to fight terrorism\nsomething that they still are doing by our side\nWith respect to Iran , when I became secretary of state , Iran was weeks away from having enough nuclear material to form a bomb\nThey had mastered the nuclear fuel cycle under the Bush administration\nThey had built covert facilities\nThey had stocked them with centrifuges that were whirling away\nwe had sanctioned them\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Sign",
+            "Sign",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who invoked Article 5 of NATO?  ",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "Is it accurate to say that NATO only invoked Article 5 after 9/11, and are there any other instances where it was invoked?",
+                    "label": "Useful",
+                    "similarity": 0.8047071099281311
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What was the context of Iran's nuclear program during the Bush administration?  ",
+                "matched_reference": {
+                    "index": 11,
+                    "cq": "How did the Bush administration's policies contribute to Iran's mastery of the nuclear fuel cycle, and what specific actions did they take that allowed Iran to build covert facilities and stock them with centrifuges?",
+                    "label": "Useful",
+                    "similarity": 0.7227204442024231
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How significant was the threat posed by Iran's nuclear capabilities according to Clinton?",
+                "matched_reference": {
+                    "index": 20,
+                    "cq": "What were the effects of the sanctions imposed on Iran during Clinton's tenure as Secretary of State, and did they have the desired outcome of preventing Iran from developing nuclear weapons?",
+                    "label": "Useful",
+                    "similarity": 0.6823647022247314
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "Who invoked Article 5 of NATO?  \nWhat was the context of Iran's nuclear program during the Bush administration?  \nHow significant was the threat posed by Iran's nuclear capabilities according to Clinton?",
+        "reasoning": null
+    },
+    "Melanie_64": {
+        "intervention_id": "Melanie_64",
+        "intervention": "Melanie: \"Well the State has taken a moral position\nthat position was non-judgmentalism\nand terrible harm it\u2019s done\nIt\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime\n I think they do need help\nbut that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility\"",
+        "dataset": "moral_maze_schemes",
+        "schemes": [
+            "NegativeConsequences"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who defines the criteria for needing help?  ",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "What does Melanie mean by \"carefully calibrated\" help, and how would she propose to achieve this calibration?",
+                    "label": "Useful",
+                    "similarity": 0.4224933385848999
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "how is the help being calibrated to restore independence and responsibility?  ",
+                "matched_reference": {
+                    "index": 17,
+                    "cq": "How does Melanie define \"independence\" and \"personal responsibility\", and how would she measure the restoration of these capacities?",
+                    "label": "Useful",
+                    "similarity": 0.5616571307182312
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "what are the potential unintended consequences of the help provided?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Are there any alternative explanations for the harm caused by the State's moral position, and has Melanie considered these alternatives?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5045908093452454
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "who defines the criteria for needing help?  \nhow is the help being calibrated to restore independence and responsibility?  \nwhat are the potential unintended consequences of the help provided?",
+        "reasoning": null
+    },
+    "smg_72": {
+        "intervention_id": "smg_72",
+        "intervention": "smg: \"It has become abundantly clear that commercial airline travel is a \"race to the bottom\" that satisfies needs of neither passengers nor airline profits.\nA change of environment, which can only be imposed from outside the industry is needed.\nImposition of common sense regulations,\nwould level the playing field and remove the impetus for airlines to costcut in this area.\nThe results would be better service to customers and a renormalization of the playing field from which the airlines compete without fear of being undercut.\nThis goes for most of the proposed new regulations.\nI sincerely believe that these regulations are in the best interests of both airlines and passengers.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why are current regulations insufficient?",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "How would the proposed regulations be enforced, and what would be the consequences for non-compliance?",
+                    "label": "Useful",
+                    "similarity": 0.5644651651382446
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific common sense regulations are proposed?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What is meant by \"common sense regulations\", and how would they be defined and implemented?",
+                    "label": "Useful",
+                    "similarity": 0.8961703181266785
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "how would imposing these regulations affect competition?",
+                "matched_reference": {
+                    "index": 25,
+                    "cq": "How would these regulations affect the airline industry's profitability, and are there any potential unintended consequences?",
+                    "label": "Useful",
+                    "similarity": 0.6099462509155273
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "why are current regulations insufficient?\nwhat specific common sense regulations are proposed?\nhow would imposing these regulations affect competition?",
+        "reasoning": null
+    },
+    "CLINTON_85": {
+        "intervention_id": "CLINTON_85",
+        "intervention": "CLINTON: \"let 's start the clock again , Lester\nWe 've looked at your tax proposals\nI do n't see changes in the corporate tax rates or the kinds of proposals you 're referring to that would cause the repatriation , bringing back of money that 's stranded overseas\nI happen to support that\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Alternatives"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why does clinton disagree with lester's proposals?",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "What is Clinton's motivation for supporting these proposals, and are there any potential conflicts of interest or biases at play?",
+                    "label": "Useful",
+                    "similarity": 0.5144850611686707
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "what specific changes does lester propose for corporate tax rates?",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "How would Clinton's proposed policies address the issue of tax avoidance or evasion by corporations, and what measures would be taken to prevent abuse?",
+                    "label": "Unhelpful",
+                    "similarity": 0.5993173718452454
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "does clinton believe all the money overseas should be repatriated?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "How does Clinton's support for repatriation of money stranded overseas align with her broader economic policies and goals?",
+                    "label": "Useful",
+                    "similarity": 0.75893235206604
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "why does clinton disagree with lester's proposals?\nwhat specific changes does lester propose for corporate tax rates?\ndoes clinton believe all the money overseas should be repatriated?",
+        "reasoning": null
+    },
+    "howie_201": {
+        "intervention_id": "howie_201",
+        "intervention": "howie: \"First, stop reading that propaganda magazine.\nPublications like that only serve to create fear in minds like yours.\nSecond, how old is your kid?\nIf under 5, relax the sensitivity will probably go away by the time he is 5.\nThird, go to a real doctor  not an allergist and see if there is really even a problem at all.\nThis supposed plague of food allergies is the result of very clever advertising by this profession of pseudoscientists.\nAllergists are not doctors.\nI sincerely doubt you \"know plenty of people who will die if they do have peanuts or breathe in peanut dust\".\nAlmost noone is actually that allergic.\nLot's of people think they are much worse off than they really are.\nMethinks you have an agenda.\nHighly suspicious that the child of a physician who is hyper aware of bad things that can happen coincidentally has not one, but three life threatening allergies.\nHave you heard of Munchasen by Proxy?\nDo you realize that most kids have mild reactions to various food items that they invariably grow out of by the age of 5?\nFood allergies have to be the most overblown imagined health problem of our time.\nHypochondriacs all.\"\n < this message is answering to > \njsooudi: \"I'm a physician, epidemiologist, and mother to a four year old boy with allergies to milk, peanuts and egg.\nMy son's dairy allergy is severe,\nand he has had numerous lifethreatening anaphylactic reactions to trace amounts of milk,\nwhich required multiple doses of epinephrine and trips to the Emergency Department.\nTests indicate that his peanut allergy is worse,\nbut fortunately he has only been exposed once to a peanut;\nhe put one in his mouth and had a relatively mild  reaction.\nI've traveled with my children\nand despite calling ahead, making requests, and reminding employees at the door, I've rarely had respect, let alone consistency, in any kind of peanutfree buffer zone or flight.\nSeveral years ago Continental Airlines customer service headquarters informed me that they would serve peanuts on all flights as they were unable to guarantee a peanut free flight.\n(So why not hand out weapons since they can't guarantee a weapon free flight either?)\nI've sat with my epi pen in hand on a filthy flight with visible peanut crumbs on the floor while a flight attendant insisted on offering peanuts to the passengers around me because \"it was their right.\"\nFortunately for me, my son's peanut allergy is not severe enough that it prohibits us from air travel.\nNow that he is old enough to not put things in his mouth, and to protect himself, we are safer.\nHowever, I know of many, many others in the allergy community, children and adults who simply can NOT fly.\nMy son's dairy allergy is quite severe.\nThe world would be a much safer place for us if no one consumed milk near him.\nIf his skin touches anything that once touched milk, even if it was partially cleaned, he will get severe hives.\nIf he consumes even less than a drop, within seconds his lips, eyes and face will swell, he will be covered in hives, vomit, and be gasping for breath.\nWithout epinephrine he would probably die within minutes.\nBut milk is ubiquitous,\nand milk allergy relatively uncommon,\nso we must protect ourselves.\nPeanut allergy is common,\nand it is a simple step to serve an alternative peanut based snacks for a short period of time.\nSo why is this a big problem?\nThe vast majority of potential reactions would be eliminated by simply avoiding snacks that have peanuts or peanut butter as an ingredient.\nPeanut oil is known to contain very little of the actual peanut protein,\nand would be of little risk in an airborne environment.\nAs a physician, I have responded to the call from airline staff asking for emergency medical assistance.\nI am well aware of how expensive and inconvenient it is to ground a plane.\nIn addition, most epipens come in two pack doses,\neach of which are good for maybe 10 to 15 minutes.\nWhich in a severe anaphylactic reaction is simply not enough time between the beginning of a reaction and the patient reaching EMS.\nI've found that other passengers, as a rule, are extremely supportive,\nand are more than happy to help with a fellow passengers safety.\nI think the people commenting on this site would react entirely differently were they seated next to an allergic child on a plane.\nOf course they would refrain from eating peanuts for a few hours if they knew it would hurt someone they were looking in the face.\nBut I am sympathetic to individuals who are unhappy with yet another discomfort inflicted on air travelers.\nThis restriction is designed to protect people with allergies from the airlines callous disregard for cleanliness and for our safety, not from our fellow passengers.\n\"Hi.  My name is Steven.  I am 4 years old.\nI am allergic to peanuts, eggs and cow milk.\nIf I eat a peanut I'll get sick.\nI ate a nut one time and got a big bump on my lip and it swelled up and it was hard to breathe.\nIt was scary and my dad gave me some medicine that made it better.\nI would like for them to not give out peanuts so I won't get sick because I'm allergic.\nEverybody should drink Sprite and eat Pringles and Pretzels.\"\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why does howie suggest stopping reading a specific magazine?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "How does Howie define a \"real doctor,\" and what is the basis for his claim that allergists are not doctors?",
+                    "label": "Useful",
+                    "similarity": 0.4068586528301239
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what evidence does jsooudi provide for her son's severe allergies?",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "What is the author's understanding of Munchausen syndrome by proxy, and how does it relate to the parent's concerns about their child's allergies? Is the author suggesting that the parent is fabricating their child's allergies, and if so, what evidence do they have to support this claim?",
+                    "label": "Useful",
+                    "similarity": 0.550476610660553
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "why does howie doubt the severity of jsooudi's son's allergies?",
+                "matched_reference": {
+                    "index": 7,
+                    "cq": "What evidence does Howie have to support his accusation that the parent has an agenda or is engaging in Munchausen syndrome by proxy, and what is the basis for his skepticism about the parent's claims?",
+                    "label": "Useful",
+                    "similarity": 0.5700982213020325
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "why does howie suggest stopping reading a specific magazine?\nwhat evidence does jsooudi provide for her son's severe allergies?\nwhy does howie doubt the severity of jsooudi's son's allergies?",
+        "reasoning": null
+    },
+    "TRUMP_222": {
+        "intervention_id": "TRUMP_222",
+        "intervention": "TRUMP: \"I have much better judgment than she does\nThere 's no question about that\nI also have a much better temperament than she has\nshe spent hundreds of millions of dollars on an advertising\nthey get Madison Avenue into a room\nthey put names\ntemperament , let 's go after\nmy strongest asset , maybe by far , is my temperament\nI have a winning temperament\nI know how to win\nShe does not have a\nWrong\nthere 's a person with a temperament that 's got a problem\nThe AFL-CIO the other day , behind the blue screen , I do n't know who you were talking to , Secretary Clinton , but you were totally out of control\n I do n't know who you were talking to\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PopularOpinion",
+            "CauseToEffect",
+            "Sign",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who is the speaker referring to when mentioning \"she\"?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "How does Trump's use of rhetorical questions (\"I don't know who you were talking to, Secretary Clinton...\") contribute to the persuasive power of his argument, and is it a legitimate rhetorical device?",
+                    "label": "Invalid",
+                    "similarity": 0.4666059613227844
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "what specific aspects of temperament is trump criticizing in his opponent?",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "How does Trump's own behavior in this paragraph, such as interrupting and making personal attacks, reflect on his own temperament?",
+                    "label": "Unhelpful",
+                    "similarity": 0.8191233277320862
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "why does trump believe his own temperament gives him a winning advantage?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "What does Trump mean by \"winning temperament\" and how does he demonstrate this in his own behavior?",
+                    "label": "Useful",
+                    "similarity": 0.8296473026275635
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "who is the speaker referring to when mentioning \"she\"?\nwhat specific aspects of temperament is trump criticizing in his opponent?\nwhy does trump believe his own temperament gives him a winning advantage?",
+        "reasoning": null
+    },
+    "Doctor-Mom_205": {
+        "intervention_id": "Doctor-Mom_205",
+        "intervention": "Doctor-Mom: \"I would support a full ban of peanut products on any airline.\nPeanut reactions can be life threatening.\nAn individual doesn't have to consume the product to have a life threatening reaction.\nThey can have contact or inhalation reactions.\nRestricting to certain flights is not enough,\nas residue can be rampant.\nProviding buffer zones is a thoughtful gesture,\nbut from a practical point of view does not work.\nWith so many food choices available, why are peanuts a necessary choice?\nI am a physician , and author on the subject.\nI have free food allergy online support forums with 3000 members.\nhttp://www.drmomsallergyrx.com/\nI would be more than willing to work with you in any way on this decision making process.\nThe allergic community is so grateful that you are allowing our voices to be heard.\nThe decision you are considering could save many lives.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExpertOpinion",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "why is a full ban necessary?",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "How would a full ban on peanut products be enforced and monitored, and what would be the consequences for non-compliance?",
+                    "label": "Useful",
+                    "similarity": 0.5435696840286255
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what are the alternatives to restricting peanut products?",
+                "matched_reference": {
+                    "index": 0,
+                    "cq": "Are there any potential unintended consequences of a full ban on peanut products on airplanes?",
+                    "label": "Useful",
+                    "similarity": 0.6878696084022522
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "how can we ensure the safety of passengers without banning peanuts?",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "Are peanuts a necessary choice for airlines, or are they simply a convenient and popular snack? Are there alternative snacks that could be offered instead?",
+                    "label": "Unhelpful",
+                    "similarity": 0.691256046295166
+                },
+                "label": "Unhelpful"
+            }
+        ],
+        "full_response": "why is a full ban necessary?\nwhat are the alternatives to restricting peanut products?\nhow can we ensure the safety of passengers without banning peanuts?",
+        "reasoning": null
+    },
+    "17th_knight__247": {
+        "intervention_id": "17th_knight__247",
+        "intervention": "17th: \"They should get the coverage\nThey are here\nthey work\nthey are a part of this society\nFuck off with your xenophobia\"\n < this message is answering to > \nreaper527: \"now you have a field of democrat presidential candidates supporting it\nrepublicans used to get mocked and laughed at when they said that illegal immigrants would be getting obamacare coverage\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Ad hominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "who are these people mentioned as needing coverage?  ",
+                "matched_reference": {
+                    "index": 13,
+                    "cq": "What is the definition of \"they are here\" and how does it relate to the issue of health insurance coverage? Is it a moral obligation to provide health insurance to anyone who is physically present in a country, regardless of their immigration status?",
+                    "label": "Useful",
+                    "similarity": 0.47103244066238403
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "what specific policies or benefits are being discussed?  ",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "How would providing health insurance coverage to undocumented immigrants be funded? Would it require an increase in taxes, or would it be funded through other means?",
+                    "label": "Useful",
+                    "similarity": 0.43113192915916443
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "why is xenophobia being addressed in this context?",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is the accusation of \"xenophobia\" a valid critique of opposing views, or is it a form of ad hominem attack? Are there legitimate reasons why someone might oppose health insurance coverage for undocumented immigrants that have nothing to do with xenophobia?",
+                    "label": "Useful",
+                    "similarity": 0.7302767634391785
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "who are these people mentioned as needing coverage?  \nwhat specific policies or benefits are being discussed?  \nwhy is xenophobia being addressed in this context?",
+        "reasoning": null
+    },
+    "CLINTON_193": {
+        "intervention_id": "CLINTON_193",
+        "intervention": "CLINTON: \"I hope the fact-checkers are turning up the volume and really working hard\nDonald supported the invasion of Iraq\n...\nThat is absolutely proved over and over again\n...\nHe actually advocated for the actions we took in Libya\nurged that Gadhafi be taken out\nafter actually doing some business with him one time\nlarger point\u2014and he says this constantly\u2014is George W. Bush made the agreement about when American troops would leave Iraq , not Barack Obama\n the only way that American troops could have stayed in Iraq is to get an agreement from the then-Iraqi government that would have protected our troops\nthe Iraqi government would not give that\nlet 's talk about the question you asked , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "VerbalClassification",
+            "Analogy"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who supported the invasion of Iraq?  ",
+                "matched_reference": {
+                    "index": 5,
+                    "cq": "What is the evidence that Donald Trump supported the invasion of Iraq? Are there any credible sources to back up this claim?",
+                    "label": "Useful",
+                    "similarity": 0.622689425945282
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What agreement did George W. Bush make about troop withdrawal?  ",
+                "matched_reference": {
+                    "index": 3,
+                    "cq": "Is it accurate to say that George W. Bush made the agreement about when American troops would leave Iraq, or is this a simplification or distortion of the facts?",
+                    "label": "Useful",
+                    "similarity": 0.7250044941902161
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "Did Donald support the actions in Libya?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "Did Trump support the actions we took in Libya?",
+                    "label": "Useful",
+                    "similarity": 0.906150221824646
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "Who supported the invasion of Iraq?  \nWhat agreement did George W. Bush make about troop withdrawal?  \nDid Donald support the actions in Libya?",
+        "reasoning": null
+    },
+    "TRUMP_253": {
+        "intervention_id": "TRUMP_253",
+        "intervention": "TRUMP: \"She does n't have the look\nShe does n't have the stamina\nI said she does n't have the stamina\nI do n't believe she does have the stamina\nTo be president of this country , you need tremendous stamina\nI just do n't think she has the presidential look\nYou asked me a question\nYou have to be able to negotiate our trade deals\nYou have to be able to negotiate , that 's right , with Japan , with Saudi Arabia\nAll you have to do is speak to them\nWait\n...\nDid you ask me a question\ncan you imagine , we 're defending Saudi Arabia\nwith all of the money they have , we 're defending them , and they 're not paying\nYou have so many different things you have to be able to do , and I do n't believe that Hillary has the stamina\nThe world\nHillary has experience , but it 's bad experience\nit 's bad , bad experience\nit 's the Iran deal that you 're so in love with , where we gave them $ 150 billion back\nit 's the Iran deal\nit 's anything you can\u2014name\nyou almost ca n't name a good deal\nShe 's got experience , but it 's bad experience\"",
+        "dataset": "US2016",
+        "schemes": [
+            "GenericAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who is being referred to when she does not have the stamina?  ",
+                "matched_reference": {
+                    "index": 6,
+                    "cq": "What specific examples can Trump provide to demonstrate that Clinton lacks stamina? Has he observed her in situations that require stamina? ",
+                    "label": "Useful",
+                    "similarity": 0.6476237773895264
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific stamina does Trump claim is necessary for being president?  ",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "Are there any other factors beyond stamina and experience that Trump believes are important for a president to have, and how does he embody those qualities himself?",
+                    "label": "Useful",
+                    "similarity": 0.8045620918273926
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "What are some examples Trump gives of things Hillary cannot do as president?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "Are there special circumstances pertaining to anything Clinton has done that undermine its generalisability to other things that you can name?",
+                    "label": "Invalid",
+                    "similarity": 0.5025633573532104
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "Who is being referred to when she does not have the stamina?  \nWhat specific stamina does Trump claim is necessary for being president?  \nWhat are some examples Trump gives of things Hillary cannot do as president?",
+        "reasoning": null
+    },
+    "TRUMP_58": {
+        "intervention_id": "TRUMP_58",
+        "intervention": "TRUMP: \"You are going to approve one of the biggest tax cuts in history\nYou are going to approve one of the biggest tax increases in history\nYou are going to drive business out\nYour regulations are a disaster , and you 're going to increase regulations all over the place\nmy tax cut is the biggest since Ronald Reagan\nI 'm very proud of it\nIt will create tremendous numbers of new jobs\nyou are going to regulate these businesses out of existence\nWhen I go around\u2014Lester , I tell you this , I 've been all over\nwhen I go around , despite the tax cut , the thing\u2014the things that business as in people like the most is the fact that I 'm cutting regulation\nYou have regulations on top of regulations\nnew companies can not form and old companies are going out of business\nyou want to increase the regulations and make them even worse\nI 'm going to cut regulations\nI 'm going to cut taxes big league\nyou 're going to raise taxes big league\nend of story\"",
+        "dataset": "US2016",
+        "schemes": [
+            "CircumstantialAdHominem",
+            "CircumstantialAdHominem",
+            "CauseToEffect",
+            "CircumstantialAdHominem",
+            "CircumstantialAdHominem",
+            "Alternatives",
+            "CircumstantialAdHominem"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who is Lester?  ",
+                "matched_reference": {
+                    "index": 14,
+                    "cq": "Is businesses going out existence not consistent with other matters Clinton stands for? If so, does this inconsistency decrease Clinton's credibility?",
+                    "label": "Invalid",
+                    "similarity": 0.21565769612789154
+                },
+                "label": "LLM_invalid"
+            },
+            {
+                "id": 1,
+                "cq": "What evidence does Trump provide for his claims about regulations driving businesses out?  ",
+                "matched_reference": {
+                    "index": 8,
+                    "cq": "What is the basis for the claim that the opponent's plan will \"drive business out\" and \"regulate these businesses out of existence\"?",
+                    "label": "Useful",
+                    "similarity": 0.6397117376327515
+                },
+                "label": "Useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does Trump justify his tax cut as being bigger than Reagan's?",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "What is the evidence for the claim that the proposed tax cut is the biggest since Ronald Reagan's, and how does it compare to other tax cuts in US history?",
+                    "label": "Useful",
+                    "similarity": 0.8151604533195496
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "Who is Lester?  \nWhat evidence does Trump provide for his claims about regulations driving businesses out?  \nHow does Trump justify his tax cut as being bigger than Reagan's?",
+        "reasoning": null
+    },
+    "CLINTON_1_2": {
+        "intervention_id": "CLINTON_1_2",
+        "intervention": "CLINTON: \"If you help create the profits , you should be able to share in them , not just the executives at the top\nI want us to do more to support people who are struggling to balance family and work\nI 've heard from so many of you about the difficult choices you face and the stresses that you 're under\nlet 's have paid family leave , earned sick days\nLet 's be sure we have affordable child care and debt-free college\nHow are we going to do it\nWe 're going to do it by having the wealthy pay their fair share and close the corporate loopholes\nwe tonight are on the stage together , Donald Trump and I\nit 's good to be with you\nWe 're going to have a debate where we are talking about the important issues facing our country\nYou have to judge us , who can shoulder the immense , awesome responsibilities of the presidency , who can put into action the plans that will make your life better\nI hope that I will be able to earn your vote on November 8th\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PopularOpinion",
+            "Values",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who exactly does the president propose to share profits with??",
+                "matched_reference": {
+                    "index": 16,
+                    "cq": "Is profit-sharing seen as good for most people?",
+                    "label": "Unhelpful",
+                    "similarity": 0.6106307506561279
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "What specific measures does the candidate suggest to support those balancing family and work??",
+                "matched_reference": {
+                    "index": 22,
+                    "cq": "How would you define and measure \"struggling to balance family and work\", and what specific actions would you take to support those individuals?",
+                    "label": "Unhelpful",
+                    "similarity": 0.8381969928741455
+                },
+                "label": "Unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the plan address the issue of affordable child care and debt-free college?",
+                "matched_reference": {
+                    "index": 18,
+                    "cq": "What is the proposed mechanism for providing paid family leave, earned sick days, affordable child care, and debt-free college, and how would you fund these initiatives?",
+                    "label": "Useful",
+                    "similarity": 0.5747821927070618
+                },
+                "label": "LLM_unhelpful"
+            }
+        ],
+        "full_response": "Who exactly does the president propose to share profits with??\nWhat specific measures does the candidate suggest to support those balancing family and work??\nHow does the plan address the issue of affordable child care and debt-free college?",
+        "reasoning": null
+    },
+    "FoodAllergyMom_199_1": {
+        "intervention_id": "FoodAllergyMom_199_1",
+        "intervention": "FoodAllergyMom: \"My child is 2 years old and he is severely allergic to peanuts, tree nuts, egg and milk.\nMy son has reacted to airborne particles from someone opening a bag of nuts near him.\nMy husband and I used to be world traveler's and dreamed of traveling with our son.\nIt is heartbreaking to think that our child will not get to experience the world, or if he does it may cost him his life.\nWhat about when he gets older and his job requires him to fly across the country in a weekend?\nShould he have to risk his life so he can work in his possible future dream job?\nThis is a disability, no question about it.\nWe are talking about being in the air with peanut particles being circulated through the cabin and possible no place to land for hours.\nAn EpiPen only last 15 minutes.\nPeanut allergy is unpredictable.\nThe first reaction could be mild\nand the second could cause your blood pressure to drop like a rocket, your throat to close up and your heart to stop beating.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample",
+            "ERExample"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "What are the potential risks for my child if we travel?  ",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "What are the alternative options for individuals with peanut allergies who need to travel, and are they feasible and accessible?",
+                    "label": "Useful",
+                    "similarity": 0.3931635320186615
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 1,
+                "cq": "How can we ensure safety during air travel for my child?  ",
+                "matched_reference": {
+                    "index": 4,
+                    "cq": "What are the protocols in place for handling allergic reactions on airplanes, and are they sufficient to address the concerns raised by FoodAllergyMom?",
+                    "label": "Useful",
+                    "similarity": 0.42301511764526367
+                },
+                "label": "LLM_unhelpful"
+            },
+            {
+                "id": 2,
+                "cq": "Are there alternative career paths that would be safer for my child?",
+                "matched_reference": {
+                    "index": 19,
+                    "cq": "What are the alternative options for individuals with peanut allergies who need to travel, and are they feasible and accessible?",
+                    "label": "Useful",
+                    "similarity": 0.38649290800094604
+                },
+                "label": "LLM_useful"
+            }
+        ],
+        "full_response": "What are the potential risks for my child if we travel?  \nHow can we ensure safety during air travel for my child?  \nAre there alternative career paths that would be safer for my child?",
+        "reasoning": null
+    },
+    "TRUMP_13": {
+        "intervention_id": "TRUMP_13",
+        "intervention": "TRUMP: \"Secretary Clinton and others , politicians , should have been doing this for years , not right now\nwe 've created a movement\nThey should have been doing this for years\nWhat 's happened to our jobs and our country and our economy generally is\u2014look , we owe $ 20 trillion\nWe can not do it any longer , Lester\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Sign"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Who is responsible for the current economic situation?  ",
+                "matched_reference": {
+                    "index": 2,
+                    "cq": "What is the causal relationship between the issues Trump is discussing (jobs, economy, debt), and how does he propose to address them?",
+                    "label": "Useful",
+                    "similarity": 0.4137568473815918
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 1,
+                "cq": "Why did the movement start only now?  ",
+                "matched_reference": {
+                    "index": 1,
+                    "cq": "How does Trump's argument that \"we've created a movement\" support his claim that politicians should have been doing something differently \"for years\"? Is he implying that his movement is a new development that has only recently become possible, and if so, what's changed to make it possible now?",
+                    "label": "Useful",
+                    "similarity": 0.5184288024902344
+                },
+                "label": "LLM_useful"
+            },
+            {
+                "id": 2,
+                "cq": "How does the national debt of $20 trillion affect the current economic situation?",
+                "matched_reference": {
+                    "index": 15,
+                    "cq": "How does Trump's statement that \"we owe $20 trillion\" support his argument, and what specific solutions does he propose to address this debt?",
+                    "label": "Useful",
+                    "similarity": 0.745435893535614
+                },
+                "label": "Useful"
+            }
+        ],
+        "full_response": "Who is responsible for the current economic situation?  \nWhy did the movement start only now?  \nHow does the national debt of $20 trillion affect the current economic situation?",
+        "reasoning": null
+    },
+    "Overall_stats": {
+        "Distribution of the labels": {
+            "LLM_invalid": 10,
+            "Unhelpful": 15,
+            "LLM_useful": 39,
+            "Useful": 40,
+            "LLM_unhelpful": 7,
+            "Missing CQ": 3
+        },
+        "Distribution of the intervention punctuation": {
+            "0": 3,
+            "0.3333333333333333": 9,
+            "0.6666666666666666": 8,
+            "1.0": 18
+        },
+        "Overall punctuation": 0.6929824561403508,
+        "LLM labeled": 49.122807017543856
+    }
+}

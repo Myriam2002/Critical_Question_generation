@@ -1,0 +1,1121 @@
+{
+    "accuracy": {
+        "overall": 0.46616541353383456,
+        "per_label": {
+            "USEFUL": 0.6290322580645161,
+            "UNHELPFUL": 0.34210526315789475,
+            "INVALID": 0.30303030303030304
+        },
+        "confusion_matrix": {
+            "USEFUL": {
+                "USEFUL": 39,
+                "UNHELPFUL": 15,
+                "INVALID": 8
+            },
+            "UNHELPFUL": {
+                "USEFUL": 20,
+                "UNHELPFUL": 13,
+                "INVALID": 5
+            },
+            "INVALID": {
+                "USEFUL": 17,
+                "UNHELPFUL": 6,
+                "INVALID": 10
+            }
+        }
+    },
+    "CLINTON_1_1": {
+        "intervention_id": "CLINTON_1_1",
+        "intervention_text": "CLINTON: \"The central question in this election is really what kind of country we want to be and what kind of future we 'll build together\nToday is my granddaughter 's second birthday\nI think about this a lot\nwe have to build an economy that works for everyone , not just those at the top\nwe need new jobs , good jobs , with rising incomes\nI want us to invest in you\nI want us to invest in your future\njobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business\nmost of the new jobs will come from small business\nWe also have to make the economy fairer\nThat starts with raising the national minimum wage and also guarantee , finally , equal pay for women 's work\nI also want to see more companies do profit-sharing\"",
+        "questions": [
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_9_S",
+                "question_text": "How would you address potential criticisms and counterarguments to these policies, and what would be your response to opposing views and interests?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to consider the potential criticisms and counterarguments to Clinton's proposed policies. It encourages them to think critically about the validity and feasibility of the policies, as well as to anticipate and respond to opposing views. This type of question helps students evaluate the strength of the arguments by considering different perspectives and potential challenges.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__7",
+                "question_text": "Are there other relevant goals that conflict with investing in you?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**ANSWER: UNHELPFUL**\n\n**JUSTIFICATION:**\nThis question is unhelpful because it introduces a hypothetical scenario that is not directly addressed in the text. While it is a valid consideration in a broader discussion about economic policy, it does not challenge the specific arguments made by Clinton in the given paragraph. The text focuses on the positive aspects of investing in people and the economy, and the question does not provide a clear path for critically analyzing these specific claims. Instead, it shifts the focus to a different, albeit related, issue that is not explicitly discussed in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_4_L",
+                "question_text": "What is the proposed plan for making the economy fairer, beyond raising the national minimum wage and guaranteeing equal pay for women's work?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts the reader to critically analyze the specific measures proposed by Clinton to make the economy fairer, beyond the two main points mentioned (raising the national minimum wage and guaranteeing equal pay for women's work). It encourages students to consider whether the plan is comprehensive and whether additional measures are needed or mentioned. This question helps students evaluate the completeness and feasibility of the proposed economic policies.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_0_S",
+                "question_text": "What specific policies would you implement to achieve an economy that works for everyone, and how would you ensure their effectiveness?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to think critically about the specific policies Clinton mentions and the practical steps needed to achieve her goals. It challenges students to consider the feasibility and effectiveness of these policies, which is essential for evaluating the validity of her argument. By asking about the specific policies and their effectiveness, students are encouraged to think beyond the general statements and delve into the details of how these goals can be realized.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__1",
+                "question_text": "Could Clinton investing in you have consequences that we should take into account? Is it practically possible?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to think critically about the practical implications and potential consequences of Clinton's proposal to invest in people and their future. It encourages them to consider whether the plan is feasible and what potential challenges or unintended outcomes might arise. This type of reflection is essential for evaluating the validity and practicality of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__4",
+                "question_text": "Could creating jobs in infrastructure, in advanced manufacturing, innovation and technology, clean, renewable energy, and small businesses have consequences that we should take into account? Is it practically possible?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it prompts students to consider the potential consequences and practical feasibility of Clinton's proposed job creation initiatives. It encourages critical thinking by asking students to evaluate whether the proposed job sectors can realistically generate the number of jobs promised and what potential challenges or trade-offs might arise. This type of analysis is crucial for assessing the validity and practicality of policy proposals.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_6_L",
+                "question_text": "What is the evidence that profit-sharing would lead to a more equitable economy, and how would it benefit workers?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\n- This question challenges the assumption that profit-sharing would lead to a more equitable economy and asks for specific evidence or reasoning to support this claim.\n- It encourages students to think critically about the proposed policy and its potential impacts, which is essential for evaluating the validity of the argument.\n- The question is directly related to the text and focuses on a specific claim made by Clinton, making it a relevant and useful question for critical analysis.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_5_L",
+                "question_text": "What mechanisms does Clinton propose to hold companies accountable for profit-sharing?",
+                "golden_label": "USEFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID**\n\n**Justification:** The question introduces a new concept (mechanisms for holding companies accountable for profit-sharing) that is not explicitly discussed in the text. While Clinton mentions wanting to see more companies do profit-sharing, the text does not provide any details on how this will be enforced or what mechanisms will be used. Therefore, the question is not directly challenging the arguments presented in the text and is not useful for critical analysis of the given paragraph.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_0_L",
+                "question_text": "What specific policies would you implement to build an economy that works for everyone, and how would you ensure their effectiveness?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts the students to critically evaluate the specific policies and mechanisms that would be required to achieve the broad goal of building an economy that works for everyone. It asks for concrete actions and measures, which are essential for assessing the feasibility and effectiveness of the proposed economic vision. By considering the specific policies and their potential outcomes, students can better understand the practical implications of the argument and determine whether the proposed solutions are viable and well-thought-out.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_2_S",
+                "question_text": "What is the evidence that raising the national minimum wage and guaranteeing equal pay for women's work would lead to a fairer economy, and how would you address potential unintended consequences of these policies?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "ANSWER: USEFUL\n\n**Justification:**\nThis question is useful because it directly challenges the validity of the claims made in the intervention. It asks for evidence to support the assertion that raising the national minimum wage and guaranteeing equal pay for women's work would lead to a fairer economy. Additionally, it prompts the consideration of potential unintended consequences, which is crucial for a comprehensive critical analysis of the policy proposals. This question encourages students to think beyond the surface level and to evaluate the practical and theoretical implications of the policies mentioned.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_1_L",
+                "question_text": "How would you create new jobs, and what is the evidence that investing in infrastructure, advanced manufacturing, innovation, technology, clean energy, and small business would lead to rising incomes?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\n- This question is essential for critically analyzing Clinton's argument. It challenges the specificity of her claims about job creation and the evidence supporting the assertion that investing in the mentioned sectors will lead to rising incomes.\n- Answering this question requires a detailed examination of the proposed policies and their potential outcomes, which is crucial for evaluating the validity and feasibility of her economic plan.\n- It encourages students to think about the practical implementation and the empirical basis of the proposed solutions, which are key aspects of critical thinking.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__8",
+                "question_text": "Are there alternative actions to creating jobs in infrastructure, in advanced manufacturing, innovation and technology, clean, renewable energy, and small businesses to achieve investing in you? If so, which is the most efficient action?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and asks about alternative actions to achieve the goal of investing in people, it is not directly challenging the validity of Clinton's arguments. Instead, it is asking for a comparison of different strategies, which is a more complex and open-ended task. The question does not directly address the core arguments presented in the text, such as the need to build an economy that works for everyone or the specific sectors mentioned for job creation. It is also somewhat impractical to answer within the scope of the text, as it requires a detailed analysis of various economic policies and their effectiveness.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_5_S",
+                "question_text": "How would you address the potential impact of automation and artificial intelligence on job creation and the economy, and what steps would you take to ensure that the benefits of technological progress are shared fairly?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\nThe question introduces a new concept (automation and artificial intelligence) that is not mentioned or implied in the text. While it is a relevant and important issue, it is not directly addressed or challenged by the arguments presented by Clinton. The text focuses on the need for job creation, investment in various sectors, and making the economy fairer. The question shifts the focus to a different, albeit related, topic that is not part of the original argument. Therefore, it does not serve to challenge or invalidate the arguments in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_3_S",
+                "question_text": "How would you define and measure \"good jobs\" with \"rising incomes\", and what would be the benchmarks for success in achieving these goals?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it requires students to critically evaluate the criteria and metrics that would be used to define and measure \"good jobs\" with \"rising incomes.\" It challenges them to think about the specific indicators of success and the practicality of the goals mentioned in the text. By considering how these terms are defined and measured, students can assess the feasibility and validity of Clinton's economic proposals.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_8_L",
+                "question_text": "What is the proposed plan for addressing income inequality, and how would you ensure that the benefits of economic growth are shared by all?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**LABEL: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it prompts students to critically analyze the specific measures Clinton proposes to address income inequality and ensure that economic growth benefits everyone. It challenges students to think about the practicality and effectiveness of the proposed policies, such as raising the minimum wage, guaranteeing equal pay for women, and promoting profit-sharing. By asking this question, students are encouraged to evaluate whether these measures are comprehensive and feasible, and to consider any potential drawbacks or limitations. This question is directly related to the text and is essential for a critical analysis of Clinton's economic vision.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__2",
+                "question_text": "Could creating new jobs, and good jobs, with rising incomes have consequences that we should take into account? Is it practically possible?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to think critically about the practicality and potential consequences of Clinton's proposal to create new jobs with rising incomes. It challenges them to consider whether the policy is feasible and what potential unintended effects it might have. This is important for evaluating the validity and realism of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_9_L",
+                "question_text": "How would you measure the success of your economic policies, and what metrics would you use to evaluate their effectiveness?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to think critically about how the success of the proposed economic policies can be measured. It challenges them to consider what specific metrics (e.g., employment rates, income levels, economic growth, etc.) would be used to evaluate whether the policies are effective in achieving their stated goals. This is crucial for assessing the validity and practicality of the arguments presented in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_6_S",
+                "question_text": "What would be the timeline for implementing these policies, and how would you prioritize and sequence them to achieve the desired outcomes?",
+                "golden_label": "INVALID",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**ANSWER: UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and makes sense, it is not particularly useful for critical analysis. The question focuses on the practical implementation and sequencing of the policies, which, while important, does not directly challenge the validity or reasoning behind the arguments presented. The text primarily discusses the goals and broad strategies for building a better economy, rather than the specific timeline or prioritization of these policies. Therefore, this question is more operational and logistical rather than critical and evaluative.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__0",
+                "question_text": "Are there other relevant goals that conflict with making the economy fairer?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it prompts students to consider potential trade-offs and conflicting goals in economic policy. It challenges them to think about whether making the economy fairer might have unintended consequences or whether other important goals might be compromised. This critical reflection is essential for evaluating the validity and practicality of the argument presented by Clinton.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__5",
+                "question_text": "Are there other relevant goals that conflict with building an economy that works for everyone?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\n- This question encourages students to consider potential trade-offs and conflicting goals that might arise when trying to build an economy that works for everyone. It challenges them to think about the complexity of economic policies and the possibility that some goals might be at odds with each other. This is crucial for a critical analysis of Clinton's argument, as it prompts students to evaluate the feasibility and potential unintended consequences of her proposed economic vision.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__3",
+                "question_text": "Are there alternative actions to Clinton investing in you to achieve new jobs, good jobs, with rising incomes? If so, which is the most efficient action?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text, it is overly complex and asks students to generate alternative actions and evaluate their efficiency, which might be beyond the scope of the critical analysis of Clinton's argument. The question also shifts the focus away from evaluating the validity and soundness of Clinton's specific proposals and onto a broader, more complex discussion of economic policy. This makes it less useful for the immediate task of critically analyzing the given text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_4_S",
+                "question_text": "What is the role of government in promoting profit-sharing in companies, and how would you balance the need for economic fairness with the need to encourage business growth and competitiveness?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**Label: USEFUL**\n\n**Justification:**\nThis question is useful because it directly challenges the argument by asking about the role of government in promoting profit-sharing and how it balances economic fairness with business growth and competitiveness. It prompts students to think critically about the feasibility and potential trade-offs of the policy proposals mentioned in the text. The question encourages students to consider the broader implications of the government's role in economic policy and whether the proposed measures can achieve their intended goals without unintended negative consequences.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_8_S",
+                "question_text": "What would be the metrics for evaluating the success of these policies, and how would you hold yourself and your administration accountable for achieving the desired outcomes?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it prompts students to think critically about the specific metrics and accountability measures that would be needed to evaluate the success of the proposed policies. It challenges them to consider how the goals of creating new jobs, raising the minimum wage, and ensuring equal pay for women can be quantified and monitored. This is essential for assessing the validity and feasibility of the arguments presented in the text. By asking this question, students are encouraged to think beyond the surface-level promises and consider the practical implementation and measurement of these policies.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__11",
+                "question_text": "Could raising the national minimum wage and guaranteeing equal pay for women's work have consequences that we should take into account? Is it practically possible?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "ANSWER: USEFUL\n\n**Justification:**\nThis question is useful because it prompts students to critically evaluate the potential consequences and practicality of the proposed policies. It challenges them to consider the broader economic impacts and the feasibility of implementing these measures, which are crucial aspects of assessing the validity of the argument. The question encourages students to think beyond the surface level and consider potential trade-offs, unintended consequences, and the practical challenges that might arise from such policies.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__10",
+                "question_text": "Are there other relevant goals that conflict with new jobs, good jobs, and rising incomes?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:** This question is useful because it prompts students to consider whether the goals of creating new jobs, good jobs, and rising incomes might conflict with other important societal goals. For example, it could lead to a discussion about potential trade-offs between job creation and environmental sustainability, or between economic growth and social equity. By exploring these potential conflicts, students can critically evaluate the comprehensiveness and feasibility of Clinton's economic vision.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__6",
+                "question_text": "Are there alternative actions to creating new jobs, good jobs, with rising incomes to achieve building an economy that works for everyone? If so, which is the most efficient action?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it prompts students to consider alternative strategies to achieve the goal of building an economy that works for everyone. It encourages critical thinking by asking students to evaluate the effectiveness of the proposed solution (creating new jobs, good jobs, with rising incomes) and to consider other potential actions. This question helps students to reflect on the validity and comprehensiveness of Clinton's argument by considering whether other approaches might be more efficient or effective.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_3_L",
+                "question_text": "How would you ensure that small businesses, which you claim will create most new jobs, have access to the necessary resources and support to thrive?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**LABEL: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it prompts the students to critically examine the feasibility and practicality of Clinton's claim that most new jobs will come from small businesses. It challenges them to consider the broader economic context and the specific policies that would be needed to support small businesses. By addressing this question, students can evaluate whether Clinton's plan is comprehensive and realistic, or if it overlooks critical factors that could affect the success of small businesses in job creation.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_1_S",
+                "question_text": "How would you fund the investments in infrastructure, advanced manufacturing, innovation and technology, clean and renewable energy, and small business, and what would be the expected returns on these investments?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER:**\n\n**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it directly challenges the feasibility of Clinton's proposed investments. It asks for a detailed explanation of how these investments would be funded and what the expected returns would be, which are crucial aspects to critically evaluate the practicality and effectiveness of her economic plan. Without considering these factors, it would be premature to accept the arguments about building an economy that works for everyone. This question encourages students to think about the financial and economic implications of the proposed policies, which is essential for a thorough critical analysis.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_2_L",
+                "question_text": "What is the proposed plan for investing in individuals, and how would you measure the return on investment?",
+                "golden_label": "INVALID",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and asks about the proposed plan for investing in individuals, it is unlikely to be useful for critical analysis. The question focuses on the specifics of the plan and how to measure its return on investment, which, while important, does not challenge the underlying arguments or assumptions in the text. The text does not provide detailed information on how to measure the return on investment, making the question too complex and not directly aligned with the critical evaluation of the arguments presented.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_7_L",
+                "question_text": "How would you balance the need for economic growth with the need for environmental sustainability, particularly in industries like clean energy?",
+                "golden_label": "INVALID",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**ANSWER: UNHELPFUL**\n\n**JUSTIFICATION:**\nThis question is related to the text and touches on the topic of economic growth and environmental sustainability, which are both relevant to Clinton's discussion of job creation and investment in clean, renewable energy. However, the question is too complex and broad to be practical for a critical analysis of the specific arguments presented in the paragraph. It requires a deep dive into policies and trade-offs that are not directly addressed in the text. While it is an important consideration, it does not directly challenge the validity of Clinton's arguments about job creation and economic fairness. Therefore, it is unlikely to be useful for the critical analysis of the specific points made in the paragraph.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_7_S",
+                "question_text": "How would you engage with and involve stakeholders, including businesses, workers, and communities, in the development and implementation of these policies?",
+                "golden_label": "INVALID",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nThe question asks about engaging and involving stakeholders in the development and implementation of policies, which is a practical and important consideration. However, it does not directly challenge the arguments or claims made in the paragraph. The text focuses on the goals and types of policies Clinton wants to implement, such as creating jobs and making the economy fairer. The question shifts the focus to the process of policy-making rather than the content and validity of the arguments themselves. While engaging stakeholders is crucial, this question does not help students critically evaluate the arguments presented in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "CLINTON_1_1_T__9",
+                "question_text": "Are there alternative actions to raising the national minimum wage and guaranteeing equal pay for women's work to achieve making the economy fairer? If so, which is the most efficient action?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it challenges the reader to consider whether the proposed actions (raising the national minimum wage and guaranteeing equal pay for women's work) are the most effective or if there are other viable alternatives. It encourages critical thinking by asking students to evaluate the proposed solutions and consider other potential strategies for making the economy fairer. This question is directly related to the argument and prompts a deeper analysis of the economic policies discussed in the text.",
+                "reasoning": null
+            }
+        ]
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention_text": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "questions": [
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_7_L",
+                "question_text": "How would requiring airlines to provide notification of delays impact their operations and customer service, and would it lead to any unintended consequences?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it prompts the students to consider the broader implications of the policy being discussed. It challenges them to think about how the requirement might affect both the airlines' operations and customer service, and whether there could be any unintended consequences. This is directly relevant to the argument presented by Javier, who mentions potential problems and unintended consequences that could arise from requiring airlines to notify passengers of delays. Answering this question would help students critically evaluate the feasibility and practicality of the proposed policy.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_0_S",
+                "question_text": "Are the \"unavoidable problems\" mentioned by Javier truly unavoidable, or are they a result of poor planning or inefficiencies on the part of the airlines?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the assumption that all problems mentioned by Javier are genuinely unavoidable. It prompts the students to consider whether some of these issues might be due to poor planning or inefficiencies, which could be addressed by the airlines. This critical analysis helps students evaluate the validity of Javier's argument and consider alternative perspectives.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_1_L",
+                "question_text": "Are there any potential consequences of requiring airlines to provide notification of delays, such as passengers waiting too long to go to the airport and missing their flight?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:** This question directly addresses a key concern raised in the text: the potential negative consequences of requiring airlines to notify passengers of delays. It prompts the reader to consider the practical implications of the policy, which is a crucial aspect of critical thinking. The question encourages students to evaluate the argument by examining the potential trade-offs and unintended consequences, which is essential for a thorough analysis of the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_6_L",
+                "question_text": "Are there any potential solutions to the problem of passengers waiting too long to go to the airport based on a delay notification, such as providing more frequent updates or offering more flexible check-in and gate arrival times?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and suggests a practical approach to addressing the issue, it is too complex and not directly focused on critically evaluating the arguments presented in the text. The text primarily discusses the challenges and potential unintended consequences of requiring airlines to notify passengers of delays. The question shifts the focus to potential solutions, which, while interesting, do not directly challenge or validate the arguments made by Javier. The question is also somewhat open-ended and might be more suited for a discussion on practical solutions rather than a critical analysis of the arguments.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_2_L",
+                "question_text": "How often do weather holds and maintenance issues resolve more quickly than expected, and would this be a common occurrence that airlines would need to account for?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nThis question is related to the text but is unlikely to be useful for critical analysis. The answer to this question might be a statistical fact or a common observation that does not generate significant controversy or deeper critical thinking. It focuses on the frequency of a specific scenario rather than challenging the broader argument about the practicality and fairness of requiring airlines to notify passengers of delays. The question does not encourage students to reflect on the core issues of the argument, such as the balance between providing timely information and the unpredictability of flight delays.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_3_L",
+                "question_text": "Would passengers who wait to go to the airport based on a delay notification and then miss their flight due to an unexpected resolution of the issue have a legitimate complaint against the airline?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it directly challenges one of the key arguments in the text. Javier argues that notifying passengers about delays could lead to situations where passengers wait and then miss their flight if the delay is resolved more quickly than expected. The question asks whether such passengers would have a legitimate complaint, which is crucial for evaluating the potential consequences and fairness of the notification policy. This question encourages critical thinking about the balance between providing information and the potential risks of that information.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_T__1",
+                "question_text": "Are there other relevant goals that conflict with airlines not having to deal with difficult passengers?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID**\n\n**Justification:**\n- This question introduces new concepts that were not in the text. The text does not discuss other goals that might conflict with dealing with difficult passengers. The focus of the text is on the notification requirements for airlines and the potential issues that arise from such requirements.\n- The question is too vague and could be applied to any text. It does not specifically challenge any argument presented in the text and does not help students critically analyze the given paragraph.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_5_S",
+                "question_text": "Does Javier's argument rely too heavily on anecdotal evidence and personal experience, rather than objective data or evidence?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:** This question is useful because it encourages students to critically evaluate the strength and reliability of Javier's argument. It prompts them to consider whether personal anecdotes and experiences are sufficient to support his claims or if more objective data and evidence are needed to make a stronger case. This is a crucial aspect of critical thinking, as it helps students recognize the limitations of anecdotal evidence and the importance of empirical support in argumentation.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_6_S",
+                "question_text": "Are there any potential consequences or trade-offs to Javier's proposal, such as increased costs or logistical challenges for airlines, that should be considered?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it prompts students to consider the broader implications of Javier's proposal. It encourages them to think critically about the potential negative consequences or trade-offs that might arise from requiring airlines to notify passengers of delays within 30 minutes. This is important for evaluating the practicality and feasibility of the proposal, and it challenges students to think beyond the immediate benefits and consider the potential drawbacks. This kind of analysis is essential for a comprehensive understanding of the argument and its real-world implications.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_T__2",
+                "question_text": "Are there alternative actions to flyers having to grow up and quit pouting and blaming everything on the airlines to achieve airlines not having to deal with difficult passengers? If so, which is the most efficient action?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\n- The question is related to the text but is unlikely to be useful for critical analysis.\n- It introduces a new concept (alternative actions) that was not discussed in the text, making it more about generating new ideas rather than critically analyzing the arguments presented.\n- The question is also somewhat complex and may not directly challenge the specific arguments made by Javier about the practical issues of requiring airlines to notify of delays.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_4_S",
+                "question_text": "Are there any alternative solutions that could address the issues Javier raises, such as providing more accurate and timely information to flyers, or implementing more efficient systems for handling delays and cancellations?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and asks for alternative solutions, it is unlikely to be useful for critical analysis. The question is quite broad and complex, and it shifts the focus away from evaluating the validity of Javier's arguments to proposing new solutions. The primary goal in this context is to critically analyze Javier's argument, not to brainstorm new ideas. Additionally, the question might be too complicated to answer without more specific information about the context and the current systems in place.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_2_S",
+                "question_text": "Is it reasonable to assume that flyers would not be able to adapt to changing circumstances, such as a delay being rectified sooner than expected, and adjust their plans accordingly?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "ANSWER: UNHELPFUL\n\nJustification: This question is related to the text but is unlikely to be useful for critical analysis. It assumes that the ability of flyers to adapt to changing circumstances is a given and does not challenge the core arguments presented by Javier. The question does not address the specific concerns raised about the potential unintended consequences of requiring airlines to notify of delays within 30 minutes. Instead, it focuses on a hypothetical scenario that, while related, does not directly engage with the main points of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_1_S",
+                "question_text": "How would providing notification of delays within 30 minutes of becoming aware of them necessarily lead to flyers waiting before going to the airport, as Javier suggests?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it directly challenges one of the key points in Javier's argument. Javier suggests that notifying flyers of delays could lead them to wait before going to the airport, which could result in them missing the flight if the delay is resolved more quickly than expected. The question forces the reader to critically evaluate whether this assumption is valid and whether there are other factors or considerations that might influence flyers' behavior. This kind of critical examination is essential for assessing the strength of Javier's argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_5_L",
+                "question_text": "What is the definition of \"known\" delays, and how would airlines determine when a delay is certain enough to warrant notification?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**JUSTIFICATION:** This question is crucial for critically analyzing the argument because it addresses the core of the proposed requirement: the definition and determination of \"known\" delays. The effectiveness of the policy hinges on how airlines identify and communicate delays that are certain enough to warrant notification. Understanding this definition and the criteria for determining certainty is essential to evaluating the feasibility and fairness of the requirement. The question challenges the reader to consider the practical implications and potential ambiguities in the policy, which are central to the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_0_L",
+                "question_text": "Is it reasonable to expect airlines to notify passengers of delays within 30 minutes of becoming aware of them, considering the unpredictable nature of weather holds and maintenance issues?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question directly challenges the core argument presented by Javier. It asks the reader to consider the practicality of the 30-minute notification requirement in light of the unpredictable nature of delays. This is a crucial point because it forces the reader to evaluate whether the policy is feasible and fair, given the circumstances. The question is specific to the text and requires critical thinking to assess the validity of Javier's concerns about the potential consequences of such a policy.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_7_S",
+                "question_text": "Is Javier's argument based on a flawed assumption that flyers are somehow responsible for the problems caused by airline delays, rather than recognizing that delays are often a result of factors beyond the control of individual travelers?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question introduces the idea that Javier's argument is based on a \"flawed assumption\" that flyers are responsible for the problems caused by airline delays. However, Javier's argument does not explicitly state that flyers are responsible for the delays themselves. Instead, he argues that flyers should be more understanding and not \"pout and blame everything on the airlines\" when delays occur.\n- The question misrepresents Javier's argument by suggesting that he is placing blame on the flyers for the delays, when his main point is about the flyers' reactions to the delays and the unrealistic expectations they have.\n- The question also introduces a new concept (the idea of \"flawed assumption\") that is not directly addressed in the text, making it more of a reading-comprehension or interpretation question rather than a critical thinking question that challenges the arguments presented.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_3_S",
+                "question_text": "Is Javier's characterization of flyers as \"pouting\" and \"blaming everything on the airlines\" a fair representation of the concerns and frustrations of travelers?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it directly challenges a key part of Javier's argument, which is his characterization of flyers. By questioning whether this characterization is fair, it prompts students to critically evaluate the validity of Javier's claim and consider whether his view is biased or if it accurately reflects the concerns and frustrations of travelers. This is important for a comprehensive analysis of the argument, as it addresses the potential bias in Javier's perspective and encourages students to think about the broader context and the validity of the claims made.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_4_L",
+                "question_text": "Is it fair to place the blame solely on passengers for being unhappy with airline delays and cancellations, or do airlines bear some responsibility for communicating effectively with passengers?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it directly challenges the argument presented by Javier. Javier suggests that passengers need to \"grow up and quit pouting and blaming everything on the airlines,\" implying that passengers are primarily responsible for their dissatisfaction with delays and cancellations. The question prompts students to consider whether this perspective is fair and whether airlines also have a responsibility to communicate effectively with passengers. This encourages critical thinking about the balance of responsibility between airlines and passengers, which is a crucial aspect of evaluating the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Javier_84_T__0",
+                "question_text": "Could flyers having to grow up and quit pouting and blaming everything on the airlines have consequences that we should take into account? Is it practically possible?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question touches on the idea of flyers needing to be more responsible, it is somewhat broad and not directly focused on the core argument presented in the text. The text's main argument is about the practicality and potential consequences of requiring airlines to notify passengers of known delays. The question shifts the focus to a broader, more general issue of flyers' behavior and responsibility, which, while related, does not directly challenge the specific argument about delay notifications. Additionally, the question is somewhat complex and may not lead to a clear, concise critical analysis of the text's main points.",
+                "reasoning": null
+            }
+        ]
+    },
+    "TRUMP_125_1": {
+        "intervention_id": "TRUMP_125_1",
+        "intervention_text": "TRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order\nIf we don't have it, we're not going to have a country\nwhen I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long\nI just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in\nWe have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States\nWe have a situation where we have our inner cities, African- Americans, Hispanics are living in hell\nit's so dangerous\nYou walk down the street, you get shot\nIn Chicago, they've had thousands of shootings, thousands since January 1st\nI'm saying, where is this\nIs this a war-torn country\nWhat are we doing\nwe have to stop the violence\nIn a place like Chicago, where thousands of people have been killed, thousands over the last number of years\nalmost 4,000 have been killed since Barack Obama became president\"",
+        "questions": [
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_5_L",
+                "question_text": "How does Trump's anecdotal evidence about Charlotte and Chicago represent the experiences of all inner cities and communities of color?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to critically evaluate the generalization Trump makes about inner cities and communities of color based on the specific examples of Charlotte and Chicago. It challenges students to consider whether the anecdotal evidence presented is representative of the broader situation and whether it is fair or accurate to generalize the experiences of all inner cities and communities of color based on these specific instances. This question encourages students to think about the validity and scope of the argument and to question the broader implications of the claims made.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__7",
+                "question_text": "Are there any events other than inner cities being so dangerous that would more reliably account for African-Americans and Hispanics living in hell?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question introduces new concepts that were not in the text. The text focuses on the dangerous conditions in inner cities and the impact on African-Americans and Hispanics, but does not discuss other potential events that could account for their living conditions.\n- The question is too vague and could be applied to any text discussing the challenges faced by these communities. It does not challenge any specific argument made in the text but instead shifts the focus to a broader, unspecified set of events.\n- The question does not address the core argument about the lack of law and order and the dangerous conditions in inner cities. It does not help students critically evaluate the specific claims made by Trump about the state of inner cities and the need for law and order.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_5_S",
+                "question_text": "How does Trump's rhetoric about \"war-torn\" cities and \"thousands of people... killed\" contribute to a productive discussion about addressing violence and crime, or does it sensationalize and politicize the issue?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to critically evaluate the impact of Trump's rhetoric. It challenges them to consider whether the language used\u2014such as \"war-torn\" and \"thousands of people killed\"\u2014is constructive in addressing the issue of violence and crime or if it is more likely to sensationalize and politicize the issue. This is important for understanding the potential consequences of the language used in public discourse and how it can influence public opinion and policy.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_8_S",
+                "question_text": "What alternative perspectives or solutions are being ignored or marginalized in Trump's focus on \"law and order\" and his portrayal of urban violence?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to consider the broader context and potential alternative viewpoints that Trump's argument might be overlooking. It encourages critical thinking by asking students to evaluate whether Trump's focus on \"law and order\" and his portrayal of urban violence are the only or most comprehensive ways to address the issues. This question challenges the one-sided nature of Trump's argument and invites students to think about other factors, such as social, economic, and political conditions, that might contribute to urban violence. By considering alternative perspectives, students can better assess the validity and completeness of Trump's claims.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_2_L",
+                "question_text": "What is the basis for Trump's assertion that the country will not survive without \"law and order\"?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the underlying assumption in Trump's argument that the absence of \"law and order\" will lead to the country's collapse. It prompts students to critically evaluate the validity of this claim and consider the evidence or reasoning that supports it. This question is essential for understanding the strength and credibility of Trump's argument and whether the fear of societal collapse is justified by the current situation he describes.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_6_L",
+                "question_text": "What is the evidence for the claim that thousands of people have been killed in Chicago since Barack Obama became president, and how does this relate to Trump's argument about the need for \"law and order\"?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\n- This question challenges a specific claim made by Trump about the number of people killed in Chicago since Barack Obama became president.\n- It asks for evidence to support this claim, which is crucial for assessing the validity of Trump's argument about the need for \"law and order.\"\n- The question encourages students to critically evaluate the data and consider whether the claim is accurate and relevant to the broader argument.\n- By questioning the evidence, students can better understand the basis for Trump's assertions and whether they are supported by factual information.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_4_S",
+                "question_text": "Are the crime statistics Trump cites (e.g., \"thousands of shootings\" in Chicago) accurate, and what is the context for these statistics (e.g., are they increasing or decreasing over time)?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it directly challenges the accuracy and context of the crime statistics cited by Trump. It prompts students to critically evaluate the claims made in the text by verifying the data and understanding the broader context. This is crucial for assessing the validity of Trump's argument that the situation in cities like Chicago is akin to a war-torn country. By examining the accuracy and context of the statistics, students can determine whether the claims are supported by evidence and whether they paint a fair and accurate picture of the situation.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_6_S",
+                "question_text": "What specific actions does Trump propose to \"stop the violence\" in cities like Chicago, and how do these actions address the root causes of violence and crime?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and attempts to delve deeper into Trump's argument, it is somewhat unhelpful for critical analysis in this context. The text does not provide specific actions that Trump proposes to stop the violence. Instead, it focuses on the problem and the need for \"law and order.\" The question is too complex and requires information that is not present in the text, making it difficult for students to answer without additional context. A more useful question would focus on the evidence and reasoning Trump uses to support his claims about the need for law and order.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__16",
+                "question_text": "Is Charlotte actually a typical case of other cities in our country that need law and order? How widely applicable is the generalization?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the generalization made by Trump about the need for law and order by questioning whether Charlotte is a typical case or an outlier. It prompts students to consider the broader applicability of the argument and to evaluate whether the situation in Charlotte can be generalized to other cities. This is crucial for critical analysis, as it encourages students to look beyond anecdotal evidence and consider the broader context and data.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__23",
+                "question_text": "Did the Fraternal Order of Police really assert that Trump is a good candidate?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- This question is a reading-comprehension question rather than a critical-thinking question.\n- The text does not provide any information about what the Fraternal Order of Police said about Trump's qualifications as a candidate; it only mentions that Trump received their endorsement.\n- The question does not challenge any argument in the text and does not help students critically analyze the validity of Trump's claims about law and order or the state of inner cities.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__25",
+                "question_text": "Is needing law and order consistent with known evidence in law and order?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to critically evaluate the claim that \"we need law and order\" by considering whether this need is supported by empirical evidence. It encourages students to think about the actual state of law and order in the cities mentioned and to question whether the proposed solution (law and order) is an appropriate and effective response to the issues described. This question challenges the validity of the argument by requiring students to consider the evidence and the effectiveness of the proposed solution.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__11",
+                "question_text": "Is the police a genuine expert in law and order?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**Invalid Question**\n\n**Justification:**\n- The question \"Is the police a genuine expert in law and order?\" is too vague and could be applied to any text. It does not specifically challenge any argument made in the paragraph.\n- The question does not address the specific claims or context provided by Trump, such as the situation in Charlotte, the endorsements from police groups, or the violence in Chicago.\n- The question does not help students critically analyze the arguments presented, as it does not focus on the validity or evidence supporting Trump's claims about law and order, the endorsements, or the conditions in inner cities.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_8_L",
+                "question_text": "What alternative solutions or approaches does Trump propose to address the root causes of violence and poverty in inner cities, beyond simply advocating for \"law and order\"?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL QUESTION**\n\n**Justification:** The question is related to the text and makes sense, but it is unlikely to be useful for critical analysis in this context. The text does not provide any specific alternative solutions or approaches beyond advocating for \"law and order,\" so asking about what Trump proposes beyond this is too complex and not directly addressed in the text. The question might be more useful if the text had included specific proposals, but as it stands, it is too broad and not practical for the given content.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__13",
+                "question_text": "Is needing law and order consistent with what other experts in law and order say?",
+                "golden_label": "INVALID",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and could potentially lead to a discussion about the broader consensus on the need for law and order, it is not particularly useful for critically analyzing Trump's specific arguments. The question is somewhat vague and could be applied to many different contexts. It does not directly challenge or delve into the specific claims Trump makes about the current state of law and order in cities like Chicago or the broader implications of his statements. Additionally, the answer might be common sense or a well-known fact that does not generate significant controversy or critical analysis.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_7_S",
+                "question_text": "How does Trump's criticism of President Obama's presidency relate to the issue of crime and violence, and is it a fair critique?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to critically analyze the connection Trump is making between President Obama's presidency and the issue of crime and violence. It challenges them to consider whether the criticism is fair and whether Trump's argument is based on valid evidence or potentially misleading associations. This question helps students evaluate the logical coherence and fairness of Trump's critique, which is crucial for understanding the broader argument he is making about law and order.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__22",
+                "question_text": "Is \"Trump being good candidate\" consistent with known evidence in law and order?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**ANSWER: INVALID**\n\n**Justification:**\n- The question \"Is 'Trump being a good candidate' consistent with known evidence in law and order?\" is not directly related to the arguments presented in the text. The text focuses on Trump's claims about the need for law and order, the dangerous conditions in inner cities, and his endorsements from police organizations. It does not evaluate Trump's overall candidacy or his qualifications as a candidate.\n- The question introduces a new concept (\"Trump being a good candidate\") that is not explicitly discussed in the text.\n- The question does not challenge any specific argument in the text and is too vague to be useful for critical analysis of the given paragraph.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_0_L",
+                "question_text": "What is the evidence for the claim that the inner cities are \"living in hell\" and that it's so dangerous that you get shot walking down the street?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the validity of Trump's claim that inner cities are \"living in hell\" and that it's so dangerous that you get shot walking down the street. It prompts the students to critically evaluate the evidence presented and consider whether the claim is supported by factual data. This is essential for assessing the credibility of the argument and understanding the extent of the problem being described.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__10",
+                "question_text": "Is there a proven relation between 'African-Americans and Hispanics are living in hell' and 'inner cities are so dangerous'?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it challenges the reader to critically analyze the relationship between the living conditions of African-Americans and Hispanics in inner cities and the level of danger present in those areas. It prompts the reader to consider whether the statement that these groups are \"living in hell\" is directly linked to the high levels of violence and danger, or if there are other factors at play. This question is essential for evaluating the validity of the argument and understanding the complexity of the issues being discussed.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__5",
+                "question_text": "Is what the police said clear? Are there technical terms used that are not explained clearly?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID**\n\n**Justification:**\n- The question \"Is what the police said clear? Are there technical terms used that are not explained clearly?\" is not directly relevant to the arguments presented in the text. The text does not contain any technical terms or specific statements from the police that require clarification. The question does not challenge the validity of Trump's arguments about law and order, the state of inner cities, or the violence in Chicago. Instead, it introduces a focus on clarity and technical terms that are not a central issue in the text. Therefore, this question is invalid for the critical analysis of the given argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_1_L",
+                "question_text": "How does Trump define \"law and order\" and what specific policies would he implement to achieve it?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and asks for a clarification on Trump's definition of \"law and order\" and the policies he would implement, it is not particularly useful for critically analyzing the argument presented. The question does not challenge the validity of Trump's claims or the underlying assumptions. Instead, it asks for additional information that is not directly provided in the text. This kind of question is more about filling in gaps in information rather than critically evaluating the argument's strength or weaknesses.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__8",
+                "question_text": "Is Chicago actually a typical case of other cities where there have been thousands of shootings? How widely applicable is the generalization?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the generalization made by Trump about the violence in Chicago being representative of other cities. It prompts the students to consider whether the specific example of Chicago can be generalized to other parts of the country. This is crucial for critical thinking, as it encourages students to question the validity of broad claims based on a single or a few examples. The question also prompts students to think about the data and context behind the claim, which is essential for evaluating the strength of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_9_S",
+                "question_text": "How does Trump's language and tone contribute to a divisive or unifying national discourse on issues of crime, race, and social justice?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**Intervention:**\nTRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order. If we don't have it, we're not going to have a country. When I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long. I just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in. We have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States. We have a situation where we have our inner cities, African-Americans, Hispanics are living in hell. It's so dangerous. You walk down the street, you get shot. In Chicago, they've had thousands of shootings, thousands since January 1st. I'm saying, where is this. Is this a war-torn country. What are we doing. We have to stop the violence. In a place like Chicago, where thousands of people have been killed, thousands over the last number of years. Almost 4,000 have been killed since Barack Obama became president.\"\n\n**Question:**\nHow does Trump's language and tone contribute to a divisive or unifying national discourse on issues of crime, race, and social justice?\n\n**ANSWER:**\n**USEFUL QUESTION**\n\n**Justification:**\n- This question is crucial for critical analysis because it prompts students to consider the impact of Trump's rhetoric on the national discourse.\n- It challenges students to think about the broader implications of the language and tone used in political speeches, particularly in the context of sensitive issues like crime, race, and social justice.\n- By analyzing the language and tone, students can evaluate whether Trump's statements are likely to foster unity or division, which is essential for understanding the potential consequences of his arguments.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__0",
+                "question_text": "Did the police really assert that they need law and order?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** The question \"Did the police really assert that they need law and order?\" is a factual question that can be answered by examining the endorsements mentioned in the text. The text states that Trump received endorsements from various police groups, but it does not explicitly state that these groups asserted a need for law and order. While this question is related to the text, it does not challenge the argument or encourage critical thinking about the broader claims being made. It is more of a reading-comprehension question rather than a critical-thinking question.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__19",
+                "question_text": "Is needing law and order relevant to the domain of law and order?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\nThis question is too vague and could be applied to any text. It does not specifically challenge or analyze the arguments presented by Trump. The question \"Is needing law and order relevant to the domain of law and order?\" is a tautology and does not provide any critical insight into the claims or the context of the argument. It does not help students evaluate the validity or the evidence supporting Trump's assertions about the state of law and order in the country.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__2",
+                "question_text": "Is the Fraternal Order of Police's pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question is a reading-comprehension question rather than a critical-thinking question. It focuses on the specific details of the Fraternal Order of Police's endorsement rather than challenging the broader arguments about law and order, violence, or the state of inner cities.\n- The question does not directly challenge the validity or the logical structure of Trump's argument. It merely asks about the sourcing of a specific claim, which, while important for fact-checking, does not help students critically evaluate the argument's core points.\n- The question does not address the broader issues of whether the situation in inner cities is as dire as described, whether the endorsement of police groups is a strong indicator of the need for law and order, or whether the policies proposed would effectively address the issues.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_1_S",
+                "question_text": "How does Trump define \"law and order,\" and what specific policies does he propose to achieve it?",
+                "golden_label": "USEFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question asks for a definition of \"law and order\" and specific policies, but the text does not provide a clear definition or detailed policies. Trump mentions the need for \"law and order\" but does not elaborate on what it means or how he plans to achieve it. Therefore, the question introduces new concepts that are not explicitly discussed in the text, making it invalid for the purpose of critically analyzing the given argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__3",
+                "question_text": "Is what the Fraternal Order of Police said clear? Are there technical terms used that are not explained clearly?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\nThis question is invalid because it does not challenge any argument in the text. It focuses on the clarity of the Fraternal Order of Police's endorsement, which is not a central part of Trump's argument. The question does not address the core issues of law and order, the state of inner cities, or the violence in Chicago that Trump is discussing. It is a reading-comprehension question rather than a critical-thinking question.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__15",
+                "question_text": "Are there special circumstances pertaining to Charlotte that undermine its generalisability to other cities in our country that need law and order?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**LABEL: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it prompts the students to critically analyze the argument by questioning the generalizability of the situation in Charlotte to other cities. It challenges the assumption that the issues in Charlotte are representative of the broader national situation, which is a crucial aspect of critical thinking. By considering whether there are special circumstances in Charlotte, students can evaluate the strength of Trump's argument that the entire country needs law and order based on the specific example he provides. This question encourages students to think about the broader applicability of the evidence presented and to consider whether the argument holds up when applied more generally.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_3_L",
+                "question_text": "How does Trump's endorsement by the Fraternal Order of Police and other police groups support his argument about the need for \"law and order\"?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it prompts students to critically examine the relevance and strength of the endorsements from police groups in supporting Trump's argument about the need for \"law and order.\" It encourages students to consider whether these endorsements provide credible evidence for his claims and whether they effectively address the issue of violence and safety in inner cities. This question helps students evaluate the validity and impact of the endorsements on Trump's overall argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__9",
+                "question_text": "Is it actually the case that in Chicago there have been thousands of shootings and it's very easy to get shot in the streets? Is there evidence for this claim?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\n- This question directly challenges the factual accuracy of Trump's claim about the situation in Chicago, which is a crucial part of his argument.\n- It prompts students to consider the evidence and data supporting the claim, which is essential for critical analysis.\n- Understanding the validity of this specific claim is important for evaluating the overall argument about law and order and the state of inner cities.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__4",
+                "question_text": "Is it actually the case that Charlotte needs law and order and Trump knows well? Is there evidence for this claim?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it challenges the specific claim made by Trump that Charlotte needs law and order and that he has a deep understanding of the situation. It prompts the students to critically evaluate the evidence for this claim and consider whether the situation in Charlotte is as dire as Trump suggests. This type of question is essential for assessing the validity of the argument and ensuring that the claims are not taken at face value.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_7_L",
+                "question_text": "How does Trump's rhetoric about \"war-torn\" cities and \"thousands of shootings\" contribute to a productive conversation about addressing violence and improving community safety?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**Classification: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts critical reflection on the impact of Trump's rhetoric. It challenges students to consider whether the language and framing used by Trump (e.g., \"war-torn\" and \"thousands of shootings\") are effective or counterproductive in addressing the issue of violence and improving community safety. This question encourages students to think about the potential consequences of such strong rhetoric, such as whether it might escalate tensions, stigmatize communities, or overshadow more nuanced solutions. By examining the rhetorical choices, students can evaluate the validity and effectiveness of Trump's arguments in the context of a broader discussion on public safety.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_4_L",
+                "question_text": "What is the relationship between Trump's investments in Charlotte and his concern for the city's well-being?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** The question is related to the text but is unlikely to be useful for critical analysis. It focuses on a side point about Trump's investments in Charlotte rather than challenging the core arguments about law and order, violence, and the well-being of inner cities. The answer to this question might be common sense (e.g., having investments in a city might make someone more concerned about its well-being), but it does not directly challenge or validate the main claims Trump is making about the state of inner cities and the need for law and order.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_2_S",
+                "question_text": "What is the relationship between Trump's investments in Charlotte and his concern for the city's well-being?",
+                "golden_label": "USEFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question introduces new concepts that were not in the text. Trump's investments in Charlotte are mentioned, but there is no explicit discussion or implication that his concern for the city's well-being is related to these investments.\n- The question does not challenge any argument in the text. It asks about a potential ulterior motive that is not addressed or implied in Trump's statement.\n- The question is too specific and could be seen as a reading-comprehension question rather than a critical-thinking question, as it requires the reader to infer a connection that is not present in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__12",
+                "question_text": "Is \"Trump being good candidate\" consistent with what other experts in law and order say?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question introduces a new concept (\"other experts in law and order\") that is not mentioned or implied in the text.\n- The question does not challenge any specific argument made by Trump in the paragraph.\n- The question is vague and could be applied to any text about a political candidate, making it irrelevant to the specific claims and arguments presented by Trump.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__17",
+                "question_text": "If the Fraternal Order of Police's advice is not quoted, does it look like important information or qualifications may have been left out?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts the students to consider whether the endorsement from the Fraternal Order of Police might be accompanied by additional context or qualifications that are not mentioned in the text. It encourages critical thinking about the potential for cherry-picking endorsements and the importance of understanding the full context of such endorsements. This is particularly relevant given the significant role that law enforcement endorsements play in the argument about law and order. By asking this question, students are encouraged to evaluate whether the endorsement is being used in a way that might be misleading or incomplete.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_3_S",
+                "question_text": "How does Trump's endorsement by the Fraternal Order of Police and other police groups influence his views on law enforcement, and does this endorsement imply that he will prioritize their interests over those of other groups?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and touches on Trump's endorsements by police groups, it is more about understanding the implications of these endorsements rather than critically analyzing the arguments presented. The question does not challenge the core claims about the state of inner cities, the level of violence, or the need for law and order. Instead, it focuses on a potential bias or influence that, while relevant, does not directly address the validity of Trump's arguments about the conditions in these cities. Additionally, the answer to this question might be speculative and not directly supported by the text, making it less useful for a critical analysis of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__18",
+                "question_text": "If the police's advice is not quoted, does it look like important information or qualifications may have been left out?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question introduces the idea that the police's advice might have been left out, which is not a concept present in the original text. The text mentions endorsements from police groups but does not discuss the content of their advice or any specific qualifications they might have provided.\n- The question does not challenge any specific argument in the text; it introduces a new idea that is not directly related to the claims being made by Trump.\n- The question is too vague and could be applied to any text where an authority figure's endorsement is mentioned, making it a general reading-comprehension question rather than a critical-thinking question.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__6",
+                "question_text": "Is the Fraternal Order of Police a genuine expert in law and order?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** The question is related to the text but focuses on the credibility of the Fraternal Order of Police as an expert in law and order. While this is a valid consideration, it is not the most critical aspect of the argument. The main argument is about the state of law and order in cities and the need to address violence. The question about the Fraternal Order of Police's expertise is more of a tangential issue and does not directly challenge the core claims about the current state of law and order or the need for action. It might be relevant in a broader discussion about the sources of support, but it is not essential for critically analyzing the main argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__14",
+                "question_text": "Are there any events other than you to walk down the street and get shot that would more reliably account for it's so dangerous?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nThe question is somewhat vague and does not directly challenge the core arguments in the text. It asks for alternative events that might account for the danger in the inner cities, but it does not address the broader issues of law and order, police endorsements, or the specific claims about violence in Chicago and other cities. The question might be too broad and not specific enough to the arguments presented by Trump. It also assumes a specific interpretation of \"it's so dangerous\" without clarifying what that danger is or how it is measured. A more useful question would focus on the evidence for the claims about the level of danger and the factors contributing to it.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__24",
+                "question_text": "Is \"Trump being good candidate\" relevant to the domain of law and order?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID**\n\n**Justification:**\n- The question \"Is 'Trump being a good candidate' relevant to the domain of law and order?\" introduces a new concept (Trump's candidacy) that is not directly addressed in the text. The text focuses on the issue of law and order, particularly in relation to violence in inner cities and the support of police organizations. The question does not challenge any specific argument in the text and is too vague, as it could be applied to any discussion about a political candidate. Additionally, the question is more about Trump's suitability as a candidate rather than the specific arguments he is making about law and order.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_0_S",
+                "question_text": "What is the evidence for the claim that \"African-Americans, Hispanics are living in hell\" in inner cities, and is this a fair representation of the experiences of all individuals in these groups?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:** This question is useful because it challenges the broad and potentially oversimplified claim that \"African-Americans, Hispanics are living in hell\" in inner cities. It prompts the students to consider the evidence for this statement and whether it accurately represents the experiences of all individuals in these groups. This is crucial for critical thinking, as it encourages students to question the validity and fairness of such generalizations and to look for more nuanced and context-specific evidence.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__20",
+                "question_text": "Is there a proven relation between 'it's so dangerous' and 'you walk down the street, you get shot'?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question challenges the validity of Trump's statement by asking for a proven relationship between the general claim that inner cities are dangerous and the specific claim that people get shot when they walk down the street. It encourages students to critically evaluate the evidence and consider whether the hyperbolic language used is supported by factual data. This is crucial for assessing the strength of the argument and understanding whether the claims are based on reliable information.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__21",
+                "question_text": "Is the police's pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- This question is a reading-comprehension question rather than a critical-thinking question. It focuses on whether the police's pronouncement is directly quoted or if a reference to the original source is given, which does not challenge the argument itself.\n- The question does not address the validity or the underlying assumptions of Trump's claims about law and order, the state of inner cities, or the implications of the police endorsements.\n- It is too specific and does not help students critically evaluate the broader arguments and evidence presented in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_LLM_US2016_D_meta-llama_Meta-Llama-3-70B-Instruct_9_L",
+                "question_text": "How does Trump's argument about the need for \"law and order\" account for the role of systemic racism and police brutality in perpetuating violence and mistrust in communities of color?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it challenges Trump's argument by bringing in a critical perspective that he does not address. Trump's argument focuses on the need for \"law and order\" and the dangers in inner cities, but it does not acknowledge the role of systemic racism and police brutality in these issues. By asking this question, students are encouraged to consider whether Trump's solution of \"law and order\" might be oversimplified and whether it adequately addresses the root causes of the violence and mistrust in communities of color. This question prompts a deeper analysis of the argument and helps students evaluate its completeness and potential biases.",
+                "reasoning": null
+            },
+            {
+                "question_id": "TRUMP_125_1_T__1",
+                "question_text": "Are there special circumstances pertaining to in Chicago that undermine its generalisability to other cities where there have been thousands of shootings?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL QUESTION**\n\n**Justification:**\nThis question is useful because it challenges the generalizability of the specific example (Chicago) to other cities. It prompts the students to consider whether the situation in Chicago is unique or whether it reflects a broader, more widespread issue. This is important for critically evaluating Trump's argument, which uses Chicago as a case study to support a broader claim about the state of inner cities and the need for law and order. By questioning the generalizability, students are encouraged to think about the validity of the argument and whether the example is representative of the larger issue.",
+                "reasoning": null
+            }
+        ]
+    },
+    "travellots_133_1": {
+        "intervention_id": "travellots_133_1",
+        "intervention_text": "travellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles.\nAirline tickets are not lottery tickets.\nOne does not purchase a ticket hoping to reach a certain destination.\nSame as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it.\nThe price does not dictate that \"maybe\" you will get the product or service.\nAlso, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B.\nIf they can not afford to give  a ticket for that price, they should not sell it.\nWhen you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline.\nA passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"",
+        "questions": [
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_2_S",
+                "question_text": "Is it fair to compare airline tickets to cups of coffee, given that airline travel involves complex logistical and safety considerations that may not be applicable to other consumer products?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the analogy used in the argument, which is a critical aspect of the reasoning. The analogy between airline tickets and cups of coffee is central to the argument, and questioning whether this analogy holds up under scrutiny is essential for a thorough critical analysis. The question prompts the reader to consider the unique aspects of airline travel, such as logistical and safety considerations, which might make the analogy less valid. This reflection is crucial for evaluating the strength of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_3_S",
+                "question_text": "How do airlines determine the prices of their tickets, and are these prices transparent to consumers?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and makes sense, it is not particularly useful for critically analyzing the argument presented. The question focuses on the process of how airlines determine ticket prices and the transparency of these prices, which is a valid concern but does not directly challenge the main argument of the text. The text is primarily concerned with the idea that all passengers should be treated equally in terms of compensation and bumping, regardless of the price they paid for their tickets. The question about price determination and transparency, while interesting, does not help students evaluate the core argument about fairness and equality in compensation.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_2_L",
+                "question_text": "Is it fair to assume that the airline is making a promise to get the passenger from point A to point B, or are there circumstances in which the airline cannot fulfill this promise?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the assumption that the airline is making an absolute promise to transport the passenger from point A to point B. It prompts the students to consider the real-world scenarios where an airline might not be able to fulfill this promise, such as due to unforeseen circumstances like weather, mechanical issues, or overbooking. This question encourages critical thinking about the nature of the contract between the airline and the passenger and whether it is reasonable to expect the airline to always fulfill its promise under all conditions.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_0_L",
+                "question_text": "What are the critical questions that should be asked regarding the arguments in this paragraph?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "Intervention:\ntravellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles. Airline tickets are not lottery tickets. One does not purchase a ticket hoping to reach a certain destination. Same as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it. The price does not dictate that 'maybe' you will get the product or service. Also, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B. If they can not afford to give a ticket for that price, they should not sell it. When you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline. A passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"\n\nQuestion:\nWhat are the critical questions that should be asked regarding the arguments in this paragraph?\n\nANSWER: INVALID\n\n**Justification:**\nThis question is too vague and could be applied to any argumentative text. It does not specifically challenge or analyze the arguments presented in the paragraph. Instead, it asks for a broad set of critical questions without focusing on the specific claims and reasoning provided by travellots. A more targeted question would be more useful for critical analysis.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_5_S",
+                "question_text": "Are there any circumstances under which an airline might need to bump a passenger, such as in cases of overbooking or mechanical issues, and how should these situations be handled?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nWhile the question is related to the text and touches on the topic of bumping passengers, it does not directly challenge the core argument presented by travellots. The text is focused on the principle that all passengers should be treated equally in terms of bumping and compensation, regardless of the price they paid or the method of payment. The question, however, asks about the circumstances under which bumping might occur, which is a practical consideration rather than a critical analysis of the argument's validity. The text already assumes that bumping can happen and focuses on the fairness of the process, so this question does not add much to the critical evaluation of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_3_L",
+                "question_text": "Is it reasonable to expect that the airline can always accommodate all passengers, or are there situations in which bumping passengers is necessary?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it directly challenges the assumption in the text that the airline should always be able to accommodate all passengers. It prompts the students to consider the practical realities of airline operations, such as overbooking and unforeseen circumstances, which might necessitate bumping passengers. This question encourages critical thinking by asking students to evaluate the feasibility and fairness of the speaker's argument in real-world scenarios.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_1_L",
+                "question_text": "Is the analogy between airline tickets and coffee cups a good one, or are there important differences between the two?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the reader to critically evaluate the analogy used in the argument. The analogy between airline tickets and coffee cups is central to the author's point that the price of a ticket should not affect the service received. By asking whether this analogy is valid, students are prompted to consider whether the comparison is appropriate and whether there are significant differences that might weaken the argument. This question helps students assess the strength and relevance of the analogy, which is crucial for understanding the validity of the overall argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_8_S",
+                "question_text": "How do airlines currently handle bumping and compensation, and are there any existing regulations or industry standards that govern these practices?",
+                "golden_label": "INVALID",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** This question is related to the text but is unlikely to be useful for critical analysis. It asks about the current practices and regulations, which, while informative, do not directly challenge or evaluate the arguments presented in the text. The question does not encourage students to critically assess the validity of the speaker's arguments about the fairness of bumping and compensation practices. Instead, it focuses on factual information that may be well-known or easily researchable.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_7_S",
+                "question_text": "Are there any differences between purchasing a ticket with cash versus frequent flyer miles that might affect the passenger's rights or expectations?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it directly challenges the argument made by travellots that there should be no discrimination in how a passenger is bumped or compensated based on the method of payment. It prompts the students to consider whether the method of payment (cash vs. frequent flyer miles) might have different implications for the passenger's rights or expectations, which is a critical aspect of the argument. By exploring this question, students can evaluate whether the argument holds up under scrutiny and whether there are valid reasons for different treatment based on the method of payment.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_4_S",
+                "question_text": "What happens when an airline sells a ticket at a price that is lower than its actual cost, and how does this impact the airline's ability to provide the promised service?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** While the question is related to the text and addresses a relevant economic concern, it does not directly challenge the core argument presented by travellots. The text is focused on the fairness of treating all passengers equally when it comes to being bumped or compensated, regardless of the price they paid. The question about the impact of selling tickets at a price lower than the actual cost is more about the airline's business model and does not directly address the fairness issue raised in the text. Additionally, the text does not provide enough information to fully answer this question, making it less practical for critical analysis in this context.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_6_S",
+                "question_text": "How does the assumption that a passenger will be taken from point A to point B by the times given by the airline account for unexpected disruptions or changes in flight schedules?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL QUESTION**\n\n**Justification:**\n- The question is related to the text but does not directly challenge the core argument presented by travellots.\n- The core argument is about the fairness of compensating passengers regardless of the price they paid for their tickets or the use of frequent flyer miles.\n- The question introduces the idea of unexpected disruptions or changes in flight schedules, which is a valid concern but is not the primary focus of the argument.\n- The answer to this question might be common sense (e.g., airlines often have policies for unexpected disruptions) and does not directly impact the validity of the argument about fairness in compensation.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_T__1",
+                "question_text": "Are there other relevant goals that conflict with receiving a product you have paid for?",
+                "golden_label": "INVALID",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts students to consider whether there are other important considerations or goals that might conflict with the idea that a passenger should always receive the product they have paid for. This could lead to a deeper analysis of the broader implications of airline policies, such as the need for operational efficiency, the impact on other passengers, or the financial sustainability of the airline. By exploring these potential conflicts, students can evaluate the strength and validity of the argument presented in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_T__2",
+                "question_text": "Are there alternative actions to not discriminating passengers in how they are compensated just because they may have paid less for a ticket to achieve receiving a product you have paid for? If so, which is the most efficient action?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:**\nThe question is asking about alternative actions to achieve the goal of not discriminating against passengers based on the price they paid for their tickets. While this question is related to the text, it is not particularly useful for critical analysis. The text is focused on the principle that discrimination in compensation is unfair and that the price paid should not affect the service received. The question shifts the focus to finding alternative solutions, which is a more practical and less critical thinking-oriented approach. It does not challenge the core argument or encourage a deeper examination of the reasons and implications of the argument presented.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_0_S",
+                "question_text": "What critical questions should be raised before accepting the arguments in this text?",
+                "golden_label": "INVALID",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID**\n\n**Justification:**\n- This question is too vague and could be applied to any text. It does not specifically challenge any argument in the text or provide a focused direction for critical analysis. While it prompts critical thinking in a general sense, it does not offer a concrete starting point for evaluating the specific arguments presented by travellots.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_5_L",
+                "question_text": "Is the argument assuming that the only factor that determines the price of an airline ticket is the airline's costs, or are there other factors at play?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** The question is related to the text but is unlikely to be useful for critical analysis. The text does not explicitly state or imply that the only factor determining the price of an airline ticket is the airline's costs. Instead, the text focuses on the idea that a ticket is a promise for a service, and the price should not affect whether that promise is honored. The question introduces a broader economic discussion that, while interesting, does not directly challenge the core argument of the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_T__0",
+                "question_text": "Could not discriminating passengers in how they are compensated just because they may have paid less for a ticket have consequences that we should take into account? Is it practically possible?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:** This question is useful because it prompts students to consider the practical implications and potential consequences of the policy proposed by the speaker. It challenges them to think beyond the surface-level argument and consider how such a policy might work in practice, which is crucial for a critical analysis of the text. The question encourages students to weigh the practicality and potential unintended effects of the proposed non-discrimination policy, which is essential for evaluating the validity of the argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_1_S",
+                "question_text": "Are there any exceptions to the principle of non-discrimination in bumping or compensation, such as in cases of emergency or special circumstances?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it challenges the speaker's broad principle of non-discrimination in bumping or compensation by considering specific scenarios where exceptions might be necessary. It prompts the students to think about whether the principle should be applied universally or if there are valid reasons to deviate from it in certain situations. This kind of critical thinking is essential for evaluating the robustness of the argument and understanding its limitations.",
+                "reasoning": null
+            },
+            {
+                "question_id": "travellots_133_1_LLM_rrd_D_meta-llama_Meta-Llama-3-70B-Instruct_4_L",
+                "question_text": "Are there any circumstances in which the airline might need to prioritize certain passengers over others?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**ANSWER: UNHELPFUL**\n\n**JUSTIFICATION:** This question is related to the text but is unlikely to be useful for critical analysis of the argument presented. The question introduces the idea of prioritizing certain passengers, which is not directly addressed in the text. The text focuses on the principle that all passengers should be treated equally regardless of the price they paid for their tickets. While the question is relevant in a broader context of airline policies, it does not challenge the specific argument that there should be no discrimination in how passengers are bumped or compensated. Therefore, it does not serve to critically evaluate the main point of the text.",
+                "reasoning": null
+            }
+        ]
+    },
+    "Zewstain__641": {
+        "intervention_id": "Zewstain__641",
+        "intervention_text": "Zewstain: \"It seemed like that was most of her argument. Being a woman\nHow will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman\"",
+        "questions": [
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_3_L",
+                "question_text": "Is Cooper's question about policy differences being unfairly dismissed or ignored by Hillary?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**Label: USEFUL**\n\n**Justification:**\nThis question is useful because it encourages students to critically analyze the interaction between Cooper and Hillary. It prompts them to consider whether Hillary's response to Cooper's question about policy differences is a valid and substantive answer or if it is a deflection. This question is important for evaluating the quality of the argument and the nature of political discourse. It challenges students to think about the relevance and substance of political responses, which is a key aspect of critical thinking.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_6_S",
+                "question_text": "What is the author's purpose in presenting this argument? Is it to critique Hillary Clinton's campaign, to comment on the role of gender in politics, or to make a broader point about political discourse?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**Justification:**\nThis question is useful because it prompts the students to critically analyze the author's purpose in presenting the argument. Understanding the author's intent is crucial for evaluating the validity and context of the argument. The question encourages students to consider multiple interpretations and think about the broader implications of the text, such as the role of gender in politics and the nature of political discourse. This kind of reflection is essential for a critical analysis of the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_5_S",
+                "question_text": "How does this satirical representation reflect or distort the actual political discourse and issues at play in the election?",
+                "golden_label": "USEFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- This question introduces new concepts (satirical representation) that are not present in the text.\n- The text is a direct quote from a political exchange and does not provide any context or indication that it is satirical.\n- The question does not challenge any argument in the text but instead asks the reader to consider an external interpretation (satirical representation) that is not part of the given content.\n- The question is more about analyzing a satirical representation rather than critically evaluating the argument presented in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_4_L",
+                "question_text": "What evidence does Hillary provide to support her claim that being a woman makes a difference in her approach or policies?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "ANSWER: USEFUL\n\n**Justification:**\n- This question is useful because it prompts students to critically evaluate the evidence (or lack thereof) provided by Hillary to support her claim that being a woman makes a difference in her approach or policies.\n- It encourages students to consider whether the statement \"Hello, I'm a woman\" is a sufficient or valid argument for differentiating her from Obama.\n- The question challenges the reader to think about the substance and relevance of her response, which is essential for critical analysis.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_5_L",
+                "question_text": "Is Hillary's response a form of identity politics, where her gender is being used as a proxy for policy differences?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "ANSWER: USEFUL\n\n**Justification:**\nThis question is useful because it prompts students to critically analyze whether Hillary Clinton's response relies on identity politics rather than substantive policy differences. It encourages students to consider whether using gender as a distinguishing factor in a political debate is a valid or effective strategy, and whether it adequately addresses the question of policy differences. This question challenges the student to think about the role of identity in political discourse and whether it can overshadow or substitute for concrete policy discussions.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_6_L",
+                "question_text": "How does Hillary's response address the concerns of voters who are looking for substantive policy differences between candidates?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**LABEL: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it challenges the reader to critically evaluate the substance of Hillary's response. It prompts the students to consider whether Hillary's emphasis on her gender provides a meaningful distinction from Obama in terms of policy. The question encourages students to think about the expectations of voters and whether Hillary's response adequately addresses their desire for concrete policy differences. This is important for evaluating the strength and relevance of her argument in the context of a political debate.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_T__2",
+                "question_text": "Is Hilary Clinton actually a typical case of other woman that use their gender as an argument? How widely applicable is the generalisation?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question introduces a new concept (the idea of other women using their gender as an argument) that is not explicitly discussed in the text. \n- The text focuses on Hillary Clinton's specific response to a question about her differences from Obama, and does not generalize to other women or their arguments.\n- The question is too vague and could be applied to any text where gender is mentioned, without directly challenging the specific argument made by Hillary Clinton in this context.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_T__1",
+                "question_text": "Is it actually the case that Hilary Clinton uses being a woman as an argument? Is there evidence on this claim?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\n- This question is useful because it prompts the students to critically analyze whether Hillary Clinton's statement is indeed using her gender as an argument. It encourages them to look for evidence within the text to support or refute this claim.\n- The question challenges the reader to consider the substance of Clinton's response and whether it is a valid or substantive argument, thereby fostering critical thinking about the nature of her response.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_2_S",
+                "question_text": "Does the author have a bias against Hillary Clinton or women in politics that is influencing their presentation of her argument?",
+                "golden_label": "USEFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID**\n\n**Justification:** The question introduces the concept of the author's bias, which is not explicitly addressed or implied in the text. The text focuses on Hillary Clinton's response to a question about her differences from Obama, emphasizing her gender. The question about the author's bias is not directly relevant to the arguments or statements made in the text and does not challenge the content of the intervention. It is more of a speculation about the author's perspective, which is not supported by the given text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_4_S",
+                "question_text": "Is gender being presented as the sole distinguishing factor between the two candidates, or was Hillary Clinton making a broader point about the importance of diversity and representation in politics?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:**\nThis question is useful because it prompts the students to critically analyze whether Hillary Clinton is solely relying on her gender as a distinguishing factor or if she is making a broader point about the importance of diversity and representation in politics. This question encourages students to consider the context and implications of her statement, which is crucial for a deeper understanding of the argument. It challenges them to think about the nuances in her response and the potential underlying messages, which is essential for evaluating the validity of her argument.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_0_S",
+                "question_text": "Is this a genuine quote or a fabricated representation of the conversation? If fabricated, what is the author's intention behind presenting this dialogue?",
+                "golden_label": "USEFUL",
+                "predicted_label": "INVALID",
+                "full_model_output": "**INVALID QUESTION**\n\n**Justification:**\n- The question is not specific to the argument being made in the text. It focuses on the authenticity of the quote rather than the content or validity of the argument.\n- The question does not challenge the argument about the significance of Hillary Clinton's gender in the context of her candidacy or her policy differences with Obama.\n- It introduces a new concept (the authenticity of the quote) that was not addressed in the text, making it irrelevant to the critical analysis of the argument presented.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_3_S",
+                "question_text": "Are there other significant policy differences between Hillary Clinton and Barack Obama that are being ignored or downplayed in this representation?",
+                "golden_label": "USEFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**USEFUL**\n\n**Justification:** This question is useful because it prompts the students to consider whether the focus on Hillary Clinton's gender as a differentiating factor might be overshadowing other important policy differences between her and Barack Obama. It encourages a more comprehensive and critical analysis of the candidates' platforms, rather than accepting the gender difference as the primary or only significant distinction. This question helps students evaluate the validity and completeness of the argument presented.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_1_S",
+                "question_text": "Is this conversation taken out of context? Was Hillary Clinton's response part of a larger discussion or a more nuanced answer that was edited down to this snippet?",
+                "golden_label": "USEFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**UNHELPFUL**\n\n**Justification:** While the question is related to the text and asks about the context of the conversation, it is unlikely to be useful for critical analysis. The question focuses on whether the snippet is taken out of context, which is a valid concern but does not directly challenge the arguments or reasoning presented in the text. It is more of a reading-comprehension question that asks for additional information rather than prompting critical thinking about the content and validity of the arguments.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_2_L",
+                "question_text": "Is Hillary relying too heavily on her gender as a distinguishing factor, rather than substantive policy differences?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "ANSWER: USEFUL\n\n**Justification:**\n- This question is useful because it directly challenges the argument presented by Hillary Clinton, asking whether she is relying too heavily on her gender as a distinguishing factor rather than substantive policy differences. This is a critical aspect of evaluating the validity and strength of her argument.\n- By considering this question, students can reflect on whether gender is being used as a significant or even primary reason for her candidacy, and whether this is a valid or sufficient basis for her argument.\n- This question encourages students to think about the importance of policy differences in political debates and to consider whether relying on gender alone is a responsible or effective strategy.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_1_L",
+                "question_text": "How does being a woman necessarily translate to differences in policy or approach?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "ANSWER: USEFUL\n\nJustification:\n- The question challenges the assumption that being a woman inherently leads to policy differences or a different approach to governance.\n- It prompts the students to critically evaluate whether gender alone is a sufficient basis for policy differentiation.\n- This question is crucial for assessing the validity of the argument made by Hillary Clinton, as it requires students to consider the logical connection (or lack thereof) between gender and policy.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_7_L",
+                "question_text": "Is Hillary's response a sign of a lack of preparation or a lack of clear policy differences with Obama?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "**ANSWER: UNHELPFUL**\n\n**Justification:**\n- The question is related to the text and makes sense, but it is unlikely to be useful for critical analysis.\n- The question speculates about Hillary Clinton's preparation or the clarity of her policy differences with Obama, which is not directly addressed in the text.\n- The text focuses on Hillary's response to being a woman and does not provide enough context to determine whether her response indicates a lack of preparation or clear policy differences.\n- Answering this question would require making assumptions or inferences that go beyond the information provided in the text.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_LLM_us2016reddit_D_meta-llama_Meta-Llama-3-70B-Instruct_0_L",
+                "question_text": "What specific policy differences does Hillary have with Obama?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "UNHELPFUL",
+                "full_model_output": "ANSWER: UNHELPFUL\n\nJustification: The question is related to the text but is unlikely to be useful for critical analysis. The text does not provide any specific policy differences between Hillary and Obama, and the question asks for information that is not present in the text. The focus of the text is on Hillary's emphasis on her gender rather than her policy positions. Therefore, this question is more about filling in missing information rather than critically analyzing the argument presented.",
+                "reasoning": null
+            },
+            {
+                "question_id": "Zewstain__641_T__0",
+                "question_text": "Are there special circumstances pertaining to Hilary Clinton that undermine its generalisability to other woman who use their gender as an argument?",
+                "golden_label": "UNHELPFUL",
+                "predicted_label": "USEFUL",
+                "full_model_output": "**ANSWER: USEFUL**\n\n**JUSTIFICATION:**\nThis question is useful because it challenges the reader to consider whether Hillary Clinton's specific circumstances (e.g., her political experience, her platform, her background) make her use of gender as an argument unique and not generalizable to other women. This encourages critical thinking about the broader applicability of gender-based arguments in political contexts and whether they can be universally applied or if they depend on individual circumstances. It also prompts the reader to evaluate the validity of using gender as a significant differentiating factor in political debates.",
+                "reasoning": null
+            }
+        ]
+    }
+}

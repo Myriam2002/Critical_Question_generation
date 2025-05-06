@@ -1,0 +1,595 @@
+=== Results ===
+testing_output_rl_prompt_RL_trial_4_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL_trial_4
+  ° temp:   0.8
+  ° overall punctuation:           0.5175438596491228
+  ° overall punctuation with llm:  0.7631578947368421
+  ° overall llm labeled %:         25.438596491228072
+  ° label distro:                  Counter({'LLM_useful': 28, 'LLM_unhelpful': 1})
+
+testing_output_rl_prompt_RL_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL
+  ° temp:   0.8
+  ° overall punctuation:           0.5526315789473685
+  ° overall punctuation with llm:  0.7456140350877195
+  ° overall llm labeled %:         22.807017543859647
+  ° label distro:                  Counter({'LLM_useful': 22, 'LLM_invalid': 3, 'LLM_unhelpful': 1})
+
+testing_output_rl_prompt_Qwen_Qwen2.5-72B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  Qwen_Qwen2.5-72B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7192982456140351
+  ° overall punctuation with llm:  0.868421052631579
+  ° overall llm labeled %:         14.912280701754385
+  ° label distro:                  Counter({'LLM_useful': 17})
+
+testing_output_comprehensive_few_shot_Qwen_Qwen2.5-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  Qwen_Qwen2.5-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.5614035087719299
+  ° overall punctuation with llm:  0.6842105263157896
+  ° overall llm labeled %:         17.77777777777778
+  ° label distro:                  Counter({'LLM_useful': 14, 'LLM_unhelpful': 2})
+
+testing_output_few_shot_meta-llama_Llama-3.2-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  meta-llama_Llama-3.2-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6754385964912281
+  ° overall punctuation with llm:  0.8771929824561404
+  ° overall llm labeled %:         20.175438596491226
+  ° label distro:                  Counter({'LLM_useful': 23})
+
+testing_output_few_shot_deepseek-reasoner_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  deepseek-reasoner
+  ° temp:   0.1
+  ° overall punctuation:           0.6403508771929826
+  ° overall punctuation with llm:  0.8771929824561404
+  ° overall llm labeled %:         23.684210526315788
+  ° label distro:                  Counter({'LLM_useful': 27})
+
+testing_output_zero_shot_with_instructions_Qwen_Qwen2.5-7B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  Qwen_Qwen2.5-7B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.5701754385964912
+  ° overall punctuation with llm:  0.8157894736842105
+  ° overall llm labeled %:         26.31578947368421
+  ° label distro:                  Counter({'LLM_useful': 28, 'LLM_unhelpful': 1, 'LLM_invalid': 1})
+
+testing_output_few_shot_RL_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  RL
+  ° temp:   0.1
+  ° overall punctuation:           0.5438596491228069
+  ° overall punctuation with llm:  0.8070175438596492
+  ° overall llm labeled %:         27.927927927927925
+  ° label distro:                  Counter({'LLM_useful': 30, 'LLM_invalid': 1})
+
+testing_output_zero_shot_with_instructions2_Qwen_Qwen2.5-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  Qwen_Qwen2.5-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.08771929824561403
+  ° overall punctuation with llm:  0.11403508771929824
+  ° overall llm labeled %:         26.666666666666668
+  ° label distro:                  Counter({'LLM_useful': 3, 'LLM_unhelpful': 1})
+
+testing_output_few_shot_Qwen_Qwen2.5-72B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  Qwen_Qwen2.5-72B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6929824561403507
+  ° overall punctuation with llm:  0.7894736842105263
+  ° overall llm labeled %:         9.649122807017543
+  ° label distro:                  Counter({'LLM_useful': 11})
+
+testing_output_comprehensive_few_shot_Qwen_Qwen2.5-14B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  Qwen_Qwen2.5-14B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7192982456140352
+  ° overall punctuation with llm:  0.8421052631578947
+  ° overall llm labeled %:         12.280701754385964
+  ° label distro:                  Counter({'LLM_useful': 14})
+
+testing_output_rl_prompt_deepseek-ai_DeepSeek-V3-0324_t0.1_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  deepseek-ai_DeepSeek-V3-0324
+  ° temp:   0.1
+  ° overall punctuation:           0.7456140350877195
+  ° overall punctuation with llm:  0.8947368421052632
+  ° overall llm labeled %:         14.912280701754385
+  ° label distro:                  Counter({'LLM_useful': 17})
+
+testing_output_rl_prompt_RL_trial_3_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL_trial_3
+  ° temp:   0.8
+  ° overall punctuation:           0.5263157894736841
+  ° overall punctuation with llm:  0.7807017543859651
+  ° overall llm labeled %:         27.192982456140353
+  ° label distro:                  Counter({'LLM_useful': 29, 'LLM_unhelpful': 1, 'LLM_invalid': 1})
+
+testing_output_few_shot_Qwen_Qwen2.5-7B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  Qwen_Qwen2.5-7B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7192982456140351
+  ° overall punctuation with llm:  0.8596491228070174
+  ° overall llm labeled %:         14.912280701754385
+  ° label distro:                  Counter({'LLM_useful': 16, 'LLM_invalid': 1})
+
+testing_output_zero_shot_Qwen_Qwen2.5-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  Qwen_Qwen2.5-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.3508771929824561
+  ° overall punctuation with llm:  0.6929824561403508
+  ° overall llm labeled %:         50.45045045045045
+  ° label distro:                  Counter({'LLM_useful': 39, 'LLM_invalid': 10, 'LLM_unhelpful': 7})
+
+testing_output_comprehensive_few_shot_meta-llama_Llama-3.3-70B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  meta-llama_Llama-3.3-70B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.21052631578947367
+  ° overall punctuation with llm:  0.2192982456140351
+  ° overall llm labeled %:         3.3333333333333335
+  ° label distro:                  Counter({'LLM_useful': 1})
+
+testing_output_zero_shot_Qwen_Qwen2.5-14B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  Qwen_Qwen2.5-14B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.5964912280701753
+  ° overall punctuation with llm:  0.8070175438596495
+  ° overall llm labeled %:         21.052631578947366
+  ° label distro:                  Counter({'LLM_useful': 24})
+
+testing_output_zero_shot_with_instructions2_RL_trial_2_t0.8_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  RL_trial_2
+  ° temp:   0.8
+  ° overall punctuation:           0.5526315789473684
+  ° overall punctuation with llm:  0.8070175438596493
+  ° overall llm labeled %:         27.192982456140353
+  ° label distro:                  Counter({'LLM_useful': 29, 'LLM_invalid': 1, 'LLM_unhelpful': 1})
+
+testing_output_zero_shot_with_instructions2_RL_t0.8_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  RL
+  ° temp:   0.8
+  ° overall punctuation:           0.5087719298245613
+  ° overall punctuation with llm:  0.7543859649122808
+  ° overall llm labeled %:         28.57142857142857
+  ° label distro:                  Counter({'LLM_useful': 28, 'LLM_invalid': 1, 'LLM_unhelpful': 1})
+
+testing_output_zero_shot_meta-llama_Llama-3.3-70B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  meta-llama_Llama-3.3-70B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.09649122807017543
+  ° overall punctuation with llm:  0.11403508771929824
+  ° overall llm labeled %:         13.333333333333334
+  ° label distro:                  Counter({'LLM_useful': 2})
+
+testing_output_zero_shot_deepseek-reasoner_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  deepseek-reasoner
+  ° temp:   0.1
+  ° overall punctuation:           0.6578947368421053
+  ° overall punctuation with llm:  0.8947368421052632
+  ° overall llm labeled %:         25.438596491228072
+  ° label distro:                  Counter({'LLM_useful': 27, 'LLM_unhelpful': 2})
+
+testing_output_rl_prompt_deepseek-ai_DeepSeek-V3-0324_t0.0_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  deepseek-ai_DeepSeek-V3-0324
+  ° temp:   0.0
+  ° overall punctuation:           0.6228070175438597
+  ° overall punctuation with llm:  0.8157894736842106
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 22})
+
+testing_output_zero_shot_Qwen_Qwen2.5-7B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  Qwen_Qwen2.5-7B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.5350877192982457
+  ° overall punctuation with llm:  0.7192982456140353
+  ° overall llm labeled %:         30.701754385964914
+  ° label distro:                  Counter({'LLM_useful': 21, 'LLM_invalid': 7, 'LLM_unhelpful': 7})
+
+testing_output_zero_shot_with_instructions_meta-llama_Llama-3.1-8B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6842105263157895
+  ° overall punctuation with llm:  0.8070175438596493
+  ° overall llm labeled %:         12.280701754385964
+  ° label distro:                  Counter({'LLM_useful': 14})
+
+testing_output_zero_shot_meta-llama_Llama-3.1-8B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6666666666666666
+  ° overall punctuation with llm:  0.8157894736842105
+  ° overall llm labeled %:         15.789473684210526
+  ° label distro:                  Counter({'LLM_useful': 17, 'LLM_unhelpful': 1})
+
+testing_output_schema_prompt_meta-llama_Llama-3.1-8B-Instruct_t0.7_eval_similarity_0.6.json:
+  ° prompt: schema_prompt
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.7
+  ° overall punctuation:           0.5789473684210525
+  ° overall punctuation with llm:  0.8157894736842105
+  ° overall llm labeled %:         24.561403508771928
+  ° label distro:                  Counter({'LLM_useful': 27, 'LLM_invalid': 1})
+
+testing_output_comprehensive_few_shot_meta-llama_Llama-3.1-8B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.8157894736842108
+  ° overall punctuation with llm:  0.8859649122807018
+  ° overall llm labeled %:         7.017543859649122
+  ° label distro:                  Counter({'LLM_useful': 8})
+
+testing_output_comprehensive_few_shot_RL_trial_2_t0.8_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  RL_trial_2
+  ° temp:   0.8
+  ° overall punctuation:           0.5789473684210527
+  ° overall punctuation with llm:  0.7456140350877195
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 19, 'LLM_invalid': 3})
+
+testing_output_zero_shot_RL_trial_2_t0.8_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  RL_trial_2
+  ° temp:   0.8
+  ° overall punctuation:           0.41228070175438597
+  ° overall punctuation with llm:  0.6842105263157897
+  ° overall llm labeled %:         33.33333333333333
+  ° label distro:                  Counter({'LLM_useful': 31, 'LLM_invalid': 4, 'LLM_unhelpful': 3})
+
+testing_output_few_shot_Qwen_Qwen2.5-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  Qwen_Qwen2.5-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.4912280701754386
+  ° overall punctuation with llm:  0.7192982456140351
+  ° overall llm labeled %:         28.57142857142857
+  ° label distro:                  Counter({'LLM_useful': 26, 'LLM_invalid': 4})
+
+testing_output_few_shot_RL_t0.8_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  RL
+  ° temp:   0.8
+  ° overall punctuation:           0.6403508771929824
+  ° overall punctuation with llm:  0.8245614035087719
+  ° overall llm labeled %:         20.175438596491226
+  ° label distro:                  Counter({'LLM_useful': 21, 'LLM_invalid': 2})
+
+testing_output_zero_shot_with_instructions_Qwen_Qwen2.5-72B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  Qwen_Qwen2.5-72B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6929824561403511
+  ° overall punctuation with llm:  0.8508771929824563
+  ° overall llm labeled %:         15.789473684210526
+  ° label distro:                  Counter({'LLM_useful': 18})
+
+testing_output_schema_prompt_Qwen_Qwen2.5-14B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: schema_prompt
+  ° model:  Qwen_Qwen2.5-14B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6052631578947368
+  ° overall punctuation with llm:  0.8508771929824562
+  ° overall llm labeled %:         24.561403508771928
+  ° label distro:                  Counter({'LLM_useful': 28})
+
+testing_output_few_shot_meta-llama_Llama-3.3-70B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  meta-llama_Llama-3.3-70B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.13157894736842105
+  ° overall punctuation with llm:  0.14912280701754385
+  ° overall llm labeled %:         11.11111111111111
+  ° label distro:                  Counter({'LLM_useful': 2})
+
+testing_output_comprehensive_few_shot_RL_t0.8_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  RL
+  ° temp:   0.8
+  ° overall punctuation:           0.5789473684210527
+  ° overall punctuation with llm:  0.7456140350877195
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 19, 'LLM_invalid': 3})
+
+testing_output_comprehensive_few_shot_Qwen_Qwen2.5-7B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  Qwen_Qwen2.5-7B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6578947368421053
+  ° overall punctuation with llm:  0.8333333333333336
+  ° overall llm labeled %:         18.421052631578945
+  ° label distro:                  Counter({'LLM_useful': 20, 'LLM_invalid': 1})
+
+testing_output_schema_prompt_meta-llama_Llama-3.2-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: schema_prompt
+  ° model:  meta-llama_Llama-3.2-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6403508771929823
+  ° overall punctuation with llm:  0.8421052631578947
+  ° overall llm labeled %:         21.052631578947366
+  ° label distro:                  Counter({'LLM_useful': 23, 'LLM_invalid': 1})
+
+testing_output_comprehensive_few_shot_meta-llama_Meta-Llama-3.1-405B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  meta-llama_Meta-Llama-3.1-405B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.780701754385965
+  ° overall punctuation with llm:  0.8333333333333336
+  ° overall llm labeled %:         5.263157894736842
+  ° label distro:                  Counter({'LLM_useful': 6})
+
+testing_output_zero_shot_with_instructions_deepseek-reasoner_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  deepseek-reasoner
+  ° temp:   0.1
+  ° overall punctuation:           0.5087719298245613
+  ° overall punctuation with llm:  0.8333333333333334
+  ° overall llm labeled %:         33.33333333333333
+  ° label distro:                  Counter({'LLM_useful': 37, 'LLM_unhelpful': 1})
+
+testing_output_schema_prompt_meta-llama_Llama-3.1-8B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: schema_prompt
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6929824561403507
+  ° overall punctuation with llm:  0.8859649122807018
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 22})
+
+testing_output_rl_prompt_RL_trial_4_3_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL_trial_4_3
+  ° temp:   0.8
+  ° overall punctuation:           0.5877192982456142
+  ° overall punctuation with llm:  0.868421052631579
+  ° overall llm labeled %:         29.82456140350877
+  ° label distro:                  Counter({'LLM_useful': 32, 'LLM_invalid': 2})
+
+testing_output_zero_shot_with_instructions_RL_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  RL
+  ° temp:   0.1
+  ° overall punctuation:           0.5964912280701755
+  ° overall punctuation with llm:  0.7719298245614036
+  ° overall llm labeled %:         21.296296296296298
+  ° label distro:                  Counter({'LLM_useful': 20, 'LLM_invalid': 2, 'LLM_unhelpful': 1})
+
+testing_output_few_shot_Qwen_Qwen2.5-14B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  Qwen_Qwen2.5-14B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6491228070175441
+  ° overall punctuation with llm:  0.798245614035088
+  ° overall llm labeled %:         15.789473684210526
+  ° label distro:                  Counter({'LLM_useful': 17, 'LLM_unhelpful': 1})
+
+testing_output_zero_shot_with_instructions_meta-llama_Meta-Llama-3.1-405B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  meta-llama_Meta-Llama-3.1-405B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7543859649122805
+  ° overall punctuation with llm:  0.8333333333333335
+  ° overall llm labeled %:         8.771929824561402
+  ° label distro:                  Counter({'LLM_useful': 9, 'LLM_invalid': 1})
+
+testing_output_comprehensive_few_shot_deepseek-reasoner_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  deepseek-reasoner
+  ° temp:   0.1
+  ° overall punctuation:           0.6666666666666667
+  ° overall punctuation with llm:  0.8596491228070177
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 22})
+
+testing_output_zero_shot_meta-llama_Meta-Llama-3.1-405B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  meta-llama_Meta-Llama-3.1-405B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7719298245614035
+  ° overall punctuation with llm:  0.8596491228070174
+  ° overall llm labeled %:         9.649122807017543
+  ° label distro:                  Counter({'LLM_useful': 10, 'LLM_invalid': 1})
+
+testing_output_zero_shot_RL_t0.8_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  RL
+  ° temp:   0.8
+  ° overall punctuation:           0.41228070175438597
+  ° overall punctuation with llm:  0.6842105263157897
+  ° overall llm labeled %:         33.33333333333333
+  ° label distro:                  Counter({'LLM_useful': 31, 'LLM_invalid': 4, 'LLM_unhelpful': 3})
+
+testing_output_rl_prompt_meta-llama_Meta-Llama-3.1-8B-Instruct_t0.0_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  meta-llama_Meta-Llama-3.1-8B-Instruct
+  ° temp:   0.0
+  ° overall punctuation:           0.6403508771929823
+  ° overall punctuation with llm:  0.8157894736842106
+  ° overall llm labeled %:         18.421052631578945
+  ° label distro:                  Counter({'LLM_useful': 20, 'LLM_invalid': 1})
+
+testing_output_rl_prompt_RL_trial_4_4_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL_trial_4_4
+  ° temp:   0.8
+  ° overall punctuation:           0.6754385964912282
+  ° overall punctuation with llm:  0.8333333333333335
+  ° overall llm labeled %:         18.421052631578945
+  ° label distro:                  Counter({'LLM_useful': 18, 'LLM_invalid': 2, 'LLM_unhelpful': 1})
+
+testing_output_comprehensive_few_shot_meta-llama_Llama-3.2-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  meta-llama_Llama-3.2-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7192982456140351
+  ° overall punctuation with llm:  0.8859649122807018
+  ° overall llm labeled %:         16.666666666666664
+  ° label distro:                  Counter({'LLM_useful': 19})
+
+testing_output_zero_shot_meta-llama_Llama-3.2-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  meta-llama_Llama-3.2-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.5614035087719299
+  ° overall punctuation with llm:  0.7982456140350879
+  ° overall llm labeled %:         24.561403508771928
+  ° label distro:                  Counter({'LLM_useful': 27, 'LLM_invalid': 1})
+
+testing_output_zero_shot_with_instructions_meta-llama_Llama-3.2-3B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  meta-llama_Llama-3.2-3B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.631578947368421
+  ° overall punctuation with llm:  0.8070175438596492
+  ° overall llm labeled %:         20.175438596491226
+  ° label distro:                  Counter({'LLM_useful': 20, 'LLM_invalid': 3})
+
+testing_output_comprehensive_few_shot_Qwen_Qwen2.5-72B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: comprehensive_few_shot
+  ° model:  Qwen_Qwen2.5-72B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7543859649122808
+  ° overall punctuation with llm:  0.8245614035087719
+  ° overall llm labeled %:         7.017543859649122
+  ° label distro:                  Counter({'LLM_useful': 8})
+
+testing_output_zero_shot_Qwen_Qwen2.5-72B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  Qwen_Qwen2.5-72B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7105263157894738
+  ° overall punctuation with llm:  0.8421052631578947
+  ° overall llm labeled %:         13.157894736842104
+  ° label distro:                  Counter({'LLM_useful': 15})
+
+testing_output_rl_prompt_meta-llama_Meta-Llama-3.1-8B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  meta-llama_Meta-Llama-3.1-8B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7280701754385965
+  ° overall punctuation with llm:  0.8508771929824562
+  ° overall llm labeled %:         12.280701754385964
+  ° label distro:                  Counter({'LLM_useful': 14})
+
+testing_output_rl_prompt_RL_trial_4_2_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL_trial_4_2
+  ° temp:   0.8
+  ° overall punctuation:           0.5789473684210528
+  ° overall punctuation with llm:  0.8070175438596493
+  ° overall llm labeled %:         23.684210526315788
+  ° label distro:                  Counter({'LLM_useful': 26, 'LLM_unhelpful': 1})
+
+testing_output_zero_shot_RL_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot
+  ° model:  RL
+  ° temp:   0.1
+  ° overall punctuation:           0.45614035087719307
+  ° overall punctuation with llm:  0.631578947368421
+  ° overall llm labeled %:         32.432432432432435
+  ° label distro:                  Counter({'LLM_useful': 20, 'LLM_unhelpful': 10, 'LLM_invalid': 6})
+
+testing_output_schema_prompt_Qwen_Qwen2.5-72B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: schema_prompt
+  ° model:  Qwen_Qwen2.5-72B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.6666666666666665
+  ° overall punctuation with llm:  0.8508771929824562
+  ° overall llm labeled %:         18.421052631578945
+  ° label distro:                  Counter({'LLM_useful': 21})
+
+testing_output_zero_shot_with_instructions_meta-llama_Llama-3.3-70B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  meta-llama_Llama-3.3-70B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.48245614035087714
+  ° overall punctuation with llm:  0.543859649122807
+  ° overall llm labeled %:         10.144927536231885
+  ° label distro:                  Counter({'LLM_useful': 7})
+
+testing_output_schema_prompt_meta-llama_Llama-3.1-8B-Instruct_t0.0_eval_similarity_0.6.json:
+  ° prompt: schema_prompt
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.0
+  ° overall punctuation:           0.6666666666666665
+  ° overall punctuation with llm:  0.8596491228070177
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 22})
+
+testing_output_zero_shot_with_instructions_Qwen_Qwen2.5-14B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  Qwen_Qwen2.5-14B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7017543859649124
+  ° overall punctuation with llm:  0.8859649122807018
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 21, 'LLM_unhelpful': 1})
+
+testing_output_few_shot_meta-llama_Llama-3.1-8B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  meta-llama_Llama-3.1-8B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7280701754385965
+  ° overall punctuation with llm:  0.8333333333333333
+  ° overall llm labeled %:         10.526315789473683
+  ° label distro:                  Counter({'LLM_useful': 12})
+
+testing_output_few_shot_meta-llama_Meta-Llama-3.1-405B-Instruct_t0.1_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  meta-llama_Meta-Llama-3.1-405B-Instruct
+  ° temp:   0.1
+  ° overall punctuation:           0.7982456140350878
+  ° overall punctuation with llm:  0.8859649122807017
+  ° overall llm labeled %:         8.771929824561402
+  ° label distro:                  Counter({'LLM_useful': 10})
+
+testing_output_few_shot_RL_trial_2_t0.8_eval_similarity_0.6.json:
+  ° prompt: few_shot
+  ° model:  RL_trial_2
+  ° temp:   0.8
+  ° overall punctuation:           0.6403508771929824
+  ° overall punctuation with llm:  0.8245614035087719
+  ° overall llm labeled %:         20.175438596491226
+  ° label distro:                  Counter({'LLM_useful': 21, 'LLM_invalid': 2})
+
+testing_output_zero_shot_with_instructions_RL_t0.8_eval_similarity_0.6.json:
+  ° prompt: zero_shot_with_instructions
+  ° model:  RL
+  ° temp:   0.8
+  ° overall punctuation:           0.5438596491228069
+  ° overall punctuation with llm:  0.7280701754385965
+  ° overall llm labeled %:         24.324324324324326
+  ° label distro:                  Counter({'LLM_useful': 21, 'LLM_invalid': 4, 'LLM_unhelpful': 2})
+
+testing_output_rl_prompt_RL_trial_4_5_t0.8_eval_similarity_0.6.json:
+  ° prompt: cot
+  ° model:  RL_trial_4_5
+  ° temp:   0.8
+  ° overall punctuation:           0.6228070175438598
+  ° overall punctuation with llm:  0.780701754385965
+  ° overall llm labeled %:         19.298245614035086
+  ° label distro:                  Counter({'LLM_useful': 18, 'LLM_invalid': 3, 'LLM_unhelpful': 1})
+

@@ -1,0 +1,131 @@
+{
+    "CLINTON_1_1": {
+        "intervention_id": "CLINTON_1_1",
+        "intervention": "CLINTON: \"The central question in this election is really what kind of country we want to be and what kind of future we 'll build together\nToday is my granddaughter 's second birthday\nI think about this a lot\nwe have to build an economy that works for everyone , not just those at the top\nwe need new jobs , good jobs , with rising incomes\nI want us to invest in you\nI want us to invest in your future\njobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business\nmost of the new jobs will come from small business\nWe also have to make the economy fairer\nThat starts with raising the national minimum wage and also guarantee , finally , equal pay for women 's work\nI also want to see more companies do profit-sharing\"",
+        "dataset": "US2016",
+        "schemes": [
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PracticalReasoning",
+            "PopularPractice",
+            "PracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "How will the proposed investments in infrastructure and technology be funded?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that most new jobs will come from small businesses?  "
+            },
+            {
+                "id": 2,
+                "cq": "How will equal pay for women be effectively enforced in the workplace?"
+            }
+        ],
+        "full_response": "1. How will the proposed investments in infrastructure and technology be funded?  \n2. What evidence supports the claim that most new jobs will come from small businesses?  \n3. How will equal pay for women be effectively enforced in the workplace?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions to ask before accepting the arguments in Hillary Clinton's text. The questions need to be simple, one per line, without explanations. \n\nFirst, I need to understand the main points of Clinton's statement. She talks about building an economy that works for everyone, creating jobs in various sectors, raising the minimum wage, equal pay for women, and profit-sharing. \n\nThe user is likely looking for questions that challenge the feasibility, implementation, and assumptions of her proposals. Critical questions usually target the how, the evidence, and potential gaps.\n\nFirst question: How will the proposed investments in infrastructure and technology be funded? That addresses the practical aspect of funding her plans.\n\nSecond question: What evidence supports the claim that most new jobs will come from small businesses? This checks the validity of a key assertion she makes.\n\nThird question: How will equal pay for women be effectively enforced in the workplace? Enforcement mechanisms are crucial for such policies to work, so this question targets the practicality.\n\nI need to ensure each question is straightforward and doesn't include any reasoning. Let me verify they're concise and directly related to her points without overlap. Yep, each question targets a different aspect: funding, evidence, and enforcement. That should cover it."
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the 30-minute notification requirement account for unpredictable factors like weather or maintenance?  "
+            },
+            {
+                "id": 1,
+                "cq": "What evidence supports the claim that passengers frequently miss flights due to premature resolution of delays?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does shifting responsibility to passengers address systemic issues in airline communication and reliability?"
+            }
+        ],
+        "full_response": "Does the 30-minute notification requirement account for unpredictable factors like weather or maintenance?  \nWhat evidence supports the claim that passengers frequently miss flights due to premature resolution of delays?  \nHow does shifting responsibility to passengers address systemic issues in airline communication and reliability?",
+        "reasoning": "Okay, let's tackle this query. The user wants three critical questions to challenge Javier's arguments. Javier's main points are about requiring airlines to notify delays within 30 minutes, but he's concerned about unavoidable problems and passengers' reactions.\n\nFirst, I need to break down his argument. He says airlines can't predict when issues like weather or maintenance will be resolved, and passengers might get upset if they delay going to the airport and miss their flight. He also thinks passengers should take responsibility.\n\nSo, critical questions should target the assumptions he's making. Maybe question the feasibility of the 30-minute notification. Like, is it possible for airlines to determine a delay within that timeframe accurately? That's a good start.\n\nAnother angle: the consequences of notifying delays. Javier mentions passengers might delay their trip and then miss the flight if it's resolved early. But is there data showing this actually happens often? That could challenge his assumption that it's a significant problem.\n\nThird, he shifts responsibility to passengers. Are there other factors, like airline practices, that contribute to the issue? Maybe airlines have some role in communication or planning that isn't addressed.\n\nEach question should be simple and direct. Avoid explanations, just the questions. Let me make sure they're concise and each targets a different part of his argument."
+    },
+    "TRUMP_125_1": {
+        "intervention_id": "TRUMP_125_1",
+        "intervention": "TRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order\nIf we don't have it, we're not going to have a country\nwhen I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long\nI just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in\nWe have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States\nWe have a situation where we have our inner cities, African- Americans, Hispanics are living in hell\nit's so dangerous\nYou walk down the street, you get shot\nIn Chicago, they've had thousands of shootings, thousands since January 1st\nI'm saying, where is this\nIs this a war-torn country\nWhat are we doing\nwe have to stop the violence\nIn a place like Chicago, where thousands of people have been killed, thousands over the last number of years\nalmost 4,000 have been killed since Barack Obama became president\"",
+        "dataset": "US2016",
+        "schemes": [
+            "Example",
+            "Example",
+            "Sign",
+            "Sign",
+            "VerbalClassification"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Are the statistics cited (e.g., \"almost 4,000 killed since Barack Obama became president\") factually accurate and contextually represented?  "
+            },
+            {
+                "id": 1,
+                "cq": "Does the endorsement by police groups directly validate the effectiveness of the proposed \"law and order\" policies?  "
+            },
+            {
+                "id": 2,
+                "cq": "What evidence directly links the described violence in cities like Chicago to a lack of \"law and order\" rather than other systemic factors?"
+            }
+        ],
+        "full_response": "1. Are the statistics cited (e.g., \"almost 4,000 killed since Barack Obama became president\") factually accurate and contextually represented?  \n2. Does the endorsement by police groups directly validate the effectiveness of the proposed \"law and order\" policies?  \n3. What evidence directly links the described violence in cities like Chicago to a lack of \"law and order\" rather than other systemic factors?",
+        "reasoning": "Okay, I need to come up with three critical questions that someone should ask before accepting the arguments in this Trump quote. Let's break down the text first.\n\nHe mentions endorsements from police groups like the Fraternal Order of Police. So maybe question if there's evidence that these endorsements actually reflect effective policies. Then he talks about inner cities being dangerous, specifically Chicago with thousands of shootings. He uses numbers like 4,000 killed since Obama became president. So check if those stats are accurate and if they're presented in context. Also, he links the violence to a lack of law and order. So maybe question the causal relationship here\u2014does law and order directly affect those crime rates? Are there other factors?\n\nFirst question: About the endorsements. Are they meaningful? Like, do police groups' support correlate with effective policies? Second: The statistics he uses. Are they accurate and sourced properly? Third: The connection between law and order and the violence. Is there evidence that increasing law and order would reduce those shootings? Also, check if the numbers he's citing for Chicago are correct. Maybe 4,000 since Obama took office? Need to verify that. Also, does \"law and order\" refer to specific policies? So the three questions could be about the validity of endorsements, accuracy of stats, and causality between his proposed solution and the problem."
+    },
+    "travellots_133_1": {
+        "intervention_id": "travellots_133_1",
+        "intervention": "travellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles.\nAirline tickets are not lottery tickets.\nOne does not purchase a ticket hoping to reach a certain destination.\nSame as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it.\nThe price does not dictate that \"maybe\" you will get the product or service.\nAlso, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B.\nIf they can not afford to give  a ticket for that price, they should not sell it.\nWhen you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline.\nA passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"",
+        "dataset": "rrd",
+        "schemes": [
+            "ERPracticalReasoning",
+            "ERPracticalReasoning"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the comparison between airline tickets and coffee cups overlook differences in service complexity and scalability?  "
+            },
+            {
+                "id": 1,
+                "cq": "What existing policies or legal frameworks govern airline overbooking and passenger compensation?  "
+            },
+            {
+                "id": 2,
+                "cq": "Are there operational or economic factors that justify overbooking despite selling a \"promise\" of service?"
+            }
+        ],
+        "full_response": "1. Does the comparison between airline tickets and coffee cups overlook differences in service complexity and scalability?  \n2. What existing policies or legal frameworks govern airline overbooking and passenger compensation?  \n3. Are there operational or economic factors that justify overbooking despite selling a \"promise\" of service?",
+        "reasoning": "Okay, so the user wants me to come up with three critical questions to ask before accepting the arguments in the given text. Let me read through the text again to understand the main points.\n\nThe text argues against discrimination in how passengers are bumped or compensated based on ticket price or frequent flyer miles. It uses analogies like coffee prices to say that regardless of what you pay, you should get the service. The key points are: airlines shouldn't sell tickets they can't fulfill, price shouldn't affect whether you get the service, and purchasing a ticket is a promise to transport you.\n\nNow, thinking about critical questions. The goal is to challenge the argument's validity. So first, I need to identify assumptions the author is making. For example, the analogy between airline tickets and coffee. Coffee is a simple product, but airline tickets involve more variables like overbooking, which is a common practice. So maybe the analogy isn't perfect. That could be a question: Does the coffee cup analogy fully account for the complexities of airline operations?\n\nAnother point is the assumption that purchasing a ticket is a guarantee of service. But airlines often have contracts of carriage that allow them to bump passengers. So maybe a question about existing policies: What existing policies or legal frameworks allow airlines to overbook or bump passengers, and how do they affect the argument?\n\nThird, the argument says if airlines can't afford a ticket price, they shouldn't sell it. But overbooking is a strategy to manage no-shows. So a question might be: Are there operational or economic reasons that justify overbooking despite the ticket being a \"promise\"?\n\nEach question should challenge an underlying assumption without explaining why it's relevant. Keep them simple and one per line."
+    },
+    "Zewstain__641": {
+        "intervention_id": "Zewstain__641",
+        "intervention": "Zewstain: \"It seemed like that was most of her argument. Being a woman\nHow will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman\"",
+        "dataset": "us2016reddit",
+        "schemes": [
+            "Example"
+        ],
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does gender alone sufficiently qualify someone for a leadership position over policy experience or expertise?  "
+            },
+            {
+                "id": 1,
+                "cq": "What specific policy distinctions exist beyond gender identity?  "
+            },
+            {
+                "id": 2,
+                "cq": "How does being a woman directly influence policy decisions or leadership style differently than male counterparts?"
+            }
+        ],
+        "full_response": "Does gender alone sufficiently qualify someone for a leadership position over policy experience or expertise?  \nWhat specific policy distinctions exist beyond gender identity?  \nHow does being a woman directly influence policy decisions or leadership style differently than male counterparts?",
+        "reasoning": "Okay, so the user wants three critical questions to ask before accepting the arguments in the provided text. The text is a conversation where Zewstain and Cooper are asking Hillary questions, and her main response is about being a woman. The user wants the questions to be simple, one per line, no explanations.\n\nFirst, I need to understand the context. The discussion seems to be about Hillary differentiating herself from Obama, and her main point is her gender. The questions should challenge the sufficiency of that argument. \n\nThe first question could address whether being a woman is the only difference. That directly targets the core of her argument. \n\nSecond, asking for specific policy differences since the answer given was vague. Cooper already asked that, but Hillary didn't provide specifics, so the question should push for concrete examples.\n\nThird, maybe how gender translates into policy or leadership. The user wants to see if there's a substantive link beyond just identity.\n\nI need to make sure each question is straightforward, not leading, and open-ended. Avoid complex wording. Let me check each one again:\n\n1. Does being a woman inherently qualify someone for a leadership role more than policy experience or expertise? \u2013 Hmm, maybe rephrase to be simpler. Maybe \"Does gender alone sufficiently qualify someone for a leadership position over policy experience?\"\n\nWait, the original answer was \"How will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman.\" So she's using her gender as the main differentiator. So the first question could challenge if that's sufficient. Maybe \"Is gender a sufficient basis for differentiation without substantive policy distinctions?\"\n\nBut the user wants simple questions. Maybe \"Is gender alone sufficient to differentiate from previous leaders without specific policy differences?\" That's a bit long. Maybe \"Does gender alone sufficiently distinguish a leader from their predecessors without policy specifics?\" Still wordy.\n\nAlternatively, \"Is being a woman enough to justify differences in leadership compared to male predecessors?\" Maybe that's better. But the user wants it simple. Let me think. The original answer uses \"As a woman it's clear.\" So the question could be, \"Does being a woman inherently provide distinct policy differences from male predecessors?\" No, maybe simpler. The user's example answer from the assistant was \"Does gender alone sufficiently qualify someone for a leadership position over policy experience or expertise?\" But perhaps even simpler: \"Is gender a sufficient qualification for leadership over experience?\" Not sure. Wait, the user's example had \"How does being a woman translate into specific policy decisions or leadership approaches?\" So maybe that's acceptable. But I need to make three distinct ones. Let me try to outline:\n\n1. Does being a woman alone provide enough distinction from previous leaders without outlining specific policies?\n2. What concrete policy differences exist beyond gender identity?\n3. How does gender directly influence specific policy decisions or governance?\n\nBut maybe more concise. The user's example had three questions:\n\n1. Does gender alone sufficiently qualify someone for a leadership position over policy experience or expertise?\n2. What specific policy distinctions exist beyond gender identity?\n3. How does being a woman directly influence policy decisions or leadership style differently than male counterparts?\n\nBut perhaps even shorter. Let me make sure each question is simple and to the point. Avoid complex terms. Maybe:\n\n1. Is gender sufficient to differentiate leadership without specific policies?\n2. What policy differences exist beyond being a woman?\n3. How does being a woman directly affect policy decisions?\n\nYes, those are simpler. Each question is direct, no explanations. That should work."
+    }
+}
