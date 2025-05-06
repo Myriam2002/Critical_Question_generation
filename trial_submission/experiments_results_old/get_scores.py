@@ -1,3 +1,4 @@
+
 import json
 from sentence_transformers import SentenceTransformer
 import numpy as np
@@ -6,11 +7,11 @@ from collections import Counter
 import sys
 import argparse
 import logging
+
 from prompts_eval import *
 from openai import OpenAI
 import re
 import os
-
 logger = logging.getLogger(__name__)
 
 with open("../API_KEY", "r") as f:
@@ -86,6 +87,7 @@ def extract_label(response):
     logging.debug("Extracted label: %s from response: %s", extracted, response)
     return extracted
 
+
 def evluate_answer_corr_with_llm(answer, intervention):
     instruction = ComprehensiveFewShotPrompt().format(intervention=intervention, cq=answer)
     messages = [{"role": "system", "content": ""}, {"role": "user", "content": instruction}]
@@ -111,19 +113,14 @@ def query_deepinfra(model_name, messages, temperature, max_new_tokens=2048):
     input_token_count = chat_completion.usage.prompt_tokens
     output_token_count = chat_completion.usage.completion_tokens
 
+    # logging.debug("Queried DeepInfra with model %s: prompt tokens=%d, completion tokens=%d", 
+    #               model_name, input_token_count, output_token_count)
     logging.debug("Queried DeepInfra with model %s: response=%s", model_name, response)
     return response, None, input_token_count, output_token_count
 
-def eval_func(threshold, golden_path, submission_path, use_llm_fallback=True):
-    """
-    Evaluates generated critical questions against reference data.
-    
-    Parameters:
-        threshold: Similarity threshold for matching
-        golden_path: Path to reference dataset
-        submission_path: Path to submission dataset
-        use_llm_fallback: Whether to use LLM evaluation for low similarity matches
-    """
+
+def eval_func(threshold, golden_path, submission_path):
+
     #logger
     logging.basicConfig(filename='eval.log', level=logging.INFO)
 
@@ -140,7 +137,6 @@ def eval_func(threshold, golden_path, submission_path, use_llm_fallback=True):
     predicted_labels = []
     punctuations = []
     llm_labeled = 0
-    below_threshold_count = 0
 
     for instance in new.keys(): # for each intervention
         if instance not in reference:
@@ -165,44 +161,37 @@ def eval_func(threshold, golden_path, submission_path, use_llm_fallback=True):
                 reference_embedding = model.encode(reference_set)
                 sims = model.similarity(sentence_embedding, reference_embedding).tolist()[0]
                     
+               
                 winner = np.argmax(sims)
-                # Save the matched reference information
+                    # Save the matched reference information
                 new[instance]['cqs'][i]['matched_reference'] = {
                     'index': int(winner),
                     'cq': reference[instance]['cqs'][winner]['cq'],
                     'label': reference[instance]['cqs'][winner]['label'],
                     'similarity': float(sims[winner])
                 }
-                
-                # make sure the similarity of the winning reference sentence is at least threshold
+                # make sure the similarity of the winning reference sentence is at least 0.6
                 if sims[winner] > threshold:
                     label = reference[instance]['cqs'][winner]['label']
                     if label == 'Useful':
                         punctuation += 1/3
                 else: 
-                    below_threshold_count += 1
-                    logging.debug("Similarity below threshold for '%s'. Score: %f", line['cq'], sims[winner])
-                    print(f"Similarity below threshold for '{line['cq']}'. Score: {sims[winner]}")
-                    
-                    if use_llm_fallback:
-                        # Only use LLM if fallback is enabled
-                        logging.debug("Using LLM fallback evaluation.")
-                        print("Using LLM fallback evaluation.")
-                        label = evluate_answer_corr_with_llm(line['cq'], reference[instance]['intervention'])
-                        logging.debug("LLM fallback label: %s", label)
-                        print("LLM fallback label:", label)
-                        if label == 'useful':
-                            punctuation += 1/3
-                        llm_labeled += 1
-                        label = f"LLM_{label}"
-                    else:
-                        # Without LLM fallback, mark as inconclusive
-                        label = "Below_Threshold"
+                    logging.debug("Similarity below threshold for '%s'. Using LLM fallback evaluation.", line['cq'])
+                    print(f"Similarity below threshold for '{line['cq']}'. Using LLM fallback evaluation.")
+                    label = evluate_answer_corr_with_llm(line['cq'], reference[instance]['intervention'])
+                    logging.debug("LLM fallback label: %s", label)
+                    print("LLM fallback label:", label)
+                    if label == 'useful':
+                        punctuation += 1/3
+
+                    # label = 'not_able_to_evaluate'
+                    llm_labeled += 1
+                    label = f"LLM_{label}"
 
                 predicted_labels.append(label)
                 new[instance]['cqs'][i]['label'] = label
         else:
-            predicted_labels.extend(['Missing CQ', 'Missing CQ', 'Missing CQ'])
+            predicted_labels.extend(['Missing CQ', 'Missing CQ', 'Missing CQ']) # this should disapear with a proper prompt that makes sure there are always 3 questions
 
         punctuations.append(punctuation)
 
@@ -210,65 +199,38 @@ def eval_func(threshold, golden_path, submission_path, use_llm_fallback=True):
     print('Distribution of the labels:', Counter(predicted_labels))
     print('Distribution of the intervention punctuation:', Counter(punctuations))
     print('Overall punctuation', sum(punctuations)/len(punctuations))
-    
     new["Overall_stats"] = {
-        "Distribution of the labels": dict(Counter(predicted_labels)),
-        "Distribution of the intervention punctuation": dict(Counter(punctuations)),
+        "Distribution of the labels": Counter(predicted_labels),
+        "Distribution of the intervention punctuation": Counter(punctuations),
         "Overall punctuation": sum(punctuations)/len(punctuations),
-        "Below threshold count": below_threshold_count,
-        "Total CQs": len(predicted_labels)
+        "LLM labeled": (llm_labeled/len(predicted_labels)) * 100
+
     }
-    
-    if use_llm_fallback:
-        new["Overall_stats"]["LLM labeled"] = (llm_labeled/len(predicted_labels)) * 100
-        new["Overall_stats"]["LLM labeled count"] = llm_labeled
-        
     return new
 
-# Main execution
-temperature = 0.1
+
+
+temperature = 0.8
 selected_prompt_names = [
-    # "rl_prompt"
-    "schema_prompt", 
-    # "schemechoose_prompt", 
-    # "LogicalFallaciesPrompt"
+    "rl_prompt"
+    # "schema_prompt"
     # "zero_shot", "zero_shot_with_instructions2", "few_shot", "comprehensive_few_shot"
-]
+    ]
 
 # models = ['deepseek-ai/DeepSeek-V3-0324', 'deepseek-reasoner', 'Qwen/Qwen2.5-14B-Instruct', 'Qwen/Qwen2.5-72B-Instruct', 'Qwen/Qwen2.5-7B-Instruct', 'meta-llama/Llama-3.2-3B-Instruct', 'meta-llama/Llama-3.1-8B-Instruct'] 
-models = [
-        # 'meta-llama/Meta-Llama-3.1-405B-Instruct',
-        # 'meta-llama/Llama-3.3-70B-Instruct',
-        # 'meta-llama/Meta-Llama-3.1-8B-Instruct',
-        'meta-llama/Llama-3.2-3B-Instruct',
-        # 'Qwen/Qwen2.5-14B-Instruct', 
-        # 'Qwen/Qwen2.5-72B-Instruct', 
-        # 'Qwen/Qwen2.5-7B-Instruct',
-        # 'deepseek-ai/DeepSeek-V3-0324', 
-        # 'deepseek-reasoner'
-    ]
-golden_path = "/home/alaa.elsetohy/Desktop/Critical_Question_generation/data_splits/testing_dataset.json"
+models= ['RL']
+# models = ["meta-llama/Llama-3.1-8B-Instruct"]
+# data_files = ["sample", "validation"]
+golden_path = "/home/sama.hadhoud/Documents/Critical_Question_generation/data_splits/testing_dataset.json"
 
 for model_name in models:
     model_name_in_file = model_name.replace("/", "_") 
     for selected_prompt_name in selected_prompt_names:
-        target_file = f'testing_dataset_output_{selected_prompt_name}_{model_name_in_file}_t{temperature}.json'
+        target_file = f'testing_output_{selected_prompt_name}_{model_name_in_file}_trial_4_5_t{temperature}.json'
         print("Starting", target_file)
-        
-        # Run with similarity only (no LLM fallback)
-        similarity_only_file = f'testing_dataset_output_{selected_prompt_name}_{model_name_in_file}_t{temperature}_eval_similarity_only_0.6.json'
-        if not os.path.exists(similarity_only_file):
-            print("Running similarity-only evaluation...")
-            similarity_only_result = eval_func(threshold=0.6, golden_path=golden_path, 
-                                              submission_path=target_file, use_llm_fallback=False)
-            with open(similarity_only_file, 'w') as o:
-                json.dump(similarity_only_result, o, indent=4)
-        
-        # Run with similarity + LLM fallback
-        similarity_llm_file = f'testing_dataset_output_{selected_prompt_name}_{model_name_in_file}_t{temperature}_eval_similarity_llm_0.6.json'
-        if not os.path.exists(similarity_llm_file):
-            print("Running similarity+LLM evaluation...")
-            similarity_llm_result = eval_func(threshold=0.6, golden_path=golden_path, 
-                                             submission_path=target_file, use_llm_fallback=True)
-            with open(similarity_llm_file, 'w') as o:
-                json.dump(similarity_llm_result, o, indent=4)
+        result_file_name = f'testing_output_{selected_prompt_name}_{model_name_in_file}_trial_4_5_t{temperature}_eval_similarity_0.6.json'
+        if os.path.exists(result_file_name):
+            continue
+        result  = eval_func(threshold = 0.6, golden_path=  golden_path, submission_path = target_file)
+        with open(result_file_name, 'w') as o:
+            json.dump(result, o, indent=4)

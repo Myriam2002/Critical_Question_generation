@@ -606,3 +606,20 @@ INFO:__main__:THRESHOLD: 0.6
 METRIC: similarity
 INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
 INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda:0
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+WARNING:huggingface_hub.file_download:Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+INFO:__main__:THRESHOLD: 0.6
+METRIC: similarity
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda:0
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda:0
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda:0
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda:0
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda:0
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: stsb-mpnet-base-v2

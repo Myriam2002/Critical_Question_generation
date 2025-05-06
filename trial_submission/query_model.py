@@ -12,8 +12,18 @@ with open("hf_token.txt", "r") as token_file:
     hf_token = token_file.read().strip()
 
 # Load Qwen2.5-3B-Instruct model and tokenizer
-deepinfra_models = ["meta-llama/Meta-Llama-3.1-8B-Instruct", "deepseek-ai/DeepSeek-V3-0324", "deepseek-ai/DeepSeek-V3", "deepseek-ai/DeepSeek-R1", "Qwen/Qwen2.5-72B-Instruct", "deepseek-ai/DeepSeek-V3-0324", "meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Meta-Llama-3.1-405B-Instruct"]
-openrouter_models = ["qwen/qwq-32b:free", "deepseek/deepseek-r1:free"]
+deepinfra_models = ["meta-llama/Meta-Llama-3.1-8B-Instruct", 
+                    "deepseek-ai/DeepSeek-V3-0324", 
+                    "deepseek-ai/DeepSeek-V3", 
+                    "deepseek-ai/DeepSeek-R1", 
+                    "Qwen/Qwen2.5-72B-Instruct", 
+                    # "Qwen/Qwen2.5-14B-Instruct",
+                     "meta-llama/Llama-3.3-70B-Instruct", 
+                     "meta-llama/Llama-3.2-3B-Instruct",
+                    #  "Qwen/Qwen2.5-7B-Instruct",
+                     "meta-llama/Meta-Llama-3.1-405B-Instruct"]
+
+openrouter_models = ["qwen/qwq-32b:free", "deepseek/deepseek-r1:free", "Qwen/Qwen2.5-14B-Instruct"]
 deepseek_models = ["deepseek-reasoner"]
 
 
@@ -84,53 +94,57 @@ def query_deepseek(model_name, messages, temperature, max_new_tokens = 2048):
     return content, reasoning_content, input_token_count, output_token_count
 
 
-def query_model(messages, tokenizer , model,  model_name, pipeline, temperature=0.7, max_new_tokens = 2048):
+def query_model(messages, tokenizer, model, model_name, pipeline, temperature=0.7, max_new_tokens=2048):
     """
-    Queries the Qwen2.5-3B-Instruct model with a given prompt and counts input/output tokens.
+    Queries the model with a given prompt and counts input/output tokens.
     """
+    # First check for API-based models
     if model_name in deepinfra_models:   
         print("query_deepinfra")
-        return query_deepinfra(model_name, messages, temperature, max_new_tokens = max_new_tokens)
+        return query_deepinfra(model_name, messages, temperature, max_new_tokens=max_new_tokens)
     if model_name in openrouter_models:
         print("query_openrouter")
-        return query_openrouter(model_name, messages, temperature, max_new_tokens = max_new_tokens)
+        return query_openrouter(model_name, messages, temperature, max_new_tokens=max_new_tokens)
     if model_name in deepseek_models:
         print("query_deepseek")
-        return query_deepseek(model_name, messages, temperature, max_new_tokens = max_new_tokens)
-    if "meta-llama" in model_name:
+        return query_deepseek(model_name, messages, temperature, max_new_tokens=max_new_tokens)
+        
+    # For pipeline-based models
+    if pipeline is not None:
+        print(f"Using pipeline for {model_name}")
         outputs = pipeline(
             messages,
             max_new_tokens=max_new_tokens,
-            temperature=temperature,
-            # do_sample=False
-            # use_auth_token=hf_token
+            do_sample=True
         )
         response = outputs[0]["generated_text"][-1]['content']
         print(response)
         return response, None, None, None
-    # Convert messages to ChatML format and tokenize
-    chatml_input = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True )
-    inputs = tokenizer([chatml_input], return_tensors="pt").to("cuda")
-
-    # print(inputs.input_ids)
-
-    input_token_count = inputs.input_ids.shape[1]  # Count input tokens
-
-    with torch.no_grad():
-        generated_ids = model.generate(**inputs, max_new_tokens = max_new_tokens, temperature=temperature)
-
-    generated_ids = [
-        output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, generated_ids)
-    ]
-
-    output_token_count = sum(len(ids) for ids in generated_ids)  # Count output tokens
-
-    response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
-
-    print(f"Input tokens: {input_token_count}, Output tokens: {output_token_count}")
-
-    return response, None, input_token_count, output_token_count
-
+        
+    # For direct model usage (tokenizer and model must both be available)
+    if tokenizer is not None and model is not None:
+        print(f"Using direct model inference for {model_name}")
+        chatml_input = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        inputs = tokenizer([chatml_input], return_tensors="pt").to("cuda")
+        
+        input_token_count = inputs.input_ids.shape[1]
+        
+        with torch.no_grad():
+            generated_ids = model.generate(**inputs, max_new_tokens=max_new_tokens, 
+                                            do_sample=True)
+        
+        generated_ids = [
+            output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, generated_ids)
+        ]
+        
+        output_token_count = sum(len(ids) for ids in generated_ids)
+        response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+        
+        print(f"Input tokens: {input_token_count}, Output tokens: {output_token_count}")
+        return response, None, input_token_count, output_token_count
+    
+    # If we get here, we don't have a valid way to query the model
+    raise ValueError(f"No valid method to query {model_name}. Model, tokenizer, and pipeline are all None.")
 
 
 # def extract_final_answer(messages, full_response):

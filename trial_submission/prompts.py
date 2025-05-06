@@ -283,6 +283,31 @@ def format_schemes_nicely(schemes_json: dict) -> str:
         formatted.append("")  # Add a blank line between schemes
     return "\n".join(formatted)
 
+def format_fallacies_nicely(fallacies_defs: dict) -> str:
+    """
+    Formats logical fallacies into a readable markdown-style string.
+
+    Each fallacy will be rendered as:
+    ### Fallacy Name
+    - Description: ...
+    - Logical Form: ...
+
+    Args:
+        fallacies_defs: A dict mapping fallacy names to dicts with 'description' and 'logical_form'.
+
+    Returns:
+        A markdown string.
+    """
+    lines = []
+    for name, info in fallacies_defs.items():
+        lines.append(f"### {name}")
+        lines.append(f"- Description: {info.get('description', '').strip()}")
+        lf = info.get('logical_form', '').strip()
+        if lf:
+            lines.append(f"- Logical Form: {lf}")
+        lines.append("")  # blank line
+    return "\n".join(lines)
+
 class SchemePrompt(BasePrompt):
     def __init__(self):
         schemes_json_file = "templates.json"
@@ -315,3 +340,156 @@ class SchemePrompt(BasePrompt):
         )
         template = template.replace("{schemes}", formatted_schemes)
         super().__init__(template)
+
+
+class SchemechoosePrompt(BasePrompt):
+    def __init__(self):
+        # Load the full schemes dictionary
+        schemes_json_file = "templates.json"
+        with open(schemes_json_file) as f:
+            self.schemes_json = json.load(f)
+        
+        # Template without schemes - we'll add the relevant ones dynamically
+        self.base_template = (
+            "You are a teacher in a critical thinking class. Your job is to generate critical questions that challenge "
+            "the validity of arguments presented in a given text. These questions must be USEFUL, meaning they prompt the reader "
+            "to reflect deeply and potentially reduce the credibility of the claims.\n\n"
+
+            "The argument(s) in the provided text has been annotated to follow the argumentation scheme(s) listed below. "
+            "These schemes provide templates for critical questions that are specifically designed to challenge this type of argument. "
+            "By using these templates and filling in the variables with content from the text, you can formulate effective critical questions.\n\n"
+
+            "**Critical Question Guidelines:**\n"
+            "- USEFUL: Challenges the argument meaningfully, targets specific claims, and uses only info in the text.\n"
+            "- UNHELPFUL: Common sense, reading comprehension, too broad, too complex, or just restates what's in the text.\n"
+            "- INVALID: Introduces new concepts or vague/irrelevant topics.\n\n"
+
+            "**Instructions:**\n"
+            "1. The text uses the following argumentation scheme(s). Use these schemes to generate your questions.\n"
+            "2. Choose 3 of the most USEFUL questions from the provided scheme(s).\n"
+            "3. Fill in the variables (e.g., <eventA>, <subjecta>) using specific content from the text.\n"
+            "4. Return only the final 3 questions. Do not include any special characters or numbering except for the question mark.\n\n"
+
+            "APPLICABLE ARGUMENTATION SCHEMES:\n\n{schemes}\n\n"
+            "Generate three USEFUL critical questions for the following text:\n\n"
+            "TEXT:\n\"{intervention}\"\n\n"
+            "Provide one question per line. Do not include any special characters or numbering except for the question mark."
+        )
+        
+        # We don't set the template yet - we'll do it dynamically in format()
+
+    def format(self, intervention: str, schemes_list=None) -> str:
+        """
+        Format the prompt with the provided intervention text and specific schemes.
+        
+        Args:
+            intervention: The text to insert into the template.
+            schemes_list: List of scheme names to include (e.g., ["CauseToEffect"])
+        
+        Returns:
+            The formatted prompt.
+        """
+        # Map from dataset scheme names to template.json scheme names
+        scheme_name_mapping = {
+            "CauseToEffect": "Argument from Cause to Effect",
+            "Example": "Argument from Example",
+            "Sign": "Argument from Sign",
+            "VerbalClassification": "Argument from Verbal Classification",
+            "PositionToKnow": "Argument from Position to Know",
+            "ExpertOpinion": "Expert Opinion",
+            "Consequences": "Argument from Consequences",
+            "Analogy": "Argument from Analogy",
+            "PopularOpinion": "Argument from Popular Opinion",
+            "PopularPractice": "Argument from Popular Practice",
+            "Bias": "Argument from Bias",
+            "GenericAdHominem": "Generic Ad Hominem",
+            "PracticalReasoning": "Practical Reasoning",
+            "Alternatives": "Argument from Alternatives",
+            "DangerAppeal": "Argument from Danger Appeal",
+            "Values": "Argument from Values",
+            "FearAppeal": "Argument from Fear Appeal",
+            "CircumstantialAdHominem": "Argument from Circumstantial Ad Hominem"
+        }
+        
+        # If no specific schemes are provided, use all schemes
+        if not schemes_list:
+            formatted_schemes = format_schemes_nicely(self.schemes_json)
+        else:
+            # Filter the schemes to only include the ones in the list
+            filtered_schemes = {"schemes": []}
+            for scheme in self.schemes_json["schemes"]:
+                # Map the dataset scheme name to the template.json scheme name
+                for scheme_name in schemes_list:
+                    if scheme_name in scheme_name_mapping and scheme["scheme"] == scheme_name_mapping[scheme_name]:
+                        filtered_schemes["schemes"].append(scheme)
+                        break
+            
+            # Format only the filtered schemes
+            formatted_schemes = format_schemes_nicely(filtered_schemes)
+        
+        # Now inject the formatted schemes into the template
+        template = self.base_template.replace("{schemes}", formatted_schemes)
+        
+        # And finally, inject the intervention text
+        return template.format(intervention=intervention)
+
+class LogicalFallaciesPrompt(BasePrompt):
+    """
+    Prompt for generating critical questions based on detected logical fallacies and their scores.
+    """
+    def __init__(self):
+        # Load fallacies definitions from a JSON file
+        fallacies_json_file = "fallacies.json"
+        with open(fallacies_json_file, 'r', encoding='utf-8') as f:
+            self.fallacies_defs = json.load(f)
+
+        formatted_defs = format_fallacies_nicely(self.fallacies_defs)
+
+        template = (
+            "You are a teacher in a critical thinking class. Your job is to generate critical questions that challenge "
+            "the validity of arguments presented in a given text. These questions must be USEFUL, meaning they prompt the reader "
+            "to reflect deeply and potentially reduce the credibility of the claims.\n\n"
+            "We have analyzed the following text and detected these logical fallacies with their scores and definitions:\n\n"
+            "{fallacies_scores}\n"
+
+            "Using each fallacy as a point of weakness, generate one critical question that addresses that specific weakness.\n"
+            "Follow these guidelines:\n"
+
+            "**Critical Question Guidelines:**\n"
+            "- USEFUL: Challenges the argument meaningfully, targets specific claims, and uses only info in the text.\n"
+            "- UNHELPFUL: Common sense, reading comprehension, too broad, too complex, or just restates what’s in the text.\n"
+            "- INVALID: Introduces new concepts or vague/irrelevant topics.\n\n"
+
+            "**Instructions:**\n"
+            "1. Identify the best fallacies to ask about.\n"
+            "2. Generate 3 USEFUL critical questions.\n"
+            "3. Return only the final 3 questions. Do not include any special characters or numbering except for the question mark.\n\n"
+
+            "Logical Fallacies definitions for reference:\n\n{formatted_defs}\n\n"
+            "Generate three USEFUL critical questions for the following text:\n\n"
+            "TEXT:\n\"{intervention}\"\n\n"
+            "Provide one question per line. Do not include any special characters or numbering except for the question mark."
+        )
+        template = template.replace("{formatted_defs}", formatted_defs)
+        super().__init__(template)
+
+
+    def format(self, intervention: str, fallacies_scores: dict) -> str:
+        """
+        Build the prompt by injecting the intervention and formatted fallacies info.
+
+        Args:
+            intervention: The text that was analyzed.
+            fallacies_scores: Dict mapping fallacy names to score floats.
+        """
+        # Build a summary of scores
+        lines = []
+        for name, score in fallacies_scores.items():
+            lines.append(f"- {name}: {score:.4f}")
+        scores_summary = "\n".join(lines)
+
+        return self.template.format(
+            fallacies_scores=scores_summary,
+            # fallacies_definitions=format_fallacies_nicely(self.fallacies_defs),
+            intervention=intervention
+        )

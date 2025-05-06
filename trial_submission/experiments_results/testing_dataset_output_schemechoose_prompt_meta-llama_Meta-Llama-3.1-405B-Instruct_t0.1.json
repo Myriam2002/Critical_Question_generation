@@ -10,18 +10,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the claim that a form of capitalism wasn\u2019t generating sufficient surpluses and the claim that the money didn\u2019t flow into those industrial activities?"
+                "cq": "How strong is the generalisation that if a form of capitalism doesn't generate sufficient surpluses then money won't flow into industrial activities?"
             },
             {
                 "id": 1,
-                "cq": "Is there a proved relation between the claim that a form of capitalism wasn\u2019t generating sufficient surpluses and the claim that it wasn\u2019t making enough money in the developed world?"
+                "cq": "Are there other factors in this particular case that could have interfered with the event of money not flowing into industrial activities?"
             },
             {
                 "id": 2,
-                "cq": "Is the claim that the money didn\u2019t flow into those industrial activities because it wasn\u2019t making enough money in the developed world a plausible explanation for the observed phenomenon?"
+                "cq": "Are there instances where industrial activities in the developed world were making enough money despite the form of capitalism not generating sufficient surpluses?"
             }
         ],
-        "full_response": "Is there a proved relation between the claim that a form of capitalism wasn\u2019t generating sufficient surpluses and the claim that the money didn\u2019t flow into those industrial activities?\n\nIs there a proved relation between the claim that a form of capitalism wasn\u2019t generating sufficient surpluses and the claim that it wasn\u2019t making enough money in the developed world?\n\nIs the claim that the money didn\u2019t flow into those industrial activities because it wasn\u2019t making enough money in the developed world a plausible explanation for the observed phenomenon?",
+        "full_response": "How strong is the generalisation that if a form of capitalism doesn't generate sufficient surpluses then money won't flow into industrial activities?\nAre there other factors in this particular case that could have interfered with the event of money not flowing into industrial activities?\nAre there instances where industrial activities in the developed world were making enough money despite the form of capitalism not generating sufficient surpluses?",
         "reasoning": null
     },
     "cd38_220_2": {
@@ -38,18 +38,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that not having time to eat on a flight is a reliable indicator of the risks involved in eating nuts on a flight?"
+                "cq": "What are the chances that a passenger with a nut allergy would be exposed to nuts brought on board by another passenger if the airline did not serve nuts?"
             },
             {
                 "id": 1,
-                "cq": "Is there evidence on the claim that the risks of a peanut-related incident on a flight are extremely small if peanuts are not served?"
+                "cq": "How does the author's claim that \"NOTHING in life is riskfree\" relate to the specific risk of a peanut allergy sufferer having a reaction on a flight?"
             },
             {
-                "id": 1,
-                "cq": "Missing CQs"
+                "id": 2,
+                "cq": "Is the author's example of eating peanuts at the airport and then opening the restroom door on the plane a realistic scenario that justifies not restricting what people may choose to eat on a flight?"
             }
         ],
-        "full_response": "Is it actually the case that not having time to eat on a flight is a reliable indicator of the risks involved in eating nuts on a flight?\nIs there evidence on the claim that the risks of a peanut-related incident on a flight are extremely small if peanuts are not served?",
+        "full_response": "What are the chances that a passenger with a nut allergy would be exposed to nuts brought on board by another passenger if the airline did not serve nuts?\nHow does the author's claim that \"NOTHING in life is riskfree\" relate to the specific risk of a peanut allergy sufferer having a reaction on a flight?\nIs the author's example of eating peanuts at the airport and then opening the restroom door on the plane a realistic scenario that justifies not restricting what people may choose to eat on a flight?",
         "reasoning": null
     },
     "TRUMP_183": {
@@ -67,18 +67,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between being endorsed by a large number of admirals and generals and being a good leader, or is this endorsement based on other factors?"
+                "cq": "Is Trump in a position to know whether he has the support of over 200 admirals and generals?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the event of Trump being endorsed by a large number of admirals and generals, such as the fact that he is the incumbent president?"
+                "cq": "Are there reasons to believe that the endorsement of ICE and 16,500 Border Patrol agents is not a significant indicator of a candidate's qualifications to lead the country on immigration?"
             },
             {
                 "id": 2,
-                "cq": "Is the endorsement by ICE and 16,500 Border Patrol agents sufficient evidence to support Trump's claim that he is a better leader than Secretary Clinton, or could these endorsements be seen as biased or motivated by other factors?"
+                "cq": "Is the value of having the endorsement of admirals and generals seen as more important than the value of having the endorsement of other experts or organizations for most people?"
             }
         ],
-        "full_response": "Is there a proved relation between being endorsed by a large number of admirals and generals and being a good leader, or is this endorsement based on other factors?\n\nAre there other factors in this particular case that could have interfered with the event of Trump being endorsed by a large number of admirals and generals, such as the fact that he is the incumbent president?\n\nIs the endorsement by ICE and 16,500 Border Patrol agents sufficient evidence to support Trump's claim that he is a better leader than Secretary Clinton, or could these endorsements be seen as biased or motivated by other factors?",
+        "full_response": "Is Trump in a position to know whether he has the support of over 200 admirals and generals?\nAre there reasons to believe that the endorsement of ICE and 16,500 Border Patrol agents is not a significant indicator of a candidate's qualifications to lead the country on immigration?\nIs the value of having the endorsement of admirals and generals seen as more important than the value of having the endorsement of other experts or organizations for most people?",
         "reasoning": null
     },
     "AngelComa__638": {
@@ -91,18 +91,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between AngelComma's claim that politicians often say things and not having a plan and the specific instance of Punchee's debate experience?"
+                "cq": "Is the assumption that having a plan on a website is sufficient to demonstrate a politician's preparedness a reasonable one?"
             },
             {
                 "id": 1,
-                "cq": "Is Punchee actually a typical case of other debaters that have had weird moments in American debate history, or is there room for doubt about the generalisability of this claim?"
+                "cq": "Does the fact that politicians often make promises without a plan necessarily justify not discussing the details of one's plan during a debate?"
             },
             {
                 "id": 2,
-                "cq": "Is Punchee's assertion that AngelComma's statement is weird in American debate history a direct quote, and if not, is a reference to the original source given?"
+                "cq": "Can the claim that the candidate \"did good\" be substantiated solely on the basis of having a plan on their website, regardless of their performance during the debate?"
             }
         ],
-        "full_response": "Is there a proved relation between AngelComma's claim that politicians often say things and not having a plan and the specific instance of Punchee's debate experience?\nIs Punchee actually a typical case of other debaters that have had weird moments in American debate history, or is there room for doubt about the generalisability of this claim?\nIs Punchee's assertion that AngelComma's statement is weird in American debate history a direct quote, and if not, is a reference to the original source given?",
+        "full_response": "Is the assumption that having a plan on a website is sufficient to demonstrate a politician's preparedness a reasonable one?\n\nDoes the fact that politicians often make promises without a plan necessarily justify not discussing the details of one's plan during a debate?\n\nCan the claim that the candidate \"did good\" be substantiated solely on the basis of having a plan on their website, regardless of their performance during the debate?",
         "reasoning": null
     },
     "TRUMP_114_2": {
@@ -127,18 +127,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the economic problems described by Trump and the country's debt of $20 trillion?"
+                "cq": "Is it actually the case that the US airports are like those from a third world country, or is there room for doubt?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the country's economic problems, such as the impact of global events or technological advancements?"
+                "cq": "Are there other relevant factors that contribute to the US debt of $20 trillion, besides the alleged squandering of money on politicians' ideas?"
             },
             {
                 "id": 2,
-                "cq": "Is Trump's assertion that politicians like Secretary Clinton have caused the country's problems supported by evidence, or is it a generalization that undermines the credibility of his argument?"
+                "cq": "Does the inconsistency between Trump's claim that \"our bridges are good\" and his statement that the country needs \"new bridges\" result in a decrease of credibility for Trump's argument?"
             }
         ],
-        "full_response": "Is there a proved relation between the economic problems described by Trump and the country's debt of $20 trillion?\n\nAre there other factors in this particular case that could have interfered with the country's economic problems, such as the impact of global events or technological advancements?\n\nIs Trump's assertion that politicians like Secretary Clinton have caused the country's problems supported by evidence, or is it a generalization that undermines the credibility of his argument?",
+        "full_response": "Is it actually the case that the US airports are like those from a third world country, or is there room for doubt?\nAre there other relevant factors that contribute to the US debt of $20 trillion, besides the alleged squandering of money on politicians' ideas?\nDoes the inconsistency between Trump's claim that \"our bridges are good\" and his statement that the country needs \"new bridges\" result in a decrease of credibility for Trump's argument?",
         "reasoning": null
     },
     "citizen-s_134": {
@@ -151,18 +151,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between treating passengers as economic units devoid of humanity and the objective of eliminating all bumping on flights?"
+                "cq": "How does the assumption that bumping is a \"purely economic device\" that treats passengers as \"economic units devoid of humanity\" justify the conclusion that there should be no cap on compensation for bumped passengers?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the event of passengers being treated as economic units devoid of humanity?"
+                "cq": "What evidence is provided to support the claim that a financial penalty equal to 100% of the total ticket price is sufficient to prevent bumping, rather than just keeping it at an \"acceptable\" level?"
             },
             {
                 "id": 2,
-                "cq": "Is the financial penalty to the airline strong enough to prevent bumping, or is it merely a means to keep it at some arbitrarily \"acceptable\" level?"
+                "cq": "How can the proposed compensation structure, which includes demonstrable out-of-pocket costs, be fairly and consistently implemented, given the variability in passengers' individual circumstances and the potential for disputes over what constitutes \"average prevailing prices\" in a given metro area?"
             }
         ],
-        "full_response": "Is there a proved relation between treating passengers as economic units devoid of humanity and the objective of eliminating all bumping on flights?\n\nAre there other factors in this particular case that could have interfered with the event of passengers being treated as economic units devoid of humanity?\n\nIs the financial penalty to the airline strong enough to prevent bumping, or is it merely a means to keep it at some arbitrarily \"acceptable\" level?",
+        "full_response": "How does the assumption that bumping is a \"purely economic device\" that treats passengers as \"economic units devoid of humanity\" justify the conclusion that there should be no cap on compensation for bumped passengers?\n\nWhat evidence is provided to support the claim that a financial penalty equal to 100% of the total ticket price is sufficient to prevent bumping, rather than just keeping it at an \"acceptable\" level?\n\nHow can the proposed compensation structure, which includes demonstrable out-of-pocket costs, be fairly and consistently implemented, given the variability in passengers' individual circumstances and the potential for disputes over what constitutes \"average prevailing prices\" in a given metro area?",
         "reasoning": null
     },
     "MT_14": {
@@ -177,18 +177,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between requiring large warnings on products and discouraging people from mis-reading terms and conditions?"
+                "cq": "Is the example of the credit card company's letter a typical case of how companies in general advertise their products and services in a misleading way?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the effectiveness of the warnings in discouraging people from mis-reading terms and conditions?"
+                "cq": "Are there special circumstances pertaining to the credit card company's letter that undermine its generalisability to other companies' advertising practices?"
             },
             {
                 "id": 2,
-                "cq": "Is it actually the case that requiring large warnings on products is a reliable way to prevent people from mis-reading terms and conditions, or is there room for doubt?"
+                "cq": "Is the generalisation that large warnings on products and restrictions on misleading advertising lead to more responsible consumer choices supported by evidence beyond this single example?"
             }
         ],
-        "full_response": "Is there a proved relation between requiring large warnings on products and discouraging people from mis-reading terms and conditions?\nAre there other factors in this particular case that could have interfered with the effectiveness of the warnings in discouraging people from mis-reading terms and conditions?\nIs it actually the case that requiring large warnings on products is a reliable way to prevent people from mis-reading terms and conditions, or is there room for doubt?",
+        "full_response": "Is the example of the credit card company's letter a typical case of how companies in general advertise their products and services in a misleading way?\n\nAre there special circumstances pertaining to the credit card company's letter that undermine its generalisability to other companies' advertising practices?\n\nIs the generalisation that large warnings on products and restrictions on misleading advertising lead to more responsible consumer choices supported by evidence beyond this single example?",
         "reasoning": null
     },
     "Antanagoge_104": {
@@ -201,18 +201,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the variable quality of information from airline customer service departments and the risk of death, or are there other factors that could be contributing to the risk of death?"
+                "cq": "Are the studies showing variability in airline customer service information quality sufficient to justify the claim that the entire airline industry cannot be left to self-monitor?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the event of midair retraction of the promise by the airline that peanuts would not be served, or is the story of the peanutallergic individual's humiliation a reliable indicator of the risk of death?"
+                "cq": "How do the psychological effects and risk of death specifically relate to the need for external monitoring of the airline industry, rather than improved training or protocols for airline staff?"
             },
             {
                 "id": 2,
-                "cq": "Is the airline industry actually in a position to know whether the risk of death is significant, or is this a claim based on anecdotal evidence and stories told by families of vacations never taken?"
+                "cq": "Do the anecdotal stories of families affected by peanut allergies on flights provide a representative sample of the overall experience of peanut-allergic individuals on airlines, or are they exceptional cases?"
             }
         ],
-        "full_response": "Is there a proved relation between the variable quality of information from airline customer service departments and the risk of death, or are there other factors that could be contributing to the risk of death?\n\nAre there other factors in this particular case that could have interfered with the event of midair retraction of the promise by the airline that peanuts would not be served, or is the story of the peanutallergic individual's humiliation a reliable indicator of the risk of death?\n\nIs the airline industry actually in a position to know whether the risk of death is significant, or is this a claim based on anecdotal evidence and stories told by families of vacations never taken?",
+        "full_response": "Are the studies showing variability in airline customer service information quality sufficient to justify the claim that the entire airline industry cannot be left to self-monitor?\n\nHow do the psychological effects and risk of death specifically relate to the need for external monitoring of the airline industry, rather than improved training or protocols for airline staff?\n\nDo the anecdotal stories of families affected by peanut allergies on flights provide a representative sample of the overall experience of peanut-allergic individuals on airlines, or are they exceptional cases?",
         "reasoning": null
     },
     "Javier_84": {
@@ -225,18 +225,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that requiring airlines to give notification of delays within 30 minutes is a reliable way to prevent flyers from pouting and blaming the airlines for unforeseen circumstances?"
+                "cq": "How can Javier be certain that the problems he mentions are unavoidable, and that the airlines will be unfairly blamed for them?"
             },
             {
                 "id": 1,
-                "cq": "Is there evidence to support the claim that flyers need to \"grow up\" and stop blaming the airlines, or is this a subjective opinion that ignores the legitimate concerns of flyers?"
+                "cq": "Isn't Javier's argument based on an assumption that flyers will always react in an unreasonable way to delayed flight notifications, rather than being able to make informed decisions about their travel plans?"
             },
             {
                 "id": 2,
-                "cq": "Are there special circumstances, such as weather holds or maintenance issues, that could undermine the generalization that flyers can simply \"quit pouting and blaming everything on the airlines\"?"
+                "cq": "Does Javier's claim that flyers need to \"grow up and quit pouting\" unfairly shift the blame from the airlines to the passengers, rather than acknowledging the airlines' responsibility to provide accurate and timely information?"
             }
         ],
-        "full_response": "Is it actually the case that requiring airlines to give notification of delays within 30 minutes is a reliable way to prevent flyers from pouting and blaming the airlines for unforeseen circumstances?\n\nIs there evidence to support the claim that flyers need to \"grow up\" and stop blaming the airlines, or is this a subjective opinion that ignores the legitimate concerns of flyers?\n\nAre there special circumstances, such as weather holds or maintenance issues, that could undermine the generalization that flyers can simply \"quit pouting and blaming everything on the airlines\"?",
+        "full_response": "How can Javier be certain that the problems he mentions are unavoidable, and that the airlines will be unfairly blamed for them?\n\nIsn't Javier's argument based on an assumption that flyers will always react in an unreasonable way to delayed flight notifications, rather than being able to make informed decisions about their travel plans?\n\nDoes Javier's claim that flyers need to \"grow up and quit pouting\" unfairly shift the blame from the airlines to the passengers, rather than acknowledging the airlines' responsibility to provide accurate and timely information?",
         "reasoning": null
     },
     "TRUMP_70": {
@@ -249,18 +249,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Trump's claim that Clinton's website would reveal her plans to fight ISIS and the actual content of her website?"
+                "cq": "Is Donald Trump in a position to know whether Hillary Clinton's website accurately reflects her plans to raise taxes $1.3 trillion?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that Trump is using Clinton's website as an example to illustrate his point about her lack of experience in foreign policy, or is he simply using it as a red herring to deflect attention from his own policies?"
+                "cq": "Is Donald Trump an honest source when it comes to interpreting the content of Hillary Clinton's website?"
             },
             {
                 "id": 2,
-                "cq": "Is Trump's assertion that Clinton's website would reveal her plans to fight ISIS a reliable indicator of her actual stance on the issue, or does his own bias and lack of understanding of foreign policy undermine the credibility of his claim?"
+                "cq": "Did General Douglas MacArthur ever express an opinion on publicly sharing military strategies, such as those for fighting ISIS?"
             }
         ],
-        "full_response": "Is there a proved relation between Trump's claim that Clinton's website would reveal her plans to fight ISIS and the actual content of her website?\n\nIs it actually the case that Trump is using Clinton's website as an example to illustrate his point about her lack of experience in foreign policy, or is he simply using it as a red herring to deflect attention from his own policies?\n\nIs Trump's assertion that Clinton's website would reveal her plans to fight ISIS a reliable indicator of her actual stance on the issue, or does his own bias and lack of understanding of foreign policy undermine the credibility of his claim?",
+        "full_response": "Is Donald Trump in a position to know whether Hillary Clinton's website accurately reflects her plans to raise taxes $1.3 trillion?\nIs Donald Trump an honest source when it comes to interpreting the content of Hillary Clinton's website?\nDid General Douglas MacArthur ever express an opinion on publicly sharing military strategies, such as those for fighting ISIS?",
         "reasoning": null
     },
     "secretcurse__139": {
@@ -274,18 +274,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between \u2018171 people have officially declared their candidacy for the Democratic Party nomination\u2019 and \u2018every single one of the 171 people that have filed the paperwork with the FEC deserves their fair shot at expressing themselves at the first debate\u2019?"
+                "cq": "What are the criteria for determining which candidates deserve a \"fair shot\" at expressing themselves at the first debate?"
             },
             {
                 "id": 1,
-                "cq": "Are there any events other than the 171 people filing paperwork with the FEC that would more reliably account for every single one of the 171 people deserving their fair shot at the first debate?"
+                "cq": "Is the assumption that every single one of the 171 people who filed paperwork with the FEC is a viable candidate for the Democratic Party nomination?"
             },
             {
                 "id": 2,
-                "cq": "Is it possible for the particular case of 171 people filing paperwork with the FEC to be a special circumstance that undermines the generalisability of every single one of the 171 people deserving their fair shot at the first debate to other candidates?"
+                "cq": "How does the number of people who have filed paperwork with the FEC necessarily imply that all of them should be included in the first debate?"
             }
         ],
-        "full_response": "Is there a proved relation between \u2018171 people have officially declared their candidacy for the Democratic Party nomination\u2019 and \u2018every single one of the 171 people that have filed the paperwork with the FEC deserves their fair shot at expressing themselves at the first debate\u2019?\n\nAre there any events other than the 171 people filing paperwork with the FEC that would more reliably account for every single one of the 171 people deserving their fair shot at the first debate?\n\nIs it possible for the particular case of 171 people filing paperwork with the FEC to be a special circumstance that undermines the generalisability of every single one of the 171 people deserving their fair shot at the first debate to other candidates?",
+        "full_response": "What are the criteria for determining which candidates deserve a \"fair shot\" at expressing themselves at the first debate?\nIs the assumption that every single one of the 171 people who filed paperwork with the FEC is a viable candidate for the Democratic Party nomination?\nHow does the number of people who have filed paperwork with the FEC necessarily imply that all of them should be included in the first debate?",
         "reasoning": null
     },
     "ND_28": {
@@ -298,18 +298,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that incentivising certain types of behaviour, such as saving, is the primary goal of economic policies in South Korea?"
+                "cq": "Is it actually the case that South Korea's economic growth was primarily due to incentivising saving through certain economic policies, or were there other contributing factors?"
             },
             {
                 "id": 1,
-                "cq": "Is there evidence on this claim that the massive amounts of debt written off by governments are actually being used for productive investments, rather than benefiting those who most need it in society?"
+                "cq": "Are the economic policies implemented in South Korea actually a typical case of policies that can be applied to other countries to achieve similar economic growth, or are there unique circumstances that limit their generalisability?"
             },
             {
                 "id": 2,
-                "cq": "Is the fact that the debts of the people who most need it in society have been written off a matter of public record, and is it acknowledged by the speaker as a significant issue?"
+                "cq": "Are there special circumstances pertaining to South Korea's economic growth that undermine the generalisability of its economic policies to other countries, such as differences in culture, politics, or global economic conditions?"
             }
         ],
-        "full_response": "Is it actually the case that incentivising certain types of behaviour, such as saving, is the primary goal of economic policies in South Korea?\nIs there evidence on this claim that the massive amounts of debt written off by governments are actually being used for productive investments, rather than benefiting those who most need it in society?\nIs the fact that the debts of the people who most need it in society have been written off a matter of public record, and is it acknowledged by the speaker as a significant issue?",
+        "full_response": "Is it actually the case that South Korea's economic growth was primarily due to incentivising saving through certain economic policies, or were there other contributing factors?\n\nAre the economic policies implemented in South Korea actually a typical case of policies that can be applied to other countries to achieve similar economic growth, or are there unique circumstances that limit their generalisability?\n\nAre there special circumstances pertaining to South Korea's economic growth that undermine the generalisability of its economic policies to other countries, such as differences in culture, politics, or global economic conditions?",
         "reasoning": null
     },
     "CLINTON_186": {
@@ -330,18 +330,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that Clinton's plan to defeat ISIS involves going after ISIS online, or is this a generalization that does not account for other methods of combating ISIS?"
+                "cq": "Is it actually the case that going after ISIS online and taking out their leadership will be effective in defeating them, or is there room for doubt?"
             },
             {
                 "id": 1,
-                "cq": "Is there a proved relation between Clinton's claim that ISIS needs to be defeated and the claim that ISIS is a Caliphate, or is this a value judgment that is not supported by evidence?"
+                "cq": "Are there alternative actions to supporting Arab and Kurdish partners to take out ISIS in Raqqa, and if so, which is the most efficient action?"
             },
             {
                 "id": 2,
-                "cq": "Is Clinton in a position to know whether his plan to defeat ISIS is effective, or is this a matter that requires further evidence and evaluation?"
+                "cq": "Could taking out ISIS leadership, such as Baghdadi, have consequences that we should take into account, and is it practically possible to do so without creating more problems?"
             }
         ],
-        "full_response": "Is it actually the case that Clinton's plan to defeat ISIS involves going after ISIS online, or is this a generalization that does not account for other methods of combating ISIS?\n\nIs there a proved relation between Clinton's claim that ISIS needs to be defeated and the claim that ISIS is a Caliphate, or is this a value judgment that is not supported by evidence?\n\nIs Clinton in a position to know whether his plan to defeat ISIS is effective, or is this a matter that requires further evidence and evaluation?",
+        "full_response": "Is it actually the case that going after ISIS online and taking out their leadership will be effective in defeating them, or is there room for doubt?\n\nAre there alternative actions to supporting Arab and Kurdish partners to take out ISIS in Raqqa, and if so, which is the most efficient action?\n\nCould taking out ISIS leadership, such as Baghdadi, have consequences that we should take into account, and is it practically possible to do so without creating more problems?",
         "reasoning": null
     },
     "MT_40": {
@@ -355,18 +355,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?"
+                "cq": "Are there other relevant goals that conflict with the goal of the state intervening in cases where knowledge is bounded?"
             },
             {
                 "id": 1,
-                "cq": "Is the knowledge of the relative demands of buying a cup of coffee versus working up a long-term interest rate sufficient to justify state intervention?"
+                "cq": "Could the state intervening in cases like buying a cup of coffee have consequences that we should take into account?"
             },
             {
                 "id": 2,
-                "cq": "Is the state's intervention in cases where buying a cup of coffee is deemed more demanding than working up a long-term interest rate based on a sound moral or ethical principle?"
+                "cq": "Are there alternative actions to the state intervening to achieve the goal of addressing bounded knowledge, and if so, which is the most efficient action?"
             }
         ],
-        "full_response": "Is it actually the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nIs the knowledge of the relative demands of buying a cup of coffee versus working up a long-term interest rate sufficient to justify state intervention?\nIs the state's intervention in cases where buying a cup of coffee is deemed more demanding than working up a long-term interest rate based on a sound moral or ethical principle?",
+        "full_response": "Are there other relevant goals that conflict with the goal of the state intervening in cases where knowledge is bounded?\nCould the state intervening in cases like buying a cup of coffee have consequences that we should take into account?\nAre there alternative actions to the state intervening to achieve the goal of addressing bounded knowledge, and if so, which is the most efficient action?",
         "reasoning": null
     },
     "CL_8": {
@@ -379,18 +379,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is CL in a position to know whether the people being taken advantage of are really in no position to negotiate?"
+                "cq": "What specific evidence is there that people being offered terms have \"absolutely very little choice\" and are not simply choosing the best available option?"
             },
             {
                 "id": 1,
-                "cq": "Is the concern about taking advantage of people really about the people themselves, or is it about the terms being offered to them?"
+                "cq": "How does the speaker's assumption that people are being taken advantage of account for the possibility that the terms being offered are fair and reasonable?"
             },
             {
                 "id": 2,
-                "cq": "Is CL's assertion that people have absolutely very little choice except to take the terms being offered to them supported by evidence?"
+                "cq": "What are the specific consequences of people accepting the terms being offered, and do these consequences necessarily imply that they are being taken advantage of?"
             }
         ],
-        "full_response": "Is CL in a position to know whether the people being taken advantage of are really in no position to negotiate?\nIs the concern about taking advantage of people really about the people themselves, or is it about the terms being offered to them?\nIs CL's assertion that people have absolutely very little choice except to take the terms being offered to them supported by evidence?",
+        "full_response": "What specific evidence is there that people being offered terms have \"absolutely very little choice\" and are not simply choosing the best available option?\nHow does the speaker's assumption that people are being taken advantage of account for the possibility that the terms being offered are fair and reasonable?\nWhat are the specific consequences of people accepting the terms being offered, and do these consequences necessarily imply that they are being taken advantage of?",
         "reasoning": null
     },
     "CLINTON_130_1": {
@@ -411,18 +411,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that Clinton is painting a dire negative picture of black communities in our country, or is there evidence to suggest that he is highlighting legitimate concerns about crime and safety?"
+                "cq": "Is it actually the case that community policing is the cause of the decrease in violent and property crime, or are there other factors that could have contributed to this trend?"
             },
             {
                 "id": 1,
-                "cq": "Is Clinton's assertion that community policing is effective supported by evidence, or does he rely on anecdotal experience and unproven assumptions about the impact of community policing on crime rates?"
+                "cq": "Are there special circumstances pertaining to the specific communities Clinton is referencing that undermine the generalisability of her claims about the effectiveness of community policing to other communities?"
             },
             {
                 "id": 2,
-                "cq": "Does Clinton's emphasis on the effectiveness of community policing overlook the unintended consequences of his own policies, such as the mass incarceration of young African-American and Latino men for nonviolent offenses?"
+                "cq": "Is it possible that the particular case of stop-and-frisk being found unconstitutional and ineffective does not necessarily mean that all forms of policing that involve stopping and searching individuals are also ineffective?"
             }
         ],
-        "full_response": "Is it actually the case that Clinton is painting a dire negative picture of black communities in our country, or is there evidence to suggest that he is highlighting legitimate concerns about crime and safety?\n\nIs Clinton's assertion that community policing is effective supported by evidence, or does he rely on anecdotal experience and unproven assumptions about the impact of community policing on crime rates?\n\nDoes Clinton's emphasis on the effectiveness of community policing overlook the unintended consequences of his own policies, such as the mass incarceration of young African-American and Latino men for nonviolent offenses?",
+        "full_response": "Is it actually the case that community policing is the cause of the decrease in violent and property crime, or are there other factors that could have contributed to this trend?\n\nAre there special circumstances pertaining to the specific communities Clinton is referencing that undermine the generalisability of her claims about the effectiveness of community policing to other communities?\n\nIs it possible that the particular case of stop-and-frisk being found unconstitutional and ineffective does not necessarily mean that all forms of policing that involve stopping and searching individuals are also ineffective?",
         "reasoning": null
     },
     "kateinhawaii_103": {
@@ -436,18 +436,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between suffering from peanut allergies and having a reaction from peanut dust in the air?"
+                "cq": "Is the comparison between smoking and peanut allergies a valid one, considering the differences in how smoke and peanut dust behave in the air?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the event of having a reaction from peanut dust?"
+                "cq": "How does the author's personal experience with peanut allergies and reactions on flights support the claim that a buffer zone is not sufficient, and what are the implications of generalizing from a single person's experience?"
             },
             {
                 "id": 2,
-                "cq": "Is there some other case that is also similar to Kate's experience, but in which having a reaction from peanut dust is not the case?"
+                "cq": "What evidence is there to support the claim that the air circulation system on airplanes is not effective in removing peanut dust quickly enough to prevent a life-threatening reaction, beyond the author's anecdotal experience?"
             }
         ],
-        "full_response": "Is there a proved relation between suffering from peanut allergies and having a reaction from peanut dust in the air?\nAre there other factors in this particular case that could have interfered with the event of having a reaction from peanut dust?\nIs there some other case that is also similar to Kate's experience, but in which having a reaction from peanut dust is not the case?",
+        "full_response": "Is the comparison between smoking and peanut allergies a valid one, considering the differences in how smoke and peanut dust behave in the air?\n\nHow does the author's personal experience with peanut allergies and reactions on flights support the claim that a buffer zone is not sufficient, and what are the implications of generalizing from a single person's experience?\n\nWhat evidence is there to support the claim that the air circulation system on airplanes is not effective in removing peanut dust quickly enough to prevent a life-threatening reaction, beyond the author's anecdotal experience?",
         "reasoning": null
     },
     "TRUMP_174_1": {
@@ -467,18 +467,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Trump's past behavior towards Obama and his current behavior towards Clinton, and does this behavior undermine his credibility on the matter?"
+                "cq": "Is Trump in a position to know whether Clinton's campaign sent out pictures of Obama in a certain garb?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that Trump's campaign manager's assertion that he sent out pictures of Obama in a certain garb is evidence of Trump's own involvement in the behavior, and does this undermine his claim that he was not trying to attack Obama?"
+                "cq": "Does the inconsistency between Clinton's past behavior towards Obama and her current claims of respect result in a decrease of credibility for Clinton?"
             },
             {
                 "id": 2,
-                "cq": "Is there a proved relation between Trump's past experience with lawsuits and his current behavior in the lawsuit against Clinton, and does this suggest that he is not taking the matter seriously or that he is trying to downplay its significance?"
+                "cq": "Is Trump an honest source when he claims that he settled the lawsuit with no admission of guilt?"
             }
         ],
-        "full_response": "Is there a proved relation between Trump's past behavior towards Obama and his current behavior towards Clinton, and does this behavior undermine his credibility on the matter?\n\nIs it actually the case that Trump's campaign manager's assertion that he sent out pictures of Obama in a certain garb is evidence of Trump's own involvement in the behavior, and does this undermine his claim that he was not trying to attack Obama?\n\nIs there a proved relation between Trump's past experience with lawsuits and his current behavior in the lawsuit against Clinton, and does this suggest that he is not taking the matter seriously or that he is trying to downplay its significance?",
+        "full_response": "Is Trump in a position to know whether Clinton's campaign sent out pictures of Obama in a certain garb?\nDoes the inconsistency between Clinton's past behavior towards Obama and her current claims of respect result in a decrease of credibility for Clinton?\nIs Trump an honest source when he claims that he settled the lawsuit with no admission of guilt?",
         "reasoning": null
     },
     "travellots_133_2": {
@@ -495,18 +495,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that compensation is high enough to incentivize airlines to schedule properly, or is there evidence to suggest that airlines are more motivated by other factors?"
+                "cq": "What evidence is there to support the claim that airlines will not have an incentive to schedule properly if compensation is not high enough?"
             },
             {
                 "id": 1,
-                "cq": "Is it the case that airlines are treating passengers as if they have nothing better to do but wait around in airports, or is this a reasonable expectation given the nature of air travel?"
+                "cq": "How does the author's assertion that airlines are responsible for giving passengers a seat justify the conclusion that airlines should not be allowed to discriminate against lower-fared passengers?"
             },
             {
                 "id": 2,
-                "cq": "Is the airline's incentive to get all confirmed passengers to the destination promised consistent with the idea that the airline sets the agreed price or miles for a seat, or are there other considerations at play?"
+                "cq": "What are the specific \"hidden extra costs\" that passengers incur when they are bumped, and how do these costs support the author's argument that airlines should prioritize getting all confirmed passengers to their destination?"
             }
         ],
-        "full_response": "Is it actually the case that compensation is high enough to incentivize airlines to schedule properly, or is there evidence to suggest that airlines are more motivated by other factors?\n\nIs it the case that airlines are treating passengers as if they have nothing better to do but wait around in airports, or is this a reasonable expectation given the nature of air travel?\n\nIs the airline's incentive to get all confirmed passengers to the destination promised consistent with the idea that the airline sets the agreed price or miles for a seat, or are there other considerations at play?",
+        "full_response": "What evidence is there to support the claim that airlines will not have an incentive to schedule properly if compensation is not high enough?\n\nHow does the author's assertion that airlines are responsible for giving passengers a seat justify the conclusion that airlines should not be allowed to discriminate against lower-fared passengers?\n\nWhat are the specific \"hidden extra costs\" that passengers incur when they are bumped, and how do these costs support the author's argument that airlines should prioritize getting all confirmed passengers to their destination?",
         "reasoning": null
     },
     "dberger_74_2": {
@@ -519,18 +519,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is the generalization that all airlines will not serve nuts if given advance notice actually true, or is there evidence to suggest that some airlines may make exceptions?"
+                "cq": "What is the likelihood that a passenger will bring and consume nuts on a flight, and does this likelihood significantly undermine the effectiveness of a 'nut-free' flight policy?"
             },
             {
                 "id": 1,
-                "cq": "Is the claim that all airlines will allow passengers to bring on foods including nuts and will not stop them from eating them if they wish to, supported by evidence, or is it based on a hypothetical scenario?"
+                "cq": "How does the fact that airlines allow passengers to bring their own food, including nuts, necessarily mean that the airlines will do nothing to help a passenger who has a nut allergy?"
             },
             {
                 "id": 2,
-                "cq": "Is the assertion that all nuts should be banned from airplanes unless it is a private plane, a reasonable conclusion based on the information provided, or is it an unwarranted extension of the original argument?"
+                "cq": "Is it reasonable to expect that banning all nuts from airplanes is a feasible and enforceable solution, given the difficulty of monitoring and controlling passenger behavior on flights?"
             }
         ],
-        "full_response": "Is the generalization that all airlines will not serve nuts if given advance notice actually true, or is there evidence to suggest that some airlines may make exceptions?\n\nIs the claim that all airlines will allow passengers to bring on foods including nuts and will not stop them from eating them if they wish to, supported by evidence, or is it based on a hypothetical scenario?\n\nIs the assertion that all nuts should be banned from airplanes unless it is a private plane, a reasonable conclusion based on the information provided, or is it an unwarranted extension of the original argument?",
+        "full_response": "What is the likelihood that a passenger will bring and consume nuts on a flight, and does this likelihood significantly undermine the effectiveness of a 'nut-free' flight policy?\n\nHow does the fact that airlines allow passengers to bring their own food, including nuts, necessarily mean that the airlines will do nothing to help a passenger who has a nut allergy?\n\nIs it reasonable to expect that banning all nuts from airplanes is a feasible and enforceable solution, given the difficulty of monitoring and controlling passenger behavior on flights?",
         "reasoning": null
     },
     "TRUMP_240_2": {
@@ -547,18 +547,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Trump's claim that the Iran deal is one of the worst deals ever made and the fact that Iran has power over North Korea?"
+                "cq": "If the Iran deal leads to nuclear problems, what evidence supports this claim and how likely are the consequences?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that Trump's criticism of the Iran deal is based on a generalization that Iran's trading partners are always involved in nuclear problems, or is there evidence to support this claim?"
+                "cq": "Are there alternative actions to the Iran deal to achieve the goal of preventing nuclear problems, and if so, which is the most efficient action?"
             },
             {
                 "id": 2,
-                "cq": "Is there a proved relation between Trump's assertion that the Iran deal should have included action on North Korea and other countries, and the fact that the deal included $1.7 billion in cash, which Trump initially claimed was $400 million?"
+                "cq": "Does the inconsistency between Secretary Kerry's commitments and the fact that the deal did not include provisions for North Korea and Yemen result in a decrease of credibility for Secretary Kerry, and does his argument depend on his credibility in this context?"
             }
         ],
-        "full_response": "Is there a proved relation between Trump's claim that the Iran deal is one of the worst deals ever made and the fact that Iran has power over North Korea?\n\nIs it actually the case that Trump's criticism of the Iran deal is based on a generalization that Iran's trading partners are always involved in nuclear problems, or is there evidence to support this claim?\n\nIs there a proved relation between Trump's assertion that the Iran deal should have included action on North Korea and other countries, and the fact that the deal included $1.7 billion in cash, which Trump initially claimed was $400 million?",
+        "full_response": "If the Iran deal leads to nuclear problems, what evidence supports this claim and how likely are the consequences?\n\nAre there alternative actions to the Iran deal to achieve the goal of preventing nuclear problems, and if so, which is the most efficient action?\n\nDoes the inconsistency between Secretary Kerry's commitments and the fact that the deal did not include provisions for North Korea and Yemen result in a decrease of credibility for Secretary Kerry, and does his argument depend on his credibility in this context?",
         "reasoning": null
     },
     "CLINTON_176_2": {
@@ -573,18 +573,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the US's decision to defend its citizens and the use of certain tools to engage in warfare?"
+                "cq": "Is there evidence that Russia, China, and Iran have actually used hacking as a preferred method of wreaking havoc and collecting information, and if so, what is the nature of this evidence?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that the US has much greater capacity to defend its information than other countries, or is this a generalization that can be challenged?"
+                "cq": "Are there special circumstances pertaining to the alleged hacking attempts by Russia, China, and Iran that undermine the generalisability of these instances to a broader threat to the United States' information security?"
             },
             {
                 "id": 2,
-                "cq": "Are there special circumstances pertaining to the US's decision to defend its citizens that undermine its generalisability to other countries that may not have the same level of capacity?"
+                "cq": "If the United States were to \"make it clear\" to state actors that it will defend its citizens' information, would this actually prevent future hacking attempts, and what evidence supports this claim?"
             }
         ],
-        "full_response": "Is there a proved relation between the US's decision to defend its citizens and the use of certain tools to engage in warfare?\nIs it actually the case that the US has much greater capacity to defend its information than other countries, or is this a generalization that can be challenged?\nAre there special circumstances pertaining to the US's decision to defend its citizens that undermine its generalisability to other countries that may not have the same level of capacity?",
+        "full_response": "Is there evidence that Russia, China, and Iran have actually used hacking as a preferred method of wreaking havoc and collecting information, and if so, what is the nature of this evidence?\n\nAre there special circumstances pertaining to the alleged hacking attempts by Russia, China, and Iran that undermine the generalisability of these instances to a broader threat to the United States' information security?\n\nIf the United States were to \"make it clear\" to state actors that it will defend its citizens' information, would this actually prevent future hacking attempts, and what evidence supports this claim?",
         "reasoning": null
     },
     "CLINTON_87": {
@@ -597,18 +597,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Clinton's support for the proposed plan and the Trump loophole being advantageous to the business he does?"
+                "cq": "What evidence is there that Clinton's proposal will actually work to the benefit of the people, could Clinton have taken evidence on many sides even if she is biased towards her own proposal?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that Clinton's support for the plan is based on a genuine belief in its benefits, rather than a desire to gain an advantage for his business?"
+                "cq": "Does the matter of evaluating Trump's tax plan require Clinton to take evidence on many sides?"
             },
             {
                 "id": 2,
-                "cq": "Is there evidence on the claim that the Trump loophole would actually work to the benefit of the business, or is this a claim that is being made without sufficient justification?"
+                "cq": "Could Clinton's claim that Trump's plan has a \"Trump loophole\" be motivated by her own bias against Trump, rather than an objective analysis of the plan?"
             }
         ],
-        "full_response": "Is there a proved relation between Clinton's support for the proposed plan and the Trump loophole being advantageous to the business he does?\nIs it actually the case that Clinton's support for the plan is based on a genuine belief in its benefits, rather than a desire to gain an advantage for his business?\nIs there evidence on the claim that the Trump loophole would actually work to the benefit of the business, or is this a claim that is being made without sufficient justification?",
+        "full_response": "What evidence is there that Clinton's proposal will actually work to the benefit of the people, could Clinton have taken evidence on many sides even if she is biased towards her own proposal?\nDoes the matter of evaluating Trump's tax plan require Clinton to take evidence on many sides?\nCould Clinton's claim that Trump's plan has a \"Trump loophole\" be motivated by her own bias against Trump, rather than an objective analysis of the plan?",
         "reasoning": null
     },
     "CLINTON_21": {
@@ -621,18 +621,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that Clinton's economic policies are the reason for the country's recovery from the previous economic crisis?"
+                "cq": "Are the economic policies that failed in the past and the policies proposed by Donald similar in the respect cited by Clinton?"
             },
             {
                 "id": 1,
-                "cq": "Are there independent experts who have looked at both Clinton's and Donald's proposals and found that Clinton's approach is more effective in addressing the issues?"
+                "cq": "Is the event of economic recovery under Clinton's proposed policies true in other countries that have implemented similar policies?"
             },
             {
                 "id": 2,
-                "cq": "Is it possible for Clinton to be an honest source on the issue of climate change, given that he has stated that he believes it is real, but his opponent has claimed it is a hoax?"
+                "cq": "Are there differences between the economic situation in 2008 and the current economic situation that would tend to undermine the force of the similarity cited by Clinton?"
             }
         ],
-        "full_response": "Is it actually the case that Clinton's economic policies are the reason for the country's recovery from the previous economic crisis?\n\nAre there independent experts who have looked at both Clinton's and Donald's proposals and found that Clinton's approach is more effective in addressing the issues?\n\nIs it possible for Clinton to be an honest source on the issue of climate change, given that he has stated that he believes it is real, but his opponent has claimed it is a hoax?",
+        "full_response": "Are the economic policies that failed in the past and the policies proposed by Donald similar in the respect cited by Clinton?\nIs the event of economic recovery under Clinton's proposed policies true in other countries that have implemented similar policies?\nAre there differences between the economic situation in 2008 and the current economic situation that would tend to undermine the force of the similarity cited by Clinton?",
         "reasoning": null
     },
     "CLINTON_223_1": {
@@ -647,18 +647,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the Clinton administration's actions regarding NATO and the invocation of Article 5, and the subsequent fight against terrorism in Afghanistan?"
+                "cq": "Are there other relevant goals that conflict with Clinton's goal of using NATO to fight terrorism?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that the Clinton administration's actions regarding Iran, including sanctions, were sufficient to prevent the country from obtaining nuclear material, or were there other factors at play?"
+                "cq": "Could invoking Article 5 have consequences that we should take into account beyond just fighting terrorism in Afghanistan?"
             },
             {
                 "id": 2,
-                "cq": "Is the Clinton administration's assertion that they had sanctioned Iran weeks away from having enough nuclear material to form a bomb supported by evidence, or does it rely on unverified claims and assumptions?"
+                "cq": "Are there alternative actions to sanctioning Iran to achieve the goal of preventing them from obtaining nuclear material?"
             }
         ],
-        "full_response": "Is there a proved relation between the Clinton administration's actions regarding NATO and the invocation of Article 5, and the subsequent fight against terrorism in Afghanistan?\n\nIs it actually the case that the Clinton administration's actions regarding Iran, including sanctions, were sufficient to prevent the country from obtaining nuclear material, or were there other factors at play?\n\nIs the Clinton administration's assertion that they had sanctioned Iran weeks away from having enough nuclear material to form a bomb supported by evidence, or does it rely on unverified claims and assumptions?",
+        "full_response": "Are there other relevant goals that conflict with Clinton's goal of using NATO to fight terrorism?\nCould invoking Article 5 have consequences that we should take into account beyond just fighting terrorism in Afghanistan?\nAre there alternative actions to sanctioning Iran to achieve the goal of preventing them from obtaining nuclear material?",
         "reasoning": null
     },
     "Melanie_64": {
@@ -671,18 +671,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that the State's non-judgmentalism position is the cause of the harm it has done to its citizens?"
+                "cq": "What evidence is there to support the claim that the State's non-judgmentalism has caused terrible harm and created victims?"
             },
             {
                 "id": 1,
-                "cq": "Is the generalization that the State's non-judgmentalism position leads to a lack of personal responsibility supported by evidence?"
+                "cq": "How does Melanie's proposed solution of providing carefully calibrated help to restore independence and personal responsibility address the root causes of the harm caused by the State's non-judgmentalism?"
             },
             {
                 "id": 2,
-                "cq": "Is the State's non-judgmentalism position a typical case of a government's moral stance, or is there room for doubt about its applicability to other situations?"
+                "cq": "What specific criteria would Melanie use to determine when an individual's capacity for independence and personal responsibility has been successfully restored?"
             }
         ],
-        "full_response": "Is it actually the case that the State's non-judgmentalism position is the cause of the harm it has done to its citizens?\nIs the generalization that the State's non-judgmentalism position leads to a lack of personal responsibility supported by evidence?\nIs the State's non-judgmentalism position a typical case of a government's moral stance, or is there room for doubt about its applicability to other situations?",
+        "full_response": "What evidence is there to support the claim that the State's non-judgmentalism has caused terrible harm and created victims?\n\nHow does Melanie's proposed solution of providing carefully calibrated help to restore independence and personal responsibility address the root causes of the harm caused by the State's non-judgmentalism?\n\nWhat specific criteria would Melanie use to determine when an individual's capacity for independence and personal responsibility has been successfully restored?",
         "reasoning": null
     },
     "smg_72": {
@@ -698,18 +698,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that imposing common sense regulations would level the playing field and remove the impetus for airlines to costcut in this area, or is there evidence to suggest that such regulations would have unintended consequences?"
+                "cq": "What specific evidence supports the claim that commercial airline travel is a \"race to the bottom\" that satisfies neither passengers nor airline profits?"
             },
             {
                 "id": 1,
-                "cq": "Is the regulation of commercial airline travel a matter that requires a change of environment, imposed from outside the industry, or could it be argued that the industry itself is capable of self-regulation?"
+                "cq": "How would the imposition of common sense regulations necessarily lead to better service for customers, rather than simply increasing costs for airlines?"
             },
             {
                 "id": 2,
-                "cq": "Is the sincerity of smg's belief that the proposed regulations are in the best interests of both airlines and passengers genuinely warranted, or does smg's argument rely on an implicit assumption that the interests of airlines and passengers are identical?"
+                "cq": "What is the basis for the assumption that airlines would compete without fear of being undercut if the playing field were \"renormalized\" through new regulations?"
             }
         ],
-        "full_response": "Is it actually the case that imposing common sense regulations would level the playing field and remove the impetus for airlines to costcut in this area, or is there evidence to suggest that such regulations would have unintended consequences?\n\nIs the regulation of commercial airline travel a matter that requires a change of environment, imposed from outside the industry, or could it be argued that the industry itself is capable of self-regulation?\n\nIs the sincerity of smg's belief that the proposed regulations are in the best interests of both airlines and passengers genuinely warranted, or does smg's argument rely on an implicit assumption that the interests of airlines and passengers are identical?",
+        "full_response": "What specific evidence supports the claim that commercial airline travel is a \"race to the bottom\" that satisfies neither passengers nor airline profits?\n\nHow would the imposition of common sense regulations necessarily lead to better service for customers, rather than simply increasing costs for airlines?\n\nWhat is the basis for the assumption that airlines would compete without fear of being undercut if the playing field were \"renormalized\" through new regulations?",
         "reasoning": null
     },
     "CLINTON_85": {
@@ -722,18 +722,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that Clinton is in a position to know whether his tax proposals would cause the repatriation of money that's stranded overseas?"
+                "cq": "Can repatriation of money happen even if corporate tax rates are not changed?"
             },
             {
                 "id": 1,
-                "cq": "Is there a proved relation between Clinton's support for repatriation and his understanding of the potential consequences of his tax proposals?"
+                "cq": "Is it plausible that Clinton has overlooked changes in the corporate tax rates in the proposals?"
             },
             {
                 "id": 2,
-                "cq": "Is Clinton's assertion that he supports repatriation based on evidence or is it a general statement that may not be directly related to his tax proposals?"
+                "cq": "Is it possible that the proposals do contain changes that would cause repatriation, but Clinton does not support those specific changes?"
             }
         ],
-        "full_response": "Is it actually the case that Clinton is in a position to know whether his tax proposals would cause the repatriation of money that's stranded overseas?\n\nIs there a proved relation between Clinton's support for repatriation and his understanding of the potential consequences of his tax proposals?\n\nIs Clinton's assertion that he supports repatriation based on evidence or is it a general statement that may not be directly related to his tax proposals?",
+        "full_response": "Can repatriation of money happen even if corporate tax rates are not changed?\nIs it plausible that Clinton has overlooked changes in the corporate tax rates in the proposals?\nIs it possible that the proposals do contain changes that would cause repatriation, but Clinton does not support those specific changes?",
         "reasoning": null
     },
     "howie_201": {
@@ -746,18 +746,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the claim that food allergies are the result of clever advertising by pseudoscientists and the fact that the author has a child with severe allergies?"
+                "cq": "Is the claim that most kids grow out of food allergies by the age of 5 supported by credible scientific evidence?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that the author's child is a typical case of other children who have mild reactions to various food items that they grow out of by the age of 5?"
+                "cq": "Does the fact that the author of the original message is a physician and epidemiologist lend more credibility to their claims about the severity of food allergies than the claims made by Howie?"
             },
             {
                 "id": 2,
-                "cq": "Is the author's assertion that the vast majority of potential reactions would be eliminated by simply avoiding snacks that have peanuts or peanut butter as an ingredient supported by evidence?"
+                "cq": "Is it reasonable to assume that the experiences of the author's child with severe food allergies are representative of the experiences of most children with food allergies?"
             }
         ],
-        "full_response": "Is there a proved relation between the claim that food allergies are the result of clever advertising by pseudoscientists and the fact that the author has a child with severe allergies?\n\nIs it actually the case that the author's child is a typical case of other children who have mild reactions to various food items that they grow out of by the age of 5?\n\nIs the author's assertion that the vast majority of potential reactions would be eliminated by simply avoiding snacks that have peanuts or peanut butter as an ingredient supported by evidence?",
+        "full_response": "Is the claim that most kids grow out of food allergies by the age of 5 supported by credible scientific evidence?\n\nDoes the fact that the author of the original message is a physician and epidemiologist lend more credibility to their claims about the severity of food allergies than the claims made by Howie?\n\nIs it reasonable to assume that the experiences of the author's child with severe food allergies are representative of the experiences of most children with food allergies?",
         "reasoning": null
     },
     "TRUMP_222": {
@@ -773,18 +773,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Trump's claim that he has a \"winning temperament\" and his actual behavior in public debates, such as the incident with the AFL-CIO?"
+                "cq": "Is there a proved relation between situations in which a person claims to have a \"winning temperament\" and situations in which they actually make good judgments?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that Trump's temperament is a key factor in his ability to win, or is there evidence to suggest that other factors, such as his experience or policy knowledge, play a more significant role?"
+                "cq": "How strong is the generalisation that if a person has spent hundreds of millions of dollars on advertising, then they must be trying to hide their weaknesses?"
             },
             {
                 "id": 2,
-                "cq": "Is Trump's assertion that Secretary Clinton was \"totally out of control\" a genuine observation, or is it a rhetorical device intended to discredit her and undermine her credibility?"
+                "cq": "What evidence supports that Trump's claim of having a better temperament than Clinton is generally accepted as true?"
             }
         ],
-        "full_response": "Is there a proved relation between Trump's claim that he has a \"winning temperament\" and his actual behavior in public debates, such as the incident with the AFL-CIO?\n\nIs it actually the case that Trump's temperament is a key factor in his ability to win, or is there evidence to suggest that other factors, such as his experience or policy knowledge, play a more significant role?\n\nIs Trump's assertion that Secretary Clinton was \"totally out of control\" a genuine observation, or is it a rhetorical device intended to discredit her and undermine her credibility?",
+        "full_response": "Is there a proved relation between situations in which a person claims to have a \"winning temperament\" and situations in which they actually make good judgments?\n\nHow strong is the generalisation that if a person has spent hundreds of millions of dollars on advertising, then they must be trying to hide their weaknesses?\n\nWhat evidence supports that Trump's claim of having a better temperament than Clinton is generally accepted as true?",
         "reasoning": null
     },
     "Doctor-Mom_205": {
@@ -801,18 +801,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the claim that peanut products pose a life-threatening risk and the claim that a full ban on peanut products on any airline is necessary?"
+                "cq": "Is the claim that peanut reactions can be life-threatening sufficient to justify a full ban of peanut products on all airlines?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that the author's medical expertise and experience with food allergy support forums make her a reliable source on the issue of peanut allergies?"
+                "cq": "How does the author's expertise as a physician and author on the subject of food allergies necessarily qualify her to make decisions about airline policy?"
             },
             {
                 "id": 2,
-                "cq": "Is the author's assertion that a full ban on peanut products on any airline could save many lives based on evidence that is widely accepted by the medical community?"
+                "cq": "Does the existence of 3000 members in the author's online support forums constitute sufficient evidence that a full ban of peanut products on airlines is warranted?"
             }
         ],
-        "full_response": "Is there a proved relation between the claim that peanut products pose a life-threatening risk and the claim that a full ban on peanut products on any airline is necessary?\n\nIs it actually the case that the author's medical expertise and experience with food allergy support forums make her a reliable source on the issue of peanut allergies?\n\nIs the author's assertion that a full ban on peanut products on any airline could save many lives based on evidence that is widely accepted by the medical community?",
+        "full_response": "Is the claim that peanut reactions can be life-threatening sufficient to justify a full ban of peanut products on all airlines?\n\nHow does the author's expertise as a physician and author on the subject of food allergies necessarily qualify her to make decisions about airline policy?\n\nDoes the existence of 3000 members in the author's online support forums constitute sufficient evidence that a full ban of peanut products on airlines is warranted?",
         "reasoning": null
     },
     "17th_knight__247": {
@@ -825,18 +825,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the claim that illegal immigrants will get Obamacare coverage and the claim that they are a part of this society?"
+                "cq": "What specific evidence supports the claim that undocumented immigrants are a part of this society in a way that warrants healthcare coverage?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that the Republican party's stance on illegal immigrants getting Obamacare coverage is a typical case of a party supporting a particular group, or is there room for doubt?"
+                "cq": "How does the presence and work of undocumented immigrants necessarily justify their entitlement to healthcare coverage?"
             },
             {
                 "id": 2,
-                "cq": "Are there special circumstances pertaining to the Republican party's stance on illegal immigrants that undermine its generalisability to other political parties that support the same stance?"
+                "cq": "What is the logical connection between opposing healthcare coverage for undocumented immigrants and being xenophobic?"
             }
         ],
-        "full_response": "Is there a proved relation between the claim that illegal immigrants will get Obamacare coverage and the claim that they are a part of this society?\nIs it actually the case that the Republican party's stance on illegal immigrants getting Obamacare coverage is a typical case of a party supporting a particular group, or is there room for doubt?\nAre there special circumstances pertaining to the Republican party's stance on illegal immigrants that undermine its generalisability to other political parties that support the same stance?",
+        "full_response": "What specific evidence supports the claim that undocumented immigrants are a part of this society in a way that warrants healthcare coverage?\nHow does the presence and work of undocumented immigrants necessarily justify their entitlement to healthcare coverage?\nWhat is the logical connection between opposing healthcare coverage for undocumented immigrants and being xenophobic?",
         "reasoning": null
     },
     "CLINTON_193": {
@@ -850,18 +850,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Donald Trump supporting the invasion of Iraq and his actual actions in Libya?"
+                "cq": "Is it the case that Donald Trump supported the invasion of Iraq, or is there room for doubt?"
             },
             {
                 "id": 1,
-                "cq": "Is it actually the case that Donald Trump advocated for the actions taken in Libya, or is this a generalization based on a single instance of doing business with Gadhafi?"
+                "cq": "Are there differences between the situation in Iraq and the situation in Libya that would tend to undermine the force of the similarity cited regarding Donald Trump's advocacy for military action?"
             },
             {
                 "id": 2,
-                "cq": "Is the claim that Donald Trump made the agreement about when American troops would leave Iraq supported by evidence, or is it a matter of interpretation of the agreement?"
+                "cq": "Is it possible for the particular case of the withdrawal of American troops from Iraq that the absence of an agreement from the Iraqi government was not the sole reason for their withdrawal?"
             }
         ],
-        "full_response": "Is there a proved relation between Donald Trump supporting the invasion of Iraq and his actual actions in Libya?\nIs it actually the case that Donald Trump advocated for the actions taken in Libya, or is this a generalization based on a single instance of doing business with Gadhafi?\nIs the claim that Donald Trump made the agreement about when American troops would leave Iraq supported by evidence, or is it a matter of interpretation of the agreement?",
+        "full_response": "Is it the case that Donald Trump supported the invasion of Iraq, or is there room for doubt?\nAre there differences between the situation in Iraq and the situation in Libya that would tend to undermine the force of the similarity cited regarding Donald Trump's advocacy for military action?\nIs it possible for the particular case of the withdrawal of American troops from Iraq that the absence of an agreement from the Iraqi government was not the sole reason for their withdrawal?",
         "reasoning": null
     },
     "TRUMP_253": {
@@ -874,18 +874,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between \u2018being able to negotiate trade deals\u2019 and \u2018having the stamina to be president\u2019?"
+                "cq": "How does the allegation that Hillary has \"bad experience\" affect the reliability of her as a presidential candidate?"
             },
             {
                 "id": 1,
-                "cq": "Are there any events other than \u2018Hillary\u2019s experience\u2019 that would more reliably account for \u2018Trump\u2019s assertion that she doesn\u2019t have the stamina to be president\u2019?"
+                "cq": "Is the reliability of Hillary's stamina relevant in the current dialogue about her qualifications for the presidency?"
             },
             {
                 "id": 2,
-                "cq": "Is there a proved relation between \u2018being able to negotiate with Japan and Saudi Arabia\u2019 and \u2018having the presidential look\u2019?"
+                "cq": "How does the allegation that Hillary lacks the \"presidential look\" affect the reliability of her ability to negotiate with foreign leaders?"
             }
         ],
-        "full_response": "Is there a proved relation between \u2018being able to negotiate trade deals\u2019 and \u2018having the stamina to be president\u2019?\n\nAre there any events other than \u2018Hillary\u2019s experience\u2019 that would more reliably account for \u2018Trump\u2019s assertion that she doesn\u2019t have the stamina to be president\u2019?\n\nIs there a proved relation between \u2018being able to negotiate with Japan and Saudi Arabia\u2019 and \u2018having the presidential look\u2019?",
+        "full_response": "How does the allegation that Hillary has \"bad experience\" affect the reliability of her as a presidential candidate?\nIs the reliability of Hillary's stamina relevant in the current dialogue about her qualifications for the presidency?\nHow does the allegation that Hillary lacks the \"presidential look\" affect the reliability of her ability to negotiate with foreign leaders?",
         "reasoning": null
     },
     "TRUMP_58": {
@@ -904,18 +904,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between Trump's claim that his tax cut will create \"tremendous numbers of new jobs\" and the actual outcome of the tax cut?"
+                "cq": "How strong is the generalisation that if Trump's tax cut is implemented, then it will create tremendous numbers of new jobs?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the event of businesses thriving despite the tax cut?"
+                "cq": "Can the economic growth and job creation happen even if Trump's tax cut is not the biggest since Ronald Reagan?"
             },
             {
                 "id": 2,
-                "cq": "Is Trump's assertion that he is cutting regulations and increasing taxes big league consistent with his previous actions and policies on these issues?"
+                "cq": "Does the inconsistency between Trump's claim to be a pro-business president and his statement that \"you are going to regulate these businesses out of existence\" result in a decrease of credibility for Trump?"
             }
         ],
-        "full_response": "Is there a proved relation between Trump's claim that his tax cut will create \"tremendous numbers of new jobs\" and the actual outcome of the tax cut?\n\nAre there other factors in this particular case that could have interfered with the event of businesses thriving despite the tax cut?\n\nIs Trump's assertion that he is cutting regulations and increasing taxes big league consistent with his previous actions and policies on these issues?",
+        "full_response": "How strong is the generalisation that if Trump's tax cut is implemented, then it will create tremendous numbers of new jobs?\n\nCan the economic growth and job creation happen even if Trump's tax cut is not the biggest since Ronald Reagan?\n\nDoes the inconsistency between Trump's claim to be a pro-business president and his statement that \"you are going to regulate these businesses out of existence\" result in a decrease of credibility for Trump?",
         "reasoning": null
     },
     "CLINTON_1_2": {
@@ -930,18 +930,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is it actually the case that Clinton is proposing that the wealthy should pay a fair share of their profits, or is this a general statement about the importance of fairness in society?"
+                "cq": "Are there other relevant goals that conflict with making life better for people struggling to balance family and work?"
             },
             {
                 "id": 1,
-                "cq": "Is there evidence in the text that Clinton has a plan to implement paid family leave, earned sick days, affordable child care, and debt-free college, or is this a list of desirable goals?"
+                "cq": "Is having the wealthy pay their fair share and closing corporate loopholes the most efficient action to achieve debt-free college and affordable child care?"
             },
             {
                 "id": 2,
-                "cq": "Is Clinton in a position to know what the \"immense, awesome responsibilities of the presidency\" entails, or is this a statement that is being made about the general qualities of a president?"
+                "cq": "Could making the wealthy pay their fair share and closing corporate loopholes have consequences that we should take into account?"
             }
         ],
-        "full_response": "Is it actually the case that Clinton is proposing that the wealthy should pay a fair share of their profits, or is this a general statement about the importance of fairness in society?\n\nIs there evidence in the text that Clinton has a plan to implement paid family leave, earned sick days, affordable child care, and debt-free college, or is this a list of desirable goals?\n\nIs Clinton in a position to know what the \"immense, awesome responsibilities of the presidency\" entails, or is this a statement that is being made about the general qualities of a president?",
+        "full_response": "Are there other relevant goals that conflict with making life better for people struggling to balance family and work?\n\nIs having the wealthy pay their fair share and closing corporate loopholes the most efficient action to achieve debt-free college and affordable child care?\n\nCould making the wealthy pay their fair share and closing corporate loopholes have consequences that we should take into account?",
         "reasoning": null
     },
     "FoodAllergyMom_199_1": {
@@ -958,18 +958,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the child's severe allergy to peanuts and the risk of anaphylaxis from airborne particles in a plane cabin?"
+                "cq": "Is the severity of the child's allergy, as described by FoodAllergyMom, sufficient to justify the claim that having a peanut allergy is a disability?"
             },
             {
                 "id": 1,
-                "cq": "Are there other factors in this particular case that could have interfered with the child's reaction to airborne particles in a plane cabin?"
+                "cq": "How does FoodAllergyMom's assertion that an EpiPen only lasts 15 minutes support her claim that flying poses a significant risk to her child's life, considering the typical duration of flights and the availability of medical assistance on board?"
             },
             {
                 "id": 2,
-                "cq": "Is the child's allergy to peanuts a disability that should be taken into account when considering their future career options?"
+                "cq": "Does FoodAllergyMom's argument that her child's potential future job may require air travel necessarily imply that his allergy would be a significant impediment to his career, or are there alternative arrangements that could mitigate this risk?"
             }
         ],
-        "full_response": "Is there a proved relation between the child's severe allergy to peanuts and the risk of anaphylaxis from airborne particles in a plane cabin?\nAre there other factors in this particular case that could have interfered with the child's reaction to airborne particles in a plane cabin?\nIs the child's allergy to peanuts a disability that should be taken into account when considering their future career options?",
+        "full_response": "Is the severity of the child's allergy, as described by FoodAllergyMom, sufficient to justify the claim that having a peanut allergy is a disability?\n\nHow does FoodAllergyMom's assertion that an EpiPen only lasts 15 minutes support her claim that flying poses a significant risk to her child's life, considering the typical duration of flights and the availability of medical assistance on board?\n\nDoes FoodAllergyMom's argument that her child's potential future job may require air travel necessarily imply that his allergy would be a significant impediment to his career, or are there alternative arrangements that could mitigate this risk?",
         "reasoning": null
     },
     "TRUMP_13": {
@@ -982,18 +982,18 @@
         "cqs": [
             {
                 "id": 0,
-                "cq": "Is there a proved relation between the claim that politicians should have been doing something for years and the claim that they should do it now?"
+                "cq": "What specific actions should Secretary Clinton and other politicians have taken years ago to address the issues with jobs, country, and economy that Trump is referring to?"
             },
             {
                 "id": 1,
-                "cq": "Is there a proved relation between the claim that the country owes $20 trillion and the claim that they can't do it any longer?"
+                "cq": "How does the fact that Trump's movement has been created now address the long-standing issues he's pointing out, such as the $20 trillion debt?"
             },
             {
                 "id": 2,
-                "cq": "Is the claim that politicians should have been doing something for years a generalisation that is widely applicable to all politicians, or is it specific to Secretary Clinton and others?"
+                "cq": "What evidence is there to support the claim that the problems with jobs, country, and economy are a direct result of the inaction of Secretary Clinton and other politicians over the years?"
             }
         ],
-        "full_response": "Is there a proved relation between the claim that politicians should have been doing something for years and the claim that they should do it now?\nIs there a proved relation between the claim that the country owes $20 trillion and the claim that they can't do it any longer?\nIs the claim that politicians should have been doing something for years a generalisation that is widely applicable to all politicians, or is it specific to Secretary Clinton and others?",
+        "full_response": "What specific actions should Secretary Clinton and other politicians have taken years ago to address the issues with jobs, country, and economy that Trump is referring to?\nHow does the fact that Trump's movement has been created now address the long-standing issues he's pointing out, such as the $20 trillion debt?\nWhat evidence is there to support the claim that the problems with jobs, country, and economy are a direct result of the inaction of Secretary Clinton and other politicians over the years?",
         "reasoning": null
     }
 }
