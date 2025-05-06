@@ -50,6 +50,26 @@ python trial_submission/generate_benchmark.py
 Results will appear under `trial_submission/experiments_results_benchmark/`
 All reported benchmarks are in this folder also
 
+### Iterative Agentic Approach
+The code for the Iterative Agentic Approach is located in the `Iteratively Agentic Approach/` folder. It includes three Jupyter notebooks, each implementing a different feedback architecture:
+
+| File               | Description                              |
+|--------------------|------------------------------------------|
+| `Approach_1.ipynb` | ML-only feedback loop (ML evaluator)     |
+| `Approach_2.ipynb` | LLM-only feedback loop (LLM evaluator)   |
+| `Approach_3.ipynb` | Hybrid ML + LLM feedback loop            |
+
+#### 🟢 Steps to Run
+
+1. **Navigate to the folder:**
+   ```bash
+   cd "Iteratively Agentic Approach"
+   Open a notebook using Jupyter Notebook or any compatible IDE (e.g., VS Code, Google Colab).
+2. Open a notebook using Jupyter Notebook or any compatible IDE (e.g., VS Code, Google Colab).
+3. Run all cells in the chosen notebook. Each notebook will:
+     - Load a set of intervention texts and candidate questions
+     - Apply the respective feedback loop (ML, LLM, or Hybrid)
+     - Output improved and ranked critical questions
 ### Theory-based approaches using argumentation schemes
 
 All argumentation schemes are in `theory/templates.json`
