@@ -141,3 +141,18 @@ Critical_Question_generation/
 └── README.md                      # You are here 🚀
 ```
 
+## 📄 Reinforcement Learning Report
+
+A detailed write-up of our RL approach—covering GRPO, LoRA tuning, composite reward design, benchmarking, and evaluation—is available below:
+
+👉 **[📘 Critical Questions Generation – RL Final Report (PDF)](Critical_Questions_Generation_RL_report.pdf)**  
+:contentReference[oaicite:0]{index=0}
+
+This report includes:
+- Full methodology for RL fine-tuning (GRPO + LoRA)
+- Reward shaping design (format, structure, correctness)
+- Benchmarking across 10+ LLMs
+- RL training curves and analysis
+- Discussion of limitations and future directions
+
+
